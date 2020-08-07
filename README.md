@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/HannesOberreiter/btree_info.svg?branch=master)](https://travis-ci.org/HannesOberreiter/btree_info)
+[![Build Status](https://travis-ci.com/HannesOberreiter/btree_info.svg?token=SeJ4Ftqwv2xGgUUTqgWz&branch=master)](https://travis-ci.com/HannesOberreiter/btree_info)
 
 # b.tree Landing Page
 
