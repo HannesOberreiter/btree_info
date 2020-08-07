@@ -1,9 +1,9 @@
 export default {
   search: {
-    placeholder: 'Search the docs (Press "/" to focus)'
+    placeholder: 'Durchsuche Seite (Drücke "/" für Fokus)'
   },
   toc: {
-    title: 'On this page'
+    title: 'Auf dieser Seite'
   },
   article: {
     github: 'Edit this page on GitHub'

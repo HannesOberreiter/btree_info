@@ -1,7 +1,7 @@
 ---
 title: Datenschutz
 description: 'b.tree Datenschutz'
-position: 4
+position: 42
 category: Impressum & Datenschutz
 ---
 

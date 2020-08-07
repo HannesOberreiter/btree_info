@@ -9,7 +9,7 @@ export default {
     github: 'Edit this page on GitHub'
   },
   text: {
-    title: 'Professionelle Imker Datenbank & Imkerei Web Applikation.',
-    subtitle: 'Für Imker von Imker seit 2014.'
+    title: 'Professional Beekeeping Database & Web Application.',
+    subtitle: 'Serving proudly since 2014.'
   }
 }

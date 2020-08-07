@@ -1,7 +1,7 @@
 ---
 title: Impressum
 description: 'b.tree Impressum'
-position: 3
+position: 41
 category: Impressum & Datenschutz
 ---
 # Impressum

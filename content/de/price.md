@@ -1,7 +1,7 @@
 ---
 title: Kosten
 description: 'Preis und Kosten der Imkerei Applikation.'
-position: 1
+position: 12
 category: b.tree Imkerei App
 basic:
     - Werbung
@@ -23,11 +23,14 @@ pro:
 |<BaseList :items="basic" icon-color="text-orange-500"></BaseList>|<BaseList :items="pro" icon-color="text-green-500"></BaseList>|
 
 > Als Premium Member unterstützt ihr die Betreuung und Entwicklung der Applikation und den Server. Es werden laufend neue Features integriert sowie die bestehenden aktualisiert und verbessert. Die komplette Applikation wurde von mir alleine erstellt und wird auch von mir betreut. Ich arbeite daran in meiner Freizeit, deswegen können Updates etwas dauern. Dennoch bemühe ich mich so schnell wie möglich Fragen und Anregungen zu erfüllen.
-> Die Applikation soll jeden einzelnen von euch bestmöglich bei euren Imkerarbeiten unterstützen.
-Mit besten Grüßen
 
-_Hannes Oberreiter_, Hobby Bio-Imker & Hobby Entwickler
+> Die Applikation soll jeden einzelnen von euch bestmöglich bei euren Imkerarbeiten unterstützen. 
+> Mit besten Grüßen
 
 <small> [^1]: Wenn du zuvor Premium User warst kannst du trotzdem mit all deinen angelegten Bienenstöcken und Ständen arbeiten, nur keine neuen anlegen. </small>
 
 <CallToActionContent></CallToActionContent>
+
+<img src="../img/hannes.jpg" alt="Hannes Oberreiter" loading=”lazy” />
+
+_Hannes Oberreiter_, Hobby Bio-Imker & Hobby Entwickler
