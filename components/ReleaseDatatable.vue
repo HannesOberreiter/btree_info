@@ -76,7 +76,7 @@ table th {
 .dark-mode .dataTables_processing,
 .dark-mode .dataTables_paginate,
 .dark-mode .dataTables_length {
-  color: white;
+  color: white!important;
 }
 .dark-mode select,
 .dark-mode input {
