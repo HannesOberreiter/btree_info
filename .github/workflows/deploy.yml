@@ -57,5 +57,5 @@ jobs:
         ftp-server: ${{ secrets.FTP_SERVER }}
         ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
+        known-hosts: "dedi5270.your-server.de ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5gwcWPS9bFcKfsG4MdH6EeKJyyrZn8gLoWQKzGVx7xCDO1PWJmam4E/s6yFZ2YHnF6vUEpJnkvBYuH/taLjsfCHWfEp22Kit8rq1WaCBaTKII2K7RBmsDF1EhfK7kfwQbe68TX66jT4vRRTlkY9ggvEX8jA+I0E8sO4OOc4XI/kZRkz85/cbWq4bzbZ7O+ROeVg/Gk5h/sdf2pKiQ6Q14kjuXF02F8PNytSglcK5DsA11RhrhDt95PFoal50ih0l08uAMPvINXBis9GWpdu5CcW7jb6ezsW8O5q2+KAKzHx64TBbMe2YaQLTMjWU32MH/XuGjlI+JNDIqIweyX0Xr"
         local-dir: dist/
-        known-hosts: ${{ secrets.FTP_FINGERPRINT }}
