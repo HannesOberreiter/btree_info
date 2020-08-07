@@ -23,7 +23,7 @@ export const actions = {
       return
     }
     const docs = await this.$content(this.$i18n.locale).only(['category', 'title', 'slug']).sortBy('position', 'asc').fetch()
-    docs.push({ slug: 'releases', title: 'Releases', category: 'Community' })
+    docs.push({ slug: 'releases', title: 'Releases', category: 'Patch Notes' })
     const categories = groupBy(docs, 'category')
 
     commit('SET_CATEGORIES', categories)
