@@ -2,6 +2,9 @@ const URL = 'https://www.btree.at'
 
 export default {
   target: 'static',
+  router: {
+    base: '/deploy/'
+  },
   ssr: false, // similar to mode: 'universal'
   /*
   ** Headers of the page
