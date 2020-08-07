@@ -20,4 +20,4 @@ script:
 
 env:
 after_success:
-- find ./dist/ -exec curl -T {} ftp://${server}/ --user ${user}:${password} \;
+- find ./dist/ -exec curl -k --ftp-ssl --user ${user}:${password} -T {} ftp://${server}  \;
