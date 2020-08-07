@@ -36,3 +36,14 @@ jobs:
       run: yarn install
     - name: Generate
       run: yarn generate
+    # deploy our code
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      env:
+        FTP_SERVER: ${{ secrets.FTP_SERVER }}
+        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        LOCAL_DIR: dist
+        METHOD: sftp
+        PORT: 22
+        ARGS: --delete
