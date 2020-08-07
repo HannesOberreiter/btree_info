@@ -35,6 +35,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Install
+      if: steps.yarn-cache.outputs.cache-hit != 'true'
       run: yarn install
     - name: Generate
       run: yarn generate
