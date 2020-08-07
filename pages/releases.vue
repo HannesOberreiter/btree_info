@@ -1,42 +1,92 @@
 <template>
   <div class="flex flex-wrap-reverse">
-    <div class="w-full lg:w-3/4 py-4 lg:pt-8 lg:pb-4 dark:border-gray-800 lg:border-l lg:border-r">
+    <div class="w-full py-4 lg:pt-8 lg:pb-4 dark:border-gray-800 lg:border-l lg:border-r">
       <article
-        class="prose max-w-none lg:px-8"
-        :class="{ 'prose-dark': $colorMode.value === 'dark' }"
+        class="prose max-w-none lg:px-8 dark:text-gray-100 dark:prose-dark"
+        v-bind:style="{ fontSize:  this.$store.state.font.value + 'rem' }"
       >
-        <h1>Releases</h1>
-
-        <!--<div v-for="release of releases" :key="release.name">
-          <h2 :id="release.name" class="flex items-center justify-between">
-            {{ release.name }}
-            <span
-              class="text-base font-normal text-gray-500"
-            >{{ $moment(release.date).format('L') }}</span>
-          </h2>
-
-          <div class="nuxt-content" v-html="release.body" />
-        </div>-->
+        <h1>Patch Notes</h1>
+        <client-only>
+          <ReleaseDatatable
+            v-if="(isDataTableLoaded&&isQueryLoaded&&isMarkLoaded&&isMarkDTLoaded)"
+          />
+        </client-only>
       </article>
     </div>
-    <ArticleToc :toc="toc" />
   </div>
 </template>
 
 <script>
 export default {
-  computed: {
-    releases () {
-      return this.$store.state.releases
-    },
-    toc () {
-      return this.releases.map(release => ({ id: release.name, depth: 2, text: release.name }))
-    }
-  },
-  head () {
+  data() {
     return {
-      title: 'Releases'
-    }
-  }
-}
+      isQueryLoaded: true,
+      skipDT: true,
+      isDataTableLoaded: false,
+      isMarkLoaded: false,
+      isMarkDTLoaded: false,
+    };
+  },
+  head() {
+    return {
+      title: "Patch Notes",
+      link: [
+        {
+          hid: "ex-dt-styles",
+          rel: "stylesheet",
+          href: "//cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css",
+        },
+        {
+          hid: "ex-dt-mark-styles",
+          rel: "stylesheet",
+          href:
+            "https://cdn.datatables.net/plug-ins/1.10.13/features/mark.js/datatables.mark.min.css",
+        },
+      ],
+      script: [
+        {
+          hid: "ex-jquery",
+          src: "//code.jquery.com/jquery-3.5.1.min.js",
+          integrity: "sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=",
+          crossorigin: "anonymous",
+          defer: true,
+          callback: () => {
+            this.isQueryLoaded = true;
+            this.skipDT = false;
+          },
+        },
+        {
+          hid: "ex-dt",
+          src: "//cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js",
+          skip: this.skipDT,
+          defer: true,
+          callback: () => {
+            this.isDataTableLoaded = true;
+          },
+        },
+        {
+          hid: "ex-mark",
+          src: "https://cdn.jsdelivr.net/g/mark.js(jquery.mark.min.js)",
+          defer: true,
+          skip: this.skipDT,
+          callback: () => {
+            this.isMarkLoaded = true;
+          },
+        },
+        {
+          hid: "ex-dt-mark",
+
+          src:
+            "https://cdn.datatables.net/plug-ins/1.10.13/features/mark.js/datatables.mark.js",
+          defer: true,
+          skip: this.skipDT,
+
+          callback: () => {
+            this.isMarkDTLoaded = true;
+          },
+        },
+      ],
+    };
+  },
+};
 </script>
