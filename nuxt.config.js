@@ -2,35 +2,35 @@ const URL = 'https://www.btree.at'
 
 export default {
   target: 'static',
-  ssr: true, // similar to mode: 'universal'
+  ssr: false, // similar to mode: 'universal'
   /*
   ** Headers of the page
   */
   head: {
     titleTemplate: (chunk) => {
       if (chunk) {
-        return `${chunk} - Nuxt Content`
+        return `${chunk} - b.tree`
       }
 
-      return 'Nuxt Content'
+      return 'b.tree'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       // Open Graph
-      { hid: 'og:site_name', property: 'og:site_name', content: 'Nuxt Content' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'b.tree Beekeeping' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: URL },
       { hid: 'og:image', property: 'og:image', content: `${URL}/card.png` },
       // Twitter Card
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
-      { hid: 'twitter:site', name: 'twitter:site', content: '@nuxt_js' },
-      { hid: 'twitter:title', name: 'twitter:title', content: 'Nuxt Content' },
+      { hid: 'twitter:site', name: 'twitter:site', content: '@btree_hannes' },
+      { hid: 'twitter:title', name: 'twitter:title', content: 'b.tree' },
       { hid: 'twitter:image', name: 'twitter:image', content: `${URL}/card.png` },
-      { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: 'The NuxtJS Framework' }
+      { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: 'b.tree Beekeeping' }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
   css: [
@@ -75,7 +75,6 @@ export default {
   */
   modules: [
     'nuxt-i18n',
-    '@nuxtjs/pwa',
     '@nuxt/content'
   ],
   /*
@@ -85,6 +84,7 @@ export default {
     preference: 'system'
   },
   content: {
+    liveEdit: false,
     markdown: {
       prism: {
         theme: 'prism-themes/themes/prism-material-oceanic.css'
