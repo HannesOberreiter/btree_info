@@ -3,23 +3,21 @@ node_js:
   - '8'
 
 cache:
+  yarn: true
   directories:
-    - 'node_modules'
+    - node_modules
 
 branches:
   only:
     - master
 
 install:
-  - npm install
-  - npm run generate
+  - yarn install
+  - yarn generate
 
 script:
   - echo "Skipping tests"
 
 env:
-  global:
-  - 'SFTP_USER=[user]'
-  - 'SFTP_PASSWORD=[password]'
 after_success:
-- find /dist/ -exec curl -T {} ftp://public_html/www_btree_at/deploy/ --user ${SFTP_USER}:${SFTP_PASSWORD} \;
+- find /dist/ -exec curl -T {} ftp://public_html/www_btree_at/deploy/ --user ${user}:${password} \;
