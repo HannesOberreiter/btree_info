@@ -16,7 +16,6 @@
 </template>
 
 <script>
-import Clipboard from "clipboard";
 
 export default {
   name: "PageSlug",
@@ -48,29 +47,6 @@ export default {
     };
   },
   mounted() {
-    const blocks = document.getElementsByClassName("nuxt-content-highlight");
-    
-    for (const block of blocks) {
-      const button = document.createElement("button");
-      button.className = "copy";
-      button.textContent = "Copy";
-
-      block.appendChild(button);
-    }
-
-    const copyCode = new Clipboard(".copy", {
-      target(trigger) {
-        return trigger.previousElementSibling;
-      },
-    });
-
-    copyCode.on("success", function (event) {
-      event.clearSelection();
-      event.trigger.textContent = "Copied!";
-      window.setTimeout(function () {
-        event.trigger.textContent = "Copy";
-      }, 2000);
-    });
   },
   head() {
     return {
