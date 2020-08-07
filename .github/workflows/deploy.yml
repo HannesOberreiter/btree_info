@@ -18,8 +18,10 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v1
-    
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'    
     - name: Get yarn cache directory path
       id: yarn-cache-dir-path
       run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -36,14 +38,14 @@ jobs:
       run: yarn install
     - name: Generate
       run: yarn generate
+    - name: List output files
+      run: ls
     # deploy our code
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       env:
-        FTP_SERVER: ${{ secrets.FTP_SERVER }}
-        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        LOCAL_DIR: dist
-        METHOD: sftp
-        PORT: 22
-        ARGS: --delete
+        ftp-server: ${{ secrets.FTP_SERVER }}
+        ftp-user: ${{ secrets.FTP_USERNAME }}
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: dist/
+        known-hosts: ${{ secrets.FTP_FINGERPRINT }}
