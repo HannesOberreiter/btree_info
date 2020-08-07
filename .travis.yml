@@ -25,4 +25,4 @@ script:
 
 env:
 after_success:
-- lftp -e "debug; set ssl:verify-certificate/${fingerprint} no ; open ${user}@${server} -u ${user},${password} ; mirror -R --only-newer --delete -v dist / ; bye"
+- lftp -c "debug; set ftps:initial-prot ''; set ftp:ssl-force true; set ftp:ssl-protect-data true; set ssl:verify-certificate/$fingerprint no ; open $user:$password@$server:21 ; mirror -R --only-newer --delete -v ./dist . ; quit;"
