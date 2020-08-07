@@ -33,6 +33,6 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Install
-      run: echo Hello, world!
+      run: yarn install
     - name: Generate
       run: yarn generate
