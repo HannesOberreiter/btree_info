@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/HannesOberreiter/btree_info.svg?branch=master)](https://travis-ci.org/HannesOberreiter/btree_info)
+
 # b.tree Landing Page
 
 Info and Landing Page for b.tree Application and personal information about Hannes Oberreiter.
