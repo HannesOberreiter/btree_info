@@ -1,0 +1,39 @@
+{
+  "name": "btree-intro",
+  "version": "1.0.0",
+  "description": "Landingpage for b.tree",
+  "author": "Hannes Oberreiter",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "generate": "nuxt-static",
+    "serve": "nuxt serve",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@inotom/vue-go-top": "^1.3.0",
+    "@nuxt/content": "^1.4.1",
+    "@nuxt/static": "^1.0.0",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "clipboard": "^2.0.6",
+    "lodash.groupby": "^4.6.0",
+    "marked": "^1.1.1",
+    "nuxt": "^2.13.3",
+    "nuxt-i18n": "^6.13.1",
+    "prism-themes": "^1.4.0",
+    "tailwindcss": "^1.5.2",
+    "vue-scrollactive": "^0.9.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/color-mode": "^1.0.0",
+    "@nuxtjs/moment": "^1.6.1",
+    "@nuxtjs/tailwindcss": "^3.0.0",
+    "@tailwindcss/typography": "^0.2.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2",
+    "tailwindcss-dark-mode": "^1.1.5",
+    "vue-multiselect": "^2.1.6"
+  }
+}
