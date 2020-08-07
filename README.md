@@ -1,4 +1,8 @@
-# Documentation
+# b.tree Landing Page
+
+Info and Landing Page for b.tree Application and personal information about Hannes Oberreiter.
+
+Made with @vue, @nuxt, @nuxt-content and @tailwindcss.
 
 ## Development
 
