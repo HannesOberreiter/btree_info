@@ -41,11 +41,14 @@ jobs:
     - name: List output files
       run: ls
     # deploy our code
-    - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@master
+    
+    - name: Deploy LFTP
+      uses: kevinpainchaud/simple-ftp-deploy-action@v1.1.0
       with:
-        ftp-server: ${{ secrets.FTP_SERVER }}
-        ftp-username: ${{ secrets.FTP_USERNAME }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
-        git-ftp-args: --insecure
-        local-dir: dist/
+        ftp_host:     ${{ secrets.FTP_HOST }}
+        ftp_username: ${{ secrets.FTP_USERNAME }}
+        ftp_password: ${{ secrets.FTP_PASSWORD }}
+        local_source_dir: "dist"
+        dist_target_dir: "."
+        delete: "false"
+        exclude: "'^logs/' '^README.md' '.DS_Store"
