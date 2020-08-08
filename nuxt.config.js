@@ -78,7 +78,8 @@ export default {
   */
   modules: [
     'nuxt-i18n',
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/sitemap'
   ],
   /*
   ** Modules configuration
@@ -112,5 +113,12 @@ export default {
     lazy: true,
     seo: false,
     langDir: 'i18n/'
+  },
+  sitemap: {
+    hostname: 'https://www.btree.at',
+    path: '/sitemap.xml',
+    cacheTime: 1000 * 60 * 60 * 2,
+    trailingSlash: true,
+    gzip: true
   }
 }
