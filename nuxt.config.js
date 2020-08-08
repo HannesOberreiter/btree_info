@@ -3,9 +3,9 @@ const URL = 'https://www.btree.at'
 export default {
   target: 'static',
   router: {
-    base: '/deploy/'
+    base: '/'
   },
-  ssr: false, // similar to mode: 'universal'
+  ssr: true, // similar to mode: 'universal'
   /*
   ** Headers of the page
   */
@@ -90,6 +90,7 @@ export default {
   content: {
     liveEdit: false,
     markdown: {
+      remarkPlugins: ['remark-emoji'],
       prism: {
         theme: 'prism-themes/themes/prism-material-oceanic.css'
       }
