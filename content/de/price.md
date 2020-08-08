@@ -27,10 +27,10 @@ pro:
 > Die Applikation soll jeden einzelnen von euch bestmöglich bei euren Imkerarbeiten unterstützen. 
 > Mit besten Grüßen
 
-<small> [^1]: Wenn du zuvor Premium User warst kannst du trotzdem mit all deinen angelegten Bienenstöcken und Ständen arbeiten, nur keine neuen anlegen. </small>
-
 <CallToActionContent></CallToActionContent>
 
 <img src="../img/hannes.jpg" alt="Hannes Oberreiter" loading=”lazy” />
 
 _Hannes Oberreiter_, Hobby Bio-Imker & Hobby Entwickler
+
+[^1]: Wenn du zuvor Premium User warst kannst du trotzdem mit all deinen angelegten Bienenstöcken und Ständen arbeiten, nur keine neuen anlegen.

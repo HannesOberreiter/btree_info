@@ -28,10 +28,10 @@ pro:
 All kind of feedback are more than welcome!
 With best greetings!
 
-<small> [^1]: If you were premium before you still can use all of your hives and apiaries! But you cannot add new ones.</small>
-
 <CallToActionContent></CallToActionContent>
 
 <img src="../img/hannes.jpg" alt="Hannes Oberreiter" loading="lazy">
 
 _Hannes Oberreiter_, Hannes Oberreiter, Hobby Organic Beekeeper & Hobby Programmer
+
+[^1]: If you were premium before you still can use all of your hives and apiaries! But you cannot add new ones.
