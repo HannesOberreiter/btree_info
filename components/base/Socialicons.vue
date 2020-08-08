@@ -27,19 +27,6 @@
 
     <li class="mr-4">
       <a
-        href="https://orcid.org/0000-0003-1019-1245"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="ORCID"
-        name="ORCID"
-        class="block hover:text-green-500 mr-4"
-      >
-        <IconOrcid class="w-6 h-6" />
-      </a>
-    </li>
-
-    <li class="mr-4">
-      <a
         href="https://www.youtube.com/c/HannesOberreiter"
         target="_blank"
         rel="noopener noreferrer"
