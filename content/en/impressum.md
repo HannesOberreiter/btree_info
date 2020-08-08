@@ -11,7 +11,7 @@ category: Impressum & Data privacy
 
 - Owner: Hannes Oberreiter, 8741 Reisstraße 17, AUSTRIA
 - VAT-Number: ATU68752511
-- E-Mail: office[at]btree.at
+- E-Mail: office
 
 Content: Hannes Oberreiter, Adress as above.
 

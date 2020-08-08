@@ -10,7 +10,7 @@ category: Impressum & Datenschutz
 
 - Inhaber: Hannes Oberreiter, 8741 Reisstraße 17, AUSTRIA
 - Umsatzsteuer-Identifikationsnummer: ATU68752511
-- E-Mailadresse: office[at]btree.at
+- E-Mailadresse: office
 
 Inhaltlich verantwortlich: Hannes Oberreiter, Adresse wie oben.
 
