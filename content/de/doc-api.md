@@ -8,7 +8,7 @@ category: Dokumentation
 
 ## ICAL Kalendar API
 
-Premium User können die Kalendar Daten über einen ICAL Link in den eigenen Kalender importieren. Im [Optionen->Profil](../profile/) muss der API Schlüssel aktiviert werden und die ICAL Links werden danach angezeigt.
+Premium User können die Kalendar Daten über einen ICAL Link in den eigenen Kalender importieren. Im [Optionen->Profil](https://www.btree.at/app/profile/) muss der API Schlüssel aktiviert werden und die ICAL Links werden danach angezeigt.
 
 ### Google Kalender
 

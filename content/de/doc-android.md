@@ -8,7 +8,7 @@ category: Dokumentation
 
 ### Installation
 
-Die Software kann einfach über den Link auf der Login Seite oder im Google Play Store unter "btree" gefunden werden. Es werden nur Android Geräte unterstützt die auch NFC haben. 
+Die Software kann einfach über den Link auf der Login Seite oder im Google Play Store unter "btree" gefunden werden. Es werden nur Android Geräte unterstützt die auch NFC haben.
 
 ### NFC Android
 

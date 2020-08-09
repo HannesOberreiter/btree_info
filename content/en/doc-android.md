@@ -8,7 +8,7 @@ category: Documentation
 
 ### Installation
 
-The application can simply be downloaded by following the link on the login page or searching for "btree" in he google play store. It is available for all devices which support NFC. 
+The application can simply be downloaded by following the link on the login page or searching for "btree" in he google play store. It is available for all devices which support NFC.
 
 ### NFC Android
 

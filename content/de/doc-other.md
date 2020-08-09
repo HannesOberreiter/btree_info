@@ -34,7 +34,7 @@ In den Tabellen können folgende Tastatur Kürzel verwendet werden. (Kürzel sin
 
 ### Chargen
 
-Die Chargen sollen einem helfen einen Warenfluss zu führen. Man kann damit abgefüllte Honig Chargen zurückverfolgen, aber auch Einkäufe vergleichen und auswerten. Als Bio-Imker muss man eingekaufte Futtermittel und Behandlungmittel als Warenfluss aufzeichnen (AUT). Es kann auch als kleines Lager bzw. Inventur Programm benützt werden, mit der automatischen Berechnung des Lagerstandes. Eingaben können auch schnell über das Quicktool erfolgen. Typen und Einheiten können in den Optionen definiert werden. Die Knöpfe **Eingang** und **Ausgang** sind für schnelle Filterung der Daten der Tabelle. Eine grafische Analyse des Lagers ist auch möglich für Premium User in den Satistiken.
+Die Chargen sollen einem helfen einen Warenfluss zu führen. Man kann damit abgefüllte Honig Chargen zurückverfolgen, aber auch Einkäufe vergleichen und auswerten. Als Bio-Imker muss man eingekaufte Futtermittel und Behandlungmittel als Warenfluss aufzeichnen (AUT). Es kann auch als kleines Lager bzw. Inventur Programm benützt werden, mit der automatischen Berechnung des Lagerstandes. Eingaben können auch schnell über das Quicktool erfolgen. Typen und Einheiten können in den Optionen definiert werden. Die Knöpfe **Eingang** und **Ausgang** sind für schnelle Filterung der Daten der Tabelle. Eine grafische Analyse des Lagers ist auch möglich für Premium User in den Statistiken.
 
 **Felder:**
 
@@ -53,33 +53,33 @@ Die Chargen sollen einem helfen einen Warenfluss zu führen. Man kann damit abge
 
 ### Wanderungen
 
-Möchte man einen Stock auf einen neuen Bienenstand wandern, muss man eine Wanderung durchführen. Dies ist möglich in der [Stock Tabelle](../table/hive/#tab_tables) oder [Stand Tabelle](../table/apiary/#tab_tables). Hier wählt man die gewünschten Stöcke oder Stand aus und klickt auf den Button **Wandern**. Danach wählt man das Wanderdatum und klickt auf Speichern. Hat man einen Stand ausgewählt werden alle auf den Stand befindlichen Stöcke gewandert. Die Wanderungen werden auch gespeichert und können für Aufzeichnungspflichten dienen.
+Möchte man einen Stock auf einen neuen Bienenstand wandern, muss man eine Wanderung durchführen. Dies ist möglich in der [Stock Tabelle](https://www.btree.at/app/table/hive/#tab_tables) oder [Stand Tabelle](https://www.btree.at/app/table/apiary/#tab_tables). Hier wählt man die gewünschten Stöcke oder Stand aus und klickt auf den Button **Wandern**. Danach wählt man das Wanderdatum und klickt auf Speichern. Hat man einen Stand ausgewählt werden alle auf den Stand befindlichen Stöcke gewandert. Die Wanderungen werden auch gespeichert und können für Aufzeichnungspflichten dienen.
 
-Hat man bei den Wanderungen einen Fehler gemacht, kann man unter [Optionen->Wanderungen](../table/move/#tab_options) die falschen Datensätze löschen oder ändern.
+Hat man bei den Wanderungen einen Fehler gemacht, kann man unter [Optionen->Wanderungen](https://www.btree.at/app/table/move/#tab_options) die falschen Datensätze löschen oder ändern.
 
 ### Profil
 
-Hier [Optionen->Profil](../profile/) sind Standardeinstellungen wie Sprache oder Zahlenformat möglich, aber auch zusätzliche Funktionen wie das setzen eines neuen Passworts, Download eines Backups aller gespeicherten Daten (.csv, .xml, .json), leeren des lokalen Speichers (kann bei Problemen mit Tabellen helfen) und löschen des Zuganges bzw. der Imkerei (Achtung Daten können nach dem Löschen nicht wiederhergestellt werden!).
+Hier [Optionen->Profil](https://www.btree.at/app/profile/) sind Standardeinstellungen wie Sprache oder Zahlenformat möglich, aber auch zusätzliche Funktionen wie das setzen eines neuen Passworts, Download eines Backups aller gespeicherten Daten (.csv, .xml, .json), leeren des lokalen Speichers (kann bei Problemen mit Tabellen helfen) und löschen des Zuganges bzw. der Imkerei (Achtung Daten können nach dem Löschen nicht wiederhergestellt werden!).
 
 ### Filemanager (Premium)
 
-Ordnen und sortieren der hochgeladenen Dateien. Es ist auch möglich alle Datein als Zip Datei runterzuladen.
+Ordnen und sortieren der hochgeladenen Dateien. Es ist auch möglich alle Dateien als Zip Datei runterzuladen.
 
 ### Dropbox
 
-Als Alternative kannst du auch einen Dropbox-Account mit der App verbinden [Options->Dropbox](../dropbox/) (Nur Admin User haben Zugang). Wurde Dropbox erfolgreich verbunden, erstellt das System einen eigenen Ordner in deinem Dropbox Ordner (App -> b.tree - Beekeeping).
+Als Alternative kannst du auch einen Dropbox-Account mit der App verbinden [Options->Dropbox](https://www.btree.at/app/dropbox/) (Nur Admin User haben Zugang). Wurde Dropbox erfolgreich verbunden, erstellt das System einen eigenen Ordner in deinem Dropbox Ordner (App -> b.tree - Beekeeping).
 
 Jetzt siehst du auch einen eigenen "Wolken"-Knopf bei den Datei Eingabe Feldern (zB im Quicktool). Wenn du auf diesen Knopf klickst kommt ein eigenes Fenster wo du Dateien Hochladen kannst oder bereits bestehende im Ordner selektieren.
 
 Info: Alle Benutzer die in deiner Imkerei angelegt sind können in diesen Ordner Dateienhochalden oder Selektieren.
 
-Wenn du die Verbindung wieder löschen willst, benutze den "Entfernen"-Knopf auf [Options->Dropbox](../dropbox/) und zusätzlich entferne es von deinem Dropbox Account unter [https://www.dropbox.com/account/connected_apps](https://www.dropbox.com/account/connected_apps).
+Wenn du die Verbindung wieder löschen willst, benutze den "Entfernen"-Knopf auf [Options->Dropbox](https://www.btree.at/app/dropbox/) und zusätzlich entferne es von deinem Dropbox Account unter [https://www.dropbox.com/account/connected_apps](https://www.dropbox.com/account/connected_apps).
 
 ### Kalender
 
 Der Kalender stellt eine Übersicht über die aktuellen, vergangengen und zukünftigen Aufgaben dar. Man kann von hier aus Aufgaben verschieben (Drag & Drop) oder Details anzeigen lassen. Bei Zuchtserien werden die gesamten Zuchtschritte inkl. Beschreibung aufgelistet.
 
-Auch werden hier eigene ToDo Aufgaben angezeigt, diese können leicht mittels Doppelklick auf das Datum erstellt werden. Im Profil können österreichische Imker zusätzlich VIS auswählen und es werden, dann die Meldetage für die VIS angzeigt, hat man zusätzlich noch Newsletter aktiviert bekommt man sogar noch ein E-Mail!
+Auch werden hier eigene ToDo Aufgaben angezeigt, diese können leicht mittels Doppelklick auf das Datum erstellt werden. Im Profil können österreichische Imker zusätzlich VIS auswählen und es werden, dann die Meldetage für die VIS angezeigt, hat man zusätzlich noch Newsletter aktiviert bekommt man sogar noch ein E-Mail!
 
 Hat man eine eigene Bienenstockwaage an unsere API angeschlossen, werden auch diese Daten im Kalender angezeigt.
 
@@ -128,15 +128,16 @@ Dieses Feature funktioniert nicht in jedem Browser (momentan nur in Google Chrom
 
 ### Benützer / Imkereien
 
-Arbeitet man nicht alleine in einer Imkerei oder man erlaubt die Einsicht eines anderen Imkers in die eigene hat man die Möglichkeit unter [Optionen->Profil->Imkerei](../profile/#tab_company) neue Benützer anzulegen oder bestehende einzuladen.
+Arbeitet man nicht alleine in einer Imkerei oder man erlaubt die Einsicht eines anderen Imkers in die eigene hat man die Möglichkeit unter [Optionen->Profil->Imkerei](https://www.btree.at/app/profile/#tab_company) neue Benützer anzulegen oder bestehende einzuladen.
 
 Für User gibt es drei Ränge:
+
 * Admin -> Hat vollen Zugang zu allen Funktionen der App.
 * User -> Kann **keine** Rechte ändern, **keine** Benutzer anlegen und kann **nicht** die Imkerei löschen
 * Worker / Arbeiter -> Kann nur im Quicktool arbeiten und auch keine Aufgaben löschen. Kann nicht in den Tabellen arbeiten, aber ansehen. Kann Aufgaben erledigen im Kalender aber keine Aufgaben verschieben. Hat keinen Zugriff auf die Statistik.
 * Read-Only -> Dieser Benutzer kann nur die gesamten Daten ansehen, aber **keine Änderungen** durchführen. Hat auch keinen Zugriff auf die Statistik.
 
-Außerdem besteht die Möglichkeit eine zweite Imkerei anzulegen oder den Namen der bestehenden zu ändern. Es kann keine Imkerei gelöscht werden wenn andere Benützer in der Imkerei sind oder es sich um die letzte eigene Imkerei handelt. (Anm. möchte man den Account löschen geht das unter [Optionen->Profil](../profile/) **Achtung die Daten können nicht wiederhergestellt werden!**)
+Außerdem besteht die Möglichkeit eine zweite Imkerei anzulegen oder den Namen der bestehenden zu ändern. Es kann keine Imkerei gelöscht werden wenn andere Benützer in der Imkerei sind oder es sich um die letzte eigene Imkerei handelt. (Anm. möchte man den Account löschen geht das unter [Optionen->Profil](https://www.btree.at/app/profile/) **Achtung die Daten können nicht wiederhergestellt werden!**)
 
 Premium Membership gilt pro Imkerei und nicht pro User, dh. man braucht nur einmal Premium kaufen egal wie viele User in der Imkerei tätig sind. Legt man aber eine zweite Imkerei an und man möchte Premium Membership, muss man es zusätzlich für diese Imkerei Premium Zeit kaufen.
 
