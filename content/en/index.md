@@ -23,8 +23,8 @@ If you’ve got an internet connection access you can edit and access your beeke
 
 All important data as responsive graphic statistics. You can see how much honey you harvested from a single apiary or see the overall harvest per bee hive. Select single hives or a single varroa treatment method, to see detailed information.Compare multiple queens to select your next best queen for rearing offsprings. Start beekeeping with an data advantage. Our beekeeping web application helps you to improve your workflow!
 
-<video poster="/samples/stats.png" loop playsinline controls loading=”lazy”>
-  <source src="/samples/stats.webm" type="video/webm" loading=”lazy” />
+<video poster="/img/stats.png" loop playsinline controls loading=”lazy”>
+  <source src="/img/stats.webm" type="video/webm" loading=”lazy” />
 </video>
 
 ## Kontrolle & Königinnen Zucht
@@ -37,8 +37,8 @@ PS.: You can also modify your bee race, hive type, feedings types and much more!
 
 </base-alert>
 
-<video poster="/samples/queen.png" loop playsinline controls loading=”lazy”>
-  <source src="/samples/queen.webm" type="video/webm" loading=”lazy” />
+<video poster="/img/queen.png" loop playsinline controls loading=”lazy”>
+  <source src="/img/queen.webm" type="video/webm" loading=”lazy” />
 </video>
 
 ## Karte & Kalendar
@@ -47,7 +47,7 @@ Add Apiaries with a simple mouse click or move them with drag and drop, all is s
 
 The beekeeping web application got a simple and usable calendar with all your upcoming and done beekeeping tasks. As premium user you can also export the calendar to your phone if you use our hive scale API you can see daily weight changes on your hive scales.
 
-<img src="/samples/map.png" alt="Apiary Map" load="lazy">
+<img src="/img/map.png" alt="Apiary Map" load="lazy">
 
 <base-alert type="info">
 
