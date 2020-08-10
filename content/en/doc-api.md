@@ -8,19 +8,19 @@ category: Documentation
 
 ## ICAL Calender API
 
-Premium User can load the calendar data from an ICAL Url in their own calendar. Under [Options->Profil](../profile/) you must activate the API Key then the ICAL links will be shown.
+Premium User can load the calendar data from an ICAL Url in their own calendar. Under [Options->Profil](https://www.btree.at/app/profile/) you must activate the API Key then the ICAL links will be shown.
 
 ### Google Calendar
 
 Use the Dropdown under "other Calendar" and there you choose add via Url. After that the calendar will be shown in google calendar. Google only updates external calendar every few hours, with the free version of google calendar you cannot change this value.
 
-<img src="../img/ical_google.jpg" alt="Google Import" loading="lazy">
+<img src="./img//ical_google.jpg" alt="Google Import" loading="lazy">
 
 ### Mac/Apple Calendar
 
 Go to "File" -> "New Calendar Abo". There you can add the URL and set an interval for reloading the data. Please choose an appropriate time interval to minimize our server load. (Eg. Queen Series only daily)
 
-<img src="../img/ical_mac.jpg" alt="Mac Import" loading="lazy">
+<img src="./img//ical_mac.jpg" alt="Mac Import" loading="lazy">
 
 ## Scale API
 

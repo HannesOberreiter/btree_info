@@ -31,7 +31,7 @@ Basic <sup id="fnref-1"><a href="/#fn-1" class="footnote-ref">1</a></sup>
 
 <CallToActionContent></CallToActionContent>
 
-<img src="../img/hannes.jpg" alt="Hannes Oberreiter" loading=”lazy” />
+<img src="./img//hannes.jpg" alt="Hannes Oberreiter" loading=”lazy” />
 
 _Hannes Oberreiter_, Hobby Bio-Imker & Hobby Entwickler
 
