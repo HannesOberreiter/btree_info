@@ -18,15 +18,13 @@ pro:
 
 # Kosten & Preis
 
-Basic <sup id="fnref-1"><a href="/#fn-1" class="footnote-ref">1</a></sup>
-
 |**Basic[^1] - Gratis** | **Premium - 50,00 € pro Jahr** |
 |-|-|
 |<BaseList :items="basic" icon-color="text-orange-500"></BaseList>|<BaseList :items="pro" icon-color="text-green-500"></BaseList>|
 
 > Als Premium Member unterstützt ihr die Betreuung und Entwicklung der Applikation und den Server. Es werden laufend neue Features integriert sowie die bestehenden aktualisiert und verbessert. Die komplette Applikation wurde von mir alleine erstellt und wird auch von mir betreut. Ich arbeite daran in meiner Freizeit, deswegen können Updates etwas dauern. Dennoch bemühe ich mich so schnell wie möglich Fragen und Anregungen zu erfüllen.
 
-> Die Applikation soll jeden einzelnen von euch bestmöglich bei euren Imkerarbeiten unterstützen. 
+> Die Applikation soll jeden einzelnen von euch bestmöglich bei euren Imkerarbeiten unterstützen.
 > Mit besten Grüßen
 
 <CallToActionContent></CallToActionContent>
