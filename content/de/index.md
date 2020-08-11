@@ -21,23 +21,23 @@ Hat man eine Internet Verbindung kann man von jedem Gerät die aktuellen Daten e
 
 Alle wichtigen Daten sind in grafisch aufgearbeiteten Statistiken jeder Zeit verfügbar. Du kannst Beispielsweise sehen wie viel Honig du geerntet hast, für den gesamten Bienenstand aber auch für einen einzelnen Bienenstock, einfach und überall mit unserer Imker Webapplikation. Vergleiche mehrere Bienen-Königinnen und selektiere die beste für die nächste Zucht Saison. Habe mit unserer Imkerei Web Applikation einen Daten Vorteil für deine professionelle Imkerei und verbessere deinen Arbeitsablauf!
 
-<video poster="/samples/stats.png" loop playsinline controls loading=”lazy”>
-  <source src="/samples/stats.webm" type="video/webm" loading=”lazy” />
+<video poster="./img/stats.png" loop playsinline controls loading=”lazy”>
+  <source src="./img/stats.webm" type="video/webm" loading=”lazy” />
 </video>
 
 ## Kontrolle & Königinnen Zucht
 
 Schreibe schnelle ToDo Notizen oder Aufgaben für einen einzelnen Bienenstock oder den gesamten Bienenstand. Zusätzlich kannst du mit unserem Königinnen (Weisel) Zucht Planer deine eigene Methoden anlegen und im Kalender anzeigen lassen, als Premium User auch als ICAL Exportieren. Somit hast du deinen wichtigen Königinnenzucht Termine alle immer im besten Blick!
 
-<video poster="/samples/queen.png" loop playsinline controls loading=”lazy”>
-  <source src="/samples/queen.webm" type="video/webm" loading=”lazy” />
+<video poster="./img/queen.png" loop playsinline controls loading=”lazy”>
+  <source src="./img/queen.webm" type="video/webm" loading=”lazy” />
 </video>
 
 ## Karte & Kalendar
 
 Erstelle Bienenstände mit einem einfachen Mausklick auf einer eigenen Bienenstandkarte – auch das Verschieben geht hier ganz einfach! Die Imkerei Web Applikation hat zusätzlich einen Kalender wo deine zukünftigen und vergangenen Imkerei Aufgaben angezeigt werden. Als Premium User kannst du den Kalender über einen Export Link in jeden deiner Kalender anzeigen lassen (ICAL).
 
-<img src="/samples/map.png" alt="Bienenstandkarte" loading=”lazy”>
+<img src="./img/map.png" alt="Bienenstandkarte" loading=”lazy”>
 
 <base-alert type="info">
 

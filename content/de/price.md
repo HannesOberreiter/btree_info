@@ -18,6 +18,8 @@ pro:
 
 # Kosten & Preis
 
+Basic <sup id="fnref-1"><a href="/#fn-1" class="footnote-ref">1</a></sup>
+
 |**Basic[^1] - Gratis** | **Premium - 50,00 € pro Jahr** |
 |-|-|
 |<BaseList :items="basic" icon-color="text-orange-500"></BaseList>|<BaseList :items="pro" icon-color="text-green-500"></BaseList>|
@@ -29,7 +31,7 @@ pro:
 
 <CallToActionContent></CallToActionContent>
 
-<img src="../img/hannes.jpg" alt="Hannes Oberreiter" loading=”lazy” />
+<img src="./img//hannes.jpg" alt="Hannes Oberreiter" loading=”lazy” />
 
 _Hannes Oberreiter_, Hobby Bio-Imker & Hobby Entwickler
 

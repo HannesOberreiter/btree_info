@@ -30,7 +30,7 @@ With best greetings!
 
 <CallToActionContent></CallToActionContent>
 
-<img src="../img/hannes.jpg" alt="Hannes Oberreiter" loading="lazy">
+<img src="./img//hannes.jpg" alt="Hannes Oberreiter" loading="lazy">
 
 _Hannes Oberreiter_, Hannes Oberreiter, Hobby Organic Beekeeper & Hobby Programmer
 

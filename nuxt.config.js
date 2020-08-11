@@ -3,7 +3,8 @@ const URL = 'https://www.btree.at'
 export default {
   target: 'static',
   router: {
-    base: '/'
+  },
+  build: {
   },
   ssr: true, // similar to mode: 'universal'
   /*
@@ -24,16 +25,16 @@ export default {
       { hid: 'og:site_name', property: 'og:site_name', content: 'b.tree Beekeeping' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: URL },
-      { hid: 'og:image', property: 'og:image', content: `${URL}/card.png` },
+      { hid: 'og:image', property: 'og:image', content: `./card.png` },
       // Twitter Card
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
       { hid: 'twitter:site', name: 'twitter:site', content: '@btree_hannes' },
       { hid: 'twitter:title', name: 'twitter:title', content: 'b.tree' },
-      { hid: 'twitter:image', name: 'twitter:image', content: `${URL}/card.png` },
+      { hid: 'twitter:image', name: 'twitter:image', content: `./card.png` },
       { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: 'b.tree Beekeeping' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: `./favicon.ico` }
     ]
   },
   css: [
@@ -90,7 +91,7 @@ export default {
   content: {
     liveEdit: false,
     markdown: {
-      remarkPlugins: ['remark-emoji'],
+      remarkPlugins: ['remark-emoji', 'remark-footnotes'],
       prism: {
         theme: 'prism-themes/themes/prism-material-oceanic.css'
       }
@@ -117,7 +118,7 @@ export default {
   },
   sitemap: {
     hostname: 'https://www.btree.at',
-    path: '/sitemap.xml',
+    path: 'sitemap.xml',
     cacheTime: 1000 * 60 * 60 * 2,
     trailingSlash: true,
     gzip: true

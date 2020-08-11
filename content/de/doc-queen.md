@@ -48,5 +48,4 @@ Ein einfaches Formular, um seine eigenen Zuchtmethoden zu erstellen oder bereits
 
 In der **Schritte Liste** kann man Schritte entfernen und per Drag & Drop die Schritte verschieben.
 
-
 Damit kann jede/r Imker/in seine eigene Zuchtmethode verwenden, ohne auf vorgefertigte Vorlagen angewiesen zu sein.

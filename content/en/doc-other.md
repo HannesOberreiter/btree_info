@@ -31,7 +31,6 @@ In following tables you can use this shortcuts. (Shortcuts are not active in det
 * **W** -> Open Weather Widget
 * **L** -> Speak Regoniction
 
-
 ### Charge Control
 
 The charge control are to help you keeping tracked your flow of goods. Your honey can be traced back by the batch number, but also compare and evaluate purchases. Also as organic beekeepers you must record purchased food (Austria). It also can be used as small stock management tool, types and units can be defined in the options. Two buttons at the top for **In** and **Out** are here for quick filtering of data. Premium users can also see charts and plots for your current and past stock in the statistics.
@@ -51,10 +50,9 @@ The charge control are to help you keeping tracked your flow of goods. Your hone
 * **Note** -> Other Information
 * **Type** -> Stock going in or out
 
-
 ### Profile
 
-Basic settings like language and number format but also some extra function like to set a new password, download a backup of all your data entries (.csv, .xml, .json), clear you local storage (which could help with some table errors) and you can deleted your account on this page (no recovery possible!) [Optionen->Profil](../profile/).
+Basic settings like language and number format but also some extra function like to set a new password, download a backup of all your data entries (.csv, .xml, .json), clear you local storage (which could help with some table errors) and you can deleted your account on this page (no recovery possible!) [Optionen->Profil](https://www.btree.at/app/profile/).
 
 ### Filemanager (premium)
 
@@ -62,19 +60,19 @@ Manage your files and allows you to also download all your uploaded files as one
 
 ### Dropbox
 
-If you don't want to use the integrated Filemanager or need more space, you can connect a Dropbox account: [Options->Dropbox](../dropbox/) (Only Admin user has access). When the connection is authenticated, it will generate a folder in your Dropbox (App -> b.tree - Beekeeping).
+If you don't want to use the integrated Filemanager or need more space, you can connect a Dropbox account: [Options->Dropbox](https://www.btree.at/app/dropbox/) (Only Admin user has access). When the connection is authenticated, it will generate a folder in your Dropbox (App -> b.tree - Beekeeping).
 
 Now a custom "cloud"-button is visible near the file input fields (eg. Quicktool). If you press it, you can upload and select images to/from the before generated Dropbox folder.
 
 Info: All users in your beekeeping operation will have access to the same folder in your Dropbox.
 
-If you want to delete the connection use the remove button on [Options->Dropbox](../dropbox/) and also remove it from your Dropbox account [https://www.dropbox.com/account/connected_apps](https://www.dropbox.com/account/connected_apps).
+If you want to delete the connection use the remove button on [Options->Dropbox](https://www.btree.at/app/dropbox/) and also remove it from your Dropbox account [https://www.dropbox.com/account/connected_apps](https://www.dropbox.com/account/connected_apps).
 
 ### Moving
 
-Taking a hive to a new apiary, you need to perform a moving. This is possible in the [Hive Table](../table/hive/#tab_tables) or [Apiary Table](../table/apiary/#tab_tables). Here you select the / the desired hives or apiary and click on the button **Move**. Then select the moving date and click save.
+Taking a hive to a new apiary, you need to perform a moving. This is possible in the [Hive Table](https://www.btree.at/app//table/hive/#tab_tables) or [Apiary Table](https://www.btree.at/app/table/apiary/#tab_tables). Here you select the / the desired hives or apiary and click on the button **Move**. Then select the moving date and click save.
 
-If you have made a mistake during the movings, you can under [Options->Move Table](../table/move/#tab_options) delete the wrong records.
+If you have made a mistake during the movings, you can under [Options->Move Table](https://www.btree.at/app/table/move/#tab_options) delete the wrong records.
 
 ### Calendar
 
@@ -129,15 +127,16 @@ This Feature is not working in all Browsers, so far it works only with Chrome an
 
 ### Multiple User / Beekeeper
 
-If you want to add another user to your company, you can do this under [Options->Profile->Company](../profile/)to create new user or invite existing.
+If you want to add another user to your company, you can do this under [Options->Profile->Company](https://www.btree.at/app/profile/)to create new user or invite existing.
 
 For users, there are three ranks:
+
 * Admin
 * User -> Cannot change ranks, cannot invite users and cannot delete the company
 * Worker -> Can only work with the Quicktool and cannot delete tasks. Worker cannot work in the tables but see them. Worker can check tasks inside the calendar but not change the date (move them), also this rank has no access to the statistics.
 * Read-Only -> This user can only look at the the data, but cannot make any changes. This rank can also not access the statistic pages.
 
-Also there is the possibility to create a second company or to change the name of the existing. It cannot be deleted if other users are in the company or if it is your last company. (NB. If you want to delete the account go to [Options->Profile](../profile/) **Note, the data can not be recovered!**)
+Also there is the possibility to create a second company or to change the name of the existing. It cannot be deleted if other users are in the company or if it is your last company. (NB. If you want to delete the account go to [Options->Profile](https://www.btree.at/app/profile/) **Note, the data can not be recovered!**)
 
 Premium Membership is per company and not per user, ie. you only need once Premium no matter how many users are active in your company. But for each company you need to buy Premium.
 
@@ -145,10 +144,10 @@ Premium Membership is per company and not per user, ie. you only need once Premi
 
 Chrome browser supports to install the homepage as application, which then can be started as a normal software. First step is to visit the dashboard -> open chrome settings "..." -> "more tools" -> "add shortcut". Chrome now create a simple application wrapper around the webpage, which can be started as a normal program.
 
-<img src="../img/install1.png" alt="Install" loading="lazy">
-<img src="../img/install2.png" alt="Install" loading="lazy">
-<img src="../img/install3.png" alt="Install" loading="lazy">
-<img src="../img/install4.png" alt="Install" loading="lazy">
+<img src="./img//install1.png" alt="Install" loading="lazy">
+<img src="./img//install2.png" alt="Install" loading="lazy">
+<img src="./img//install3.png" alt="Install" loading="lazy">
+<img src="./img//install4.png" alt="Install" loading="lazy">
 
 ### NFC Tags
 
@@ -156,5 +155,5 @@ NFC tags are an easy way to quickly access hive details with your mobile phone (
 
 After that simply stick the NFC tag on your hive and access quickly the details by swiping your mobile phone over the tag (only Android so far, iPhone wont read automatically NFC tags at the moment).
 
-<img src="../img/nfc_tools.jpg" alt="NFC tools" loading="lazy">
-<img src="../img/nfc_tags.jpg" alt="NFC tags" loading="lazy">
+<img src="./img//nfc_tools.jpg" alt="NFC tools" loading="lazy">
+<img src="./img//nfc_tags.jpg" alt="NFC tags" loading="lazy">
