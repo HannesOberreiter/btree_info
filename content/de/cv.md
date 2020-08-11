@@ -4,7 +4,6 @@ description: 'Lebenslauf von Hannes Oberreiter'
 position: 32
 category: About Me
 ---
-<div class="leading-tight">
 
 # Hannes Oberreiter
 
@@ -56,5 +55,3 @@ category: About Me
 ## :memo: Skills
 
 Meine Muttersprache ist **Deutsch**, spreche und schreibe aber auch sehr gutes **Englisch**. Programmieren habe ich mir hauptsächlich selbst bei gebracht und habe hautsächlich Erfahrung mit **R, Javascript, PHP, Python** und andere sowie Typesetting in **LaTeX** und Datenbanken mit **MySQL** und verschiedene Frameworks. In meinem Studium der **Biologie** habe ich zusätzlich **Statistik** und **Bioinformatik** Kurse absolviert und auch praktisch bereits angewendet. Durch frühere Arbeiten habe ich Erfahrung gesammelt in **Grafik und Design** sowie den verschiedenen Tools (InDesign, Illustrator etc.). Anhand meiner Auslandserfahrung und auch durch meine eigene Landwirtschaft besitze ich einfache handwerkliche Fähigkeiten und kann auch Forstarbeiten durchführen sowie besitze die Führerscheine ABCEF. Allgemein besitze ich eine vielzahl von Fähigkeiten durch mein breites Interesse von Wissenschaft über Programmieren bis zur Landwirtschaft.
-
-</div>

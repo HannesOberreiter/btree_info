@@ -4,8 +4,6 @@ description: 'Curriculum Vitae Hannes Oberreiter'
 position: 32
 category: About Me
 ---
-<div class="leading-tight">
-
 # Hannes Oberreiter
 
 :mailbox: hoberreiter_at_gmail.com
@@ -56,5 +54,3 @@ category: About Me
 ## :memo: Skills
 
 My mother tongue is **German**, but I also speak and write very good **English**. I taught myself programming and have experience with **R, Javascript, PHP, Python** and others as well as typesetting in **LaTeX** and databanks with **MySQL** and various frameworks. In my studies of **Biology** I also took **Statistics** and **Bioinformatics** courses and applied them in practice. Through previous work I have gained experience in **graphics and design** as well as the different tools (InDesign, Illustrator etc.). Due to my experience abroad and also due to my own agriculture I have simple handicraft skills and can also do forestry work and own the driving licence ABCEF. In general I have a wide range of skills due to my broad interest in science, programming and agriculture.
-
-</div>
