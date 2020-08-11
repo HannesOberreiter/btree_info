@@ -23,7 +23,6 @@
     "nuxt-i18n": "^6.13.1",
     "prism-themes": "^1.4.0",
     "remark-emoji": "^2.1.0",
-    "remark-footnotes": "^1.0.0",
     "tailwindcss": "^1.5.2",
     "vue-scrollactive": "^0.9.3"
   },

@@ -91,7 +91,7 @@ export default {
   content: {
     liveEdit: false,
     markdown: {
-      remarkPlugins: ['remark-emoji', 'remark-footnotes'],
+      remarkPlugins: ['remark-emoji'],
       prism: {
         theme: 'prism-themes/themes/prism-material-oceanic.css'
       }
