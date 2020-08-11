@@ -145,4 +145,16 @@
   RewriteCond %{HTTP_HOST} ^btree\.at [NC]
   RewriteRule ^(.*)$ https://www.btree.at/ [L,R=301,NC]
 
+
+  RewriteRule ^$ /deploy/ [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !^/deploy/
+  RewriteRule ^(.*)$ /deploy/$1
+
+# Add trailing slash to directories within jekyll
+# This does not expose the internal URL.
+#RewriteCond %{SCRIPT_FILENAME} -d
+#RewriteRule ^jekyll/(.*[^/])$ https://www.btree.at/$1/ [R=301]
+
 </IfModule>
