@@ -19,7 +19,7 @@ category: About Me
 - **since 10/2012** ***Gas station (marginal employment)***
   - accounting and back office
 
-<your style="margin: 1rem" />
+<hr style="margin: 1rem" />
 
 - **2018, 2019, 2020** ***University of Graz***
   - minor employments: tutor, project groups, programming, statistics, beekeeping
@@ -37,7 +37,7 @@ category: About Me
 ## :paperclip: Publications
 
 <div>
-<img alt="Orcid" src="img/orcid.png" class="inline" style="margin-top: 0rem; margin-bottom: 0rem;" /> <a class="inline" href=https://orcid.org/0000-0003-1019-1245> https://orcid.org/0000-0003-1019-1245</a>
+<img alt="Orcid" src="/img/orcid.png" class="inline" style="margin-top: 0rem; margin-bottom: 0rem;" /> <a class="inline" href=https://orcid.org/0000-0003-1019-1245> https://orcid.org/0000-0003-1019-1245</a>
 </div>
 
 - Oberreiter, H.; Brodschneider, R. Austrian COLOSS Survey of Honey Bee Colony Winter Losses 2018/19 and Analysis of Hive Management Practices. Diversity 2020, 12, 99.
