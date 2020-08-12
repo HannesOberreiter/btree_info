@@ -7,7 +7,7 @@
           class="w-full lg:w-1/5 lg:block fixed lg:relative inset-0 mt-16 lg:mt-0 z-30 bg-white dark:bg-gray-900 dark:bg-transparent"
           :class="{ 'block': menu, 'hidden': !menu }"
         >
-          <div class="lg:sticky lg:top-0 lg:pt-16 lg:-mt-16 overflow-y-scroll h-full lg:h-auto">
+          <div class="lg:sticky lg:top-0 lg:pt-16 lg:-mt-16 overflow-y-scroll h-full">
             <ul class="p-4 lg:py-8 lg:pl-0 lg:pr-8">
               <li v-for="(docs, category) in categories" :key="category" class="mb-4">
                 <h3
@@ -38,7 +38,7 @@
       </div>
     </main>
     <client-only>
-      <go-top :size=40 :max-width=20></go-top>
+      <go-top :size=40 :max-width=20 :right=15 :bottom=15></go-top>
     </client-only>
     <TheFooter />
   </div>
