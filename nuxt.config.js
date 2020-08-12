@@ -1,12 +1,17 @@
+import path from 'path';
+import glob from 'glob';
+
 const URL = 'https://www.btree.at'
 
 export default {
   target: 'static',
+  publicPath: './',
   router: {
+    //base: process.env.NODE_ENV === 'production' ? '/info/' : '/',
   },
   build: {
   },
-  ssr: true, // similar to mode: 'universal'
+  mode: "universal", // similar to mode: 'universal'
   /*
   ** Headers of the page
   */
@@ -60,7 +65,7 @@ export default {
   ** Give routes to static generation
   */
   generate: {
-    fallback: '404.html', // for Netlify
+    fallback: true,
     routes: ['/'] // give the first url to start crawling
   },
   /*
@@ -93,7 +98,7 @@ export default {
     markdown: {
       remarkPlugins: ['remark-emoji'],
       prism: {
-        theme: 'prism-themes/themes/prism-material-oceanic.css'
+        theme: false
       }
     }
   },
@@ -117,8 +122,13 @@ export default {
     langDir: 'i18n/'
   },
   sitemap: {
-    hostname: 'https://www.btree.at',
+    hostname: URL,
     path: 'sitemap.xml',
+    routes: () => {
+      const files = glob.sync(path.join(__dirname, '/dist/**/*.html'));
+      return files.map((file) => ({ url: path.relative(__dirname, file), lastmodfile: file }));
+    },
+    i18n: true,
     cacheTime: 1000 * 60 * 60 * 2,
     trailingSlash: true,
     gzip: true

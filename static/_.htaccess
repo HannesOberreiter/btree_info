@@ -64,7 +64,7 @@
     AddType application/font-woff2 .woff2
     AddType image/svg+xml .svg
 
-    ExpiresDefault                                      "access plus 1 month"
+    ExpiresDefault                                      "access plus 2 month"
 
   # CSS
     ExpiresByType text/css                              "access plus 1 year"
@@ -91,25 +91,25 @@
     ExpiresByType text/cache-manifest                   "access plus 0 seconds"
 
   # Media
-    ExpiresByType audio/ogg                             "access plus 1 month"
-    ExpiresByType image/gif                             "access plus 1 month"
-    ExpiresByType image/jpeg                            "access plus 1 month"
-    ExpiresByType image/png                             "access plus 1 month"
-    ExpiresByType video/mp4                             "access plus 1 month"
-    ExpiresByType video/ogg                             "access plus 1 month"
-    ExpiresByType video/webm                            "access plus 1 month"
+    ExpiresByType audio/ogg                             "access plus 1 year"
+    ExpiresByType image/gif                             "access plus 1 year"
+    ExpiresByType image/jpeg                            "access plus 1 year"
+    ExpiresByType image/png                             "access plus 1 year"
+    ExpiresByType video/mp4                             "access plus 1 year"
+    ExpiresByType video/ogg                             "access plus 1 year"
+    ExpiresByType video/webm                            "access plus 1 year"
 
   # Web feeds
     ExpiresByType application/atom+xml                  "access plus 1 hour"
     ExpiresByType application/rss+xml                   "access plus 1 hour"
 
   # Web fonts
-    ExpiresByType application/font-woff2                "access plus 1 month"
-    ExpiresByType application/font-woff                 "access plus 1 month"
-    ExpiresByType application/vnd.ms-fontobject         "access plus 1 month"
-    ExpiresByType application/x-font-ttf                "access plus 1 month"
-    ExpiresByType font/opentype                         "access plus 1 month"
-    ExpiresByType image/svg+xml                         "access plus 1 month"
+    ExpiresByType application/font-woff2                "access plus 2 month"
+    ExpiresByType application/font-woff                 "access plus 2 month"
+    ExpiresByType application/vnd.ms-fontobject         "access plus 2 month"
+    ExpiresByType application/x-font-ttf                "access plus 2 month"
+    ExpiresByType font/opentype                         "access plus 2 month"
+    ExpiresByType image/svg+xml                         "access plus 2 month"
 </IfModule>
 
 
@@ -130,10 +130,9 @@
   RewriteRule ^(.*)$ https://www\.btree\.at/app/$1 [R=301,L]
 
   # Ignore Subfolder
-  RewriteRule ^(app|beta|plant|alpen|animal|dummy|robots.txt)($|/) - [L]
+  RewriteRule ^(app|beta|plant|alpen|animal|robots.txt)($|/) - [L]
 
   # Force HTTPS
-  RewriteEngine on
   RewriteCond %{HTTPS} !on
   RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
   <IfModule mod_headers.c>
@@ -141,10 +140,18 @@
   </IfModule>
 
   # Rewrite www
-  RewriteEngine on
   RewriteCond %{HTTP_HOST} ^btree\.at [NC]
   RewriteRule ^(.*)$ https://www.btree.at/ [L,R=301,NC]
 
+  # Rewrite old info.btree.at
+  RewriteCond %{HTTP_HOST} ^info.btree.at$ [NC]
+  RewriteRule ^(.*)$ https://www.btree.at%{REQUEST_URI} [R=301,NC,L,QSA]
+
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
 
   RewriteRule ^$ /deploy/ [L]
   RewriteCond %{REQUEST_FILENAME} !-f
@@ -158,3 +165,5 @@
 #RewriteRule ^jekyll/(.*[^/])$ https://www.btree.at/$1/ [R=301]
 
 </IfModule>
+
+ErrorDocument 404 https://www.btree.at/404.html

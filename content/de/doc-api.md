@@ -14,13 +14,13 @@ Premium User können die Kalendar Daten über einen ICAL Link in den eigenen Kal
 
 Unter weitere Kalender kann man die gegebene ICAL URL über den Link "Über URL Hinzufügen" eintragen. Danach erscheint der Kalendar im Google Kalender. Google Updated diese externen Kalender nur alle paar Stunden, dieser Parameter kann in der gratis Version von Google Kalender nicht geändert werden.
 
-<img src="./img//ical_google.jpg" alt="Google Import" loading="lazy">
+<img src="/img/ical_google.jpg" alt="Google Import" loading="lazy">
 
 ### Mac/Apple Kalender
 
 Unter "Ablage" -> "Neues Kalenderabonnement" kann die ICAL URL hinzugefügt werden. Dort kann man auch Einstellen wie oft der Kalender neu geladen werden soll. Um unnötige Last auf den Server zu vermeiden, bitte je nach Art des Kalenders einen entsprechenden Interval zu wählen. (Beispiel Königinnen Serie nur auf täglich setzen)
 
-<img src="./img//ical_mac.jpg" alt="Mac Import" loading="lazy">
+<img src="/img/ical_mac.jpg" alt="Mac Import" loading="lazy">
 
 ## Stockwaagen API
 

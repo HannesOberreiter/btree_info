@@ -144,10 +144,10 @@ Premium Membership is per company and not per user, ie. you only need once Premi
 
 Chrome browser supports to install the homepage as application, which then can be started as a normal software. First step is to visit the dashboard -> open chrome settings "..." -> "more tools" -> "add shortcut". Chrome now create a simple application wrapper around the webpage, which can be started as a normal program.
 
-<img src="./img//install1.png" alt="Install" loading="lazy">
-<img src="./img//install2.png" alt="Install" loading="lazy">
-<img src="./img//install3.png" alt="Install" loading="lazy">
-<img src="./img//install4.png" alt="Install" loading="lazy">
+<img src="/img/install1.png" alt="Install" loading="lazy">
+<img src="/img/install2.png" alt="Install" loading="lazy">
+<img src="/img/install3.png" alt="Install" loading="lazy">
+<img src="/img/install4.png" alt="Install" loading="lazy">
 
 ### NFC Tags
 
@@ -155,5 +155,5 @@ NFC tags are an easy way to quickly access hive details with your mobile phone (
 
 After that simply stick the NFC tag on your hive and access quickly the details by swiping your mobile phone over the tag (only Android so far, iPhone wont read automatically NFC tags at the moment).
 
-<img src="./img//nfc_tools.jpg" alt="NFC tools" loading="lazy">
-<img src="./img//nfc_tags.jpg" alt="NFC tags" loading="lazy">
+<img src="/img/nfc_tools.jpg" alt="NFC tools" loading="lazy">
+<img src="/img/nfc_tags.jpg" alt="NFC tags" loading="lazy">
