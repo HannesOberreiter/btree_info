@@ -1,4 +1,4 @@
-Sitemap: /sitemap.xml
+Sitemap: https://www.btree.at/sitemap.xml
 
 # global
 User-agent: *
