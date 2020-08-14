@@ -66,7 +66,7 @@ Now a custom "cloud"-button is visible near the file input fields (eg. Quicktool
 
 Info: All users in your beekeeping operation will have access to the same folder in your Dropbox.
 
-If you want to delete the connection use the remove button on [Options->Dropbox](https://www.btree.at/app/dropbox/) and also remove it from your Dropbox account [https://www.dropbox.com/account/connected_apps](https://www.dropbox.com/account/connected_apps).
+If you want to delete the connection use the remove button on [Options->Dropbox](https://www.btree.at/app/dropbox/) and also remove it from your Dropbox account [Dropbox](https://www.dropbox.com/account/connected_apps).
 
 ### Moving
 

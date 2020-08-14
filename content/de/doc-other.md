@@ -73,7 +73,7 @@ Jetzt siehst du auch einen eigenen "Wolken"-Knopf bei den Datei Eingabe Feldern 
 
 Info: Alle Benutzer die in deiner Imkerei angelegt sind können in diesen Ordner Dateienhochalden oder Selektieren.
 
-Wenn du die Verbindung wieder löschen willst, benutze den "Entfernen"-Knopf auf [Options->Dropbox](https://www.btree.at/app/dropbox/) und zusätzlich entferne es von deinem Dropbox Account unter [https://www.dropbox.com/account/connected_apps](https://www.dropbox.com/account/connected_apps).
+Wenn du die Verbindung wieder löschen willst, benutze den "Entfernen"-Knopf auf [Options->Dropbox](https://www.btree.at/app/dropbox/) und zusätzlich entferne es von deinem Dropbox Account unter [Dropbox](https://www.dropbox.com/account/connected_apps).
 
 ### Kalender
 
