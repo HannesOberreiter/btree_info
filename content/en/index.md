@@ -1,5 +1,5 @@
 ---
-title: Software
+title: Info
 description: 'Informationen über b.tree Software und Webapplikation für Imkereien'
 position: 11
 category: b.tree Beekeeping App
@@ -51,3 +51,5 @@ The beekeeping web application got a simple and usable calendar with all your up
   There are many more features, for example migration of colonies, API, charge control, ICAL etc.
 
 </base-alert>
+
+<img class="border-black dark:border-white border-2" src="/img/nfc_handy.jpg" alt="NFC Android App" loading=”lazy”>

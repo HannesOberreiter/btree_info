@@ -1,15 +1,15 @@
 import path from 'path';
 import glob from 'glob';
 
-const URL = 'https://www.btree.at'
+const URL = 'https://info.btree.at'
 
 export default {
   target: 'static',
-  publicPath: './',
   router: {
     //base: process.env.NODE_ENV === 'production' ? '/info/' : '/',
   },
   build: {
+    //publicPath: '/info/',
   },
   mode: "universal", // similar to mode: 'universal'
   /*
@@ -126,7 +126,14 @@ export default {
     path: 'sitemap.xml',
     routes: () => {
       const files = glob.sync(path.join(__dirname, '/dist/**/*.html'));
-      return files.map((file) => ({ url: path.relative(__dirname, file), lastmodfile: file }));
+      return files.map((file) => ({ 
+        url: path.relative(
+          path.join(
+            __dirname, '/dist/'), 
+            file
+          ), 
+          lastmodfile: file 
+      }));
     },
     i18n: true,
     cacheTime: 1000 * 60 * 60 * 2,

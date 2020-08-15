@@ -1,5 +1,5 @@
 ---
-title: Software
+title: Info
 description: 'Informationen über b.tree Software und Webapplikation für Imkereien'
 position: 11
 category: b.tree Imkerei App
@@ -40,3 +40,5 @@ Erstelle Bienenstände mit einem einfachen Mausklick auf einer eigenen Bienensta
   Es gibt noch viele weitere Features und Funktionen in der App zu Entdecken, wie Wanderungen, API, ICAL, Chargenblatt etc.
 
 </base-alert>
+
+<img class="border-black dark:border-white border-2" src="/img/nfc_handy.jpg" alt="NFC Android App" loading=”lazy”>
