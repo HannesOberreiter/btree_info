@@ -30,12 +30,12 @@ export default {
       { hid: 'og:site_name', property: 'og:site_name', content: 'b.tree Beekeeping' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: URL },
-      { hid: 'og:image', property: 'og:image', content: `${URL}/card.png` },
+      { hid: 'og:image', property: 'og:image', content: `${URL}/card.jpg` },
       // Twitter Card
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
       { hid: 'twitter:site', name: 'twitter:site', content: '@btree_hannes' },
       { hid: 'twitter:title', name: 'twitter:title', content: 'b.tree' },
-      { hid: 'twitter:image', name: 'twitter:image', content: `${URL}/card.png` },
+      { hid: 'twitter:image', name: 'twitter:image', content: `${URL}/card.jpg` },
       { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: 'b.tree Beekeeping' }
     ],
     link: [
