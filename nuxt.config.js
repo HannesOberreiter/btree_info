@@ -116,9 +116,9 @@ export default {
       name: 'English'
     }],
     defaultLocale: 'de',
-    parsePages: false,
+    parsePages: true,
     lazy: true,
-    seo: false,
+    seo: true,
     langDir: 'i18n/'
   },
   sitemap: {
