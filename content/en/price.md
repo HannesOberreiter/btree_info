@@ -28,7 +28,7 @@ pro:
 All kind of feedback are more than welcome!
 With best greetings!
 
-_Hannes Oberreiter_, Hannes Oberreiter, Hobby Organic Beekeeper & Hobby Programmer
+_Hannes Oberreiter, Hobby Organic Beekeeper & Hobby Programmer_
 
 [^1]: If you were premium before you still can use all of your hives and apiaries! But you cannot add new ones.
 
