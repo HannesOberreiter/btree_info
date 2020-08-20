@@ -55,4 +55,4 @@ category: About Me
 
 My mother tongue is **German**, but I also speak and write very good **English**. In programming I have experience with **R, Javascript, PHP, Python** and others, as well as typesetting in **LaTeX** and databanks with **MySQL** and various frameworks (eg. Bootstrap, jQuery, Vue.js). In my studies of **Biology** I also took **Statistics** and **Bioinformatics** courses and applied them in practice. Through previous jobs and work I have gained experience in **graphics and design** as well as the different tools (InDesign, Illustrator etc.). Due to my travels abroad and also due to my own agriculture I have simple handicraft skills and can also do forestry work and own the driving licence ABCEF. In general I have a wide range of skills due to my broad interest in science, programming and agriculture.
 
-<img src="/img/hannes.jpg" alt="Hannes Oberreiter" loading="lazy">
+<cloud-image url="btree-info/img/hannes" alt="Hannes Oberreiter"></cloud-image>

@@ -56,4 +56,4 @@ category: About Me
 
 Meine Muttersprache ist **Deutsch**, spreche und schreibe aber auch sehr gutes **Englisch**. In programmieren habe ich hautsächlich Erfahrung mit **R, Javascript, PHP, Python** und andere, sowie Schriftsetzung in **LaTeX** und Datenbanken mit **MySQL** und verschiedene Frameworks (eg. Bootstrap, Vue.js). In meinem Studium der **Biologie** habe ich zusätzlich **Statistik** und **Bioinformatik** Kurse absolviert und auch praktisch bereits angewendet. Durch frühere Berufe habe ich Erfahrung gesammelt in **Grafik und Design** sowie den verschiedenen Tools (InDesign, Illustrator etc.). Anhand meiner Auslandsaufenthalten und auch durch meine eigene Landwirtschaft besitze ich einfache handwerkliche Fähigkeiten und kann auch Forstarbeiten durchführen sowie besitze die Führerscheine ABCEF. Allgemein besitze ich eine Vielzahl von Fähigkeiten durch mein breites Interesse von Wissenschaft über Programmieren bis zur Landwirtschaft.
 
-<img src="/img/hannes.jpg" alt="Hannes Oberreiter" loading="lazy">
+<cloud-image url="btree-info/img/hannes" alt="Hannes Oberreiter"></cloud-image>

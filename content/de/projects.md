@@ -11,8 +11,7 @@ category: About Me
 Du kannst meine Fauna und Flora Beobachtungen unter iNaturalist folgen: <a href="https://www.inaturalist.org/observations/btree">observations/btree</a>
 
 Ein kleines Projekt von mir ist die Fauna am und in Bienenvölker zu protokollieren unter folgenden Projekt:
-
-<a href="https://www.inaturalist.org/projects/beehive-fauna"><img class="content-center" src="/img/inat.png" alt="iNaturalist" loading=”lazy”></a>
+<a href="https://www.inaturalist.org/projects/beehive-fauna"><cloud-image url="btree-info/img/inat" alt="iNaturalist"></cloud-image></a>
 
 ## GitHub
 

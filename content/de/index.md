@@ -13,6 +13,8 @@ Diese Imkerei Web Applikation bzw. Web Software ist erstellt worden um Imkern un
 
 Die meisten Daten sind in Tabellen angezeigt um eine gute Übersicht auch bei großen Datenmengen zu gewährleisten und effizienten Arbeiten zu ermöglichen. Zusätzlich kann man alle Daten als CSV oder XLS exportieren und damit die Daten für eigene Statistiken oder Ablagen verwenden. Es ist auch möglich ein vollständiges Datenbank Backup zu erstellen, damit hat man immer alle Daten selber in eigener Hand als Backup. Auf der Startseite befindet sich ein einfacher Kalendar der eine Übersicht über die Aufgaben geben soll. Premium Benutzer können diesen Kalendar auch als ICAL abonnieren und in den eigenen Kalendar integrieren.
 
+<cloud-image url="btree-info/img/bees" alt="b.tree Header"></cloud-image>
+
 ## Cloud & Multi User
 
 Hat man eine Internet Verbindung kann man von jedem Gerät die aktuellen Daten einsehen und bearbeiten. Es ist zusätzlich möglich mehreren Mitarbeiter einen Zugang zur Imkerei Web Software freizuschalten. Eine moderne Imkereiverwaltung in der Cloud als Webapplikation.
@@ -21,19 +23,23 @@ Hat man eine Internet Verbindung kann man von jedem Gerät die aktuellen Daten e
 
 Alle wichtigen Daten sind in grafisch aufgearbeiteten Statistiken jeder Zeit verfügbar. Du kannst Beispielsweise sehen wie viel Honig du geerntet hast, für den gesamten Bienenstand aber auch für einen einzelnen Bienenstock, einfach und überall mit unserer Imker Webapplikation. Vergleiche mehrere Bienen-Königinnen und selektiere die beste für die nächste Zucht Saison. Habe mit unserer Imkerei Web Applikation einen Daten Vorteil für deine professionelle Imkerei und verbessere deinen Arbeitsablauf!
 
-<img src="/img/stats.png" alt="Statistik" loading=”lazy”>
+<cloud-image url="btree-info/img/stats" alt="Statistiken für Premium Mitglieder"></cloud-image>
+
+<cld-video public-id="btree-info/img/stats-vid"  fallback-content="Your browser does not support HTML5 video tags." controls="true"  loop="true" ></cld-video>
 
 ## Kontrolle & Königinnen Zucht
 
 Schreibe schnelle ToDo Notizen oder Aufgaben für einen einzelnen Bienenstock oder den gesamten Bienenstand. Zusätzlich kannst du mit unserem Königinnen (Weisel) Zucht Planer deine eigene Methoden anlegen und im Kalender anzeigen lassen, als Premium User auch als ICAL Exportieren. Somit hast du deinen wichtigen Königinnenzucht Termine alle immer im besten Blick!
 
-<img src="/img/queen.png" alt="Königinnen" loading=”lazy”>
+<cloud-image url="btree-info/img/queen.png" alt="Königinnen Management"></cloud-image>
+
+<cld-video public-id="btree-info/img/queen-vid"  fallback-content="Your browser does not support HTML5 video tags." controls="true"  loop="true" ></cld-video>
 
 ## Karte & Kalendar
 
 Erstelle Bienenstände mit einem einfachen Mausklick auf einer eigenen Bienenstandkarte – auch das Verschieben geht hier ganz einfach! Die Imkerei Web Applikation hat zusätzlich einen Kalender wo deine zukünftigen und vergangenen Imkerei Aufgaben angezeigt werden. Als Premium User kannst du den Kalender über einen Export Link in jeden deiner Kalender anzeigen lassen (ICAL).
 
-<img src="/img/map.jpg" alt="Bienenstandkarte" loading=”lazy”>
+<cloud-image url="btree-info/img/map.jpg" alt="Bienenstandkarte"></cloud-image>
 
 <base-alert type="info">
 
@@ -41,4 +47,4 @@ Erstelle Bienenstände mit einem einfachen Mausklick auf einer eigenen Bienensta
 
 </base-alert>
 
-<img class="border-black dark:border-white border-2" src="/img/nfc_handy.jpg" alt="NFC Android App" loading=”lazy”>
+<cloud-image url="btree-info/img/nfc_handy.jpg" alt="NFC Android App" custom="border-black dark:border-white border-2"></cloud-image>

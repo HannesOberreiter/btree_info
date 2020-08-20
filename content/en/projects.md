@@ -12,7 +12,7 @@ You can follow my flora and fauna observations at iNaturalist: <a href="https://
 
 A small project of mine is to capture the fauna around and inside of a bee hive:
 
-<a href="https://www.inaturalist.org/projects/beehive-fauna"><img class="content-center" src="/img/inat.png" alt="iNaturalist" loading=”lazy”></a>
+<a href="https://www.inaturalist.org/projects/beehive-fauna"><cloud-image url="btree-info/img/inat" alt="iNaturalist"></cloud-image></a>
 
 ## GitHub
 
