@@ -27,8 +27,6 @@ All important data as responsive graphic statistics. You can see how much honey 
 
 <cloud-image url="btree-info/img/stats" alt="Statistics for Premium Member"></cloud-image>
 
-<cld-video public-id="btree-info/img/stats-vid"  fallback-content="Your browser does not support HTML5 video tags." controls="true"  loop="true" ></cld-video>
-
 ## Kontrolle & Königinnen Zucht
 
 With our Queen Rearing builder you can create your own method. Start from any step and show the steps in calendar, never miss an important rearing date again.
@@ -40,8 +38,6 @@ PS.: You can also modify your bee race, hive type, feedings types and much more!
 </base-alert>
 
 <cloud-image url="btree-info/img/queen.png" alt="Queen Management"></cloud-image>
-
-<cld-video public-id="btree-info/img/queen-vid"  fallback-content="Your browser does not support HTML5 video tags." controls="true"  loop="true" ></cld-video>
 
 ## Karte & Kalendar
 

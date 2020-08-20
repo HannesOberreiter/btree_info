@@ -25,15 +25,11 @@ Alle wichtigen Daten sind in grafisch aufgearbeiteten Statistiken jeder Zeit ver
 
 <cloud-image url="btree-info/img/stats" alt="Statistiken für Premium Mitglieder"></cloud-image>
 
-<cld-video public-id="btree-info/img/stats-vid"  fallback-content="Your browser does not support HTML5 video tags." controls="true"  loop="true" ></cld-video>
-
 ## Kontrolle & Königinnen Zucht
 
 Schreibe schnelle ToDo Notizen oder Aufgaben für einen einzelnen Bienenstock oder den gesamten Bienenstand. Zusätzlich kannst du mit unserem Königinnen (Weisel) Zucht Planer deine eigene Methoden anlegen und im Kalender anzeigen lassen, als Premium User auch als ICAL Exportieren. Somit hast du deinen wichtigen Königinnenzucht Termine alle immer im besten Blick!
 
 <cloud-image url="btree-info/img/queen.png" alt="Königinnen Management"></cloud-image>
-
-<cld-video public-id="btree-info/img/queen-vid"  fallback-content="Your browser does not support HTML5 video tags." controls="true"  loop="true" ></cld-video>
 
 ## Karte & Kalendar
 
