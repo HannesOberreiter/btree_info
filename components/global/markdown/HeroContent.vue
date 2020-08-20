@@ -1,24 +1,24 @@
 <template>
   <div class="pt-0">
-    <div
-      class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row hero-background"
-    >
+        <p class="leading-normal text-2xl mb-0 text-black dark:text-white">{{ $t('text.title') }}</p>
+                <p class="uppercase w-full text-black dark:text-white">b.tree - {{ $t('text.subtitle') }}</p>
+    <div class="container px-0 mx-auto flex flex-wrap flex-col md:flex-row">
       <!--Left Col-->
       <div
-        class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
+        class="flex flex-col w-full md:w-2/4 justify-center items-start text-center md:text-left"
       >
-        <p class="uppercase w-full text-black dark:text-white">{{ $t('text.subtitle') }}</p>
-        <p class="text-5xl text-center w-full font-bold text-black dark:text-white">b.tree</p>
-        <p class="leading-normal text-2xl mb-8 text-black dark:text-white">{{ $t('text.title') }}</p>
-        <a href="https://www.btree.at/app">
-          <button
-            class="mx-auto lg:mx-0 hover:underline bg-orange-400 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-          >Login / Register</button>
-        </a>
+        <p class="text-2xl text-center w-full font-bold text-black dark:text-white">
+          <a href="https://www.btree.at/app">
+            <button
+              class="mx-auto lg:mx-0 hover:underline bg-orange-600 text-white font-bold rounded-full my-0 py-4 px-8 shadow-lg"
+            >Login / Register</button>
+          </a>
+        </p>
       </div>
       <!--Right Col-->
-      <div class="w-full md:w-3/5 py-2 text-center">
-        <img class="w-full z-50" src="~/assets/img/mockup.png" alt="App Mockup" />
+      <div class="w-full md:w-2/4 py-2 text-center">
+        <cloud-image custom="w-full z-50" url="btree-info/img/mockup" alt="b.tree App Mockup"></cloud-image>
+        <!--<img class="w-full z-50" src="~/assets/img/mockup.png" alt="App Mockup" />-->
       </div>
     </div>
   </div>
