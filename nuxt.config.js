@@ -58,7 +58,8 @@ export default {
     '@/plugins/init',
     '@/plugins/i18n.client',
     '@/plugins/vue-scrollactive',
-    '@/plugins/menu.client'
+    '@/plugins/menu.client',
+    '@/plugins/cloudinary',
   ],
   components: true,
   /*

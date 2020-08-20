@@ -17,6 +17,7 @@
     "@nuxt/content": "^1.4.1",
     "@nuxt/static": "^1.0.0",
     "@nuxtjs/sitemap": "^2.4.0",
+    "cloudinary-vue": "^1.1.1",
     "glob": "^7.1.6",
     "lodash.groupby": "^4.6.0",
     "marked": "^1.1.1",
