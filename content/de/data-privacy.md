@@ -83,6 +83,9 @@ Website und Imker Applikation benutzt auf Grundlage unserer berechtigten Interes
 ### CDN Services
 
 - maxCDN – bootstrap, jQuery, AWS Cloudfront (Amazon) – statische Dateien
+- Cloudinary - statische Dateien
+
+## Auftragsverarbeitung
 
 Vereinbarung über eine Auftragsverarbeitung gem. Art. 28 DSGVO
 Mit folgenden Firmen besteht eine Vereinbarung über eine Auftragsverarbeitung:

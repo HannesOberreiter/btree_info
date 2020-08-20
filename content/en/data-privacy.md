@@ -77,8 +77,13 @@ The Website und Beekeeping Application uses, on basis of our legitimate interest
 Optional:
 
 - Dropbox (Dropbox Inc., https://www.dropbox.com) (Saving Files)
-- CDN Services:
+
+### CDN Servies
+
 - maxCDN – bootstrap, jQuery, AWS Cloudfront (Amazon) – static Files
+- Cloudinary - static Files
+
+## Data Processing Agreement
 
 Agreement on data processing according to art. 28 GDPR, with following companies we have a data processing agreement:
 
