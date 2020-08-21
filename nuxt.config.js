@@ -9,6 +9,7 @@ export default {
     //base: process.env.NODE_ENV === 'production' ? '/info/' : '/',
   },
   build: {
+      publicPath: 'https://aws.btree.at'
     //publicPath: '/info/',
   },
   mode: "universal", // similar to mode: 'universal'
