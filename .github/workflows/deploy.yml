@@ -40,8 +40,8 @@ jobs:
       run: yarn generate
     - name: List output files
       run: ls
+
     # deploy our code
-    
     - name: Deploy LFTP
       uses: kevinpainchaud/simple-ftp-deploy-action@v1.1.0
       with:
@@ -51,3 +51,15 @@ jobs:
         local_source_dir: dist
         dist_target_dir: .
         delete: "false"
+
+    # clear AWS cache
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-2
+    
+    - name: Clear AWS Cloudfront Cache
+      run: |
+        aws cloudfront create-invalidation --distribution-id E1JDNEUJJ3YVS8 --paths "/*"
