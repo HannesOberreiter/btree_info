@@ -2,6 +2,7 @@ import path from 'path';
 import glob from 'glob';
 
 const URL = 'https://info.btree.at'
+const CDN = 'https://aws.btree.at'
 
 export default {
   target: 'static',
@@ -9,7 +10,7 @@ export default {
     //base: process.env.NODE_ENV === 'production' ? '/info/' : '/',
   },
   build: {
-      publicPath: 'https://aws.btree.at'
+      publicPath: CDN
     //publicPath: '/info/',
   },
   mode: "universal", // similar to mode: 'universal'
@@ -31,16 +32,16 @@ export default {
       { hid: 'og:site_name', property: 'og:site_name', content: 'b.tree Beekeeping' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: URL },
-      { hid: 'og:image', property: 'og:image', content: `${URL}/card.jpg` },
+      { hid: 'og:image', property: 'og:image', content: `${CDN}/card.jpg` },
       // Twitter Card
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
       { hid: 'twitter:site', name: 'twitter:site', content: '@btree_hannes' },
       { hid: 'twitter:title', name: 'twitter:title', content: 'b.tree' },
-      { hid: 'twitter:image', name: 'twitter:image', content: `${URL}/card.jpg` },
+      { hid: 'twitter:image', name: 'twitter:image', content: `${CDN}/card.jpg` },
       { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: 'b.tree Beekeeping' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: `${URL}/favicon.ico` }
+      { rel: 'icon', type: 'image/x-icon', href: `${CDN}/favicon.ico` }
     ]
   },
   css: [
