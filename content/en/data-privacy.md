@@ -80,7 +80,8 @@ Optional:
 
 ### CDN Servies
 
-- maxCDN – bootstrap, jQuery, AWS Cloudfront (Amazon) – static Files
+- maxCDN – bootstrap, jQuery
+- AWS Cloudfront (Amazon) – static Files
 - Cloudinary - static Files
 
 ## Data Processing Agreement
