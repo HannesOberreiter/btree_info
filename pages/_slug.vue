@@ -10,6 +10,7 @@
       >
         <nuxt-content :document="doc" />
       </article>
+      <ArticlePrevNext :prev="prev" :next="next" />
     </div>
         <ArticleToc v-if="doc.toc && doc.toc.length" :toc="doc.toc" />
   </div>
