@@ -2,7 +2,7 @@
 title: Datenschutz
 description: 'b.tree Datenschutz'
 position: 42
-category: Impressum & Datenschutz
+category: Rechtliches
 ---
 
 # Datenschutz
@@ -82,7 +82,8 @@ Website und Imker Applikation benutzt auf Grundlage unserer berechtigten Interes
 
 ### CDN Services
 
-- maxCDN – bootstrap, jQuery, AWS Cloudfront (Amazon) – statische Dateien
+- maxCDN – bootstrap, jQuery
+- AWS Cloudfront (Amazon) – statische Dateien
 - Cloudinary - statische Dateien
 
 ## Auftragsverarbeitung

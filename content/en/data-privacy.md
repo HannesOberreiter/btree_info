@@ -1,8 +1,8 @@
 ---
-title: Data privacy statement
+title: Privacy Notice
 description: 'b.tree Data privacy statement'
 position: 42
-category: Impressum & Data privacy
+category: Notice
 ---
 
 # Privacy Notice (Data privacy statement)
@@ -80,7 +80,8 @@ Optional:
 
 ### CDN Servies
 
-- maxCDN – bootstrap, jQuery, AWS Cloudfront (Amazon) – static Files
+- maxCDN – bootstrap, jQuery
+- AWS Cloudfront (Amazon) – static Files
 - Cloudinary - static Files
 
 ## Data Processing Agreement

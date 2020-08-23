@@ -88,6 +88,7 @@ export default {
   modules: [
     'nuxt-i18n',
     '@nuxt/content',
+    '@nuxt/http',
     '@nuxtjs/sitemap'
   ],
   /*

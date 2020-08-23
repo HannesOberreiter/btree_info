@@ -21,13 +21,13 @@ The web app is made for hobby and professional beekeepers, but the main focus wa
 
 If you’ve got an internet connection access you can edit and access your beekeeping records from any device. It is also possible to have multiple users in your beekeeping operation.
 
-## Statistik & Daten
+## Statistics & Data
 
 All important data as responsive graphic statistics. You can see how much honey you harvested from a single apiary or see the overall harvest per bee hive. Select single hives or a single varroa treatment method, to see detailed information.Compare multiple queens to select your next best queen for rearing offsprings. Start beekeeping with an data advantage. Our beekeeping web application helps you to improve your workflow!
 
 <cloud-image url="btree-info/img/stats" alt="Statistics for Premium Member"></cloud-image>
 
-## Kontrolle & Königinnen Zucht
+## Checkup and Queen Rearing
 
 With our Queen Rearing builder you can create your own method. Start from any step and show the steps in calendar, never miss an important rearing date again.
 
@@ -39,7 +39,7 @@ PS.: You can also modify your bee race, hive type, feedings types and much more!
 
 <cloud-image url="btree-info/img/queen.png" alt="Queen Management"></cloud-image>
 
-## Karte & Kalendar
+## Map & Calendar
 
 Add Apiaries with a simple mouse click or move them with drag and drop, all is shown on a simple but detailed map which also features weather overlay and satellite images (premium feature).
 
