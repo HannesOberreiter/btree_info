@@ -67,4 +67,3 @@ Leider gibt es in der Imkerei auch Krankheiten und sollte es zu einem Ausbruch e
 * **Tierarzt** -> Zuständiger Tierarzt, kann in den Optionen angepasst werden.
 * **Datei** -> Einfaches verlinken auf Fotos oder Dateien (Premium)
 * **Notiz** -> Platz für sonstige Anmerkungen.
-* 

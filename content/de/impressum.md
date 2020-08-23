@@ -2,7 +2,7 @@
 title: Impressum
 description: 'b.tree Impressum'
 position: 41
-category: Impressum & Datenschutz
+category: Rechtliches
 ---
 # Impressum
 
@@ -10,7 +10,7 @@ category: Impressum & Datenschutz
 
 - Inhaber: Hannes Oberreiter, 8741 Reisstraße 17, AUSTRIA
 - Umsatzsteuer-Identifikationsnummer: ATU68752511
-- E-Mailadresse: office
+- E-Mailadresse: office:e-mail: btree.at
 
 Inhaltlich verantwortlich: Hannes Oberreiter, Adresse wie oben.
 
@@ -20,8 +20,4 @@ btree.at prüft und aktualisiert die Informationen auf diesen Webseiten ständig
 
 Des weiteren behält sich die btree.at das Recht vor, Änderungen oder Ergänzungen der bereitgestellten Informationen vorzunehmen.
 
-Inhalt und Struktur dieser Internetpräsenz sind urheberrechtlich geschützt
-
-## Informationen zur Online-Streitbeilegung
-
-Online-Streitbeilegung gemäß Art. 14 Abs. 1 ODR-VO: Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie unter [http://ec.europa.eu/consumers/odr/](http://ec.europa.eu/consumers/odr/) finden.
+Inhalt und Struktur dieser Internetpräsenz sind urheberrechtlich geschützt.

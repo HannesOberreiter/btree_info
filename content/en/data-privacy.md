@@ -1,8 +1,8 @@
 ---
-title: Data privacy statement
+title: Privacy Notice
 description: 'b.tree Data privacy statement'
 position: 42
-category: Impressum & Data privacy
+category: Notice
 ---
 
 # Privacy Notice (Data privacy statement)

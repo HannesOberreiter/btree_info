@@ -1,11 +1,11 @@
 ---
-title: Impressum
-description: 'b.tree Impressum'
+title: Legal Notice
+description: 'b.tree About and Legal Notice'
 position: 41
-category: Impressum & Data privacy
+category: Notice
 ---
 
-# Impressum
+# Legal Notice and About
 
 ## btree.at
 
@@ -21,8 +21,4 @@ btree.at constantly checks and updates the information on these websites. Despit
 
 Furthermore, btree.at reserves the right to make changes or additions to the information provided.
 
-Content and structure of this website are protected by copyright
-
-## Information on online dispute resolution
-
-Online dispute resolution according to Art. 14 para. 1 ODR-VO: The European Commission provides a platform for online dispute resolution (OS), which can be found at [http://ec.europa.eu/consumers/odr/](http://ec.europa.eu/consumers/odr/).
+Content and structure of this website are protected by copyright.
