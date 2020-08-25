@@ -28,7 +28,7 @@ Als erstes musst du im Profil den API Schlüssel aktivieren. Damit kannst du bis
 
 [Github Projekt mit Arduino Sketches](https://github.com/HannesOberreiter/bScale)
 
-**Adresse für API Meldung: https://www.btree.at/app/api/ext/scale.php**
+**Adresse für API Meldung:** [www.btree.at/app/api/ext/scale.php](https://www.btree.at/app/api/ext/scale.php)
 
 **Fixe Header Parameter**
 
@@ -53,4 +53,4 @@ Als erstes musst du im Profil den API Schlüssel aktivieren. Damit kannst du bis
 
 * Ändere "secret" zu "X_API_KEY"
 * Ändere "message" zu "sms"
-* "sms" Aufbau muss wie folgt lauten = "action;timezone;ident;weight;temp1;temp2;hum;rain;note"
+* "sms" Aufbau muss wie folgt lauten, ohne Leerzeichen = "action ; timezone ; ident ; weight ; temp1 ; temp2 ; hum ; rain ; note"
