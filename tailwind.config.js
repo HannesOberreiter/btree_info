@@ -142,5 +142,9 @@ module.exports = {
     options: {
       whitelist: ['dark-mode']
     }
-  }
+  },
+  // https://tailwindcss.com/docs/upcoming-changes
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
 }
