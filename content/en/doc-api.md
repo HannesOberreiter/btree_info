@@ -29,7 +29,7 @@ You are allowed to send each hour new data to our webservice per identifier.
 
 [Github Project with Arduino Sketches](https://github.com/HannesOberreiter/bScale)
 
-**Url for API calls: https://www.btree.at/app/api/ext/scale.php**
+**Url for API calls:** [www.btree.at/app/api/ext/scale.php](https://www.btree.at/app/api/ext/scale.php)
 
 **Fixed Header Parameter**
 
@@ -54,4 +54,4 @@ You are allowed to send each hour new data to our webservice per identifier.
 
 * Change "secret" to "X_API_KEY"
 * Change "message" to "sms"
-* "sms" build = action;timezone;ident;weight;temp1;temp2;hum;rain;note
+* "sms" build, without spaces! "action ; timezone ; ident ; weight ; temp1 ; temp2 ; hum ; rain ; note"
