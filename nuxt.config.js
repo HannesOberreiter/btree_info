@@ -130,14 +130,18 @@ export default {
     path: 'sitemap.xml',
     routes: () => {
       const files = glob.sync(path.join(__dirname, '/dist/**/*.html'));
-      return files.map((file) => ({ 
-        url: path.relative(
+      const urls = files.map(function(file){
+        const url = path.relative(
           path.join(
             __dirname, '/dist/'), 
             file
-          ), 
-          lastmodfile: file 
-      }));
+          ).replace('index.html', '');
+          return {
+            url: url,
+            lastmodfile: file
+          }
+      })
+     return urls;
     },
     i18n: true,
     cacheTime: 1000 * 60 * 60 * 2,
