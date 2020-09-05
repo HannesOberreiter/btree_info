@@ -45,7 +45,7 @@ category: About Me
 
 ## :mortar_board: Ausbildung
 
-- **2020** - ***Biologie - Bachelor of Sciene***, Universität Graz, Institut der Biologie
+- **2020** - ***Biologie - Bachelor of Science***, Universität Graz, Institut der Biologie
   - Thesis: Annual national survey of honey bee colony losses, wintered in Austria
 - **2019** - ***Ausbildung abgeschlossen zum Bienenfacharbeiter***
 - **2015** - ***Abendmatura/Berufsreifeprüfung***

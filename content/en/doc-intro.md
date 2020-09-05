@@ -11,7 +11,7 @@ category: Documentation
 
 ### Why should I use this App?
 
-This web application should help you keep track of the recent and past work on your hive to preserve. The basic idea was that you must perform recordkeeping (Austria) over medication use for each hive individually. In addition, I'm organic beekeeper and there I also need records of feeding and harvesting. The b.tree web application helps me so that I fulfill my obligation to keep records. In addition, it gives me a good basis for statistical analysis because a good company and beekeeping only works with analyzes. Whether make certain areas paid or not. As an example, one can evaluate an apiary in the statistics on the basis of his honey yield, or judge queens on their performance.
+This web application should help you keep track of the recent and past work on your hive to preserve. The basic idea was that you must perform recordkeeping (Austria) over medication use for each hive individually. In addition, I'm organic beekeeper and there I also need records of feeding and harvesting. The b.tree web application helps me so that I fullfill my obligation to keep records. In addition, it gives me a good basis for statistical analysis because a good company and beekeeping only works with analyses. Whether make certain areas paid or not. As an example, one can evaluate an apiary in the statistics on the basis of his honey yield, or judge queens on their performance.
 
 The application is due to clear and responsive tables and simple creation of tasks suitable for large apiaries. Also for queen breeder this app could be a good additional performance assessment method, through its own queens statistics.
 

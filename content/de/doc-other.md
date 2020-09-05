@@ -15,7 +15,7 @@ In den Tabellen können folgende Tastatur Kürzel verwendet werden. (Kürzel sin
 
 * **N** -> Neuen Datensatz anlegen
 * **E** -> Datensatz ändern
-* **A** -> Alle Zeilen makieren
+* **A** -> Alle Zeilen markieren
 * **D** -> Alle Zeilen abwählen
 * **H** -> Inaktive Datensätze anzeigen/verstecken
 * **Pfeil links** -> vorherige Tabellen Seite
@@ -23,8 +23,8 @@ In den Tabellen können folgende Tastatur Kürzel verwendet werden. (Kürzel sin
 
 **Dashboard:**
 
-* **Pfeil links** -> Kalendar Seite in der Zeit zurück
-* **Pfeil rechts** -> Kalendar Seite in der Zeit vorwärts
+* **Pfeil links** -> Kalender Seite in der Zeit zurück
+* **Pfeil rechts** -> Kalender Seite in der Zeit vorwärts
 
 **Allgemein:**
 
@@ -44,7 +44,7 @@ Die Chargen sollen einem helfen einen Warenfluss zu führen. Man kann damit abge
 * **Lager** -> Menge des Types auf Lager, Einkauf minus Ausgang. Kann nicht geändert werden wird automatisch kalkuliert.
 * **Preis** -> Einzel oder Gesamtpreis des Produktes, für Vergleiche.
 * **Beschr.** -> Bezeichnung / Beschreibung des Produktes (zB.: "Bio-Rohrzucker", "Met X-Treme").
-* **Charge** -> Chargen Bezeichnung des Produktes (kann auch eine Leiferschein oder Rechnungnummer bei Eingang sein).
+* **Charge** -> Chargen Bezeichnung des Produktes (kann auch eine Lieferschein oder Rechnungnummer bei Eingang sein).
 * **MHD** -> Mindesthaltbarkeitsdatum
 * **Kalibrieren** -> Vor jeder Abfüllung sollte die Waage kalibriert werden, dies ermöglicht es Abweichungen aufzuzeichnen.
 * **Datei** -> Einfaches verlinken auf Fotos oder Dateien (Premium).
@@ -145,10 +145,10 @@ Premium Membership gilt pro Imkerei und nicht pro User, dh. man braucht nur einm
 
 Chrome Webbrowser unterstützt installation von Webapplikationen. Dadurch wird die Webapplikationen in einen Wrapper gesetzt und die App erscheint als eigenständige Software und kann über einen einfachen Doppelklick als eigenständige Software gestartet werden. Hierzu geht man auf die Einstellungen von Chrome "..." -> "weitere tools" -> "Verknüpfung erstellen".
 
-<img src="/img/install1.png" alt="Install" loading="lazy">
-<img src="/img/install2.png" alt="Install" loading="lazy">
-<img src="/img/install3.png" alt="Install" loading="lazy">
-<img src="/img/install4.png" alt="Install" loading="lazy">
+<img src="/img/install1.png" alt="Install" loading="lazy" />
+<img src="/img/install2.png" alt="Install" loading="lazy" />
+<img src="/img/install3.png" alt="Install" loading="lazy" />
+<img src="/img/install4.png" alt="Install" loading="lazy" />
 
 ### NFC Aufkleber
 
@@ -156,5 +156,5 @@ NFC Aufkleber sind eine einfache und schnelle Möglichkeit mit einem Handy (mit 
 
 Danach kannst du die Aufkleber bei deinem Bienenstand anbringen und einfach mich aktivierten NFC über die Aufkleber drüber streichen (nur mit Android, iPhone liest moment leider keine NFC Tags automatisch).
 
-<img src="/img/nfc_tools.jpg" alt="NFC tools" loading="lazy">
-<img src="/img/nfc_tags.jpg" alt="NFC tags" loading="lazy">
+<img src="/img/nfc_tools.jpg" alt="NFC tools" loading="lazy" />
+<img src="/img/nfc_tags.jpg" alt="NFC tags" loading="lazy" />

@@ -9,7 +9,7 @@ category: Dokumentation
 
 ## Stock Aufgaben werden nicht angezeigt
 
-Ein Grund könnte das erste Wanderdatum vom Bienenstock sein. Für das System existieren nur Stöcke in Kombination mit Bienenständen, das erste Wanderdatum ist hier ausschlaggebend für Aufgaben um eine Verbindung zwischen Stand und Aufgabe zu erstellen. Wird eine Aufabe vor dem ersten Wanderdatum angelegt, wird diese nicht angezeigt. Um das Problem zu beheben kann das Wanderdatum zB über die Wandertabelle weiter in die Vergangenheit gesetzt werden.
+Ein Grund könnte das erste Wanderdatum vom Bienenstock sein. Für das System existieren nur Stöcke in Kombination mit Bienenständen, das erste Wanderdatum ist hier ausschlaggebend für Aufgaben um eine Verbindung zwischen Stand und Aufgabe zu erstellen. Wird eine Aufgabe vor dem ersten Wanderdatum angelegt, wird diese nicht angezeigt. Um das Problem zu beheben kann das Wanderdatum zB über die Wandertabelle weiter in die Vergangenheit gesetzt werden.
 
 ## Meine Fütterungsmethode (oder andere Methoden) sind nicht im System
 
@@ -17,7 +17,7 @@ Unser System ist so gut es geht individuell aufgebaut. Du kannst deine eigenen M
 
 ## Sprachsteuerung funktioniert nicht
 
-Leider ist die Sprachsteuerung noch sehr rudimentär und wird momentan nur von Chrome und Microsoft Edge unterstützt und kann hier auch etwas langsam ausfallen, da die Spracherkennung einen Internet Service von Google verwenden. Die Spracherkennung ist nur aktiv wenn man auf den Button klickt, eine dauernte Spracherkennung ist momentan für uns leider nicht möglich.
+Leider ist die Sprachsteuerung noch sehr rudimentär und wird momentan nur von Chrome und Microsoft Edge unterstützt und kann hier auch etwas langsam ausfallen, da die Spracherkennung einen Internet Service von Google verwenden. Die Spracherkennung ist nur aktiv wenn man auf den Button klickt, eine dauernde Spracherkennung ist momentan für uns leider nicht möglich.
 
 ## Premium läuft aus
 

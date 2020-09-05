@@ -17,7 +17,7 @@ If you contact us via e-mail your provided data will be saved for processing you
 
 Our website uses cookies. Cookies are small text files, which are stored on your device. They are not inflicting any damage and are used to improve your user experience. Some cookies will be stored on your device until you delete them. They allow us to identify your browser upon your return.
 
-If you do not agree with this, you can change your browser settings to beeing notified when you receive a cookie and given the choice to accept or decline it.
+If you do not agree with this, you can change your browser settings to being notified when you receive a cookie and given the choice to accept or decline it.
 
 If you deactivate cookies this may have implications on the full functionality of our website.
 
@@ -25,7 +25,7 @@ If you deactivate cookies this may have implications on the full functionality o
 
 We use AWStats and Report Magic, Matomo, the software only use pseudonymised Server Logfiles as source for the statistics. Each one runs on our own server and is not used by third party.
 Your IP address will be used only in parts (the last 8 Bits will be deleted) to determine your rough location.
-Following Data will be used: Browsertype and Browserversion (if from User transfered!), operation system, date and time of connection, amount of visits, time of visits on homepage, previous visited pages (if from User tranfered!), pseudonymised IP.
+Following Data will be used: Browsertype and Browserversion (if from User transferred!), operation system, date and time of connection, amount of visits, time of visits on homepage, previous visited pages (if from User transferred!), pseudonymised IP.
 
 Data processing is based on the following § 96 Section 3 TKG and art. 6 Section 1 lit a (Consent) and/or f (legitimate interest) of GDPR.
 
@@ -64,7 +64,7 @@ There is no data transfer to third parties. The stored data can be viewed at any
 
 Right to forget, when there is no successful login for 4 years on the user account the data will be automatically deleted from the system (database and file server). User accounts that never have been activated after registration will be deleted after one week.
 
-As part of login and use of the forum of the application, the IP address and the time of the respective user action will be saved. It is based on our legitimate interests, as well as the user’s protection againts misuse and other unauthorized use. A transfer of these data to third parties does not take place, unless it is necessary for the prosecution of our claims or there is legal obligation in accordance with art. 6 sec. 1 lit. c GDPR.
+As part of login and use of the forum of the application, the IP address and the time of the respective user action will be saved. It is based on our legitimate interests, as well as the user’s protection against misuse and other unauthorized use. A transfer of these data to third parties does not take place, unless it is necessary for the prosecution of our claims or there is legal obligation in accordance with art. 6 sec. 1 lit. c GDPR.
 
 ## External Services
 
