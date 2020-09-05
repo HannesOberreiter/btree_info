@@ -29,7 +29,7 @@ In following tables you can use this shortcuts. (Shortcuts are not active in det
 
 * **S** -> Open Search
 * **W** -> Open Weather Widget
-* **L** -> Speak Regoniction
+* **L** -> Speak Recognition
 
 ### Charge Control
 
@@ -114,7 +114,7 @@ This Feature is not working in all Browsers, so far it works only with Chrome an
 * **action + apiary/hive/charge** - first Dropdown
 * **kind + feed/harvest/treatment/checkup** - second Dropdown
 * **Select + Hive-/Apiaryname** - select hive or apiary (Info: dot (.) inside name wont work)
-* **Amount + amountvalue (eg. 12)** - changes amount field to given value (feed, harvest and treatment)
+* **Amount + amount value (eg. 12)** - changes amount field to given value (feed, harvest and treatment)
 * **Typ(e) + Type from Dropdown** - changes type dropdown
 * **Mode + Open/Done** - changes checkbox to open or done
 * **Save / Undone** - Save task or undone latest saved task
@@ -144,10 +144,10 @@ Premium Membership is per company and not per user, ie. you only need once Premi
 
 Chrome browser supports to install the homepage as application, which then can be started as a normal software. First step is to visit the dashboard -> open chrome settings "..." -> "more tools" -> "add shortcut". Chrome now create a simple application wrapper around the webpage, which can be started as a normal program.
 
-<img src="/img/install1.png" alt="Install" loading="lazy">
-<img src="/img/install2.png" alt="Install" loading="lazy">
-<img src="/img/install3.png" alt="Install" loading="lazy">
-<img src="/img/install4.png" alt="Install" loading="lazy">
+<img src="/img/install1.png" alt="Install" loading="lazy" />
+<img src="/img/install2.png" alt="Install" loading="lazy" />
+<img src="/img/install3.png" alt="Install" loading="lazy" />
+<img src="/img/install4.png" alt="Install" loading="lazy" />
 
 ### NFC Tags
 
@@ -155,5 +155,5 @@ NFC tags are an easy way to quickly access hive details with your mobile phone (
 
 After that simply stick the NFC tag on your hive and access quickly the details by swiping your mobile phone over the tag (only Android so far, iPhone wont read automatically NFC tags at the moment).
 
-<img src="/img/nfc_tools.jpg" alt="NFC tools" loading="lazy">
-<img src="/img/nfc_tags.jpg" alt="NFC tags" loading="lazy">
+<img src="/img/nfc_tools.jpg" alt="NFC tools" loading="lazy" />
+<img src="/img/nfc_tags.jpg" alt="NFC tags" loading="lazy" />

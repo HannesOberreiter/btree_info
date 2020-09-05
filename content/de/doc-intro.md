@@ -10,7 +10,7 @@ category: Dokumentation
 
 ### Wozu diese App?
 
-Diese Webapplikation soll dir helfen den Überblick über deine vergangenen und zukünftigen Imker Arbeiten an deinen Bienentöcken zu wahren und als einfaches Managment Tool dienen.
+Diese Webapplikation soll dir helfen den Überblick über deine vergangenen und zukünftigen Imker Arbeiten an deinen Bienenstöcken zu wahren und als einfaches Management Tool dienen.
 
 Die Idee ist es die Aufzeichnungspflichten (Tierarzneimittelgesetz) eines Imkers zu vereinfachen, sowie die als Bio-Imker zusätzlichen Aufzeichnungen über Fütterungen und Ernten einfach elektronisch zu führen. Die b.tree Webapplikation soll dich unterstützen diese Aufgaben zu erfüllen sowie erfolgreich deine Imkerei zu management.
 
@@ -53,7 +53,7 @@ Felder eines Stockes:
 * **Anzahl** -> Dieses Feld legt fest, wie viele Stöcke man anlegen möchte. Legt man mehr als einen Stock an, werden die Stocknamen durchnummeriert angelegt (Beispiel: Anzahl = 2, Name = Stock, Ergebnis: Stock1, Stock2).
 * **Name** -> Die Bezeichnung des Stockes.
 * **Stand** -> Der Bienenstand, wo sich der Stock befindet (Anm. jeder Stock benötigt einen Stand).
-* **Wanderdatum** -> Gibt an seit wann dieser Stock auf diesem Stand ist, ist auch wichtig für die Analge von Aufgaben. Legt man Aufgaben vor dem ersten Wanderdatum an werden diese ignoriert. Nur Aufgaben nach der ersten Wanderung werden angezeigt.
+* **Wanderdatum** -> Gibt an seit wann dieser Stock auf diesem Stand ist, ist auch wichtig für die Anlage von Aufgaben. Legt man Aufgaben vor dem ersten Wanderdatum an werden diese ignoriert. Nur Aufgaben nach der ersten Wanderung werden angezeigt.
 
 Zusätzliche Felder:
 
@@ -70,7 +70,7 @@ Es gibt folgende unterschiedlichen Möglichkeiten um neue Aufgaben/Arbeiten anzu
 
 #### **[Quicktool](https://www.btree.at/app/quicktool/create/hive/checkup)**
 
-Hier kann man einfach und übersichtlich neue Aufgaben anlegen. Im ersten Dropdown **Aktion** kann man auswählen ob man eine neue Aufgabe für einen Stock oder Stand anlegen möchte. Wird Stand ausgewählt, wird automatisch für jeden Stock, der gerade auf diesen Stand ist, die Aufgabe angelegt. Wählt man Stock kann man im Dropdown **Stöcke** einen oder auch mehrere Stöcke auswählen. Zusätzlich kann bei der Menge zur Fütterung, Ernte oder Behandlung auswählen ob man die Gesamtmenge eingibt oder die Einzelmenge, bei Gesammenge wird automatisch der Wert durch die Anzahl der Stöcke dividiert. Die Aufgabe wird dann nur für den/die ausgewählten Stöcke angelegt.
+Hier kann man einfach und übersichtlich neue Aufgaben anlegen. Im ersten Dropdown **Aktion** kann man auswählen ob man eine neue Aufgabe für einen Stock oder Stand anlegen möchte. Wird Stand ausgewählt, wird automatisch für jeden Stock, der gerade auf diesen Stand ist, die Aufgabe angelegt. Wählt man Stock kann man im Dropdown **Stöcke** einen oder auch mehrere Stöcke auswählen. Zusätzlich kann bei der Menge zur Fütterung, Ernte oder Behandlung auswählen ob man die Gesamtmenge eingibt oder die Einzelmenge, bei Gesamtmenge wird automatisch der Wert durch die Anzahl der Stöcke dividiert. Die Aufgabe wird dann nur für den/die ausgewählten Stöcke angelegt.
 
 #### **Aufgaben Tabelle**
 

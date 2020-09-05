@@ -80,8 +80,15 @@ export default {
     // Doc: https://github.com/nuxt-community/color-mode-module
     '@nuxtjs/color-mode',
     // Doc: https://github.com/nuxt-community/moment-module
-    '@nuxtjs/moment'
+    '@nuxtjs/moment',
+    // Doc: https://github.com/juliomrqz/nuxt-optimized-images
+    // https://marquez.co/docs/nuxt-optimized-images/?utm_source=github&utm_medium=readme&utm_campaign=nuxt-optimized-images
+    //'@aceforth/nuxt-optimized-images',
   ],
+  /*optimizedImages: {
+    optimizeImages: true,
+    optimizeImagesInDev: true,
+  },*/
   /*
   ** Nuxt.js modules
   */

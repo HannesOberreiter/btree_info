@@ -6,21 +6,21 @@ category: Dokumentation
 ---
 # API
 
-## ICAL Kalendar API
+## ICAL Kalender API
 
-Premium User können die Kalendar Daten über einen ICAL Link in den eigenen Kalender importieren. Im [Optionen->Profil](https://www.btree.at/app/profile/) muss der API Schlüssel aktiviert werden und die ICAL Links werden danach angezeigt.
+Premium User können die Kalender Daten über einen ICAL Link in den eigenen Kalender importieren. Im [Optionen->Profil](https://www.btree.at/app/profile/) muss der API Schlüssel aktiviert werden und die ICAL Links werden danach angezeigt.
 
 ### Google Kalender
 
-Unter weitere Kalender kann man die gegebene ICAL URL über den Link "Über URL Hinzufügen" eintragen. Danach erscheint der Kalendar im Google Kalender. Google Updated diese externen Kalender nur alle paar Stunden, dieser Parameter kann in der gratis Version von Google Kalender nicht geändert werden.
+Unter weitere Kalender kann man die gegebene ICAL URL über den Link "Über URL Hinzufügen" eintragen. Danach erscheint der Kalender im Google Kalender. Google Updated diese externen Kalender nur alle paar Stunden, dieser Parameter kann in der gratis Version von Google Kalender nicht geändert werden.
 
-<img src="/img/ical_google.jpg" alt="Google Import" loading="lazy">
+<img src="/img/ical_google.jpg" alt="Google Import" loading="lazy" />
 
 ### Mac/Apple Kalender
 
 Unter "Ablage" -> "Neues Kalenderabonnement" kann die ICAL URL hinzugefügt werden. Dort kann man auch Einstellen wie oft der Kalender neu geladen werden soll. Um unnötige Last auf den Server zu vermeiden, bitte je nach Art des Kalenders einen entsprechenden Interval zu wählen. (Beispiel Königinnen Serie nur auf täglich setzen)
 
-<img src="/img/ical_mac.jpg" alt="Mac Import" loading="lazy">
+<img src="/img/ical_mac.jpg" alt="Mac Import" loading="lazy" />
 
 ## Stockwaagen API
 
@@ -36,7 +36,7 @@ Als erstes musst du im Profil den API Schlüssel aktivieren. Damit kannst du bis
 
 **Fixe POST/GET Parameter**
 
-* ident   - "Test Scale" (Der Name der einzelnen Waage, Besipiel "Waage1", "Waage2". Existiert der Name noch nicht wird automatisch eine neue Waage im System erstellt)
+* ident   - "Test Scale" (Der Name der einzelnen Waage, Beispiel "Waage1", "Waage2". Existiert der Name noch nicht wird automatisch eine neue Waage im System erstellt)
 * action  - "CREATE" (benütze "CREATE_DEMO" um nur eine Antwort vom Server zu erhalten, ohne die Daten zu speichern, sozusagen ein Testmodus)
 * timezone - "Europe/Vienna" (Zeitzone, Format und Beschreibung findet man im folgenden Link http://php.net/manual/en/timezones.php)
 

@@ -44,7 +44,7 @@ category: About Me
 
 ## :mortar_board: Training
 
-- **2020** - ***Biology - Bachelor of Sciene***, University of Graz, Institute of Biology
+- **2020** - ***Biology - Bachelor of Science***, University of Graz, Institute of Biology
   - Thesis: Annual national survey of honey bee colony losses, wintered in Austria
 - **2019** - ***Apprenticeship completed as professional beekeeper***
 - **2015** - ***Evening school, leaving examination/professional maturity test***

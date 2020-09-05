@@ -10,11 +10,7 @@ category: About Me
 
 You can follow my flora and fauna observations at iNaturalist: <a href="https://www.inaturalist.org/observations/btree">observations/btree</a>
 
-<client-only>
-
 <inat></inat>
-
-</client-only>
 
 A small project of mine is to capture the fauna around and inside of a bee hive:
 

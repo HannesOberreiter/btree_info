@@ -1,5 +1,7 @@
 <template>
   <div class>
+    <client-only>
+    <content-loading slot="placeholder" :height="loadingContainer" :text="loadingText"></content-loading>
     <div v-for="item in this.items" :key="item.id" class="m-5 flex">
       <a :href="item.uri">
         <img
@@ -17,6 +19,7 @@
         </small>
       </div>
     </div>
+    </client-only>
   </div>
 </template>
 
@@ -26,6 +29,8 @@ export default {
   data() {
     return {
       items: {},
+      loadingText: "iNat Images Loading ...",
+      loadingContainer: 364,
     };
   },
   async mounted() {

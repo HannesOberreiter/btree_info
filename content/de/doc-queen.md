@@ -5,7 +5,7 @@ position: 23
 category: Dokumentation
 ---
 
-# Königin Managment
+# Königin Management
 
 ### Königin
 
