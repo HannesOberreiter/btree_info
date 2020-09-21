@@ -51,6 +51,8 @@ jobs:
         local_source_dir: dist
         dist_target_dir: .
         delete: "false"
+        only_newer: "true"
+        ignore_time: "true"
 
     # clear AWS cache
     - name: Configure AWS Credentials
