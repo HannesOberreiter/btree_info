@@ -25,11 +25,11 @@
     "nuxt": "^2.14.3",
     "nuxt-i18n": "^6.13.1",
     "remark-emoji": "^2.1.0",
-    "tailwindcss": "^1.5.2",
+    "tailwindcss": "^1.8.10",
     "vue-scrollactive": "^0.9.3"
   },
   "devDependencies": {
-    "@nuxtjs/color-mode": "^1.0.0",
+    "@nuxtjs/color-mode": "^1.1.1",
     "@nuxtjs/moment": "^1.6.1",
     "@nuxtjs/tailwindcss": "^3.0.0",
     "@tailwindcss/typography": "^0.2.0",

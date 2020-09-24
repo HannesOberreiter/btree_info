@@ -13,7 +13,6 @@ export default {
       publicPath: CDN
     //publicPath: '/info/',
   },
-  mode: "universal", // similar to mode: 'universal'
   /*
   ** Headers of the page
   */
