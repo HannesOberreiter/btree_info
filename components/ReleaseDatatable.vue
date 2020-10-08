@@ -21,8 +21,8 @@
 </template>
 
 <script>
-const ajax_src = "https://www.btree.at/app/news.json";
 const table_id = "#news";
+const ajax_src = "https://www.btree.at/app/news.json?timestamp="+Date.now();
 
 export default {
   mounted() {
@@ -41,7 +41,7 @@ export default {
         {
           data: "date",
           render: function (data, type, row) {
-            let r = `<b>${row.version}</b><br/>${row.date}`;
+            let r = `<b>${row.date}</b><br/>${row.version}`;
             return r;
           },
           className: "nowrap",
