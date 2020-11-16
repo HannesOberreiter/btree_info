@@ -33,7 +33,7 @@
     "@nuxtjs/moment": "^1.6.1",
     "@nuxtjs/tailwindcss": "^3.2.0",
     "@tailwindcss/typography": "^0.2.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^5.0.0",
     "remark-footnotes": "2",
     "sass-loader": "^10.0.1",
     "tailwindcss-dark-mode": "^1.1.5"
