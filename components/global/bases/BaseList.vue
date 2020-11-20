@@ -16,7 +16,7 @@ export default {
     },
     iconColor: {
       type: String,
-      default: "text-orange-500"
+      default: "text-yellow-500"
     }
   }
 }

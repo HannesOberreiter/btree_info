@@ -34,16 +34,16 @@ export default {
   @apply text-current;
 }
 .alert-warning {
-  @apply bg-orange-100 border-orange-400;
+  @apply bg-yellow-100 border-yellow-400;
 }
 .alert-warning code {
-  @apply bg-orange-200 shadow-none border-0 text-current;
+  @apply bg-yellow-200 shadow-none border-0 text-current;
 }
 .alert-warning .alert-icon {
-  @apply text-orange-400;
+  @apply text-yellow-400;
 }
 .alert-warning .alert-content {
-  @apply text-orange-700;
+  @apply text-yellow-700;
 }
 .dark-mode .alert a {
   @apply text-white !important;
@@ -52,7 +52,7 @@ export default {
   @apply bg-yellow-900 border-yellow-700;
 }
 .dark-mode .alert-warning .alert-content {
-  @apply text-orange-300 bg-yellow-900 border-yellow-700;
+  @apply text-yellow-300 bg-yellow-900 border-yellow-700;
 }
 .dark-mode .alert-warning .alert-content code {
   @apply bg-yellow-800 !important;

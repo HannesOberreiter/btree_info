@@ -53,4 +53,4 @@ The beekeeping web application got a simple and usable calendar with all your up
 
 </base-alert>
 
-<cloud-image url="btree-info/img/nfc_handy.jpg" alt="NFC Android App" custom="border-black dark:border-white border-2"></cloud-image>
+<cloud-image url="btree-info/img/nfc_handy.jpg" alt="NFC Android App" custom=""></cloud-image>

@@ -18,9 +18,31 @@ pro:
 
 # Costs & Price
 
-|**Basic[^1] - Free** | **Premium - 50,00 € per Year** |
-|-|-|
-|<BaseList :items="basic" icon-color="text-orange-500"></BaseList>|<BaseList :items="pro" icon-color="text-green-500"></BaseList>|
+<table class="table-auto">
+<thead><tr>
+<th>
+
+Basic [^1] - Free
+
+</th><th>
+
+Premium - 50,00 € per Year
+
+</th>
+<tbody class="dark:text-gray-300">
+<tr>
+<td>
+
+<BaseList :items="basic" icon-color="text-yellow-500"></BaseList>
+
+</td><td>
+
+<BaseList :items="pro" icon-color="text-green-500"></BaseList>
+
+</td>
+</tr>
+</tbody>
+</table>
 
 > As PREMIUM Member you support me to keep the database and homepage running. There are more features and functions already planned and I will try to improve the old ones. I want to say thanks to all user and hope you like my beekeeping software.
 
