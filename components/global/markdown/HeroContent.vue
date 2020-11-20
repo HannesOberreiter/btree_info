@@ -10,7 +10,7 @@
         <p class="text-2xl text-center w-full font-bold text-black dark:text-white">
           <a href="https://www.btree.at/app">
             <button
-              class="mx-auto lg:mx-0 hover:underline bg-orange-600 text-white font-bold rounded-full my-0 py-4 px-8 shadow-lg"
+              class="mx-auto lg:mx-0 hover:underline bg-yellow-600 text-white font-bold rounded-full my-0 py-4 px-8 shadow-lg"
             >Login / Register</button>
           </a>
         </p>

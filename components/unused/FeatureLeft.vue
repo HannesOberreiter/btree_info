@@ -10,7 +10,7 @@
           {{ content }}
           <br />
           <br />Images from:
-          <a class="text-orange-500 underline" href="https://undraw.co/">undraw.co</a>
+          <a class="text-yellow-500 underline" href="https://undraw.co/">undraw.co</a>
         </p>
       </div>
     </div>
