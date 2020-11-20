@@ -18,9 +18,31 @@ pro:
 
 # Kosten & Preis
 
-|**Basic[^1] - Gratis** | **Premium - 50,00 € pro Jahr** |
-|-|-|
-|<BaseList :items="basic" icon-color="text-orange-500"></BaseList>|<BaseList :items="pro" icon-color="text-green-500"></BaseList>|
+<table class="table-auto">
+<thead><tr>
+<th>
+
+Basic[^1] - Gratis
+
+</th><th>
+
+Premium - 50,00 € pro Jahr
+
+</th>
+<tbody class="dark:text-gray-300">
+<tr>
+<td>
+
+<BaseList :items="basic" icon-color="text-yellow-500"></BaseList>
+
+</td><td>
+
+<BaseList :items="pro" icon-color="text-green-500"></BaseList>
+
+</td>
+</tr>
+</tbody>
+</table>
 
 > Als Premium Member unterstützt ihr die Betreuung und Entwicklung der Applikation und den Server. Es werden laufend neue Features integriert sowie die bestehenden aktualisiert und verbessert. Die komplette Applikation wurde von mir alleine erstellt und wird auch von mir betreut. Ich arbeite daran in meiner Freizeit, deswegen können Updates etwas dauern. Dennoch bemühe ich mich so schnell wie möglich Fragen und Anregungen zu erfüllen.
 
