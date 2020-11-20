@@ -43,4 +43,4 @@ Erstelle Bienenstände mit einem einfachen Mausklick auf einer eigenen Bienensta
 
 </base-alert>
 
-<cloud-image url="btree-info/img/nfc_handy.jpg" alt="NFC Android App" custom="border-black dark:border-white border-2"></cloud-image>
+<cloud-image url="btree-info/img/nfc_handy.jpg" alt="NFC Android App" custom=""></cloud-image>
