@@ -43,7 +43,7 @@ jobs:
 
     # deploy our code
     - name: Deploy LFTP
-      uses: kevinpainchaud/simple-ftp-deploy-action@feature-only-newer
+      uses: kevinpainchaud/simple-ftp-deploy-action
       with:
         ftp_host:     ${{ secrets.FTP_HOST }}
         ftp_username: ${{ secrets.FTP_USERNAME }}
