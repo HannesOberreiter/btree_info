@@ -13,7 +13,6 @@ category: About Me
 ## :construction_worker: Professional background
 
 - **since 01/2013** ***One-man business***
-  - web design and webapp development, flyer and catalogue design
 - **since 01/2013** ***Beekeeping operation***
   - small certified organic beekeeping
 - **since 10/2012** ***Gas station (marginal employment)***

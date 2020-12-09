@@ -14,7 +14,6 @@ category: About Me
 ## :construction_worker: Beruflicher Werdegang
 
 - **seit 01/2013**    ***Gründung Einzelunternehmung***
-  - Webdesign und Webapp Entwicklung, Flyer und Katalogdesign
 - **seit 01/2013**     ***Imkerei***
   - kleine zertifizierte Bio-Imkerei
 - **seit 10/2012**     ***Tankwart (geringfügig)***
