@@ -8,7 +8,6 @@
         <h1>Patch Notes</h1>
         <client-only>
           <ReleaseDatatable
-            v-if="(isDataTableLoaded&&isQueryLoaded&&isMarkLoaded&&isMarkDTLoaded)"
           />
         </client-only>
       </article>
@@ -20,31 +19,34 @@
 export default {
   data() {
     return {
-      isQueryLoaded: true,
+      /*isQueryLoaded: true,
       skipDT: true,
       isDataTableLoaded: false,
       isMarkLoaded: false,
-      isMarkDTLoaded: false,
+      isMarkDTLoaded: false,*/
     };
   },
   head() {
     return {
       title: "Patch Notes",
+      // datatables CDN Source
+      // https://datatables.net/download/index
+      // DataTables Styling, jQuery3, DataTables
       link: [
         {
           hid: "ex-dt-styles",
           rel: "stylesheet",
-          href: "//cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css",
+          href: "//cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.22/datatables.min.css",
         },
-        {
+        /*{
           hid: "ex-dt-mark-styles",
           rel: "stylesheet",
           href:
             "https://cdn.datatables.net/plug-ins/1.10.13/features/mark.js/datatables.mark.min.css",
-        },
+        },*/
       ],
       script: [
-        {
+        /*{
           hid: "ex-jquery",
           src: "//code.jquery.com/jquery-3.5.1.min.js",
           integrity: "sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=",
@@ -54,17 +56,17 @@ export default {
             this.isQueryLoaded = true;
             this.skipDT = false;
           },
-        },
+        },*/
         {
           hid: "ex-dt",
-          src: "//cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js",
+          src: "//cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.22/datatables.min.js",
           skip: this.skipDT,
           defer: true,
           callback: () => {
             this.isDataTableLoaded = true;
           },
         },
-        {
+        /*{
           hid: "ex-mark",
           src: "https://cdn.jsdelivr.net/g/mark.js(jquery.mark.min.js)",
           defer: true,
@@ -84,7 +86,7 @@ export default {
           callback: () => {
             this.isMarkDTLoaded = true;
           },
-        },
+        },*/
       ],
     };
   },
