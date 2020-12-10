@@ -8,7 +8,7 @@
         <h1>Patch Notes</h1>
         <client-only>
           <ReleaseDatatable
-            v-if="(isDataTableLoaded)"
+            v-if="(isQueryLoaded && isDataTableLoaded)"
           />
         </client-only>
       </article>
@@ -20,8 +20,8 @@
 export default {
   data() {
     return {
-      //isQueryLoaded: true,
-      skipDT: false,
+      isQueryLoaded: true,
+      skipDT: true,
       isDataTableLoaded: false,
       //isMarkLoaded: false,
       //isMarkDTLoaded: false,
@@ -47,7 +47,7 @@ export default {
         },*/
       ],
       script: [
-        /*{
+        {
           hid: "ex-jquery",
           src: "//code.jquery.com/jquery-3.5.1.min.js",
           integrity: "sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=",
@@ -57,10 +57,10 @@ export default {
             this.isQueryLoaded = true;
             this.skipDT = false;
           },
-        },*/
+        },
         {
           hid: "ex-dt",
-          src: "//cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.22/datatables.min.js",
+          src: "//cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js",
           skip: this.skipDT,
           defer: true,
           callback: () => {
