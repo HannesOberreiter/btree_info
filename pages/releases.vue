@@ -8,6 +8,7 @@
         <h1>Patch Notes</h1>
         <client-only>
           <ReleaseDatatable
+            v-if="(isDataTableLoaded)"
           />
         </client-only>
       </article>
@@ -19,11 +20,11 @@
 export default {
   data() {
     return {
-      /*isQueryLoaded: true,
-      skipDT: true,
+      //isQueryLoaded: true,
+      skipDT: false,
       isDataTableLoaded: false,
-      isMarkLoaded: false,
-      isMarkDTLoaded: false,*/
+      //isMarkLoaded: false,
+      //isMarkDTLoaded: false,
     };
   },
   head() {
