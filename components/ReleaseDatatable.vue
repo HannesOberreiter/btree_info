@@ -1,7 +1,7 @@
 <template>
   <table
           id="news"
-          class="display nowrap stripe hover"
+          class=" hitespace-nowrap stripe"
           style="margin-top: 0rem; margin-bottom: 0rem;"
         >
           <thead>
@@ -34,7 +34,7 @@ export default {
       scrollX: true,
       autowidth: true,
       processing: true,
-      mark: true,
+      //mark: true,
       sorting: [[0, "desc"]],
       ajax: ajax_src,
       columns: [
@@ -44,7 +44,7 @@ export default {
             let r = `<b>${row.date}</b><br/>${row.version}`;
             return r;
           },
-          className: "nowrap",
+          className: "whitespace-nowrap align-top",
         },
         {
           data: "news",
@@ -90,45 +90,5 @@ table th {
 .dark-mode .even {
   background-color: rgb(255, 204, 102, 0) !important;
 }
-.sorting_1 {
-  background-color: rgb(255, 153, 51, 0) !important;
-}
-/*Form fields*/
-.dataTables_wrapper select,
-.dataTables_wrapper .dataTables_filter input {
-  padding-left: 1rem; /*pl-4*/
-  padding-right: 1rem; /*pl-4*/
-  padding-top: 0.5rem; /*pl-2*/
-  padding-bottom: 0.5rem; /*pl-2*/
-  line-height: 1.25; /*leading-tight*/
-  border-width: 2px; /*border-2*/
-  border-radius: 0.25rem;
-  border-color: #edf2f7; /*border-gray-200*/
-}
 
-/*Pagination Buttons*/
-.dataTables_wrapper .dataTables_paginate .paginate_button {
-  font-weight: 700; /*font-bold*/
-  border-radius: 0.25rem; /*rounded*/
-  border: 1px solid transparent; /*border border-transparent*/
-}
-
-/*Pagination Buttons - Current selected */
-.dataTables_wrapper .dataTables_paginate .paginate_button.current {
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); /*shadow*/
-  font-weight: 700; /*font-bold*/
-  border-radius: 0.25rem; /*rounded*/
-  background: #667eea !important; /*bg-indigo-500*/
-  border: 1px solid transparent; /*border border-transparent*/
-}
-
-/*Pagination Buttons - Hover */
-.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
-  color: #fff !important; /*text-white*/
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); /*shadow*/
-  font-weight: 700; /*font-bold*/
-  border-radius: 0.25rem; /*rounded*/
-  background: #667eea !important; /*bg-indigo-500*/
-  border: 1px solid transparent; /*border border-transparent*/
-}
 </style>
