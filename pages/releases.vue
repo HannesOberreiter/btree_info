@@ -23,8 +23,6 @@ export default {
       isQueryLoaded: true,
       skipDT: true,
       isDataTableLoaded: false,
-      //isMarkLoaded: false,
-      //isMarkDTLoaded: false,
     };
   },
   head() {
