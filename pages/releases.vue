@@ -39,12 +39,6 @@ export default {
           rel: "stylesheet",
           href: "//cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.22/datatables.min.css",
         },
-        /*{
-          hid: "ex-dt-mark-styles",
-          rel: "stylesheet",
-          href:
-            "https://cdn.datatables.net/plug-ins/1.10.13/features/mark.js/datatables.mark.min.css",
-        },*/
       ],
       script: [
         {
@@ -67,27 +61,6 @@ export default {
             this.isDataTableLoaded = true;
           },
         },
-        /*{
-          hid: "ex-mark",
-          src: "https://cdn.jsdelivr.net/g/mark.js(jquery.mark.min.js)",
-          defer: true,
-          skip: this.skipDT,
-          callback: () => {
-            this.isMarkLoaded = true;
-          },
-        },
-        {
-          hid: "ex-dt-mark",
-
-          src:
-            "https://cdn.datatables.net/plug-ins/1.10.13/features/mark.js/datatables.mark.js",
-          defer: true,
-          skip: this.skipDT,
-
-          callback: () => {
-            this.isMarkDTLoaded = true;
-          },
-        },*/
       ],
     };
   },
