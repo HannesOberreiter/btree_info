@@ -1,6 +1,6 @@
 ---
-title: Kosten
-description: 'Preis und Kosten der Imkerei Applikation.'
+title: Pricing
+description: Information about pricing and costs of the b.tree beekeeping app.'
 position: 12
 category: b.tree Beekeeping App
 basic:
