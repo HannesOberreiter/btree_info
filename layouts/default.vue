@@ -38,7 +38,7 @@
       </div>
     </main>
     <client-only>
-      <go-top :size=40 :max-width=20 :right=15 :bottom=15></go-top>
+      <go-top aria-label="Back To Top" :size=40 :max-width=20 :right=15 :bottom=15></go-top>
     </client-only>
     <TheFooter />
   </div>
