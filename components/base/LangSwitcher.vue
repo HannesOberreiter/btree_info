@@ -3,6 +3,7 @@
     <template #trigger="{ open, toggle }">
       <button
         class="rounded-md hover:text-green-500 focus:outline-none focus:outline-none"
+        aria-label="Language Switcher"
         :class="{ 'text-green-500': open }"
         @touchstart.stop.prevent="toggle"
       >
