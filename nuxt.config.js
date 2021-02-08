@@ -129,7 +129,8 @@ export default {
     parsePages: true,
     lazy: true,
     seo: true,
-    langDir: 'i18n/'
+    langDir: 'i18n/',
+    baseUrl: URL
   },
   sitemap: {
     hostname: URL,
