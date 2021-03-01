@@ -1203,10 +1203,10 @@
     html-minifier "^4.0.0"
     node-html-parser "^2.0.0"
 
-"@nuxt/http@^0.6.1":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@nuxt/http/-/http-0.6.2.tgz#194002fcf037f69b1572a6439f449839154e4b6a"
-  integrity sha512-XD1w1W92iKqA5Jo7pT3AgoLsWIUy4k3Ae7zyi+sgmFLReISjvr8neXbWiwxRm0yolsAg/WM++gDKFfGTh2LH8g==
+"@nuxt/http@^0.6.4":
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/@nuxt/http/-/http-0.6.4.tgz#ca03989b4d2308da468aebea6a2ce393db67eb3f"
+  integrity sha512-7tVuqjac611WArO9oLrzJqx9SRdTNrMZqBBKHaFbmWsnaIZyxb8tJcYPcjUZe8m9zWGvPiGAyi1JnToAaw7dKA==
   dependencies:
     "@nuxtjs/proxy" "^2.1.0"
     abort-controller "^3.0.0"
@@ -6577,10 +6577,10 @@ markdown-table@^2.0.0:
   dependencies:
     repeat-string "^1.0.0"
 
-marked@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-2.0.0.tgz#9662bbcb77ebbded0662a7be66ff929a8611cee5"
-  integrity sha512-NqRSh2+LlN2NInpqTQnS614Y/3NkVMFFU6sJlRFEpxJ/LHuK/qJECH7/fXZjk4VZstPW/Pevjil/VtSONsLc7Q==
+marked@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-2.0.1.tgz#5e7ed7009bfa5c95182e4eb696f85e948cefcee3"
+  integrity sha512-5+/fKgMv2hARmMW7DOpykr2iLhl0NgjyELk5yn92iE7z8Se1IS9n3UsFm86hFXIkvMBmVxki8+ckcpjBeyo/hw==
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -7411,10 +7411,10 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt-i18n@^6.20.0:
-  version "6.20.1"
-  resolved "https://registry.yarnpkg.com/nuxt-i18n/-/nuxt-i18n-6.20.1.tgz#a4247315d835e0d24cca162a5794fdc779d1a7d6"
-  integrity sha512-ZI0WsuxroqULJ0BcbR+PXY7nZJ/vUcaUeCz9AxDjoHNzWAJQdlgsdhmdD1V+u5GtDSMqUkDp3gI+dLQ2n7eOjg==
+nuxt-i18n@^6.20.3:
+  version "6.20.3"
+  resolved "https://registry.yarnpkg.com/nuxt-i18n/-/nuxt-i18n-6.20.3.tgz#40a902033b8508884c2e1ee87ce8855a68dcc04a"
+  integrity sha512-c+JQzJH5vp5fLwz6BcYFXB6dHxtlmZL10gPZLHo9Z13CU5NB2/U5ewbUfWuxK86Mi+41JW4aGPPaNL4U5LXOfQ==
   dependencies:
     "@babel/parser" "^7.5.5"
     "@babel/traverse" "^7.5.5"
