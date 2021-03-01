@@ -6,6 +6,12 @@ category: About Me
 ---
 # Projekte
 
+## Science
+
+<a href="https://scholar.google.com/citations?user=bs_92jEAAAAJ&hl">My Google Scholar Profile</a>
+
+<google-scholar></google-scholar>
+
 ## iNaturalist
 
 You can follow my flora and fauna observations at iNaturalist: <a href="https://www.inaturalist.org/observations/btree">observations/btree</a>
@@ -18,17 +24,11 @@ A small project of mine is to capture the fauna around and inside of a bee hive:
 
 ## GitHub
 
-<a href="https://github.com/HannesOberreiter">github.com/HannesOberreiter</a>
-
-<client-only>
-
-<img src="https://github-readme-stats.vercel.app/api?username=HannesOberreiter&count_private=true&show_icons=true&theme=merko" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HannesOberreiter&layout=compact&theme=merko" />
-
-</client-only>
-
-*NOTE: Top languages does not reflect my skills it's a metric from github.*
+<a href="https://github.com/HannesOberreiter">
+    <client-only>
+        <img src="https://github-readme-stats.vercel.app/api?username=HannesOberreiter&count_private=true&show_icons=true&theme=merko" alt = "github.com/HannesOberreiter" />
+    </client-only>
+</a>
 
 <small>Stats made possible with the great [Github-Readme-Stats](https://github-readme-stats.vercel.app)</small>
 
