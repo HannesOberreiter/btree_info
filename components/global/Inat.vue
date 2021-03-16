@@ -2,21 +2,23 @@
   <div class>
     <client-only>
     <content-loading slot="placeholder" :height="loadingContainer" :text="loadingText"></content-loading>
-    <div v-for="item in this.items" :key="item.id" class="m-5 flex">
-      <a :href="item.uri">
-        <img
-          :src="item.photos[0].url"
-          :alt="item.taxon.name"
-          class="rounded flex-none text-center"
-          style="margin:0;"
-        />
-      </a>
-      <div class="flex-1 pt-5 ml-5 mr-5">
-        <i>{{item.taxon.name}}</i>,
-        <small>
-          <br />
-          {{formatDate(item.observed_on)}}
-        </small>
+    <div class="grid md:grid-cols-2 grid-cols-1">
+      <div v-for="item in this.items" :key="item.id" class="m-5 flex">
+        <a :href="item.uri">
+          <img
+            :src="item.photos[0].url"
+            :alt="item.taxon.name"
+            class="rounded flex-none text-center"
+            style="margin:0;"
+          />
+        </a>
+        <div class="flex-1 pt-5 ml-5 mr-5">
+          <i>{{item.taxon.name}}</i>,
+          <small>
+            <br />
+            {{formatDate(item.observed_on)}}
+          </small>
+        </div>
       </div>
     </div>
     </client-only>

@@ -39,9 +39,9 @@ category: About Me
 <img alt="Orcid" src="/img/orcid.png" class="inline" style="margin-top: 0rem; margin-bottom: 0rem;" /> <a class="inline" href=https://orcid.org/0000-0003-1019-1245> https://orcid.org/0000-0003-1019-1245</a>
 </div>
 
-- **Oberreiter**, H.; Brodschneider, R. Austrian COLOSS Survey of Honey Bee Colony Winter Losses 2018/19 and Analysis of Hive Management Practices. Diversity 2020, 12, 99.
+- **Oberreiter**, H.; Dünser, A.; Schlagbauer, J.; Brodschneider R. Das Wildnisgebiet Dürrenstein – ein Lebensraum für wildlebende Bienenvölker? Entomologica Austriaca (2021) – 0028: 25 - 42.
 - Zangl, L., **Oberreiter**, H., Huss, H. et al. Discriminating larvae of two syntopic Cychramus species (Coleoptera, Nitidulidae) by means of bar-HRM analysis. Mol Biol Rep (2020).
-- Hannes **Oberreiter**, Anna Dünser, Johannes Schlagbauer, Robert Brodschneider (2021): Das Wildnisgebiet Dürrenstein – ein Lebensraum für wildlebende Bienenvölker? – Entomologica Austriaca – 0028: 25 - 42.
+- **Oberreiter**, H.; Brodschneider, R. Austrian COLOSS Survey of Honey Bee Colony Winter Losses 2018/19 and Analysis of Hive Management Practices. Diversity (2020), 12, 99.
 
 ## :mortar_board: Training
 
