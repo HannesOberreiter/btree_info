@@ -1,9 +1,7 @@
 import getRoutes from "./utils/getRoutes";
 
-//const URL = "https://info.btree.at";
-//const CDN = "https://aws.btree.at";
-const CDN = "http://localhost:3000/"
-const URL = "http://localhost:3000/"
+const URL = "https://info.btree.at";
+const CDN = "https://aws.btree.at";
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
