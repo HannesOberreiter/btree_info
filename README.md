@@ -6,23 +6,21 @@ Info and Landing Page for b.tree Application and personal information about Hann
 
 Made with @vue, @nuxt, @nuxt-content and @tailwindcss.
 
-## Development
+## Build Setup
 
 ```bash
 # install dependencies
-$ yarn install
+$ npm install
 
 # serve with hot reload at localhost:3000
-$ yarn dev
-```
+$ npm run dev
 
-Then you can start edit the [content](./content) directory.
+# build for production and launch server
+$ npm run build
+$ npm run start
 
-# Test for production
-
-```bash
-$ yarn generate
-$ serve dist/ # npm install -g serve
+# generate static project
+$ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

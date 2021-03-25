@@ -5,7 +5,7 @@ position: 11
 category: b.tree Beekeeping App
 ---
 
-<hero-content></hero-content>
+<markdown-hero-content></markdown-hero-content>
 
 ## About the App
 
@@ -15,7 +15,7 @@ In our beekeeping app most of the data is shown in tables for better overview of
 
 The web app is made for hobby and professional beekeepers, but the main focus was to build an app for organic beekeeper who must keep records or beekeepers who like to to keep stats and manage their beekeeping task in the cloud as it also features multiple users it also helps to improve beekeeping operations with more than one person to manage tasks.
 
-<cloud-image url="btree-info/img/bees" alt="b.tree Header"></cloud-image>
+<markdown-cloud-image url="btree-info/img/bees" alt="b.tree Header"></markdown-cloud-image>
 
 ## Cloud & Multi User
 
@@ -25,7 +25,7 @@ If you’ve got an internet connection access you can edit and access your beeke
 
 All important data as responsive graphic statistics. You can see how much honey you harvested from a single apiary or see the overall harvest per bee hive. Select single hives or a single varroa treatment method, to see detailed information.Compare multiple queens to select your next best queen for rearing offsprings. Start beekeeping with an data advantage. Our beekeeping web application helps you to improve your workflow!
 
-<cloud-image url="btree-info/img/stats" alt="Statistics for Premium Member"></cloud-image>
+<markdown-cloud-image url="btree-info/img/stats" alt="Statistics for Premium Member"></markdown-cloud-image>
 
 ## Checkup and Queen Rearing
 
@@ -37,7 +37,7 @@ PS.: You can also modify your bee race, hive type, feedings types and much more!
 
 </base-alert>
 
-<cloud-image url="btree-info/img/queen.png" alt="Queen Management"></cloud-image>
+<markdown-cloud-image url="btree-info/img/queen.png" alt="Queen Management"></markdown-cloud-image>
 
 ## Map & Calendar
 
@@ -45,7 +45,7 @@ Add Apiaries with a simple mouse click or move them with drag and drop, all is s
 
 The beekeeping web application got a simple and usable calendar with all your upcoming and done beekeeping tasks. As premium user you can also export the calendar to your phone if you use our hive scale API you can see daily weight changes on your hive scales.
 
-<cloud-image url="btree-info/img/map.jpg" alt="Apiary Map"></cloud-image>
+<markdown-cloud-image url="btree-info/img/map.jpg" alt="Apiary Map"></markdown-cloud-image>
 
 <base-alert type="info">
 
@@ -53,4 +53,4 @@ The beekeeping web application got a simple and usable calendar with all your up
 
 </base-alert>
 
-<cloud-image url="btree-info/img/nfc_handy.jpg" alt="NFC Android App" custom=""></cloud-image>
+<markdown-cloud-image url="btree-info/img/nfc_handy.jpg" alt="NFC Android App" custom=""></markdown-cloud-image>

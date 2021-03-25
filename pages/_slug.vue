@@ -6,18 +6,17 @@
     >
       <article
         class="prose max-w-none lg:px-8 dark:text-gray-100 dark:prose-dark"
-        v-bind:style="{ fontSize:  this.$store.state.font.value + 'rem' }"
+        :style="{ fontSize: this.$store.state.font.value + 'rem' }"
       >
         <nuxt-content :document="doc" />
       </article>
       <ArticlePrevNext :prev="prev" :next="next" />
     </div>
-        <ArticleToc v-if="doc.toc && doc.toc.length" :toc="doc.toc" />
+    <ArticleToc v-if="doc.toc && doc.toc.length" :toc="doc.toc" />
   </div>
 </template>
 
 <script>
-
 export default {
   name: "PageSlug",
   middleware({ params, redirect }) {
@@ -46,8 +45,6 @@ export default {
       prev,
       next,
     };
-  },
-  mounted() {
   },
   head() {
     return {
@@ -79,5 +76,6 @@ export default {
       ],
     };
   },
+  mounted() {},
 };
 </script>

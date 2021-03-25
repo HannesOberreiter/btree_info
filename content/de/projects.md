@@ -10,16 +10,16 @@ category: About Me
 
 <a href="https://scholar.google.com/citations?user=bs_92jEAAAAJ&hl">My Google Scholar Profile</a>
 
-<google-scholar></google-scholar>
+<markdown-google-scholar></markdown-google-scholar>
 
 ## iNaturalist
 
 Du kannst meine Fauna und Flora Beobachtungen unter iNaturalist folgen: <a href="https://www.inaturalist.org/observations/btree">observations/btree</a>
 
-<inat></inat>
+<markdown-inat></markdown-inat>
 
 Ein kleines Projekt von mir ist die Fauna am und in Bienenvölker zu protokollieren unter folgenden Projekt:
-<a href="https://www.inaturalist.org/projects/beehive-fauna"><cloud-image url="btree-info/img/inat" alt="iNaturalist"></cloud-image></a>
+<a href="https://www.inaturalist.org/projects/beehive-fauna"><markdown-cloud-image url="btree-info/img/inat" alt="iNaturalist"></markdown-cloud-image></a>
 
 ## GitHub
 

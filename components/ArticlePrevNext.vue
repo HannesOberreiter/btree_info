@@ -26,20 +26,20 @@ export default {
   props: {
     prev: {
       type: Object,
-      default: () => null
+      default: () => null,
     },
     next: {
       type: Object,
-      default: () => null
-    }
+      default: () => null,
+    },
   },
   methods: {
-    toLink (slug) {
-      if (slug === 'index') {
-        return this.localePath('slug')
+    toLink(slug) {
+      if (slug === "index") {
+        return this.localePath("slug");
       }
-      return this.localePath({ name: 'slug', params: { slug } })
-    }
-  }
-}
+      return this.localePath({ name: "slug", params: { slug } });
+    },
+  },
+};
 </script>

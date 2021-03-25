@@ -1,9 +1,10 @@
 <template>
-  <button 
-      class="rounded-md hover:text-green-500 focus:outline-none transition ease-in-out duration-150"
+  <button
+    class="rounded-md hover:text-green-500 focus:outline-none transition ease-in-out duration-150"
     aria-label="Font Size Mode"
-  @click="toggle()">
-    <IconFont  />
+    @click="toggle()"
+  >
+    <IconFont />
   </button>
 </template>
 

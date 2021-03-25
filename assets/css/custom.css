@@ -1,0 +1,13 @@
+table {
+	 font-size: 1rem;
+}
+ table th {
+	 font-size: 1.2rem;
+	 text-align: center;
+}
+/*.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode th, .dark-mode strong, .dark-mode blockquote {
+	 --text-opacity: 1;
+	 color: #f7fafc;
+	 color: rgba(247, 250, 252, var);
+}*/
+ 

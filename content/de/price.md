@@ -53,4 +53,4 @@ _Hannes Oberreiter_, Hobby Bio-Imker & Hobby Entwickler
 
 [^1]: Wenn du zuvor Premium User warst kannst du trotzdem mit all deinen angelegten Bienenstöcken und Ständen arbeiten, nur keine neuen anlegen.
 
-<CallToActionContent></CallToActionContent>
+<MarkdownCallToActionContent></MarkdownCallToActionContent>
