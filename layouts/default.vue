@@ -5,30 +5,45 @@
       <div class="flex flex-wrap relative">
         <aside
           class="w-full lg:w-1/5 lg:block fixed lg:relative inset-0 mt-16 lg:mt-0 z-30 bg-white dark:bg-gray-900 dark:bg-transparent"
-          :class="{ 'block': menu, 'hidden': !menu }"
+          :class="{ block: menu, hidden: !menu }"
         >
-          <div class="lg:sticky lg:top-0 lg:pt-16 lg:-mt-16 overflow-y-auto h-full">
+          <div
+            class="lg:sticky lg:top-0 lg:pt-16 lg:-mt-16 overflow-y-auto h-full"
+          >
             <ul class="p-4 lg:py-8 lg:pl-0 lg:pr-8">
-              <li v-for="(docs, category) in categories" :key="category" class="mb-4">
+              <li
+                v-for="(docs, category) in categories"
+                :key="category"
+                class="mb-4"
+              >
                 <h3
                   class="mb-2 text-gray-500 dark:text-gray-600 uppercase tracking-wide font-bold text-sm lg:text-xs"
-                >{{ category }}</h3>
+                >
+                  {{ category }}
+                </h3>
                 <ul>
-                  <li v-for="doc of docs" :key="doc.slug" class="text-gray-600 dark:text-gray-500">
+                  <li
+                    v-for="doc of docs"
+                    :key="doc.slug"
+                    class="text-gray-600 dark:text-gray-500"
+                  >
                     <NuxtLink
                       :to="toLink(doc.slug)"
                       class="px-2 rounded font-medium py-1 block hover:text-gray-700 dark-hover:text-gray-100"
                       exact-active-class="text-green-500 bg-green-100 hover:text-green-500 dark:text-white dark:bg-green-700 dark-hover:text-white"
-                    >{{ doc.title }}</NuxtLink>
+                      >{{ doc.title }}</NuxtLink
+                    >
                   </li>
                 </ul>
               </li>
               <li class="mb-4 lg:hidden">
                 <h3
                   class="mb-2 text-gray-500 dark:text-gray-600 uppercase tracking-wide font-bold text-sm lg:text-xs"
-                >More</h3>
+                >
+                  More
+                </h3>
 
-                <Socialicons socialclass="flex items-center ml-2" />
+                <BaseSocialicons socialclass="flex items-center ml-2" />
               </li>
             </ul>
           </div>
@@ -38,7 +53,13 @@
       </div>
     </main>
     <client-only>
-      <go-top aria-label="Back To Top" :size=40 :max-width=20 :right=15 :bottom=15></go-top>
+      <go-top
+        aria-label="Back To Top"
+        :size="40"
+        :max-width="20"
+        :right="15"
+        :bottom="15"
+      ></go-top>
     </client-only>
     <TheFooter />
   </div>
@@ -49,7 +70,7 @@ import Navbar from "@/components/Navbar";
 import TheFooter from "@/components/TheFooter";
 import SearchInput from "@/components/SearchInput";
 
-const GoTop = process.client ? require('@inotom/vue-go-top').default : null;
+const GoTop = process.client ? require("@inotom/vue-go-top").default : null;
 
 export default {
   components: {
@@ -57,6 +78,19 @@ export default {
     Navbar,
     TheFooter,
     SearchInput,
+  },
+  head() {
+    const i18nSeo = this.$nuxtI18nSeo();
+
+    return {
+      bodyAttrs: {
+        class: [
+          ...this.bodyClass,
+          "antialiased text-gray-700 leading-normal bg-white dark:bg-gray-900 dark:text-gray-100",
+        ],
+      },
+      ...i18nSeo,
+    };
   },
   computed: {
     bodyClass() {
@@ -83,19 +117,6 @@ export default {
       }
       return this.localePath({ name: "slug", params: { slug } });
     },
-  },
-  head() {
-    const i18nSeo = this.$nuxtI18nSeo();
-
-    return {
-      bodyAttrs: {
-        class: [
-          ...this.bodyClass,
-          "antialiased text-gray-700 leading-normal bg-white dark:bg-gray-900 dark:text-gray-100",
-        ],
-      },
-      ...i18nSeo,
-    };
   },
 };
 </script>

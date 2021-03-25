@@ -1,20 +1,28 @@
-import marked from 'marked'
+//import marked from "marked";
 // import sanitize from 'sanitize-html'
 
-export default function ({ app }, inject) {
-  const renderer = new marked.Renderer()
+/*export default function ({ app }, inject) {
+  const renderer = new marked.Renderer();
 
   renderer.link = function (href, title, text) {
-    return '<a target="_blank" href="' + href + '" title="' + title + '">' + text + '</a>'
-  }
+    return (
+      '<a target="_blank" href="' +
+      href +
+      '" title="' +
+      title +
+      '">' +
+      text +
+      "</a>"
+    );
+  };
 
   const compile = (markdown) => {
     if (!markdown) {
-      return
+      return;
     }
 
-    return marked(markdown, { renderer })
-  }
+    return marked(markdown, { renderer });
+  };
 
-  inject('markdown', compile)
-}
+  inject("markdown", compile);
+}*/

@@ -29,25 +29,25 @@
 </template>
 
 <script>
-import ClickAway from '~/directives/click-away'
+import ClickAway from "~/directives/click-away";
 
 export default {
-  name: 'Dropdown',
+  name: "Dropdown",
   directives: {
-    'click-away': ClickAway
+    "click-away": ClickAway,
   },
-  data () {
+  data() {
     return {
-      open: false
-    }
+      open: false,
+    };
   },
   methods: {
-    toggle () {
-      this.open = !this.open
+    toggle() {
+      this.open = !this.open;
     },
-    close () {
-      this.open = false
-    }
-  }
-}
+    close() {
+      this.open = false;
+    },
+  },
+};
 </script>

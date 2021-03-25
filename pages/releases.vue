@@ -1,15 +1,15 @@
 <template>
   <div class="flex flex-wrap-reverse">
-    <div class="w-full py-4 lg:pt-8 lg:pb-4 dark:border-gray-800 lg:border-l lg:border-r">
+    <div
+      class="w-full py-4 lg:pt-8 lg:pb-4 dark:border-gray-800 lg:border-l lg:border-r"
+    >
       <article
         class="prose max-w-none lg:px-8 dark:text-gray-100 dark:prose-dark"
-        v-bind:style="{ fontSize:  this.$store.state.font.value + 'rem' }"
+        :style="{ fontSize: this.$store.state.font.value + 'rem' }"
       >
         <h1>Patch Notes</h1>
         <client-only>
-          <ReleaseDatatable
-            v-if="(isQueryLoaded && isDataTableLoaded)"
-          />
+          <ReleaseDatatable v-if="isQueryLoaded && isDataTableLoaded" />
         </client-only>
       </article>
     </div>
@@ -35,7 +35,8 @@ export default {
         {
           hid: "ex-dt-styles",
           rel: "stylesheet",
-          href: "//cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.22/datatables.min.css",
+          href:
+            "//cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.22/datatables.min.css",
         },
       ],
       script: [
@@ -64,4 +65,3 @@ export default {
   },
 };
 </script>
-

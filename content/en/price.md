@@ -54,4 +54,4 @@ _Hannes Oberreiter, Hobby Organic Beekeeper & Hobby Programmer_
 
 [^1]: If you were premium before you still can use all of your hives and apiaries! But you cannot add new ones.
 
-<CallToActionContent></CallToActionContent>
+<MarkdownCallToActionContent></MarkdownCallToActionContent>
