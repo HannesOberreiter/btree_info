@@ -14,15 +14,15 @@ category: About Me
 ## :construction_worker: Beruflicher Werdegang
 
 - **seit 01/2013**    ***Gründung Einzelunternehmung***
-- **seit 01/2013**     ***Imkerei***
-  - kleine zertifizierte Bio-Imkerei
-- **seit 10/2012**     ***Tankwart (geringfügig)***
-  - Buchhaltung und Backoffice
+- **seit 01/2013**     ***Landwirt***
+  - kleine zertifizierte Bio-Imkerei und Forstwirtschaft
 
 <hr style="margin: 1rem" />
 
 - **2018, 2019, 2020**    ***Universität Graz***
   - Immer wieder geringfügige Anstellungen: Tutor, Projektgruppen, Programmieren, Statistik, Imkerei
+- **10/2012-04/2020**     ***Tankwart (geringfügig)***
+  - Buchhaltung und Backoffice
 - **11/2019 - 03/2020**   ***Imkereiarbeiter, NEUSEELAND***
 - **05/2013 - 08/2016**   ***Post Zustelldienst***
   - LKW be- & entladen; Paketzustellung
@@ -37,7 +37,10 @@ category: About Me
 ## :paperclip: Publikationen
 
 <div>
-<img alt="Orcid" src="/img/orcid.png" class="inline" style="margin-top: 0rem; margin-bottom: 0rem;" /> <a class="inline" href=https://orcid.org/0000-0003-1019-1245> https://orcid.org/0000-0003-1019-1245</a>
+  <img alt="Orcid" src="/img/orcid.png" class="inline" style="margin-top: 0rem; margin-bottom: 0rem;" />
+  <a class="inline" href=https://orcid.org/0000-0003-1019-1245>
+    https://orcid.org/0000-0003-1019-1245
+  </a>
 </div>
 
 - **Oberreiter**, H.; Dünser, A.; Schlagbauer, J.; Brodschneider R. Das Wildnisgebiet Dürrenstein – ein Lebensraum für wildlebende Bienenvölker? Entomologica Austriaca (2021) – 0028: 25 - 42.
