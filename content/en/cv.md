@@ -13,15 +13,15 @@ category: About Me
 ## :construction_worker: Professional background
 
 - **since 01/2013** ***One-man business***
-- **since 01/2013** ***Beekeeping operation***
-  - small certified organic beekeeping
-- **since 10/2012** ***Gas station (marginal employment)***
-  - accounting and back office
+- **since 01/2013** ***Farmer***
+  - small certified organic beekeeping operation and forestry
 
 <hr style="margin: 1rem" />
 
 - **2018, 2019, 2020** ***University of Graz***
   - minor employments: tutor, project groups, programming, statistics, beekeeping
+- **10/2012 - 04/2020** ***Gas station (marginal employment)***
+  - accounting and back office
 - **11/2019 - 03/2020** ***Beekeeping Worker, New Zealand***
 - **05/2013 - 08/2016** ***Post Delivery Service***
   - loading & unloading trucks; package delivery
@@ -36,7 +36,10 @@ category: About Me
 ## :paperclip: Publications
 
 <div>
-<img alt="Orcid" src="/img/orcid.png" class="inline" style="margin-top: 0rem; margin-bottom: 0rem;" /> <a class="inline" href=https://orcid.org/0000-0003-1019-1245> https://orcid.org/0000-0003-1019-1245</a>
+  <img alt="Orcid" src="/img/orcid.png" class="inline" style="margin-top: 0rem; margin-bottom: 0rem;" />
+  <a class="inline" href=https://orcid.org/0000-0003-1019-1245>
+    https://orcid.org/0000-0003-1019-1245
+  </a>
 </div>
 
 - **Oberreiter**, H.; Dünser, A.; Schlagbauer, J.; Brodschneider R. Das Wildnisgebiet Dürrenstein – ein Lebensraum für wildlebende Bienenvölker? Entomologica Austriaca (2021) – 0028: 25 - 42.
