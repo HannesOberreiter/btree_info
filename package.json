@@ -11,7 +11,7 @@
     "lint": "npm run lint:js"
   },
   "dependencies": {
-    "@babel/runtime-corejs2": "^7.13.10",
+    "@babel/runtime-corejs2": "^7.13.17",
     "@inotom/vue-go-top": "^1.3.0",
     "@nuxt/content": "^1.14.0",
     "@nuxt/http": "^0.6.4",
@@ -20,10 +20,10 @@
     "@soda/get-current-script": "^1.0.2",
     "@tailwindcss/typography": "github:tailwindcss/typography",
     "cloudinary-vue": "^1.2.0",
-    "core-js": "^3.10.0",
+    "core-js": "^3.11.0",
     "lodash.groupby": "^4.6.0",
     "nuxt": "^2.15.4",
-    "nuxt-i18n": "^6.22.3",
+    "nuxt-i18n": "^6.26.0",
     "remark-emoji": "^2.2.0",
     "tailwindcss-dark-mode": "^1.1.7",
     "vue-scrollactive": "^0.9.3"
@@ -35,11 +35,11 @@
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/tailwindcss": "^4.0.3",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.23.0",
+    "eslint": "^7.25.0",
     "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-vue": "^7.7.0",
-    "postcss": "^8.2.9",
-    "stylelint": "^13.12.0",
-    "stylelint-config-standard": "^21.0.0"
+    "eslint-plugin-vue": "^7.9.0",
+    "postcss": "^8.2.13",
+    "stylelint": "^13.13.0",
+    "stylelint-config-standard": "^22.0.0"
   }
 }
