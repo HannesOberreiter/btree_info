@@ -15,10 +15,13 @@ category: About Me
 - **since 01/2013** ***One-man business***
 - **since 01/2013** ***Farmer***
   - small certified organic beekeeping operation and forestry
+- **2020, 2021**  ***Zukunft Biene 2 (Geringfügig)***
+  - Research project on bee health in Austria
+  - Scientific Assistant
 
 <hr style="margin: 1rem" />
 
-- **2018, 2019, 2020** ***University of Graz***
+- **2018, 2019, 2020, 2021** ***University of Graz***
   - minor employments: tutor, project groups, programming, statistics, beekeeping
 - **10/2012 - 04/2020** ***Gas station (marginal employment)***
   - accounting and back office
