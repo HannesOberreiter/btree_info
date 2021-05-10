@@ -16,10 +16,13 @@ category: About Me
 - **seit 01/2013**    ***Gründung Einzelunternehmung***
 - **seit 01/2013**     ***Landwirt***
   - kleine zertifizierte Bio-Imkerei und Forstwirtschaft
+- **2020, 2021**  ***Zukunft Biene 2 (Geringfügig)***
+  - Forschungsprojekt zur Bienengesundheit in Österreich
+  - Wissenschaftlicher Mitarbeiter
 
 <hr style="margin: 1rem" />
 
-- **2018, 2019, 2020**    ***Universität Graz***
+- **2018, 2019, 2020, 2021**    ***Universität Graz***
   - Immer wieder geringfügige Anstellungen: Tutor, Projektgruppen, Programmieren, Statistik, Imkerei
 - **10/2012-04/2020**     ***Tankwart (geringfügig)***
   - Buchhaltung und Backoffice
