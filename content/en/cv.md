@@ -15,7 +15,7 @@ category: About Me
 - **since 01/2013** ***One-man business***
 - **since 01/2013** ***Farmer***
   - small certified organic beekeeping operation and forestry
-- **2020, 2021**  ***Zukunft Biene 2 (Geringfügig)***
+- **2020, 2021**  ***Zukunft Biene 2 (marginal employment)***
   - Research project on bee health in Austria
   - Scientific Assistant
 
@@ -60,6 +60,6 @@ category: About Me
 
 ## :memo: Skills
 
-My mother tongue is **German**, but I also speak and write very good **English**. In programming I have experience with **R, Javascript, PHP, Python** and others, as well as typesetting in **LaTeX** and databanks with **MySQL** and various frameworks (eg. Bootstrap, jQuery, Vue.js). In my studies of **Biology** I also took **Statistics** and **Bioinformatics** courses and applied them in practice. Through previous jobs and work I have gained experience in **graphics and design** as well as the different tools (InDesign, Illustrator etc.). Due to my travels abroad and also due to my own agriculture I have simple handicraft skills and can also do forestry work and own the driving licence ABCEF. In general I have a wide range of skills due to my broad interest in science, programming and agriculture.
+I can speak and write **German** (mother tongue) and **English**. Due to my travels abroad on various organic farms I'm familiar with handy work and farm work overall. I also can do forestry work. With my office jobs I got experienced with **graphics and design** (InDesign, Illustrator etc.). I'm also a self-taught programmer using mainly **Javascript, R, MySQL**, less experienced but also know my way around **TypeScript and Python**. Thanks to some bigger projects I'm good and familiar with **Git** and typesetting of documents in **LaTeX**. In my study of **Biology** I also took **GIS**, **Statistics** and **Bioinformatics** courses, which where my favourites. In general I have a wide range of skills due to my broad interest in science, programming and agriculture.
 
 <markdown-cloud-image url="btree-info/img/hannes" alt="Hannes Oberreiter"></markdown-cloud-image>
