@@ -12,6 +12,11 @@ category: About Me
 
 <markdown-google-scholar></markdown-google-scholar>
 
+## Online Talks und Präsentationen
+
+- 2021-06-15, [Advanced R Book Club: R6](https://youtu.be/NXmlqK2LxWw)
+- 2021-06-08, [Advanced R Book Club: OOP & S3](https://youtu.be/NeHtEGab1Og)
+
 ## iNaturalist
 
 Du kannst meine Fauna und Flora Beobachtungen unter iNaturalist folgen: <a href="https://www.inaturalist.org/observations/btree">observations/btree</a>
