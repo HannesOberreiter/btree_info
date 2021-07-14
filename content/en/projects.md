@@ -6,11 +6,9 @@ category: About Me
 ---
 # Projekte
 
-## Science
+## Publications
 
-<a href="https://scholar.google.com/citations?user=bs_92jEAAAAJ&hl">My Google Scholar Profile</a>
-
-<markdown-google-scholar></markdown-google-scholar>
+<markdown-publications></markdown-publications>
 
 ## Online Talks and Presentations
 
@@ -22,10 +20,6 @@ category: About Me
 You can follow my flora and fauna observations at iNaturalist: <a href="https://www.inaturalist.org/observations/btree">observations/btree</a>
 
 <markdown-inat></markdown-inat>
-
-A small project of mine is to capture the fauna around and inside of a bee hive:
-
-<a href="https://www.inaturalist.org/projects/beehive-fauna"><markdown-cloud-image url="btree-info/img/inat" alt="iNaturalist"></markdown-cloud-image></a>
 
 ## GitHub
 
