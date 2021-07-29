@@ -14,6 +14,7 @@ category: About Me
 
 - 2021-06-15, [Advanced R Book Club: R6](https://youtu.be/NXmlqK2LxWw)
 - 2021-06-08, [Advanced R Book Club: OOP & S3](https://youtu.be/NeHtEGab1Og)
+- 2021-07-13, [Advanced R Book Club: Expressions](https://youtu.be/Jc_R4yFsYeE)
 
 ## iNaturalist
 
