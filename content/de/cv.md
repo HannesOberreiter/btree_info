@@ -27,6 +27,7 @@ category: About Me
 - **10/2012-04/2020**     ***Tankwart (geringfügig)***
   - Buchhaltung und Backoffice
 - **11/2019 - 03/2020**   ***Imkereiarbeiter, NEUSEELAND***
+- **03/2018 - 04/2018**   ***Biologie Exkursion Zambia, Botswana, AFRIKA***
 - **05/2013 - 08/2016**   ***Post Zustelldienst***
   - LKW be- & entladen; Paketzustellung
 - **09/2012 - 10/2012**   ***Sägehelfer***
