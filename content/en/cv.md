@@ -25,7 +25,8 @@ category: About Me
   - minor employments: tutor, project groups, programming, statistics, beekeeping
 - **10/2012 - 04/2020** ***Gas station (marginal employment)***
   - accounting and back office
-- **11/2019 - 03/2020** ***Beekeeping Worker, New Zealand***
+- **11/2019 - 03/2020** ***Beekeeping Worker, NEW ZEALAND***
+- **03/2018 - 04/2018** ***Biology Field Trip Zambia, Botswana, AFRICA***
 - **05/2013 - 08/2016** ***Post Delivery Service***
   - loading & unloading trucks; package delivery
 - **09/2012 - 10/2012** ***Saw mill helper***
