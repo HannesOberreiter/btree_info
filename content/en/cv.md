@@ -45,6 +45,7 @@ category: About Me
 
 - **2020** - ***Biology - Bachelor of Science***, University of Graz, Institute of Biology
   - Thesis: Annual national survey of honey bee colony losses, wintered in Austria
+  - Performance scholarship 2017/2018 & 2016/2017
 - **2019** - ***Apprenticeship completed as professional beekeeper***
 - **2015** - ***Evening school, leaving examination/professional maturity test***
   - "Business Administration, Accounting and Economics"
