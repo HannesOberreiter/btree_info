@@ -46,6 +46,7 @@ category: About Me
 
 - **2020** - ***Biologie - Bachelor of Science***, Universität Graz, Institut der Biologie
   - Thesis: Annual national survey of honey bee colony losses, wintered in Austria
+  - Leistungsstipendium 2017/2018 & 2016/2017
 - **2019** - ***Ausbildung abgeschlossen zum Bienenfacharbeiter***
 - **2015** - ***Abendmatura/Berufsreifeprüfung***
   - Fachbereich „Betriebswirtschaft, Rechnungswesen und Volkswirtschaft“
