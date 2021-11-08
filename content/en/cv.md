@@ -21,6 +21,8 @@ category: About Me
 
 <hr style="margin: 1rem" />
 
+- **09/2021 - 11/2021** ***University of Svalbard, NORWAY***
+  - Metabarcoding & Arctic Marine Molecular Ecology course
 - **2018, 2019, 2020, 2021** ***University of Graz***
   - minor employments: tutor, project groups, programming, statistics, beekeeping
 - **10/2012 - 04/2020** ***Gas station (marginal employment)***
