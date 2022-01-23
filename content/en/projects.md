@@ -10,6 +10,11 @@ category: About Me
 
 <markdown-publications></markdown-publications>
 
+## Homepages
+
+- <https://www.beekeeping-news.com/>
+  - A curated selection of worldwide feeds related around the topic of beekeeping and honeybees.
+
 ## Online Talks and Presentations
 
 - 2021-06-15, [Advanced R Book Club: R6](https://youtu.be/NXmlqK2LxWw)
