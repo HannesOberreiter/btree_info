@@ -10,6 +10,11 @@ category: About Me
 
 <markdown-publications></markdown-publications>
 
+## Websiten
+
+- <https://www.beekeeping-news.com/de>
+  - Eine kuratierte Auswahl weltweiter Feeds rund um das Thema Bienenzucht und Honigbienen.
+
 ## Online Talks und Präsentationen
 
 - 2021-06-15, [Advanced R Book Club: R6](https://youtu.be/NXmlqK2LxWw)
