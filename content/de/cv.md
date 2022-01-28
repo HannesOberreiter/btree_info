@@ -16,12 +16,12 @@ category: About Me
 - **seit 01/2013**    ***Gründung Einzelunternehmung***
 - **seit 01/2013**    ***Landwirt***
   - kleine zertifizierte Bio-Imkerei und Forstwirtschaft
-- **2020, 2021**  ***Zukunft Biene 2 (Geringfügig)***
-  - Forschungsprojekt zur Bienengesundheit in Österreich
-  - Wissenschaftlicher Mitarbeiter
 
 <hr style="margin: 1rem" />
 
+- **2020, 2021**  ***Zukunft Biene 2 (Geringfügig)***
+  - Forschungsprojekt zur Bienengesundheit in Österreich
+  - Wissenschaftlicher Mitarbeiter
 - **09/2021 - 11/2021** ***Universität Svalbard, NORWEGEN***
   - Metabarcoding & Arktisch Marine Molekular-Ökologie Kurs
 - **2018, 2019, 2020, 2021**    ***Universität Graz***

@@ -15,12 +15,12 @@ category: About Me
 - **since 01/2013** ***One-man business***
 - **since 01/2013** ***Farmer***
   - small certified organic beekeeping operation and forestry
-- **2020, 2021**  ***Zukunft Biene 2 (marginal employment)***
-  - Research project on bee health in Austria
-  - Scientific Assistant
 
 <hr style="margin: 1rem" />
 
+- **2020, 2021**  ***Zukunft Biene 2 (marginal employment)***
+  - Research project on bee health in Austria
+  - Scientific Assistant
 - **09/2021 - 11/2021** ***University of Svalbard, NORWAY***
   - Metabarcoding & Arctic Marine Molecular Ecology course
 - **2018, 2019, 2020, 2021** ***University of Graz***
