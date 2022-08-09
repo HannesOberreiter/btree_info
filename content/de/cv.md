@@ -13,6 +13,7 @@ category: About Me
 
 ## :construction_worker: Beruflicher Werdegang
 
+- **seit 2022** auf Teilzeit Arbeitssuche
 - **seit 01/2013**    ***Gründung Einzelunternehmung***
 - **seit 01/2013**    ***Landwirt***
   - kleine zertifizierte Bio-Imkerei und Forstwirtschaft
