@@ -12,6 +12,7 @@ category: About Me
 
 ## :construction_worker: Professional background
 
+- **since 2022** on part time job search
 - **since 01/2013** ***One-man business***
 - **since 01/2013** ***Farmer***
   - small certified organic beekeeping operation and forestry
