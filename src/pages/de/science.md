@@ -2,6 +2,7 @@
 layout: '../../layouts/MainLayout.astro'
 description: 'Publikationen und Präsentationen von Hannes Oberreiter'
 title: 'Science'
+lang: "de"
 ---
 
 ## Veröffentlichungen

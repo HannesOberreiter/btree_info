@@ -2,6 +2,7 @@
 title: First Steps
 description: 'Dokumentation und Hilfe zur Imkerei Software'
 layout: "../../layouts/IndexLayout.astro"
+lang: "en"
 ---
 
 ### Why should I use this App?

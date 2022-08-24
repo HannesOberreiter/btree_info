@@ -1,7 +1,7 @@
 export const SITE = {
   title: "b.tree",
   description: "Professional Beekeeping Database",
-  defaultLanguage: "en_US",
+  defaultLanguage: "de_DE",
 };
 
 export const OPEN_GRAPH = {
