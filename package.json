@@ -10,20 +10,17 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@docsearch/css": "^3.1.0",
-    "@docsearch/react": "^3.1.0",
-    "@types/react": "^17.0.45",
-    "@vueuse/core": "^9.1.0",
+    "@vueuse/core": "^9.1.1",
     "remark-emoji": "^3.0.2"
   },
   "devDependencies": {
     "@astrojs/image": "^0.3.6",
-    "@astrojs/mdx": "^0.10.0",
+    "@astrojs/mdx": "^0.10.1",
     "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^1.0.0",
     "@astrojs/vue": "^1.0.0",
     "@vitejs/plugin-vue": "^3.0.3",
-    "astro": "^1.0.7",
+    "astro": "^1.0.8",
     "astro-compress": "^1.0.5",
     "astro-robots-txt": "^0.3.8",
     "vue": "^3.2.37"
