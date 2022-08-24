@@ -2,6 +2,7 @@
 title: Legal notice and about
 description: 'b.tree About and Legal Notice'
 layout: ../../layouts/MainLayout.astro
+lang: "en"
 ---
 
 ### btree.at

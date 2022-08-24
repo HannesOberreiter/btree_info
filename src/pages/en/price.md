@@ -2,6 +2,7 @@
 title: "Kosten & Preis"
 description: 'Preis und Kosten der Imkerei Applikation.'
 layout: '../../layouts/MainLayout.astro'
+lang: "en"
 ---
 
 | **Basic[^1]  - Free**          | **Premium - 50,00€ per Year**                                             |
