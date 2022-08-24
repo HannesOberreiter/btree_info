@@ -1,45 +1,31 @@
 {
-  "name": "btree_info",
-  "version": "1.0.0",
+  "name": "@example/docs",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
-    "lint": "npm run lint:js"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "@babel/runtime-corejs2": "^7.13.17",
-    "@inotom/vue-go-top": "^1.3.0",
-    "@nuxt/content": "^1.14.0",
-    "@nuxt/http": "^0.6.4",
-    "@nuxtjs/color-mode": "^2.0.5",
-    "@nuxtjs/sitemap": "github:nuxt-community/sitemap-module#feat/static-crawler",
-    "@soda/get-current-script": "^1.0.2",
-    "@tailwindcss/typography": "github:tailwindcss/typography",
-    "cloudinary-vue": "^1.2.0",
-    "core-js": "^3.11.0",
-    "lodash.groupby": "^4.6.0",
-    "nuxt": "^2.15.4",
-    "nuxt-i18n": "^6.26.0",
-    "remark-emoji": "^2.2.0",
-    "tailwindcss-dark-mode": "^1.1.7",
-    "vue-scrollactive": "^0.9.3"
+    "@docsearch/css": "^3.1.0",
+    "@docsearch/react": "^3.1.0",
+    "@types/react": "^17.0.45",
+    "@vueuse/core": "^9.1.0",
+    "remark-emoji": "^3.0.2"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.4",
-    "@nuxt/typescript-build": "^2.1.0",
-    "@nuxtjs/eslint-config-typescript": "^6.0.0",
-    "@nuxtjs/eslint-module": "^3.0.2",
-    "@nuxtjs/tailwindcss": "^4.0.3",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.25.0",
-    "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-vue": "^7.9.0",
-    "postcss": "^8.2.13",
-    "stylelint": "^13.13.0",
-    "stylelint-config-standard": "^22.0.0"
+    "@astrojs/image": "^0.3.6",
+    "@astrojs/mdx": "^0.10.0",
+    "@astrojs/sitemap": "^1.0.0",
+    "@astrojs/tailwind": "^1.0.0",
+    "@astrojs/vue": "^1.0.0",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "astro": "^1.0.7",
+    "astro-compress": "^1.0.5",
+    "astro-robots-txt": "^0.3.8",
+    "vue": "^3.2.37"
   }
 }
