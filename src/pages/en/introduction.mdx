@@ -1,0 +1,81 @@
+---
+title: "b.tree Beekeeping Software"
+description: "Webapplication and database for managing bee colonies"
+layout: "../../layouts/MainLayout.astro"
+---
+
+import { Picture } from "@astrojs/image/components";
+import nfcImage from "../../assets/nfc_handy.jpg";
+import mobile from "../../assets/mobile.png";
+import calendar from "../../assets/calendar.png";
+import statistic from "../../assets/statistic.png";
+
+<div class="text-justify">
+
+<Picture
+  src={mobile}
+  class="float-right pl-2"
+  widths={[20, 50, 200]}
+  sizes="(max-width: 200px) 50vw, 400px"
+  alt="mobile webapp"
+/>
+
+**B.TREE - proudly serving since 2014**
+
+This beekeeping web application was made to help beekeepers manager their tasks and have an quick overview. You add your feedings, harvests, treatments, checkups and much more. Move hive between apiaries and also manage your bee queens on your hives. You can create your own rearing methods and edit most options to your needs (eg. hive type, race, feeding type). Apiaries are easily managed with a apiary map which features satellite images and weather overlays.
+
+In our beekeeping app most of the data is shown in tables for better overview of big data, also you can export your data as CSV or XLS to manipulate the data yourself and making a full database backup with all your saved data. A simple calendar on the starting helps to keep an overview over your past task and upcoming beekeeping tasks. Premium User can also access the API which allows them to export the ICAL events and have access to quick and responsive statistic in our beekeeping software.
+
+The web app is made for hobby and professional beekeepers, but the main focus was to build an app for organic beekeeper who must keep records or beekeepers who like to to keep stats and manage their beekeeping task in the cloud as it also features multiple users it also helps to improve beekeeping operations with more than one person to manage tasks.
+
+</div>
+
+## Cloud & Multi User
+
+If you’ve got an internet connection access you can edit and access your beekeeping records from any device. It is also possible to have multiple users in your beekeeping operation.
+
+## Statistics & Data
+
+All important data as responsive graphic statistics. You can see how much honey you harvested from a single apiary or see the overall harvest per bee hive. Select single hives or a single varroa treatment method, to see detailed information.Compare multiple queens to select your next best queen for rearing offsprings. Start beekeeping with an data advantage. Our beekeeping web application helps you to improve your workflow!
+
+<section class="hero container max-w-screen-lg mx-auto pb-10 flex">
+  <Picture
+    src={statistic}
+    class="mx-auto"
+    widths={[200, 400, 600]}
+    sizes="(max-width: 600px) 100vw, 800px"
+    alt="statistics"
+  />
+</section>
+
+## Checkup and Queen Rearing
+
+With our Queen Rearing builder you can create your own method. Start from any step and show the steps in calendar, never miss an important rearing date again.
+
+PS.: You can also modify your bee race, hive type, feedings types and much more!
+
+## Map & Calendar
+
+Add Apiaries with a simple mouse click or move them with drag and drop, all is shown on a simple but detailed map which also features weather overlay and satellite images (premium feature).
+
+The beekeeping web application got a simple and usable calendar with all your upcoming and done beekeeping tasks. As premium user you can also export the calendar to your phone if you use our hive scale API you can see daily weight changes on your hive scales.
+
+<section class="hero container max-w-screen-lg mx-auto pb-10 flex">
+  <Picture
+    src={calendar}
+    class="mx-auto"
+    widths={[200, 400, 600]}
+    sizes="(max-width: 600px) 100vw, 800px"
+    alt="Kalender"
+  />
+</section>
+
+<section class="hero container max-w-screen-lg mx-auto pb-10 flex">
+  <Picture
+    src={nfcImage}
+    class="mx-auto"
+    widths={[200, 400, 600]}
+    sizes="(max-width: 600px) 100vw, 800px"
+    alt="NFC"
+  />
+</section>

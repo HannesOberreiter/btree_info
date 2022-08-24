@@ -1,7 +1,0 @@
-Sitemap: https://info.btree.at/sitemap.xml
-
-# global
-User-agent: *
-Disallow: /beta
-Disallow: /app/api
-Crawl-Delay:   20
