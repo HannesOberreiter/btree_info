@@ -43,7 +43,7 @@
 <script setup lang="ts">
 import Twitter from "./icon/Twitter.vue";
 import YouTube from "./icon/YouTube.vue";
-import GitHub from "./icon/GitHub.vue";
+import GitHub from "./icon/Github.vue";
 
 defineProps({
   socialclass: {
