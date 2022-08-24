@@ -7,7 +7,7 @@
       :text="loadingText"
     ></LoadingSpinner>
     <div v-else class="grid md:grid-cols-2 grid-cols-1">
-      <div v-for="item in this.items" :key="item.id" class="m-5 flex">
+      <div v-for="item in items" :key="item.id" class="m-5 flex">
         <a :href="item.uri">
           <img
             :src="item.photos[0].url"
@@ -38,10 +38,10 @@ const items = ref(null);
 const loadingText = "iNat Images Loading ...";
 const loadingContainer = 364;
 
-onMounted(async () => await load());
+onMounted(() => load());
 
 async function load() {
-  const res = await fetch(
+  fetch(
     "https://api.inaturalist.org/v1/observations?user_id=787970&locale=en_GB&per_page=4&order=desc&order_by=created_at&only_id=false"
   )
     .then((result) => result.json())
