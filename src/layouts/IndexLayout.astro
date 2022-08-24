@@ -124,6 +124,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
                     <slot />
                     <ButtonBackToTop />
                 </PageContent>
+                <Footer />
             </div>
             <aside
                 id="grid-right"
@@ -133,6 +134,5 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
                 <RightSideBar {frontmatter} {headings} />
             </aside>
         </main>
-        <Footer />
     </body>
 </html>
