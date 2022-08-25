@@ -37,7 +37,7 @@ const sidebarSections = SIDEBAR[langCode].reduce((col, item, i) => {
 									{child.link.substring(0, 5) === "https" ? (
 										<LinkApp
 											text={child.text}
-											client:load
+											client:idle
 										/>
 									) : (
 										<a
