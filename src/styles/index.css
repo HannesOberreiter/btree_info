@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Prevent Overscrolling https://stackoverflow.com/a/47686467/5316675 */
+body {
+  overscroll-behavior-y: none;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

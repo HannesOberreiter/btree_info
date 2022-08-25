@@ -10,36 +10,57 @@ import nfcImage from "../../assets/nfc_handy.jpg";
 import mobile from "../../assets/mobile.png";
 import calendar from "../../assets/calendar.png";
 import statistic from "../../assets/statistic.png";
+import company from "../../assets/company.png";
+import map from "../../assets/map.png";
+import queen_rearing from "../../assets/queen_rearing.png";
 
 <div class="text-justify">
 
 <Picture
   src={mobile}
-  class="float-right pl-2"
-  widths={[20, 50, 200]}
-  sizes="(max-width: 200px) 50vw, 400px"
+  class="float-right pl-4"
+  widths={[50, 100, 200]}
+  sizes="(max-width: 200px) 100vw, 800px"
   alt="mobile webapp"
 />
 
-**B.TREE - proudly serving since 2014**
+### B.TREE - proudly serving since 2014
 
-This beekeeping web application was made to help beekeepers manager their tasks and have an quick overview. You add your feedings, harvests, treatments, checkups and much more. Move hive between apiaries and also manage your bee queens on your hives. You can create your own rearing methods and edit most options to your needs (eg. hive type, race, feeding type). Apiaries are easily managed with a apiary map which features satellite images and weather overlays.
+This beekeeping web application was made to help beekeepers manager their tasks and have an quick overview. You add your feedings, harvests, treatments, checkups and much more. Move hive/colonies between apiaries and also manage your bee queens on your colonies. You can create your own rearing methods and edit most options to your needs (eg. hive type, feeding type, treatment methods, ...). Apiaries are easily managed with a apiary map which features satellite images and weather overlays for premium users.
 
-In our beekeeping app most of the data is shown in tables for better overview of big data, also you can export your data as CSV or XLS to manipulate the data yourself and making a full database backup with all your saved data. A simple calendar on the starting helps to keep an overview over your past task and upcoming beekeeping tasks. Premium User can also access the API which allows them to export the ICAL events and have access to quick and responsive statistic in our beekeeping software.
+In our beekeeping app most of the data is shown in tables for better overview of big data, also you can export your data as CSV for save keeping of the data yourself and optionally generate a full database backup with all your saved data. An interactive calendar on the dashboard helps to keep an overview over your past task and upcoming beekeeping events. Premium user can also access the API which allows them to export the iCal events and have access to helpful and responsive statistic in our beekeeping software.
 
-The web app is made for hobby and professional beekeepers, but the main focus was to build an app for organic beekeeper who must keep records or beekeepers who like to to keep stats and manage their beekeeping task in the cloud as it also features multiple users it also helps to improve beekeeping operations with more than one person to manage tasks.
+The web app is made for hobby and professional beekeepers alike, but the main focus was to build an app for organic beekeeper who must keep records or beekeepers who like to to keep record and manage their beekeeping task in the cloud with it advantages. As it allows multiple users to work simultanious and to work in field and at home without data syncing needs.
 
-</div>
+<section class="hero container max-w-screen-lg mx-auto flex">
+  <Picture
+    src={map}
+    class="mx-auto"
+    widths={[200, 400, 600]}
+    sizes="(max-width: 600px) 100vw, 800px"
+    alt="apiary map"
+  />
+</section>
 
-## Cloud & Multi User
+### Cloud & Multi User
 
-If you’ve got an internet connection access you can edit and access your beekeeping records from any device. It is also possible to have multiple users in your beekeeping operation.
+The beekeeping app does not offer an offline mode, but if you’ve got an internet connection access you can edit and access your beekeeping records from any device. It is also possible to have multiple users in your beekeeping operation. Additionally you can install the application as PWA (Progressive web application) for native app like behaviour and feeling.
 
-## Statistics & Data
+<section class="hero container max-w-screen-lg mx-auto flex">
+  <Picture
+    src={company}
+    class="mx-auto"
+    widths={[200, 400, 600]}
+    sizes="(max-width: 600px) 100vw, 800px"
+    alt="company settings"
+  />
+</section>
 
-All important data as responsive graphic statistics. You can see how much honey you harvested from a single apiary or see the overall harvest per bee hive. Select single hives or a single varroa treatment method, to see detailed information.Compare multiple queens to select your next best queen for rearing offsprings. Start beekeeping with an data advantage. Our beekeeping web application helps you to improve your workflow!
+### Statistics & Data
 
-<section class="hero container max-w-screen-lg mx-auto pb-10 flex">
+All important data can be viewed in responsive tabular and graphic statistics. You can see how much honey you harvested from a single apiary or see the overall harvest per bee hive and select your best one. Select single hives or a single varroa treatment method, to see detailed information. Compare the years and your sugar input. Start beekeeping with an data advantage. Our beekeeping web application helps you to improve your workflow!
+
+<section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
     src={statistic}
     class="mx-auto"
@@ -49,17 +70,23 @@ All important data as responsive graphic statistics. You can see how much honey 
   />
 </section>
 
-## Checkup and Queen Rearing
+### Checkup and Queen Rearing
 
-With our Queen Rearing builder you can create your own method. Start from any step and show the steps in calendar, never miss an important rearing date again.
+With our Queen Rearing builder you can create your own method. Start from any step and show the steps in calendar, never miss an important rearing date again. Or add quickly small simple ToDo's via the calendar on the dashboard or recuring ones with the given form.
 
-PS.: You can also modify your bee race, hive type, feedings types and much more!
+<section class="hero container max-w-screen-lg mx-auto flex">
+  <Picture
+    src={queen_rearing}
+    class="mx-auto"
+    widths={[200, 400, 600]}
+    sizes="(max-width: 600px) 100vw, 800px"
+    alt="Queen Rearing Steps"
+  />
+</section>
 
-## Map & Calendar
+### Map & Calendar
 
-Add Apiaries with a simple mouse click or move them with drag and drop, all is shown on a simple but detailed map which also features weather overlay and satellite images (premium feature).
-
-The beekeeping web application got a simple and usable calendar with all your upcoming and done beekeeping tasks. As premium user you can also export the calendar to your phone if you use our hive scale API you can see daily weight changes on your hive scales.
+Add Apiaries with a simple mouse click or move them with drag and drop, all is shown on a simple but detailed map which also features weather overlay and satellite images (premium feature). The beekeeping web application got a simple and usable calendar with all your upcoming and done beekeeping tasks. As premium user you can also export the calendar to your phone (iCal) or if you use a self-made custom hive scale conntected to our API you can see daily weight changes on your hive scales.
 
 <section class="hero container max-w-screen-lg mx-auto pb-10 flex">
   <Picture
@@ -71,6 +98,10 @@ The beekeeping web application got a simple and usable calendar with all your up
   />
 </section>
 
+### NFC & Speech Recognition
+
+The beekeeping application supports NFC tag reading and speech recognition if you use the latest Chrome Browser on your laptop or on android mobile devices. These methods allow you a quick and efficient working on your apiary yard.
+
 <section class="hero container max-w-screen-lg mx-auto pb-10 flex">
   <Picture
     src={nfcImage}
@@ -80,3 +111,5 @@ The beekeeping web application got a simple and usable calendar with all your up
     alt="NFC"
   />
 </section>
+
+</div>
