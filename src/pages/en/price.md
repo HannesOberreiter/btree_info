@@ -1,6 +1,6 @@
 ---
-title: "Kosten & Preis"
-description: 'Preis und Kosten der Imkerei Applikation.'
+title: "Costs & Price"
+description: 'Premium Membership costs for the Applikation.'
 layout: '../../layouts/MainLayout.astro'
 lang: "en"
 ---

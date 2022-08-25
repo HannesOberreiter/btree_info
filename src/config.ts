@@ -47,7 +47,7 @@ export const SIDEBAR = {
     { text: "FAQs", link: "de/doc-faqs" },
     { text: "Ersten Schritte", link: "de/doc-first-steps" },
     { text: "API", link: "de/doc-api" },
-    { text: "Sonstiges", link: "en/doc-other" },
+    { text: "Sonstiges", link: "de/doc-other" },
 
     { text: "Hannes Oberreiter", header: true },
     { text: "Curriculum Vitae", link: "de/cv" },
