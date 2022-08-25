@@ -21,8 +21,8 @@ export const SIDEBAR = {
   en: [
     { text: "", header: true },
     { text: "Beekeeping Application", header: true },
+    { text: "Login", link: "https://app.btree.at" },
     { text: "Introduction", link: "en/introduction" },
-    { text: "Login/Register", link: "https://app.btree.at" },
     { text: "Price", link: "en/price" },
     { text: "FAQs", link: "en/doc-faqs" },
     { text: "First Steps", link: "en/doc-first-steps" },
@@ -41,8 +41,8 @@ export const SIDEBAR = {
   de: [
     { text: "", header: true },
     { text: "Imkerei Software", header: true },
+    { text: "Login", link: "https://app.btree.at" },
     { text: "Einführung", link: "de/introduction" },
-    { text: "Login/Registrierung", link: "https://app.btree.at" },
     { text: "Preis", link: "de/price" },
     { text: "FAQs", link: "de/doc-faqs" },
     { text: "Ersten Schritte", link: "de/doc-first-steps" },
