@@ -1,5 +1,5 @@
 <template>
-  <ul :class="socialclass">
+  <ul :class="socialclass" style="list-style: none">
     <li class="mr-4">
       <a
         href="https://twitter.com/btree_hannes"

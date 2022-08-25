@@ -6,6 +6,7 @@ import image from "@astrojs/image";
 import emoji from "remark-emoji";
 import robotsTxt from "astro-robots-txt";
 import compress from "astro-compress";
+import remarkGFM from "remark-gfm";
 
 import sitemap from "@astrojs/sitemap";
 
@@ -26,7 +27,7 @@ export default defineConfig({
       config: { applyBaseStyles: false },
     }),
     mdx({
-      remarkPlugins: [emoji],
+      remarkPlugins: [emoji, remarkGFM],
     }),
     image(),
     sitemap({

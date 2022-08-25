@@ -23,11 +23,19 @@
   }
 }
 
+ul {
+  list-style-type: square;
+}
+
+ul ul {
+  list-style: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: var(--font-body);
+  font-family: var(--font-mono);
   font-size: 1rem;
   font-size: clamp(0.9rem, 0.75rem + 0.375vw + var(--user-font-scale), 1rem);
   line-height: 1.5;
@@ -120,7 +128,7 @@ a {
 }
 
 article > section :is(ul, ol) > * + * {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 article > section nav :is(ul, ol) > * + * {

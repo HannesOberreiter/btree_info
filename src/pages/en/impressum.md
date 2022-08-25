@@ -7,7 +7,7 @@ lang: "en"
 
 ### btree.at
 
-- Owner: Hannes Oberreiter, 8741 Reisstraße 17, AUSTRIA
+- Owner: Hannes Oberreiter, Reisstraße 17, 8741 Weißkirchen in der Steiermark, AUSTRIA
 - VAT-Number: ATU68752511
 - E-Mail: office:e-mail: btree.at
 
