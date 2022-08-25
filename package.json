@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^9.1.1",
+    "github-calendar": "^2.3.1",
     "remark-emoji": "^3.0.2"
   },
   "devDependencies": {
