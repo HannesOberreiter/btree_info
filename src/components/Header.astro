@@ -4,6 +4,7 @@ import SidebarToggle from "./SidebarToggle.vue";
 import SelectLanguage from "./SelectLanguage.vue";
 import ButtonThemeToggle from "./ButtonThemeToggle.vue";
 import IconBtree from "./icon/Btree.vue";
+import LinkApp from "./LinkApp.vue";
 ---
 
 <header class="sticky top-0 z-50 border-amber-800 border-solid border-b-2">
@@ -18,7 +19,8 @@ import IconBtree from "./icon/Btree.vue";
 			</a>
 		</div>
 		<div style="flex-grow: 1;"></div>
-		<a href="https://app.btree.at" class="text-xl">🐝</a>
+		<LinkApp client:idle class="text-xl" />
+		<!--<a href="https://app.btree.at" class="text-xl">🐝</a>-->
 		<SelectLanguage client:idle />
 		<div style="margin: 2rem 0; text-align: center;">
 			<ButtonThemeToggle client:idle />

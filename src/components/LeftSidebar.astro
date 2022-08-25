@@ -1,6 +1,8 @@
 ---
 import { getLanguageFromURL } from "../languages";
 import { SIDEBAR } from "../config";
+import LinkApp from "./LinkApp.vue";
+
 const currentPage = Astro.url.pathname;
 const currentPageMatch = currentPage.slice(1);
 const langCode = getLanguageFromURL(currentPage);
@@ -32,23 +34,28 @@ const sidebarSections = SIDEBAR[langCode].reduce((col, item, i) => {
 						<ul>
 							{section.children.map((child) => (
 								<li class="nav-link">
-									<a
-										href={
-											child.link.substring(0, 5) ===
-											"https"
-												? child.link
-												: `${Astro.site.pathname}${child.link}`
-										}
-										aria-current={`${
-											currentPageMatch === child.link
-												? "page"
-												: "false"
-										}`}
-									>
-										{child.link.substring(0, 5) === "https"
-											? "🐝 " + child.text
-											: child.text}
-									</a>
+									{child.link.substring(0, 5) === "https" ? (
+										<LinkApp
+											text={child.text}
+											client:load
+										/>
+									) : (
+										<a
+											href={
+												child.link.substring(0, 5) ===
+												"https"
+													? child.link
+													: `${Astro.site.pathname}${child.link}`
+											}
+											aria-current={`${
+												currentPageMatch === child.link
+													? "page"
+													: "false"
+											}`}
+										>
+											{child.text}
+										</a>
+									)}
 								</li>
 							))}
 						</ul>
