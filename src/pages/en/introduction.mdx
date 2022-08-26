@@ -6,15 +6,13 @@ lang: "en"
 ---
 
 import { Picture } from "@astrojs/image/components";
-import nfcImage from "../../assets/nfc_handy.jpg";
+import nfc_export from "../../assets/nfc_export.png";
 import mobile from "../../assets/mobile.png";
 import calendar from "../../assets/calendar.png";
 import statistic from "../../assets/statistic.png";
 import company from "../../assets/company.png";
 import map from "../../assets/map.png";
 import queen_rearing from "../../assets/queen_rearing.png";
-
-<div class="text-justify">
 
 <Picture
   src={mobile}
@@ -102,14 +100,12 @@ Add Apiaries with a simple mouse click or move them with drag and drop, all is s
 
 The beekeeping application supports NFC tag reading and speech recognition if you use the latest Chrome Browser on your laptop or on android mobile devices. These methods allow you a quick and efficient working on your apiary yard.
 
-<section class="hero container max-w-screen-lg mx-auto pb-10 flex">
+<section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
-    src={nfcImage}
+    src={nfc_export}
     class="mx-auto"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 800px"
     alt="NFC"
   />
 </section>
-
-</div>
