@@ -28,6 +28,7 @@ export const SIDEBAR = {
     { text: "First Steps", link: "en/doc-first-steps" },
     { text: "API", link: "en/doc-api" },
     { text: "Other", link: "en/doc-other" },
+    { text: "Updates", link: "en/updates" },
 
     { text: "Hannes Oberreiter", header: true },
     { text: "Curriculum Vitae", link: "en/cv" },
@@ -48,6 +49,7 @@ export const SIDEBAR = {
     { text: "Ersten Schritte", link: "de/doc-first-steps" },
     { text: "API", link: "de/doc-api" },
     { text: "Sonstiges", link: "de/doc-other" },
+    { text: "Updates", link: "de/updates" },
 
     { text: "Hannes Oberreiter", header: true },
     { text: "Curriculum Vitae", link: "de/cv" },
