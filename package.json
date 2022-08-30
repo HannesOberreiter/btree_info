@@ -15,15 +15,15 @@
     "remark-emoji": "^3.0.2"
   },
   "devDependencies": {
-    "@astrojs/image": "^0.3.6",
-    "@astrojs/mdx": "^0.10.1",
+    "@astrojs/image": "^0.3.7",
+    "@astrojs/mdx": "^0.10.3",
     "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^1.0.0",
     "@astrojs/vue": "^1.0.0",
     "@vitejs/plugin-vue": "^3.0.3",
-    "astro": "^1.0.8",
-    "astro-compress": "^1.0.5",
+    "astro": "^1.1.2",
+    "astro-compress": "^1.0.6",
     "astro-robots-txt": "^0.3.8",
-    "vue": "^3.2.37"
+    "vue": "^3.2.38"
   }
 }
