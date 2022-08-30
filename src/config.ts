@@ -32,6 +32,7 @@ export const SIDEBAR = {
 
     { text: "Hannes Oberreiter", header: true },
     { text: "Curriculum Vitae", link: "en/cv" },
+    { text: "Beekeeping", link: "en/beekeeping" },
     { text: "Science", link: "en/science" },
     { text: "Projects", link: "en/projects" },
 
@@ -53,6 +54,7 @@ export const SIDEBAR = {
 
     { text: "Hannes Oberreiter", header: true },
     { text: "Curriculum Vitae", link: "de/cv" },
+    { text: "Imkerei", link: "de/beekeeping" },
     { text: "Science", link: "de/science" },
     { text: "Projekte", link: "de/projects" },
 

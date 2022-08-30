@@ -10,7 +10,7 @@
       :text="loadingText"
     ></LoadingSpinner>
     <div v-else="items">
-      <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+      <div class="flex-1 flex items-center justify-between">
         <div>
           <p class="text-sm text-gray-700 dark:text-gray-100"></p>
         </div>
@@ -121,7 +121,7 @@
         </li>
       </ol>
 
-      <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+      <div class="flex-1 flex items-center justify-between">
         <div>
           <p class="text-sm text-gray-700 dark:text-gray-100">
             Page {{ page / 5 + 1 }} from {{ pages + 1 }}

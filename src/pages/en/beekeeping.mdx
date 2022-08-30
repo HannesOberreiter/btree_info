@@ -1,0 +1,50 @@
+---
+title: "Beekeeping"
+description: "Certified organic beekeeping operation b.tree"
+layout: "../../layouts/MainLayout.astro"
+lang: "en"
+---
+
+import { Picture } from "@astrojs/image/components";
+import bees from "../../assets/bees.jpg";
+import kornblume from "../../assets/kornblume.jpeg";
+import bee_shield from "../../assets/bee_shield.jpg";
+
+Small beekeeping operation, organic certified since 2014. Located in Murtal, Styria at 1.000m above sea level. Our goal is a suistainable agriculture for human, insect and nature.
+
+<section class="hero container max-w-screen-lg mx-auto flex">
+  <Picture
+    src={bees}
+    class="mx-auto"
+    widths={[200, 400, 600, 800]}
+    sizes="(max-width: 100vw) 100vw, 800px"
+    alt="Honeybees"
+  />
+</section>
+
+### Sale on reuest
+
+- Honey(dew) in bulk
+- Articifial swarms and nucs
+- Queens
+- Beeswaxs
+
+<section class="hero container max-w-screen-lg mx-auto flex">
+  <Picture
+    src={bee_shield}
+    class="mx-auto"
+    widths={[200, 400, 600, 800]}
+    sizes="(max-width: 100vw) 100vw, 800px"
+    alt="Contact details"
+  />
+</section>
+
+<section class="hero container max-w-screen-lg mx-auto flex">
+  <Picture
+    src={kornblume}
+    class="mx-auto"
+    widths={[200, 400, 600]}
+    sizes="(max-width: 600px) 100vw, 800px"
+    alt="Honeybee on cornflower"
+  />
+</section>

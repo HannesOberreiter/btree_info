@@ -1,0 +1,50 @@
+---
+title: "Imkerei"
+description: "Bio zertifizierte Imkerei b.tree"
+layout: "../../layouts/MainLayout.astro"
+lang: "de"
+---
+
+import { Picture } from "@astrojs/image/components";
+import bees from "../../assets/bees.jpg";
+import kornblume from "../../assets/kornblume.jpeg";
+import bee_shield from "../../assets/bee_shield.jpg";
+
+Kleine Imkerei, bio zertifizert seit 2014, im Murtal auf über 1.000m Seehöhe. Unser Ziel ist eine nachhaltige Landwirtschaft für Mensch, Insekt und Natur.
+
+<section class="hero container max-w-screen-lg mx-auto flex">
+  <Picture
+    src={bees}
+    class="mx-auto"
+    widths={[200, 400, 600, 800]}
+    sizes="(max-width: 100vw) 100vw, 800px"
+    alt="Honeybees"
+  />
+</section>
+
+### Verkauf auf Anfrage
+
+- (Wald)-Honig in Großgebinde
+- Kunstschwärme und Völker
+- Königinnen
+- Bienenwachs
+
+<section class="hero container max-w-screen-lg mx-auto flex">
+  <Picture
+    src={bee_shield}
+    class="mx-auto"
+    widths={[200, 400, 600, 800]}
+    sizes="(max-width: 100vw) 100vw, 800px"
+    alt="Contact details"
+  />
+</section>
+
+<section class="hero container max-w-screen-lg mx-auto flex">
+  <Picture
+    src={kornblume}
+    class="mx-auto"
+    widths={[200, 400, 600]}
+    sizes="(max-width: 600px) 100vw, 800px"
+    alt="Honeybee on cornflower"
+  />
+</section>
