@@ -14,7 +14,7 @@ lang: "en"
     <li>❌ No statistics</li>
 </ul>
 
-### Premium - 50,00€ pro Jahr
+### Premium - 50,00€ per year
 
 <ul style="list-style: none">
     <li>✅ 1.000 Hives!</li>
