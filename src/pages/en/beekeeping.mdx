@@ -6,16 +6,14 @@ lang: "en"
 ---
 
 import { Picture } from "@astrojs/image/components";
-import bees from "../../assets/bees.jpg";
-import kornblume from "../../assets/kornblume.jpeg";
-import bee_shield from "../../assets/bee_shield.jpg";
 
 Small beekeeping operation, organic certified since 2014. Located in Murtal, Styria at 1.000m above sea level. Our goal is a suistainable agriculture for human, insect and nature.
 
 <section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
-    src={bees}
+    src="/images/bees.jpg"
     class="mx-auto"
+    aspectRatio="2:1"
     widths={[200, 400, 600, 800]}
     sizes="(max-width: 100vw) 100vw, 800px"
     alt="Honeybees"
@@ -31,8 +29,9 @@ Small beekeeping operation, organic certified since 2014. Located in Murtal, Sty
 
 <section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
-    src={bee_shield}
+    src="/images/bee_shield.jpg"
     class="mx-auto"
+    aspectRatio="3:2"
     widths={[200, 400, 600, 800]}
     sizes="(max-width: 100vw) 100vw, 800px"
     alt="Contact details"
@@ -41,8 +40,9 @@ Small beekeeping operation, organic certified since 2014. Located in Murtal, Sty
 
 <section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
-    src={kornblume}
+    src="/images/kornblume.jpeg"
     class="mx-auto"
+    aspectRatio="2:1"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 800px"
     alt="Honeybee on cornflower"

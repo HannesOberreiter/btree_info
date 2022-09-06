@@ -6,7 +6,6 @@ lang: "de"
 ---
 
 import { Picture } from "@astrojs/image/components";
-import hannes from "../../assets/hannes.jpg";
 
 - :mailbox: hoberreiter_at_gmail.com
 - :house: Steiermark, Österreich
@@ -42,7 +41,8 @@ import hannes from "../../assets/hannes.jpg";
 
 <section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
-    src={hannes}
+    src="/images/hannes.jpg"
+    aspectRatio="1:1"
     class="mx-auto"
     widths={[200, 300, 400]}
     sizes="(max-width: 400px) 100vw, 400px"

@@ -38,7 +38,13 @@ export default defineConfig({
       },
     }),
     robotsTxt(),
-    compress(),
+    compress({
+      img: {
+        webp: false,
+        avif: false,
+      },
+      svg: false,
+    }),
   ],
   site: `https://info.btree.at`,
   markdown: {

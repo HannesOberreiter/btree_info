@@ -1,6 +1,6 @@
 <template>
   <div class="theme-toggle">
-    <label :class="isDark === 'light' ? 'checked' : ''">
+    <label :class="darkMode === 'light' ? 'checked' : ''">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="20"
@@ -16,7 +16,7 @@
       </svg>
       <input type="radio" name="theme-toggle" @click="isDark = 'light'" />
     </label>
-    <label :class="isDark === 'dark' ? 'checked' : ''">
+    <label :class="darkMode === 'dark' ? 'checked' : ''">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="20"
@@ -30,7 +30,7 @@
       </svg>
       <input type="radio" name="theme-toggle" @click="isDark = 'dark'" />
     </label>
-    <label :class="isDark === 'auto' ? 'checked' : ''">
+    <label :class="darkMode === 'auto' ? 'checked' : ''">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -50,21 +50,19 @@
 </template>
 
 <script setup lang="ts">
-import { useColorMode } from "@vueuse/core";
-import { onMounted, ref } from "vue";
+import { BasicColorSchema, useColorMode } from "@vueuse/core";
+import { onMounted, ref, watch } from "vue";
 const isDark = useColorMode({
   selector: "html",
   attribute: "class",
   emitAuto: true,
   storageKey: "local-color-scheme",
 });
-/*const darkMode = ref(false);
+const darkMode = ref<BasicColorSchema>("auto");
 
 onMounted(() => {
-  const root = document.documentElement;
-  darkMode.value = root.classList.contains("theme-dark") ? true : false;
+  watch(isDark, () => (darkMode.value = isDark.value), { immediate: true });
 });
-*/
 </script>
 
 <style scoped>

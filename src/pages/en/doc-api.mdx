@@ -6,8 +6,6 @@ lang: "en"
 ---
 
 import { Picture } from "@astrojs/image/components";
-import ical_google from "../../assets/ical_google.jpg";
-import ical_mac from "../../assets/ical_mac.jpg";
 
 ## ICAL Calender API
 
@@ -19,7 +17,8 @@ Use the Dropdown under "other Calendar" and there you choose add via Url. After 
 
 <section class="hero container max-w-screen-lg mx-auto pb-10 flex">
   <Picture
-    src={ical_google}
+    src="/images/ical_google.jpg"
+    aspectRatio="4:1"
     class="mx-auto"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 800px"
@@ -33,7 +32,8 @@ Go to "File" -> "New Calendar Abo". There you can add the URL and set an interva
 
 <section class="hero container max-w-screen-lg mx-auto pb-10 flex">
   <Picture
-    src={ical_mac}
+    src="/images/ical_mac.jpg"
+    aspectRatio="1:1"
     class="mx-auto"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 800px"

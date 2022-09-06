@@ -6,10 +6,6 @@ lang: "en"
 ---
 
 import { Picture } from "@astrojs/image/components";
-import install1 from "../../assets/install1.png";
-import install2 from "../../assets/install2.png";
-import install3 from "../../assets/install3.png";
-import install4 from "../../assets/install4.png";
 
 ### Keyboard Shortcuts
 
@@ -149,36 +145,30 @@ Premium Membership is per company and not per user, ie. you only need once Premi
 
 Chrome browser supports to install the homepage as application, which then can be started as a normal software. First step is to visit the dashboard -> open chrome settings "..." -> "more tools" -> "add shortcut". Chrome now create a simple application wrapper around the webpage, which can be started as a normal program.
 
-<section class="hero container max-w-screen-lg mx-auto pb-10 flex">
+<section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
-    src={install1}
+    src="/images/install1.png"
+    aspectRatio="3:1"
     class="mx-auto"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 800px"
     alt="Webapp Installation"
   />
 </section>
-<section class="hero container max-w-screen-lg mx-auto pb-10 flex">
+<section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
-    src={install2}
+    src="/images/install2.png"
+    aspectRatio="5:2"
     class="mx-auto"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 800px"
     alt="Webapp Installation"
   />
 </section>
-<section class="hero container max-w-screen-lg mx-auto pb-10 flex">
+<section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
-    src={install3}
-    class="mx-auto"
-    widths={[200, 400, 600]}
-    sizes="(max-width: 600px) 100vw, 800px"
-    alt="Webapp Installation"
-  />
-</section>
-<section class="hero container max-w-screen-lg mx-auto pb-10 flex">
-  <Picture
-    src={install4}
+    src="/images/install3.png"
+    aspectRatio="10:1"
     class="mx-auto"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 800px"

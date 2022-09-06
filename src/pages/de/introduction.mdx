@@ -6,16 +6,10 @@ lang: "de"
 ---
 
 import { Picture } from "@astrojs/image/components";
-import nfc_export from "../../assets/nfc_export.png";
-import mobile from "../../assets/mobile.png";
-import calendar from "../../assets/calendar.png";
-import statistic from "../../assets/statistic.png";
-import company from "../../assets/company.png";
-import map from "../../assets/map.png";
-import queen_rearing from "../../assets/queen_rearing.png";
 
 <Picture
-  src={mobile}
+  src="/images/mobile.png"
+  aspectRatio="1:2"
   class="hidden sm:block float-right pl-4"
   widths={[50, 100, 200]}
   sizes="(max-width: 200px) 100vw, 800px"
@@ -30,7 +24,8 @@ Die meisten Daten sind in Tabellen angezeigt um eine gute Übersicht auch bei gr
 
 <section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
-    src={map}
+    src="/images/map.png"
+    aspectRatio="2:1"
     class="mx-auto"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 800px"
@@ -44,7 +39,8 @@ Die Imkerei Webapplikation unterstützt keinen Offline Modus, aber hat man eine 
 
 <section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
-    src={company}
+    src="/images/company.png"
+    aspectRatio="2:1"
     class="mx-auto"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 800px"
@@ -58,7 +54,8 @@ Alle wichtigen Daten sind in responsive Statistiken praktisch für Premium Benut
 
 <section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
-    src={statistic}
+    src="/images/statistic.png"
+    aspectRatio="2:1"
     class="mx-auto"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 800px"
@@ -72,7 +69,8 @@ Schreibe schnelle ToDo Notizen oder Aufgaben für einen einzelnen Bienenstock od
 
 <section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
-    src={queen_rearing}
+    src="/images/queen_rearing.png"
+    aspectRatio="4:1"
     class="mx-auto"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 800px"
@@ -86,7 +84,8 @@ Erstelle Bienenstände mit einem einfachen Mausklick auf einer eigenen Bienensta
 
 <section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
-    src={calendar}
+    src="/images/calendar.png"
+    aspectRatio="2:1"
     class="mx-auto"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 800px"
@@ -100,7 +99,8 @@ Die Imkerei Software unterstützt auch NFC und Sprachsteuerung im Chrome Browser
 
 <section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
-    src={nfc_export}
+    src="/images/nfc_export.png"
+    aspectRatio="1:1"
     class="mx-auto"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 800px"

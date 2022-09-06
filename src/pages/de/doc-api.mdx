@@ -6,8 +6,6 @@ lang: "de"
 ---
 
 import { Picture } from "@astrojs/image/components";
-import ical_google from "../../assets/ical_google.jpg";
-import ical_mac from "../../assets/ical_mac.jpg";
 
 ## ICAL Kalender API
 
@@ -19,7 +17,8 @@ Unter weitere Kalender kann man die gegebene ICAL URL über den Link "Über URL 
 
 <section class="hero container max-w-screen-lg mx-auto pb-10 flex">
   <Picture
-    src={ical_google}
+    src="/images/ical_google.jpg"
+    aspectRatio="4:1"
     class="mx-auto"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 800px"
@@ -33,7 +32,8 @@ Unter "Ablage" -> "Neues Kalenderabonnement" kann die ICAL URL hinzugefügt werd
 
 <section class="hero container max-w-screen-lg mx-auto pb-10 flex">
   <Picture
-    src={ical_mac}
+    src="/images/ical_mac.jpg"
+    aspectRatio="1:1"
     class="mx-auto"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 800px"
