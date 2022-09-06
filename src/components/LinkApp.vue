@@ -1,9 +1,11 @@
 <template>
-  <a :href="url" @click.prevent="onClick">🐝 {{ text }}</a>
+  <a :href="url" @click.prevent="onClick(url)">🐝 {{ text }}</a>
 </template>
 
-<script setup lang="ts">
-const props = defineProps({
+<script lang="ts" setup>
+import { defineProps } from "vue";
+
+defineProps({
   url: {
     type: String,
     default: "https://app.btree.at",
@@ -13,10 +15,12 @@ const props = defineProps({
     default: "",
   },
 });
+</script>
 
-function onClick(_e) {
-  if (confirm(`Redirect to ${props.url}`)) {
-    window.location.replace(props.url);
+<script lang="ts">
+function onClick(url: string) {
+  if (confirm(`Redirect to ${url}`)) {
+    window.location.replace(url);
   }
 }
 </script>

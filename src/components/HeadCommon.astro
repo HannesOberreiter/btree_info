@@ -39,13 +39,13 @@ import "../styles/index.css";
 <!-- This is intentionally inlined to avoid FOUC -->
 <script is:inline>
 	const root = document.documentElement;
-	const theme = localStorage.getItem("vueuse-color-scheme");
+	const theme = localStorage.getItem("local-color-scheme");
 	if (
 		theme === "dark" ||
-		(!theme && window.matchMedia("(prefers-color-scheme: dark)").matches)
+		((!theme || theme === 'auto') && window.matchMedia("(prefers-color-scheme: dark)").matches)
 	) {
-		root.classList.add("theme-dark");
+		root.classList.add("dark");
 	} else {
-		root.classList.remove("theme-dark");
+		root.classList.remove("dark");
 	}
 </script>

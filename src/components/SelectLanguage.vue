@@ -39,7 +39,7 @@ import {
   langPathRegex,
 } from "../languages";
 
-const language = ref("en");
+const language = ref("de");
 
 onMounted(() => {
   language.value = getLanguageFromURL(window.location.pathname);
@@ -47,7 +47,6 @@ onMounted(() => {
 
 function changeLanguage(lang: string) {
   let actualDest = window.location.pathname.replace(langPathRegex, "/");
-  console.log(actualDest);
   if (actualDest == "/") actualDest = `/introduction`;
   window.location.pathname = "/" + lang + actualDest;
 }

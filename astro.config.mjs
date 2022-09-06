@@ -26,9 +26,7 @@ export default defineConfig({
       // Useful if you need to define and/or import your own custom `base.css`.
       config: { applyBaseStyles: false },
     }),
-    mdx({
-      remarkPlugins: [emoji, remarkGFM],
-    }),
+    mdx(),
     image(),
     sitemap({
       i18n: {
@@ -48,8 +46,8 @@ export default defineConfig({
       // Add a Remark plugin that you want to enable for your project.
       // If you need to provide options for the plugin, you can use an array and put the options as the second item.
       // ['remark-autolink-headings', { behavior: 'prepend'}],
-      "remark-emoji",
-      "remark-gfm",
+      emoji,
+      remarkGFM,
     ],
   },
 });

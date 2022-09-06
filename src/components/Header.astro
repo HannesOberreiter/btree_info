@@ -19,11 +19,11 @@ import LinkApp from "./LinkApp.vue";
 			</a>
 		</div>
 		<div style="flex-grow: 1;"></div>
-		<LinkApp client:idle class="text-xl" />
+		<LinkApp class="text-xl" client:load  />
 		<!--<a href="https://app.btree.at" class="text-xl">🐝</a>-->
-		<SelectLanguage client:idle />
+		<SelectLanguage client:load />
 		<div style="margin: 2rem 0; text-align: center;">
-			<ButtonThemeToggle client:idle />
+			<ButtonThemeToggle client:only />
 		</div>
 	</nav>
 </header>

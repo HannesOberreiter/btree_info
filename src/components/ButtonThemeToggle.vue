@@ -1,6 +1,6 @@
 <template>
   <div class="theme-toggle">
-    <label :class="darkMode ? '' : 'checked'">
+    <label :class="isDark === 'light' ? 'checked' : ''">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="20"
@@ -14,9 +14,9 @@
           clipRule="evenodd"
         />
       </svg>
-      <input type="radio" name="theme-toggle" @click="changeModus(false)" />
+      <input type="radio" name="theme-toggle" @click="isDark = 'light'" />
     </label>
-    <label :class="darkMode ? 'checked' : ''">
+    <label :class="isDark === 'dark' ? 'checked' : ''">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="20"
@@ -28,31 +28,43 @@
           d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
         />
       </svg>
-      <input type="radio" name="theme-toggle" @click="changeModus(true)" />
+      <input type="radio" name="theme-toggle" @click="isDark = 'dark'" />
+    </label>
+    <label :class="isDark === 'auto' ? 'checked' : ''">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        class="w-5 h-5"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M2.25 5.25a3 3 0 013-3h13.5a3 3 0 013 3V15a3 3 0 01-3 3h-3v.257c0 .597.237 1.17.659 1.591l.621.622a.75.75 0 01-.53 1.28h-9a.75.75 0 01-.53-1.28l.621-.622a2.25 2.25 0 00.659-1.59V18h-3a3 3 0 01-3-3V5.25zm1.5 0v7.5a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5v-7.5a1.5 1.5 0 00-1.5-1.5H5.25a1.5 1.5 0 00-1.5 1.5z"
+          clip-rule="evenodd"
+        />
+      </svg>
+
+      <input type="radio" name="theme-toggle" @click="isDark = 'auto'" />
     </label>
   </div>
 </template>
 
 <script setup lang="ts">
-import { useDark } from "@vueuse/core";
+import { useColorMode } from "@vueuse/core";
 import { onMounted, ref } from "vue";
-const isDark = useDark();
-const darkMode = ref(false);
+const isDark = useColorMode({
+  selector: "html",
+  attribute: "class",
+  emitAuto: true,
+  storageKey: "local-color-scheme",
+});
+/*const darkMode = ref(false);
 
-function changeModus(mode: boolean) {
-  isDark.value = mode;
-  darkMode.value = mode;
-  const root = document.documentElement;
-  if (isDark.value) {
-    root.classList.add("theme-dark");
-  } else {
-    root.classList.remove("theme-dark");
-  }
-}
 onMounted(() => {
   const root = document.documentElement;
   darkMode.value = root.classList.contains("theme-dark") ? true : false;
 });
+*/
 </script>
 
 <style scoped>
