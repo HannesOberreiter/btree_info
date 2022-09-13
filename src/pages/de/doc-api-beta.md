@@ -23,22 +23,22 @@ Hinweis: Wenn Sie nur die iCal-Datei herunterladen, handelt es sich nicht um ein
 
 ### Stockwaagen
 
-Zunächst möchten wir erwähnen, dass wir selbst keine Bienenstockwaagen herstellen oder verkaufen. Diese API ist nur für Benutzer gedacht, die gerne selbst Hand anlegen. Unser Stockwaagensystem war sehr einfach ([/HannesOberreiter/bScale](https://github.com/HannesOberreiter/bScale)) aber wir haben die Arbeit daran eingestellt. Es gibt eine Fülle von alternativen Systemen auf dem Markt und wenn Sie ein professionelles Setup benötigen, empfehlen wir den deutschen Hersteller [Wolf-Waagen](https://www.wolf-waagen.de/) und wenn Sie Open Source und Basteln mögen, empfehlen wir [HiveEyes](https://hiveeyes.org/), beide haben ihre eigene Hardware- und Softwarelösung. Unsere Imkerei-App ist nicht mit einem externen Stockwaagen System kompatibel integriert, da wir glauben, dass sie bereits eine perfekte Softwarelösung anbieten.
+Zunächst möchten wir erwähnen, dass wir selbst keine Bienenstockwaagen herstellen oder verkaufen. Diese API ist nur für Benutzer gedacht, die gerne selbst Hand anlegen. Unser ehemaliges Stockwaagensystem war sehr einfach aufgebaut ([/HannesOberreiter/bScale](https://github.com/HannesOberreiter/bScale)) aber wir haben die Arbeit daran eingestellt, da es bereits eine Fülle von sehr guten alternativen Systemen auf dem Markt gibt. Wenn Sie ein professionelles Setup benötigen, empfehlen wir den deutschen Hersteller [Wolf-Waagen](https://www.wolf-waagen.de/) und wenn Sie Open Source und Basteln mögen, empfehlen wir [HiveEyes](https://hiveeyes.org/) Community, beide haben ihre eigene Hardware- und Softwarelösungen. Unsere Imkerei-App ist nicht mit keinem externen Stockwaagen System kompatibel, außer man modifiziert selbst die Datenübertragung. Durch die Fülle an angeboten und Systemen ist ein Support von externen Waagen nur schwer durchzuführen, zweitens haben die meisten Waagen Hersteller bereits sehr gute Softwarelösungen im Angebot.
 
-Um die API zu aktivieren, müssen Sie zunächst Ihre eindeutigen Identifikatoren erstellen. Dies können Sie in der Stockwaagen Tabelle [/table/scale_data](https://app.btree.at/table/scale_data) mit der Dropdown-Schaltfläche "Waagen" tun. Sie müssen für jede Stockwaage einen neuen Ident erstellen. Die derzeitige Grenze liegt bei 10 Stockwaagen mit je einer Datenübertragung pro Stunde.
+Um die API zu aktivieren, müssen Sie zunächst eindeutige Identifikatoren erstellen. Dies können Sie in der Stockwaagen Tabelle [/table/scale_data](https://app.btree.at/table/scale_data) mit der Dropdown-Schaltfläche "Waagen" tun. Sie müssen für jede Stockwaage einen neuen Ident erstellen. Die derzeitige Grenze liegt bei 10 Stockwaagen mit je einer Datenübertragung pro Stunde.
 
-Die Informationen über die zu übertragenden Daten werden mit Query Params angegeben. Auf der API-Einstellungsseite können Sie die Endpunkt-URL kopieren, um Daten mit einer einfachen GET-Anfrage zu senden: `https://api.btree.at/api/v1/external/scale/IDENTIFIER/API_KEY?action=CREATE_DEMO&datetime=2022-09-08T09:50:23.990Z&weight=10.5&temp1=10.2&temp2=8.9&rain=15&hum=53`
+Die Informationen über die zu übertragenden Daten werden mit Query Params angegeben um es möglichst einfach zu machen. Auf der API-Einstellungsseite können Sie die Endpunkt-URL kopieren, um Daten mit einer einfachen GET-Anfrage zu senden: `https://api.btree.at/api/v1/external/scale/IDENTIFIER/API_KEY?action=CREATE_DEMO&datetime=2022-09-08T09:50:23.990Z&weight=10.5&temp1=10.2&temp2=8.9&rain=15&hum=53`
 
 Die Abfrage-Parameter sind wie folgt definiert:
 
 - action: 'CREATE' or 'CREATE_DEMO' zum Testen, es werden keine Daten gespeichert aber man erhält eine Server Antwort
 - datetime: Optional in ISO8601 Format, wenn nicht angegeben wird die Server UTC Zeit verwendet
-- weight: Optional, numerisch.
+- weight: Optional, numerisch für das gemessene Gewicht
 - temp1: Optional, numerisch für Temperatur
-- temp2: Optional, numerisch für Temperatur
+- temp2: Optional, numerisch für eine zweite Temperatur Messung (zB im Stock)
 - hum: Optional, numerisch für Luftfeuchtigkeit
 - rain: Optional, numerisch für Regenmenge
-- note: Optional, alphanumerischer text mit maximal 300 Zeichen
+- note: Optional, alphanumerischer text mit maximal 300 Zeichen, hier kann zB der Batterie Status oder Informationen zur Sendeleistung übertragen werden
 
 #### Server Antworten
 
@@ -46,7 +46,7 @@ Erfolgreiches Ereignis:
 
 ```json
 {
-  "datetime": "2022-09-08 10:02:54", // UTC time of server
+  "datetime": "2022-09-08 10:02:54",
   "weight": 10.5,
   "temp1": 10.2,
   "temp2": 8.9,
@@ -68,7 +68,7 @@ Error: Limit an Daten Übertragungen erreicht:
 }
 ```
 
-Error: API Key oder Ident is falsch oder nicht vorhanden
+Error: API Key oder Ident is falsch oder nicht vorhanden, beides gibt die selbe Antwort
 
 ```json
 {

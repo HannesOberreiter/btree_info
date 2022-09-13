@@ -34,15 +34,27 @@ You can find the current browser support on following link: [caniuse.com/mdn-api
 
 ### NFC is not working
 
-As with the speech recognition the NFC is limited by browser support. You will get a warning if you try to activate NFC if your browser does not support it. The NFC tags themself you can buy in most online tech stores and should not be too expensive.
+As with the speech recognition the NFC is limited by browser support. You will get a warning if you try to activate NFC if your browser does not support it.
 
 You can find the current browser support on following link: [caniuse.com/webnfc](https://caniuse.com/webnfc)
 
-As alternative you can use any NFC app on Google PlayStore or iOS AppStore and simply write the links on it. At least Android should read NFCs without any open app if you activate the option.
+As alternative you can use any NFC app on Google PlayStore or iOS AppStore and simply write the links on it. At least Android should read NFCs without any open app if you activate the option. The NFC tags themself you can buy in most online tech stores and should not be too expensive.
+
+### How to use NFC or the QR scanner
+
+Both NFC and QR code scanner are meant to help you work faster in the field. The most simple function is a redirect to the page you save to the NFC tag or QR code. More advanced is the usage of the hive url, if you save for example the url to a specific hive on the tag, eg. `https://beta.btree.at/detail/hive/[hive_id]` and are on a page with a hive dropdown, eg. the QuickTool or when creating a new movement. The scanner will automatically select the scanned hive in the dropdown. As a real example, you go to your apiary "A" load twenty hives on your trailer to move them to you apiary "B". After loading you open the b.tree app, select new movement [/new/movement](https://app.btree.at/new/movement), select the apiary "B" you want to move and then scan your twenty hives on your trailer with the NFC tag or with the QR code.
+
+#### Export NFC
+
+You can write NFCs with a third party tool or use the integrated "share" button. You find it in the footer of the app and it will show the current url. If you click on it a dialog will open which allows you to write onto a NFC tag.
+
+#### Export QR code
+
+On the hive table [/table/hive](https://app.btree.at/table/hive) you select the hives you want a QR code generated. Then you click on the dropdown button and select "Print QR". A dialog will open and QR codes for each selected hive will be generated. With an additional button you can open a separate window for printing. Alternative you can use a third party QR code generation tool and simply generate QR based on the urls.
 
 ### Premium membership
 
-On the [/premium](https://app.btree.at/premium) you can pay to extend your premium membership. If you buy premium access your account gets 365 days of premium time added. If you already got premium time the new time will be added to your currently running premium days. If you run out of premium days you can still use the application, but you cannot use the premium features and are again inside the apiary and hive limit. This way we hope to give you a fair system without monthly or yearly automatic payment and you keep the full control when you want to pay.
+On the [/premium](https://app.btree.at/premium) you can pay to extend your premium membership. If you buy premium access your account gets 365 days of premium time added. If you already got credit in premium time the new time will be added to your currently running premium days, otherwise the current day will be used. If you run out of premium days you can still use the application, but you cannot use the premium features and are again inside the apiary and hive limit. This way we hope to give you a fair system without monthly or yearly automatic payment and you keep the full control when you want to pay. If the time is not added immediately after payment please try to logout and login into the app again. If this does not help feel free to contact us at office📧btree.at
 
 ### Is there an offline version?
 
