@@ -35,6 +35,7 @@ export const SIDEBAR = {
     { text: "FAQs (Beta)", link: "en/doc-faqs-beta" },
     { text: "First Steps (Beta)", link: "en/doc-first-steps-beta" },
     { text: "API (Beta)", link: "en/doc-api-beta" },
+    { text: "Other (Beta)", link: "en/doc-other-beta" },
 
     { text: "Hannes Oberreiter", header: true },
     { text: "Curriculum Vitae", link: "en/cv" },
@@ -63,6 +64,7 @@ export const SIDEBAR = {
     { text: "FAQs", link: "de/doc-faqs-beta" },
     { text: "Ersten Schritte", link: "de/doc-first-steps-beta" },
     { text: "API", link: "de/doc-api-beta" },
+    { text: "Sonstiges (Beta)", link: "de/doc-other-beta" },
 
     { text: "Hannes Oberreiter", header: true },
     { text: "Curriculum Vitae", link: "de/cv" },

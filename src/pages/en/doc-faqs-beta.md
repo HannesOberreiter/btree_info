@@ -54,7 +54,7 @@ On the hive table [/table/hive](https://app.btree.at/table/hive) you select the 
 
 ### Premium membership
 
-On the [/premium](https://app.btree.at/premium) you can pay to extend your premium membership. If you buy premium access your account gets 365 days of premium time added. If you already got premium time the new time will be added to your currently running premium days. If you run out of premium days you can still use the application, but you cannot use the premium features and are again inside the apiary and hive limit. This way we hope to give you a fair system without monthly or yearly automatic payment and you keep the full control when you want to pay.
+On the [/premium](https://app.btree.at/premium) you can pay to extend your premium membership. If you buy premium access your account gets 365 days of premium time added. If you already got credit in premium time the new time will be added to your currently running premium days, otherwise the current day will be used. If you run out of premium days you can still use the application, but you cannot use the premium features and are again inside the apiary and hive limit. This way we hope to give you a fair system without monthly or yearly automatic payment and you keep the full control when you want to pay. If the time is not added immediately after payment please try to logout and login into the app again. If this does not help feel free to contact us at office📧btree.at
 
 ### Is there an offline version?
 
