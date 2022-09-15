@@ -32,10 +32,10 @@ export const SIDEBAR = {
     { text: "External Links", link: "en/links" },
 
     { text: "Beta", header: true },
-    { text: "FAQs (Beta)", link: "en/doc-faqs-beta" },
-    { text: "First Steps (Beta)", link: "en/doc-first-steps-beta" },
-    { text: "API (Beta)", link: "en/doc-api-beta" },
-    { text: "Other (Beta)", link: "en/doc-other-beta" },
+    { text: "FAQs", link: "en/doc-faqs-beta" },
+    { text: "First Steps", link: "en/doc-first-steps-beta" },
+    { text: "API", link: "en/doc-api-beta" },
+    { text: "Other", link: "en/doc-other-beta" },
 
     { text: "Hannes Oberreiter", header: true },
     { text: "Curriculum Vitae", link: "en/cv" },
@@ -57,14 +57,14 @@ export const SIDEBAR = {
     { text: "Ersten Schritte", link: "de/doc-first-steps" },
     { text: "API", link: "de/doc-api" },
     { text: "Sonstiges", link: "de/doc-other" },
-    { text: "Updates", link: "de/updates" },
+    { text: "Updates (en)", link: "de/updates" },
     { text: "Externe Links", link: "de/links" },
 
     { text: "Beta", header: true },
     { text: "FAQs", link: "de/doc-faqs-beta" },
     { text: "Ersten Schritte", link: "de/doc-first-steps-beta" },
     { text: "API", link: "de/doc-api-beta" },
-    { text: "Sonstiges (Beta)", link: "de/doc-other-beta" },
+    { text: "Sonstiges", link: "de/doc-other-beta" },
 
     { text: "Hannes Oberreiter", header: true },
     { text: "Curriculum Vitae", link: "de/cv" },
