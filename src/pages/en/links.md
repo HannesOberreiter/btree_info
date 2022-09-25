@@ -5,7 +5,9 @@ layout: "../../layouts/MainLayout.astro"
 lang: "en"
 ---
 
-export const lastUpdate = "2022-06-17";
+Last update: 2022-09-14
+
+## International
 
 - [beekeeping-news.com](https://www.beekeeping-news.com/)
   - A curated selection of worldwide feeds related around the topic of beekeeping and honeybees.
@@ -16,4 +18,9 @@ export const lastUpdate = "2022-06-17";
 - [coloss.org/beebook/](http://coloss.org/beebook/)
   - The COLOSS BEEBOOK is a unique venture that aims to standardise methods for studying the honey bee. From the outset, the vision of the project has been to develop a definitive inventory of standard techniques and methods in honey bee research, in order to ensure that studies performed by different laboratories around the world would be directly comparable with each other.
 
-Last update: {lastUpdate}
+## DACH (Germany - Austria - Switzerland)
+
+- [bienenstand.at/](http://bienenstand.at/)
+  - Since 2013, Bienenstand.at has seen itself as an organ for the dissemination of scientific studies on winter losses of bee colonies in Austria, which are carried out at the Karl Franzens University in Graz.
+- [www.sprechkontakt.at/bienenpodcast/](https://www.sprechkontakt.at/bienenpodcast/)
+  - Podcast: Knowledge about bees, beekeeping and topics from nature and ecology - for beginners and advanced learners. With many references to science.
