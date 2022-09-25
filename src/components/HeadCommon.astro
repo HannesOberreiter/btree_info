@@ -8,44 +8,25 @@ import "../styles/index.css";
 <meta name="viewport" content="width=device-width" />
 <meta name="generator" content={Astro.generator} />
 
-<link
-	rel="icon"
-	type="image/png"
-	sizes="128x128"
-	href="/favicon-128x128.png"
-/>
-<link
-	rel="icon"
-	type="image/png"
-	sizes="96x96"
-	href="/favicon-96x96.png"
-/>
-<link
-	rel="icon"
-	type="image/png"
-	sizes="32x32"
-	href="/favicon-32x32.png"
-/>
-<link
-	rel="icon"
-	type="image/png"
-	sizes="16x16"
-	href="/favicon-16x16.png"
-/>
+<link rel="icon" type="image/png" sizes="128x128" href="/favicon-128x128.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 <link rel="icon" type="image/ico" href="/favicon.ico" />
 
-<link rel="sitemap" href="/sitemap.xml" />
+<link rel="sitemap" href="/sitemap-index.xml" />
 
 <!-- This is intentionally inlined to avoid FOUC -->
 <script is:inline>
-	const root = document.documentElement;
-	const theme = localStorage.getItem("local-color-scheme");
-	if (
-		theme === "dark" ||
-		((!theme || theme === 'auto') && window.matchMedia("(prefers-color-scheme: dark)").matches)
-	) {
-		root.classList.add("dark");
-	} else {
-		root.classList.remove("dark");
-	}
+  const root = document.documentElement;
+  const theme = localStorage.getItem("local-color-scheme");
+  if (
+    theme === "dark" ||
+    ((!theme || theme === "auto") &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches)
+  ) {
+    root.classList.add("dark");
+  } else {
+    root.classList.remove("dark");
+  }
 </script>
