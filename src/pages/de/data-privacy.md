@@ -66,7 +66,7 @@ Die im Rahmen der Registrierung eingegebenen Daten werden für die Zwecke der Nu
 
 Eine Datenübermittlung an Dritte erfolgt nicht. Die gespeicherten Daten können jederzeit in der Applikation eingesehen werden und auch gelöscht werden. Wird der gesamte Account gelöscht, bleiben die Daten noch für 60 Tage im Backup bestehen. Sollte eine Löschung von uns durchgeführt werden brauchen wir einen eindeutigen Beweis, dass der Account ihnen gehört. Es obliegt den Nutzern, ihre Daten bei erfolgter Kündigung vor dem Vertragsende zu sichern. Wir sind berechtigt, sämtliche während der Vertragsdauer gespeicherten Daten des Nutzers unwiederbringlich zu löschen.
 
-„Recht auf Vergessen“, erfolg vom Benutzer kein Login für 4 Jahre werden die gesamten Daten automatisch aus dem System (Datenbank und Fileserver) gelöscht. Benutzer die den Account nach der Registrierung nie aktivieren haben, werden bereits nach einer Woche gelöscht.
+**„Recht auf Vergessen“, Erfolg vom Benutzer kein Login für 4 Jahre werden die gesamten Daten automatisch aus dem System (Datenbank und Fileserver) gelöscht. Benutzer die den Account nach der Registrierung nie aktivieren haben, werden bereits nach einer Woche gelöscht.**
 
 Im Rahmen der Inanspruchnahme unserer Anmeldefunktionen sowie der Nutzung des Forums in der Applikation, speichern wird die IP-Adresse und den Zeitpunkt der jeweiligen Nutzerhandlung. Die Speicherung erfolgt auf Grundlage unserer berechtigten Interessen, als auch der Nutzer an Schutz vor Missbrauch und sonstiger unbefugter Nutzung. Eine Weitergabe dieser Daten an Dritte erfolgt grundsätzlich nicht, außer sie ist zur Verfolgung unserer Ansprüche erforderlich oder es besteht hierzu besteht eine gesetzliche Verpflichtung gem. Art. 6 Abs. 1 lit. c DSGVO.
 

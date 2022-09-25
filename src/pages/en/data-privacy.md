@@ -23,7 +23,7 @@ If you deactivate cookies this may have implications on the full functionality o
 
 We use AWStats and Report Magic, Matomo, the software only use pseudonymised Server Logfiles as source for the statistics. Each one runs on our own server and is not used by third party.
 Your IP address will be used only in parts (the last 8 Bits will be deleted) to determine your rough location.
-Following Data will be used: Browsertype and Browserversion (if from User transferred!), operation system, date and time of connection, amount of visits, time of visits on homepage, previous visited pages (if from User transferred!), pseudonymised IP.
+Following Data will be used: Browser type and Browserversion (if from User transferred!), operation system, date and time of connection, amount of visits, time of visits on homepage, previous visited pages (if from User transferred!), pseudonymised IP.
 
 Data processing is based on the following § 96 Section 3 TKG and art. 6 Section 1 lit a (Consent) and/or f (legitimate interest) of GDPR.
 
@@ -64,7 +64,7 @@ The data entered during registration and while using the application will be use
 
 There is no data transfer to third parties. The stored data can be viewed at any time in the application and also be deleted. If the entire account is deleted, the data will remain in our backup system for 60 days. If we should delete an account for you, we need a clear proof that the account belongs to you. It is the responsibility of the user to secure their data upon termination. We are entitled to irrevocable delete all user data stored during the term of contract.
 
-Right to forget, when there is no successful login for 4 years on the user account the data will be automatically deleted from the system (database and file server). User accounts that never have been activated after registration will be deleted after one week.
+**Right to forget, when there is no successful login for 5 years on the user account the data will be automatically deleted from the system (database and file server). User accounts that never have been activated after registration will be deleted after one week.**
 
 As part of login and use of the forum of the application, the IP address and the time of the respective user action will be saved. It is based on our legitimate interests, as well as the user’s protection against misuse and other unauthorized use. A transfer of these data to third parties does not take place, unless it is necessary for the prosecution of our claims or there is legal obligation in accordance with art. 6 sec. 1 lit. c GDPR.
 
