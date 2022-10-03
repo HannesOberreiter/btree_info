@@ -41,10 +41,7 @@ export default defineConfig({
     }),
     robotsTxt(),
     compress({
-      img: {
-        webp: false,
-        avif: false,
-      },
+      img: false,
       svg: false,
     }),
   ],
