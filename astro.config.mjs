@@ -27,7 +27,9 @@ export default defineConfig({
       config: { applyBaseStyles: false },
     }),
     mdx(),
-    image(),
+    image({
+      serviceEntryPoint: "@astrojs/image/sharp",
+    }),
     sitemap({
       i18n: {
         defaultLocale: "en",

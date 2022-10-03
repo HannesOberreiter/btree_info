@@ -31,12 +31,6 @@ export const SIDEBAR = {
     { text: "Updates", link: "en/updates" },
     { text: "External Links", link: "en/links" },
 
-    { text: "Beta", header: true },
-    { text: "FAQs", link: "en/doc-faqs-beta" },
-    { text: "First Steps", link: "en/doc-first-steps-beta" },
-    { text: "API", link: "en/doc-api-beta" },
-    { text: "Other", link: "en/doc-other-beta" },
-
     { text: "Hannes Oberreiter", header: true },
     { text: "Curriculum Vitae", link: "en/cv" },
     { text: "Beekeeping", link: "en/beekeeping" },
@@ -59,12 +53,6 @@ export const SIDEBAR = {
     { text: "Sonstiges", link: "de/doc-other" },
     { text: "Updates (en)", link: "de/updates" },
     { text: "Externe Links", link: "de/links" },
-
-    { text: "Beta", header: true },
-    { text: "FAQs", link: "de/doc-faqs-beta" },
-    { text: "Ersten Schritte", link: "de/doc-first-steps-beta" },
-    { text: "API", link: "de/doc-api-beta" },
-    { text: "Sonstiges", link: "de/doc-other-beta" },
 
     { text: "Hannes Oberreiter", header: true },
     { text: "Curriculum Vitae", link: "de/cv" },

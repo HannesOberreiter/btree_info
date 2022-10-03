@@ -12,10 +12,11 @@
   "dependencies": {
     "@vueuse/core": "^9.3.0",
     "github-calendar": "^2.3.1",
-    "remark-emoji": "^3.0.2"
+    "remark-emoji": "^3.0.2",
+    "sharp": "^0.31.1"
   },
   "devDependencies": {
-    "@astrojs/image": "^0.7.1",
+    "@astrojs/image": "^0.9.1",
     "@astrojs/mdx": "^0.11.1",
     "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^2.0.1",
