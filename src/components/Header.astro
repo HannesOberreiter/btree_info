@@ -12,14 +12,14 @@ import LinkApp from "./LinkApp.vue";
 		<div class="menu-toggle">
 			<SidebarToggle client:idle />
 		</div>
-		<div class="logo flex">
+		<div class="hidden logo sm:flex">
 			<a href="/">
 				<IconBtree class="w-10 h-10" />
 				<h1>{CONFIG.SITE.title ?? "b.tree"}</h1>
 			</a>
 		</div>
 		<div style="flex-grow: 1;"></div>
-		<LinkApp class="text-xl" client:load  />
+		<LinkApp class="flex text-xl" client:load  />
 		<!--<a href="https://app.btree.at" class="text-xl">🐝</a>-->
 		<SelectLanguage client:load />
 		<div style="margin: 2rem 0; text-align: center;">
@@ -68,7 +68,7 @@ import LinkApp from "./LinkApp.vue";
 		display: flex;
 		align-items: center;
 		justify-content: flex-end;
-		gap: 1em;
+		gap: 0.1em;
 		width: 100%;
 		max-width: 82em;
 		padding: 0 1rem;
