@@ -6,7 +6,7 @@ export const SITE = {
 
 export const OPEN_GRAPH = {
   image: {
-    src: "https://info.btree.at/og-image.png",
+    src: "https://www.btree.at/og-image.png",
     alt: "b.tree Professional Beekeeping Database serving since 2014.",
   },
   twitter: "btree_hannes",
