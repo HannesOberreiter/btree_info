@@ -45,7 +45,7 @@ export default defineConfig({
       svg: false,
     }),
   ],
-  site: `https://info.btree.at`,
+  site: `https://www.btree.at`,
   markdown: {
     remarkPlugins: [
       // Add a Remark plugin that you want to enable for your project.
