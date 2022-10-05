@@ -19,8 +19,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 	class="initial"
 >
 	<head>
-		<HeadCommon />
 		<HeadSEO {frontmatter} canonicalURL={canonicalURL} />
+		<HeadCommon />
 		<title>
 			{
 				frontmatter.title
