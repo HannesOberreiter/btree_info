@@ -39,7 +39,9 @@ export default defineConfig({
         },
       },
     }),
-    robotsTxt(),
+    robotsTxt({
+      host: true,
+    }),
     compress({
       img: false,
       svg: false,
