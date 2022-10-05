@@ -21,12 +21,6 @@ const imageAlt = frontmatter?.image?.alt ?? OPEN_GRAPH.image.alt;
 
 <!-- OpenGraph Tags -->
 <meta property="og:title" content={formattedContentTitle} />
-<meta property="og:type" content="article" />
-<meta property="og:url" content={canonicalURL} />
-<meta
-	property="og:locale"
-	content={frontmatter.ogLocale ?? SITE.defaultLanguage}
-/>
 <meta property="og:image" content={canonicalImageSrc} />
 <meta property="og:image:alt" content={imageAlt} />
 <meta
@@ -36,7 +30,25 @@ const imageAlt = frontmatter?.image?.alt ?? OPEN_GRAPH.image.alt;
 		? frontmatter.description
 		: SITE.description}
 />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 <meta property="og:site_name" content={SITE.title} />
+<meta property="og:type" content="article" />
+<meta property="og:url" content={canonicalURL} />
+<meta
+	property="og:locale"
+	content={frontmatter.ogLocale ?? SITE.defaultLanguage}
+/>
+<meta
+	property="og:locale:alternate"
+	content="en_EN"
+/>
+<meta
+	property="og:locale:alternate"
+	content="de_DE"
+/>
+
 
 <!-- Twitter Tags -->
 <meta name="twitter:card" content="summary_large_image" />
