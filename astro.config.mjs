@@ -45,6 +45,7 @@ export default defineConfig({
     compress({
       img: false,
       svg: false,
+      html: false,
     }),
   ],
   site: `https://www.btree.at`,
