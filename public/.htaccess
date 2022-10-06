@@ -117,8 +117,8 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
-
   # Redirect app subfolder to app subdomain
+  RedirectMatch 301 ^/app/detail/(.*)$ https://app.btree.at/detail/$1
   RedirectMatch 301 ^/app/.*$ https://app.btree.at/
   # Redirect info and no subdomain to www
   RewriteCond %{HTTP_HOST} !^www\.btree\.at$  [NC]
