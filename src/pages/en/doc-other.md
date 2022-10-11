@@ -13,6 +13,11 @@ lang: "en"
 - Calendar
   - (← left arrow) Previous month / week
   - (→ right arrow) Next month / week
+- Tables
+  - (← left arrow nach links) Previous page
+  - (→ right arrow rechts) Next page
+  - (↑ up arrow) First page
+  - (↓ down arrow) Last page
 
 ### Change password
 

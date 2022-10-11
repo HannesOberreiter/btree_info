@@ -13,6 +13,11 @@ lang: "de"
 - Kalender
   - (← Pfeil nach links) Voriger Monat / Woche
   - (→ Pfeil nach rechts) Nächster Monat / nächste Woche
+- Tabellen
+  - (← Pfeil nach links) Vorherige Tabellen Seite
+  - (→ Pfeil nach rechts) Nächste Tabellen Seite
+  - (↑ Pfeil nach oben) Erste Tabellen Seite
+  - (↓ Pfeil nach unten) Letzte Tabellen Seite
 
 ### Passwort ändern
 
