@@ -22,7 +22,7 @@ Ein Grund dafür könnte das Datum der ersten Wanderung des Bienenstocks sein. D
 
 Unser System ist so aufgebaut, dass individuelle Einstellungen möglich sind. Sie können Ihre eigenen Typen in den Optionen [/setting/option](https://app.btree.at/setting/option/checkup_types) definieren. Die Reihenfolge des Auswahlmenüs ist alphabetisch bzw. der favorisierte Typ steht immer an erster Stelle. Wenn Sie einen Typ nicht mehr benötigen, können Sie den Modus auf inaktiv setzen. Vorsicht, wenn Sie einen Typ löschen, den Sie vorher benutzt haben, können Statistiken und Tabellenwerte falsch sein oder fehlen. Deswegen empfehlen wir grundsetzlich Typen die nicht mehr gebraucht werden, zB eine Behandlungsmethode die nicht mehr eingesetzt wird, auf inaktiv zu setzen um die Datenintegrität zu gewährleisten.
 
-### Ich vermisse ein Feld / Feature für meine Aufgabe ...
+### Ich vermisse ein Feld / Feature für meine Aufgabe
 
 In den Optionen [/setting/field](https://app.btree.at/setting/field) können Sie verschiedene Felder für Ihre Aufgaben aktivieren, zum Beispiel Königinnen Bewertung für Kontrollen. Wenn Sie dennoch noch ein Feld vermissen, können Sie uns eine E-Mail mit Ihrem Vorschlag schreiben. Wir führen eine Benutzer-Wunschliste und wenn genügend Benutzer eine fehlende Funktion angefragt haben, werden wir versuchen, sie zu implementieren. Wir versuchen jedoch, die Anzahl der angebotenen Felder zu minimieren, da wir der Meinung sind, dass Informationen, die in der Statistik nicht wichtig sind, auch einfach in das Notizfeld geschrieben werden können, bzw. hat sich gezeigt, dass viele Felder mit der Zeit in einer größeren Imkerei obsolet werden.
 
@@ -70,6 +70,10 @@ Der Serverstandort ist in Deutschland und alle Daten werden in einer Online-Spei
 
 Wenn Sie einer von vielen Benutzern in einem Imkereibetrieb sind, können Sie Ihr Profil und Ihre Benutzerdaten in den Profileinstellungen [/setting/profile](https://app.btree.at/setting/profile) löschen. Wenn Sie der einzige Benutzer in einem Betrieb sind, werden alle Daten des Betriebs, z.B. Bienenvölker, Standort des Bienenstocks, ebenfalls gelöscht. Wenn Sie nur einen Ihrer Betriebe löschen möchten, können Sie diesen in den Betriebseinstellungen [/setting/company](https://app.btree.at/setting/company) löschen. Dies ist nur möglich, wenn Sie der letzte Benutzer in diesem Betrieb sind. In der Hauptsicherung der Datenbank werden die Daten nach 3 Monaten entfernt (automatische Löschung von Sicherungen, die älter als 3 Monate sind). Eventuelle Rechnungen oder Mail Verkehr mit \*@btree.at werden nach 7 Jahren gelöscht. Wenn Sie uns eine E-Mail schreiben, um Ihren Account zu löschen, legen Sie bitte einen Nachweis vor, dass der Account Ihnen gehört (z.B. Imkerei Namen).
 
-### Die Bienenstockzählung ist falsch!
+### Die Bienenstockzählung ist falsch
 
 Der Hauptgrund, warum Ihre Zählung falsch sein kann, ist die Verwendung von Gruppenstöcken, da diese keine historischen Daten haben. Daher ist die Anzahl der Gruppenstöcken nur in der Bienenstand Zählung sichtbar und spiegelt immer den aktuellen Wert wider. Ein weiterer Grund für eine falsche Anzahl ist, dass ein gelöschtes Bienenvolk nicht mehr in der Statistik auftaucht. Dies gilt für alle Statistiken, daher sollten Sie Ihre Völker inaktiv setzen, wenn diese abgeschwärmt sind oder verkauft wurden, und diese nicht löschen, da dann auch alle damit verbundenen Daten gelöscht werden!
+
+### Was bedeuten die Zahlen im Navigations Menu
+
+Die Zahlen bei Aufgaben und ToDo's kennzeichnet die Anzahl der noch offenen / nicht erledigten Aufgaben. Bei Stand, Stock und Königin stehen die Zahlen für die jeweilige Anzahl. Bei Stock ist die Zahl inklusive möglicher Gruppenstöcke. Die Zahlen werden alle 5 Minuten aktualisiert, dh. Änderungen sind sind sofort erkennbar.
