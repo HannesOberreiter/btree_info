@@ -28,7 +28,7 @@ You can activate various fields for your tasks in the options [/setting/field](h
 
 ### Speech recognition is not working
 
-The speech recognition is dependend on the available web API and so far only works in Google Chrome and Microsoft Edge browser, it also needs active internet connection. The speak recognition is only active if you click on the button, an ongoing listening is currently not feasable moment not.
+The speech recognition is dependent on the available web API and so far only works in Google Chrome and Microsoft Edge browser, it also needs active internet connection. The speak recognition is only active if you click on the button, an ongoing listening is currently not feasable moment not.
 
 You can find the current browser support on following link: [caniuse.com/mdn-api_speechrecognitionevent](https://caniuse.com/mdn-api_speechrecognitionevent)
 
@@ -68,6 +68,10 @@ The server location is in Germany and all data is saved in an online storage dat
 
 If you are one of many users in a beekeeping operation you can delete your profile and user data in the profile settings [/setting/profile](https://app.btree.at/setting/profile). If you are the only user in the beekeeping operation all the data of the operation, e.g. colonies, apiary location will also be deleted. If you only want to delete one of your operations you can delete it in the company settings [/setting/company](https://app.btree.at/setting/company). This is only possible if you are the last user in this company. In the main database backup the data will be removed after 3 months (auto deletion of backups older than 3 months). Possible invoices or mail conservations with \*@btree.at will be deleted after 7 years. If you write me an email to delete your account, please present some proof that the account belongs to you (e.g. company name).
 
-### The hive count statistic is wrong!
+### The hive count statistic is wrong
 
 The main reasons why your count may be off are if you use group hives, as they do not have historical data. Therefore the group hive count is only visible in the apiary count and always reflect the current value. Another reasons why you count may be off is that if you delete a hive it wont show up in the statistics. This is true for all statistics, therefore you should set your hive inactive if it is lost or your sold it and do not delete it as all connected data will also be removed!
+
+### Was bedeuten die Zahlen im Navigations Menu
+
+The numbers for tasks and to-dos indicate the count of tasks still open / not completed. For apiary, hive and queen, the numbers represent the respective count. For hive, the number includes possible grouphives. The numbers are updated every 5 minutes, i.e. changes are immediately visible.

@@ -11,7 +11,7 @@ The protection of your data is a special concern of ours. Therefore we process y
 
 If you contact us via e-mail your provided data will be saved for processing your request and for possible follow-up questions. We will not share this data with third parties without your consent.
 
-### Cookies (b.tree App)
+### Cookies (app.btree.at)
 
 Our website uses cookies. Cookies are small text files, which are stored on your device. They are not inflicting any damage and are used to improve your user experience. Some cookies will be stored on your device until you delete them. They allow us to identify your browser upon your return.
 
@@ -19,11 +19,11 @@ If you do not agree with this, you can change your browser settings to being not
 
 If you deactivate cookies this may have implications on the full functionality of our website.
 
-### Web-Analysis
+### Web-Analysis (app.btree.at & www.btree.at)
 
-We use AWStats and Report Magic, Matomo, the software only use pseudonymised Server Logfiles as source for the statistics. Each one runs on our own server and is not used by third party.
-Your IP address will be used only in parts (the last 8 Bits will be deleted) to determine your rough location.
-Following Data will be used: Browser type and Browserversion (if from User transferred!), operation system, date and time of connection, amount of visits, time of visits on homepage, previous visited pages (if from User transferred!), pseudonymised IP.
+We use AWStats (www.btree.at) and Report Magic (www.btree.at), the software only use pseudonymised Server Logfiles as source for the statistics. In our application we use Matomo (app.btree.at) for more in depth analysis and per user basis. Each software runs on our own server and is not used by third party. Your IP address will be used only in parts (the last 8 Bits will be deleted) to determine your rough location.
+
+Following Data will be used: Browser type and Browserversion (if from user transferred!), operation system, date and time of connection, amount of visits, time of visits on homepage, previous visited pages (if from user transferred!), pseudonymised IP.
 
 Data processing is based on the following § 96 Section 3 TKG and art. 6 Section 1 lit a (Consent) and/or f (legitimate interest) of GDPR.
 
@@ -31,7 +31,7 @@ Our concern in the sense of the GDPR (legitimate interests) is the improvement o
 
 The anonymous user data will be stored for the duration of three years.
 
-### Hosting & Log Files
+### Hosting & Log Files (app.btree.at & www.btree.at)
 
 We, or our hosting provider (Hetzner Online GmbH Deutschland, tablegray gmbh Österreich), will automatically collect and store data on access to this website in so-called server log files in the sense of art. 6 Section 1 lit. f. GDPR.
 
@@ -39,21 +39,21 @@ These are: URL, Time and date of request to server, Data size, Browser type and 
 
 Log file-data will be stored for the duration of two years for safety reasons and statistical evaluation and deleted after this period of time.
 
-### Database Backups
+### Database Backups (app.btree.at)
 
 Daily backups are saved on Amazon Werbservice (aws S3 cloud) and are GDPR ready. After 60 days backups are automatically delete.
 
-### Payment Services (Application)
+### Payment Services (app.btree.at)
 
 In order to fulfil contracts, we use external payment service providers on the basis of art. 6 section 1 lit. b. GDPR. We use the external payment service providers on basis of our legitimate interests art. 6 section 1 lit. b. GDPR in order to offer our users effective and secure payment options.
 
-We use following external payment service providers: Paypal (<https://www.paypal.com/>) and Stripe (<https://www.stripe.com/>)
+We use following external payment service providers: PayPal (<https://www.paypal.com/>) and Stripe (<https://www.stripe.com/>)
 
 For payment transactions the terms and conditions and the privacy notices of the respective external payment service providers apply, which are available on their respective websites.
 
-### b.tree Beekeeping App (Application)
+### b.tree Beekeeping App (app.btree.at)
 
-For the active use of our service (App) and for the purpose of contract processing, the following data is stored with us:
+For the active use of our service and for the purpose of contract processing, the following data is stored with us:
 
 - Beekeeping Operation Name,
 - Username (not mandatory),
@@ -68,16 +68,16 @@ There is no data transfer to third parties. The stored data can be viewed at any
 
 As part of login and use of the forum of the application, the IP address and the time of the respective user action will be saved. It is based on our legitimate interests, as well as the user’s protection against misuse and other unauthorized use. A transfer of these data to third parties does not take place, unless it is necessary for the prosecution of our claims or there is legal obligation in accordance with art. 6 sec. 1 lit. c GDPR.
 
-### External Services
+### External Services (app.btree.at & www.btree.at)
 
 The Website und Beekeeping Application uses, on basis of our legitimate interests to provide better service for our users, contents or services offered by third-party providers are used (e.g. videos, weather service fonts).
 
-- Meteoblue Weatherservice (Meteoblue AG, Schweiz, <https://www.meteoblue.com/)(IP-address> and current location if user gives rights)
-- Openstreet Map (Opensource Project, <https://www.openstreetmap.org/>) (IP-address and current location if user gives rights)
-
-#### Optional
-
-- Dropbox (Dropbox Inc., <https://www.dropbox.com>) (Saving Files)
+- app.btree.at
+  - Meteoblue Weatherservice (Meteoblue AG, Schweiz, <https://www.meteoblue.com/)(IP-address> and current location if user gives rights)
+  - Openstreet Map (Opensource Project, <https://www.openstreetmap.org/>) (IP-address and current location if user gives rights)
+  - Dropbox (Dropbox Inc., <https://www.dropbox.com>) (Saving files, optional)
+- www.btree.at
+  - iNaturalist (California Academy of Sciences, San Francisco <https://www.inaturalist.org/> (API to get recent observations)
 
 ### Data Processing Agreement
 
