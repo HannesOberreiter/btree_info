@@ -15,7 +15,7 @@ Die Anwendung mag für kleine Hobbyimker mit nur ein bis zwei Bienenvölkern vie
 
 ### Video Tutorial
 
-Auf YouTube findet ihr ein Einführungs Video zu ersten Schritten mit Erklärung: [b.tree - Tutorial - Einführung - Deutsch](https://youtu.be/eDbJ4mnt5nA)
+Auf YouTube findet ihr ein Einführungs Video zu ersten Schritten mit Erklärung: [b.tree - Tutorial - Einführung - Deutsch](https://youtu.be/6T14l1HsT0s)
 
 ### Optionen
 

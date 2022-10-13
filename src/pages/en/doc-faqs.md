@@ -9,10 +9,12 @@ lang: "en"
 
 The b.tree beekeeping application is a pure web solution and can be installed as PWA ([wikipedia.org/wiki/Progressive_Web_App](https://en.wikipedia.org/wiki/Progressive_Web_App)). We do not plan any native applications in the near future. The best way to use the app is to download the PWA onto your device (Firefox does not support this function currently).
 
-Installation:
+#### Installation PWA
 
-- Chrome Computer & Android: [support.google.com/chrome/answer/9658361](https://support.google.com/chrome/answer/9658361)
-- Apple iOS: [pcmag.com/how-to/how-to-use-progressive-web-apps](https://www.pcmag.com/how-to/how-to-use-progressive-web-apps)
+- Chrome Computer & Android
+  - [support.google.com/chrome/answer/9658361](https://support.google.com/chrome/answer/9658361)
+- Apple iOS
+  - [pcmag.com/how-to/how-to-use-progressive-web-apps](https://www.pcmag.com/how-to/how-to-use-progressive-web-apps)
 
 ### Task is not visible in table
 
