@@ -13,6 +13,10 @@ Obwohl Sie alle Ihre Informationen in die App eingeben können, was besonders n�
 
 Die Anwendung mag für kleine Hobbyimker mit nur ein bis zwei Bienenvölkern vielleicht Überdimensioniert sein, aber wenn Sie wie wir an Statistiken und historischen Daten interessiert sind, lohnt es sich trotzdem die Zeit zu investieren. Für große Betriebe mit mehr als tausend Bienenvölkern ist unsere App vielleicht auch nicht die beste Lösung, da ab dieser Betriebsgröße Zeitmanagement und der Materialbestand ein größeres Problem darstellt. In unseren Augen ist die Anwendung am besten für mittlere Imkereibetriebe mit ein paar Dutzend bis ein paar hundert Völkern geeignet, insbesondere für zertifizierte Bio-Imker und deren obligatorische Aufzeichnungen. Für Königinnenzüchter könnte die App eine gute Ergänzung sein, um Aufzeichnungen über die Leistung der Königinnen zu führen, und für Imkergemeinschaften, die sich Bienenvölker teilen, ein perfektes Tool damit alle in ihren Aufzeichnungen auf dem gleichen Stand sind. Mit unserer Webanwendung haben Sie immer die aktuellsten Daten zur Verfügung, ohne dass eine Synchronisierung erforderlich ist.
 
+### Video Tutorial
+
+Auf YouTube findet ihr ein Einführungs Video zu ersten Schritten mit Erklärung: [b.tree - Tutorial - Einführung - Deutsch](https://youtu.be/eDbJ4mnt5nA)
+
 ### Optionen
 
 Es ist nicht sehr benutzerfreundlich, aber der beste erste Schritt ist, in die Einstellungen zu gehen und die gewünschten Optionen zu definieren. Da fast jede/r ImkerIn und jedes Land seine eigenen Methoden zur Fütterung, Behandlung usw. hat, wäre es aufgrund der Vielfalt nicht sinnvoll, diese Optionen vorzugeben. In unserer Anwendung können Sie die meisten Typen in den Optionen [/setting/option/](https://app.btree.at/setting/option/checkup_types) einstellen. Hier können Sie Typen Kontrollen, z.B. Schwarm abgegangen, Propolis Gitter aufgelegt, Alkoholwäsche durchgeführt oder für Ihre Ernte Honig-Trachten, den Begattungsort der Königin und so weiter definieren.
