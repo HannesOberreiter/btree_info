@@ -12,11 +12,11 @@ Die b.tree Imkerei-Applikation ist eine reine Web-Lösung und kann als PWA ([wik
 #### Installation PWA
 
 - Chrome Computer & Android
-  - YouTube: [b.tree - Tutorial - PWA Android - Deutsch](https://youtu.be/x3vtW8X-agE)
-  - [support.google.com/chrome/answer/9658361](https://support.google.com/chrome/answer/9658361)
+  - Video Anleitung: [b.tree - Tutorial - PWA Android - Deutsch](https://youtu.be/x3vtW8X-agE)
+  - Text Anleitung: [support.google.com/chrome/answer/9658361](https://support.google.com/chrome/answer/9658361)
 - Apple iOS
-  - YouTube: [b.tree - Tutorial - PWA iOS - Deutsch](https://youtu.be/JMR0t6za7Ys)
-  - [marlem-software.de/marlemblog/2022/02/04/](https://www.marlem-software.de/marlemblog/2022/02/04/progressive-web-apps-installieren-in-den-betriebssystemen-windows-android-ios-ubuntu-und-macos/#Progressive_Web-App_Installation_im_Betriebssystem_IOS)
+  - Video Anleitung: [b.tree - Tutorial - PWA iOS - Deutsch](https://youtu.be/JMR0t6za7Ys)
+  - Text Anleitung: [marlem-software.de/marlemblog/2022/02/04/](https://www.marlem-software.de/marlemblog/2022/02/04/progressive-web-apps-installieren-in-den-betriebssystemen-windows-android-ios-ubuntu-und-macos/#Progressive_Web-App_Installation_im_Betriebssystem_IOS)
 
 ### Aufgabe ist in der Tabelle nicht sichtbar
 
