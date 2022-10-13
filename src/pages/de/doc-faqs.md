@@ -50,9 +50,13 @@ Sowohl der NFC- als auch der QR-Code-Scanner sollen Ihnen dabei helfen, schnelle
 
 Sie können NFCs mit einem Tool eines Drittanbieters beschreiben oder die integrierte Schaltfläche "Teilen" verwenden. Sie finden die Schaltfläche in der Fußzeile der App, wo die aktuelle URL steht. Wenn Sie auf den Text klicken, öffnet sich ein Dialog, mit dem Sie auf einen NFC-Tag schreiben können.
 
+Video Erklärung: [b.tree - Tutorial - NFC - Deutsch](https://youtu.be/2XR1nlOw6xI)
+
 #### QR-Code exportieren
 
 In der Stock-Tabelle [/table/hive](https://app.btree.at/table/hive) wählen Sie die Stöcke aus, für die Sie einen QR-Code generieren möchten. Dann klicken Sie auf die Dropdown-Schaltfläche und wählen "QR drucken". Es öffnet sich ein Dialog, in dem QR-Codes für jeden ausgewählten Bienenstock erzeugt wird. Mit einer zusätzlichen Schaltfläche können Sie ein separates Fenster zum Drucken öffnen. Alternativ können Sie ein QR-Code-Generierungstool eines Drittanbieters verwenden und einfach QR-Codes auf der Grundlage der URLs generieren.
+
+Video Erklärung: [b.tree - Tutorial - QR Code - Deutsch](https://youtu.be/ps_aYB9u778)
 
 ### Premium-Mitgliedschaft
 
@@ -77,3 +81,7 @@ Der Hauptgrund, warum Ihre Zählung falsch sein kann, ist die Verwendung von Gru
 ### Was bedeuten die Zahlen im Navigations Menu
 
 Die Zahlen bei Aufgaben und ToDo's kennzeichnet die Anzahl der noch offenen / nicht erledigten Aufgaben. Bei Stand, Stock und Königin stehen die Zahlen für die jeweilige Anzahl. Bei Stock ist die Zahl inklusive möglicher Gruppenstöcke. Die Zahlen werden alle 5 Minuten aktualisiert, dh. Änderungen sind sind sofort erkennbar.
+
+### Tutorial Videos
+
+Auf YouTube findet ihr eine Playlist mit Tutorial Videos: [b.tree | Imkerei App Tutorial | Deutsch](https://www.youtube.com/playlist?list=PLtd4fnhQMyZ0dz8fAT5rPUw4wnkznXXSX)
