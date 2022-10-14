@@ -38,7 +38,7 @@ import { useFetch } from "@vueuse/core";
 import ButtonPaging from "./ButtonPaging.vue";
 
 const { isFetching, error, data, execute }: any = useFetch(
-  "https://beta.btree.at/news.json",
+  "https://app.btree.at/news.json",
   {
     immediate: false,
   }
