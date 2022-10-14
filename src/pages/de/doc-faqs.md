@@ -52,15 +52,15 @@ Sowohl der NFC- als auch der QR-Code-Scanner sollen Ihnen dabei helfen, schnelle
 
 #### NFC exportieren
 
-Sie können NFCs mit einem Tool eines Drittanbieters beschreiben oder die integrierte Schaltfläche "Teilen" verwenden. Sie finden die Schaltfläche in der Fußzeile der App, wo die aktuelle URL steht. Wenn Sie auf den Text klicken, öffnet sich ein Dialog, mit dem Sie auf einen NFC-Tag schreiben können.
-
 Video Erklärung: [b.tree - Tutorial - NFC - Deutsch](https://youtu.be/2XR1nlOw6xI)
+
+Sie können NFCs mit einem Tool eines Drittanbieters beschreiben oder die integrierte Schaltfläche "Teilen" verwenden. Sie finden die Schaltfläche in der Fußzeile der App, wo die aktuelle URL steht. Wenn Sie auf den Text klicken, öffnet sich ein Dialog, mit dem Sie auf einen NFC-Tag schreiben können.
 
 #### QR-Code exportieren
 
-In der Stock-Tabelle [/table/hive](https://app.btree.at/table/hive) wählen Sie die Stöcke aus, für die Sie einen QR-Code generieren möchten. Dann klicken Sie auf die Dropdown-Schaltfläche und wählen "QR drucken". Es öffnet sich ein Dialog, in dem QR-Codes für jeden ausgewählten Bienenstock erzeugt wird. Mit einer zusätzlichen Schaltfläche können Sie ein separates Fenster zum Drucken öffnen. Alternativ können Sie ein QR-Code-Generierungstool eines Drittanbieters verwenden und einfach QR-Codes auf der Grundlage der URLs generieren.
-
 Video Erklärung: [b.tree - Tutorial - QR Code - Deutsch](https://youtu.be/ps_aYB9u778)
+
+In der Stock-Tabelle [/table/hive](https://app.btree.at/table/hive) wählen Sie die Stöcke aus, für die Sie einen QR-Code generieren möchten. Dann klicken Sie auf die Dropdown-Schaltfläche und wählen "QR drucken". Es öffnet sich ein Dialog, in dem QR-Codes für jeden ausgewählten Bienenstock erzeugt wird. Mit einer zusätzlichen Schaltfläche können Sie ein separates Fenster zum Drucken öffnen. Alternativ können Sie ein QR-Code-Generierungstool eines Drittanbieters verwenden und einfach QR-Codes auf der Grundlage der URLs generieren.
 
 ### Premium-Mitgliedschaft
 

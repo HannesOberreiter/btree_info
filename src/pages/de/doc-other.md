@@ -29,6 +29,8 @@ In unserer Vorgängerversion 5.x.x war es möglich, Dateien auf unseren Server h
 
 ### Dropbox
 
+Eine Video Erklärung findet man auf YouTube: [b.tree - Tutorial - Dropbox als Datenverwaltung - Deutsch](https://youtu.be/1-GgEi5Pjek)
+
 Um Fotos oder Dateien zu Aufgaben etc. hinzuzufügen, können Sie ein Dropbox-Konto verbinden [/setting/dropbox](https://app.btree.at/setting/dropbox). Dropbox ist zwar nicht kostenlos, bietet aber einen einfach zu bedienenden Cloud-Dienst für die Dateiverwaltung. Wenn die Verbindung zu Ihrem Dropbox-Konto authentifiziert ist, wird ein spezieller Ordner (b.tree - Beekeeping) in Ihrem Dropbox-Konto erstellt. Der Zugriff auf diesen Ordner ist dann für Sie und **alle Ihre Benutzer auf demselben Imkereibetrieb** verfügbar. Um den Zugriff zu entfernen, können Sie die entsprechende Schaltfläche auf der Einstellungsseite verwenden oder [dropbox.com/account/connected_apps](https://www.dropbox.com/account/connected_apps) besuchen.
 
 Nachdem Sie Ihr Dropbox-Konto verbunden haben, können Sie Ihre Dateien und Ordner auf der Einstellungsseite [/setting/dropbox](https://app.btree.at/setting/dropbox) verwalten. Um auf den Dropbox-Ordner zuzugreifen oder neue Bilder und Dateien hochzuladen, wenn Sie neue Aufgaben erstellen, aktivieren Sie die Schaltfläche "Link" in den Feldeinstellungen [/setting/field](https://app.btree.at/setting/field). Beim Speichern eines Bildes oder einer Datei zu Ihrer Aufgabe wird eine ID mitgespeichert und Sie können darauf klicken, um den Inhalt in einem kleinen Fenster anzuzeigen.
