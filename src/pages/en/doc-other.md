@@ -43,6 +43,12 @@ If you got your own beehive scale connected to our API, daily weight average wil
 
 In the top menu bar, when you click on the magnifying glass icon, it is possible to quickly access individual hives or apiaries. You will be redirected to the respective detail overview of the apiary or hive, which is a good starting point if you are looking for quick information.
 
+### Breeding series
+
+Since breeding methods differ between beekeeping operations, b.tree offers the possibility to define them yourself. Creating these breeding methods [/setting/rearing](https://app.btree.at/setting/rearing) may take you some time. Note that the waiting time for the breeding steps always refers to the time in hours to the previous step.
+
+After the breeding methods have been defined, breeding series can easily be added using the following form: [/new/rearing](https://app.btree.at/new/rearing). These breeding series are also displayed in the calendar and can be subscribed to as iCal. Attention: Deleting breeding series or methods that have already been used will lead to irrevocable deletion and cannot be restored.
+
 ### Speak recognition commands
 
 This Feature is not working in all Browsers, so far it works only with Chrome and Microsoft Edge. The speak recognition should help you to work faster and easier with the app. Following commands are integrated:
