@@ -43,6 +43,12 @@ Wenn Sie eine eigene Bienenstockwaage haben, die mit unserer API verbunden ist, 
 
 Wenn Sie in der oberen Menüleiste auf das Lupensymbol klicken, können Sie schnell auf einzelne Bienenstöcke oder Stände zugreifen. Sie werden auf die jeweilige Detailübersicht des Bienenstandes oder Bienenstocks weitergeleitet, was ein guter Ausgangspunkt für die Suche nach schnellen Informationen ist.
 
+### Zuchtserien
+
+Da Zuchtmethoden sich unterscheiden zwischen Imkerei Betrieben, bietet b.tree die Möglichkeit diese selber zu definieren. Das Anlegen dieser Zuchtmethoden [/setting/rearing](https://app.btree.at/setting/rearing) erfordert etwas Zeit und ist in diesem Video erklärt: [b.tree - Tutorial - Zuchtmethode und Zuchtserie - Deutsch](https://youtu.be/R47P79QtQag). Ein Hinweis dazu, die Wartezeit bei den Zuchtschritten bezieht sich immer auf die Zeit in Stunden zu dem vorhergegangen Schritt.
+
+Nachdem die Zuchtmethoden definiert sind können Zuchtserien einfach über folgendes Formular hinzugefügt werden: [/new/rearing](https://app.btree.at/new/rearing). Diese Zuchtserien werden auch im Kalender dargestellt und können als iCal abonniert werden. Achtung ein Löschen von Zuchtserien oder Methoden die bereits verwendet wurden führt zur unwiderruflichen Löschung und können nicht wiederhergestellt werden.
+
 ### Spracherkennungsbefehle
 
 Dieses Feature funktioniert noch nicht in allen Browsern, bisher funktioniert es nur mit Chrome und Microsoft Edge. Die Spracherkennung soll Ihnen helfen, schneller und einfacher mit der App zu arbeiten. Folgende Befehle sind integriert:
@@ -57,6 +63,8 @@ Dieses Feature funktioniert noch nicht in allen Browsern, bisher funktioniert es
 ### Mehrere Benutzer / Imker
 
 Wenn Sie einen weiteren Benutzer zu Ihrem Imkereibetrieb hinzufügen möchten, besuchen Sie die Seite mit den Unternehmenseinstellungen [/setting/company](https://app.btree.at/setting/company). Wenn die E-Mail Adresse noch nicht bei uns registriert ist, wird automatisch ein Konto erstellt und eine E-Mail an den neuen Benutzer geschickt, in der er aufgefordert wird, sein Passwort zurückzusetzen, da wir keine Passwörter per E-Mail verschicken.
+
+Eine Video Erklärung zum Thema Imkereien und User findet ihr auf YouTube: [b.tree - Tutorial - Betriebe und Benutzer Management - Deutsch](https://youtu.be/SEmuh3b8UXk)
 
 Für Benutzer gibt es drei Ränge, die durch Klicken auf das Rangsymbol geändert werden können. Um Benutzer zu entfernen, klicken Sie auf das Symbol "Benutzer entfernen".
 
