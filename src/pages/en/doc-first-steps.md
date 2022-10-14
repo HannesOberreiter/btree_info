@@ -5,7 +5,7 @@ layout: "../../layouts/IndexLayout.astro"
 lang: "en"
 ---
 
-### Why should I use this App?
+### Why should I use this app?
 
 This web application was designed to help you keep track of the recent and past beekeeping tasks of your colonies. The basic idea was an easy record keeping tool, which is mandatory for european beekeepers when applying medications and to help fulfil the notation conditions (feeding, harvesting) for certified organic beekeepers. In addition, the collected data can be used as basis for statistical analysis of the beekeeping operation efficiency. As an example, one can compare the honey yield of apiaries or judge queens on their performance ratings.
 

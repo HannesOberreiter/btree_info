@@ -12,9 +12,11 @@ The b.tree beekeeping application is a pure web solution and can be installed as
 #### Installation PWA
 
 - Chrome Computer & Android
-  - [support.google.com/chrome/answer/9658361](https://support.google.com/chrome/answer/9658361)
+  - YouTube Video: [b.tree - Tutorial - PWA Android - English](https://youtu.be/Qz_Dt4LRj3M)
+  - Text description: [support.google.com/chrome/answer/9658361](https://support.google.com/chrome/answer/9658361)
 - Apple iOS
-  - [pcmag.com/how-to/how-to-use-progressive-web-apps](https://www.pcmag.com/how-to/how-to-use-progressive-web-apps)
+  - YouTube Video: [b.tree - Tutorial - PWA iOS - Deutsch](https://youtu.be/_O5TJDFNtC0)
+  - Text description: [pcmag.com/how-to/how-to-use-progressive-web-apps](https://www.pcmag.com/how-to/how-to-use-progressive-web-apps)
 
 ### Task is not visible in table
 
@@ -48,9 +50,13 @@ Both NFC and QR code scanner are meant to help you work faster in the field. The
 
 #### Export NFC
 
+Video explanation: [b.tree - Tutorial - NFC - English](https://youtu.be/6gaJMcWiAGA)
+
 You can write NFCs with a third party tool or use the integrated "share" button. You find it in the footer of the app and it will show the current url. If you click on it a dialog will open which allows you to write onto a NFC tag.
 
 #### Export QR code
+
+Video explanation: [b.tree - Tutorial - QR Code - English](https://youtu.be/L1Cv6pYBx9Q)
 
 On the hive table [/table/hive](https://app.btree.at/table/hive) you select the hives you want a QR code generated. Then you click on the dropdown button and select "Print QR". A dialog will open and QR codes for each selected hive will be generated. With an additional button you can open a separate window for printing. Alternative you can use a third party QR code generation tool and simply generate QR based on the urls.
 
@@ -74,6 +80,10 @@ If you are one of many users in a beekeeping operation you can delete your profi
 
 The main reasons why your count may be off are if you use group hives, as they do not have historical data. Therefore the group hive count is only visible in the apiary count and always reflect the current value. Another reasons why you count may be off is that if you delete a hive it wont show up in the statistics. This is true for all statistics, therefore you should set your hive inactive if it is lost or your sold it and do not delete it as all connected data will also be removed!
 
-### Was bedeuten die Zahlen im Navigations Menu
+### About the numbers visible in the navigation
 
 The numbers for tasks and to-dos indicate the count of tasks still open / not completed. For apiary, hive and queen, the numbers represent the respective count. For hive, the number includes possible grouphives. The numbers are updated every 5 minutes, i.e. changes are immediately visible.
+
+### Tutorial video
+
+On YouTube you can find a collection of tutorial videos on different topics: [b.tree | Beekeeping App Tutorial | English](https://youtube.com/playlist?list=PLtd4fnhQMyZ34CSl0_vc4dMOP3BrVoXYK)

@@ -9,7 +9,7 @@ import { Picture } from "@astrojs/image/components";
 
 <Picture
   src="/images/mobile.png"
-  aspectRatio="1:2"
+  aspectRatio={0.489}
   class="hidden sm:block float-right pl-4"
   widths={[50, 100, 200]}
   sizes="(max-width: 200px) 100vw, 200px"
@@ -24,29 +24,18 @@ Die meisten Daten sind in Tabellen angezeigt um eine gute Übersicht auch bei gr
 
 <section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
-    src="/images/map.png"
-    aspectRatio="2:1"
+    src="/images/table.png"
+    aspectRatio={1.24133663}
     class="mx-auto"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 600px"
-    alt="apiary map"
+    alt="tabular data"
   />
 </section>
 
 ### Cloud & Multi User
 
 Die Imkerei Webapplikation unterstützt keinen Offline Modus, aber hat man eine Internet Verbindung kann man von jedem Gerät die aktuellen Daten einsehen und bearbeiten. Es ist zusätzlich möglich mehreren Mitarbeiter einen Zugang zur Imkerei Web Software freizuschalten. Wir bieten eine moderne Imkereiverwaltung in der Cloud als Webapplikation, diese kann auch als PWA (Progressive web application) installiert werden.
-
-<section class="hero container max-w-screen-lg mx-auto flex">
-  <Picture
-    src="/images/company.png"
-    aspectRatio="2:1"
-    class="mx-auto"
-    widths={[200, 400, 600]}
-    sizes="(max-width: 600px) 100vw, 600px"
-    alt="company settings"
-  />
-</section>
 
 ### Statistik & Daten
 
@@ -55,7 +44,7 @@ Alle wichtigen Daten sind in responsive Statistiken praktisch für Premium Benut
 <section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
     src="/images/statistic.png"
-    aspectRatio="2:1"
+    aspectRatio={1.48}
     class="mx-auto"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 600px"
@@ -67,17 +56,6 @@ Alle wichtigen Daten sind in responsive Statistiken praktisch für Premium Benut
 
 Schreibe schnelle ToDo Notizen oder Aufgaben für einen einzelnen Bienenstock oder den gesamten Bienenstand. Zusätzlich kannst du mit unserem Königinnen (Weisel) Zucht Planer deine eigene Methoden anlegen und im Kalender anzeigen lassen, als Premium User auch als iCal Exportieren. Somit hast du deinen wichtigen Königinnenzucht Termine alle immer im besten Blick!
 
-<section class="hero container max-w-screen-lg mx-auto flex">
-  <Picture
-    src="/images/queen_rearing.png"
-    aspectRatio="4:1"
-    class="mx-auto"
-    widths={[200, 400, 600]}
-    sizes="(max-width: 600px) 100vw, 600px"
-    alt="Queen Rearing Steps"
-  />
-</section>
-
 ### Karte & Kalendar
 
 Erstelle Bienenstände mit einem einfachen Mausklick auf einer eigenen Bienenstandkarte - auch das Verschieben geht hier ganz einfach! Die Imkerei Web Applikation hat zusätzlich einen Kalender wo deine zukünftigen und vergangenen Imkerei Aufgaben angezeigt werden. Als Premium User kannst du den Kalender über einen Export Link in jeden deiner Kalender anzeigen lassen (iCal).
@@ -85,7 +63,7 @@ Erstelle Bienenstände mit einem einfachen Mausklick auf einer eigenen Bienensta
 <section class="hero container max-w-screen-lg mx-auto flex">
   <Picture
     src="/images/calendar.png"
-    aspectRatio="2:1"
+    aspectRatio={1.24009604}
     class="mx-auto"
     widths={[200, 400, 600]}
     sizes="(max-width: 600px) 100vw, 600px"
@@ -96,14 +74,3 @@ Erstelle Bienenstände mit einem einfachen Mausklick auf einer eigenen Bienensta
 ### NFC & Sprachkommandos
 
 Die Imkerei Software unterstützt auch NFC und Sprachsteuerung im Chrome Browser auf dem Computer oder am Android Mobile Device deiner Wahl. Dies ermöglicht ein schnelles und effizientes Arbeiten am Bienenstand.
-
-<section class="hero container max-w-screen-lg mx-auto flex">
-  <Picture
-    src="/images/nfc_export.png"
-    aspectRatio="1:1"
-    class="mx-auto"
-    widths={[200, 400, 600]}
-    sizes="(max-width: 600px) 100vw, 600px"
-    alt="NFC"
-  />
-</section>
