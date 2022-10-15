@@ -33,7 +33,7 @@ Mein Ziel: Die Applikation soll jeden einzelnen von euch bestmöglich bei euren 
 
 Mit besten Grüßen
 
-_Hannes Oberreiter_, Fun-Beekeeper, Hobby-Programmer, Enjoyment-Biologist
+_Hannes Oberreiter_, Zeitvertreib Landwirt , Freizeit Programmierer, Hobby Biologe
 
 <hr/>
 

@@ -33,7 +33,7 @@ My goal is to support beekeepers in their beekeeping with a simple but efficient
 
 All kind of feedback are more than welcome!
 
-_Hannes Oberreiter_, Fun-Beekeeper, Hobby-Programmer, Enjoyment-Biologist
+_Hannes Oberreiter_, Pastime farmer and beekeeper, spare time programmer, hobby biologist
 
 <hr/>
 
