@@ -8,9 +8,9 @@ lang: "de"
 ### Basic[^1] - Gratis
 
 <ul style="list-style: none">
-    <li>❌ Limitierte Anzahl an Bienenstöcke</li>
-    <li>❌ Limitierte Anzahl an Bienenstände</li>
-    <li>❌ Kein API Zugriff</li>
+    <li>❌ Limitierte Anzahl an Bienenstöcken (5)</li>
+    <li>❌ Limitierte Anzahl an Bienenstände (2)</li>
+    <li>❌ Kein API Zugriff und limitierte Anzahl Stockwaagen (2)</li>
     <li>❌ Keine Statistiken</li>
 </ul>
 
@@ -19,7 +19,7 @@ lang: "de"
 <ul style="list-style: none">
     <li>✅ 1.000 Stöcke!</li>
     <li>✅ 100 Stände!</li>
-    <li>✅ API Zugriff für iCal und Stockwaagen</li>
+    <li>✅ API Zugriff für iCal und Stockwaagen (10)</li>
     <li>✅ Responsive Statistiken</li>
     <li>✅ Temperaturfeld wird automatisch mit Standdaten befüllt</li>
     <li>✅ Standkarte mit optionaler Wetteranzeige</li>
