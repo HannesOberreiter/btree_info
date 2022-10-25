@@ -8,9 +8,9 @@ lang: "en"
 ### Basic[^1] - Free
 
 <ul style="list-style: none">
-    <li>❌ Limited hives</li>
-    <li>❌ Limited apiaries </li>
-    <li>❌ No API access</li>
+    <li>❌ Limited hives (5)</li>
+    <li>❌ Limited apiaries (2)</li>
+    <li>❌ No API access and limited scales (2)</li>
     <li>❌ No statistics</li>
 </ul>
 
@@ -19,7 +19,7 @@ lang: "en"
 <ul style="list-style: none">
     <li>✅ 1.000 Hives!</li>
     <li>✅ 100 Apiaries!</li>
-    <li>✅ API access for iCal and hive scales</li>
+    <li>✅ API access for iCal and hive scales (10)</li>
     <li>✅ Responsive statistics</li>
     <li>✅ Automatic fetching data for temperature field on checkup</li>
     <li>✅ Apiary map with optional weather overlay</li>
