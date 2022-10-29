@@ -7,7 +7,7 @@ lang: "de"
 
 ### Ich kann die App nicht im Apple iOS AppStore oder Google PlayStore finden
 
-Die b.tree Imkerei-Applikation ist eine reine Web-Lösung und kann als PWA ([wikipedia.org/wiki/Progressive_Web_App](https://en.wikipedia.org/wiki/Progressive_Web_App)) installiert werden. Wir planen in naher Zukunft keine nativen Anwendungen für iOS, Android oder sonstige Plattform. Der beste Weg, die App zu nutzen, ist, die PWA auf Ihr Gerät zu laden (Firefox unterstützt diese Funktion derzeit nicht).
+Die b.tree Imkerei-Applikation ist eine reine Web-Lösung und kann als PWA ([wikipedia.org/wiki/Progressive_Web_App](https://en.wikipedia.org/wiki/Progressive_Web_App)) installiert werden. Der beste Weg, die App zu nutzen, ist, die PWA auf Ihr Gerät zu laden (Firefox unterstützt diese Funktion derzeit nicht). Außerdem sind wir im Google PlayStore und im iOS App Store vertreten, aber es ist mehr oder weniger dasselbe wie die PWA. Sie müssen selbst testen, was für Sie besser funktioniert.
 
 #### Installation PWA
 
@@ -17,6 +17,11 @@ Die b.tree Imkerei-Applikation ist eine reine Web-Lösung und kann als PWA ([wik
 - Apple iOS
   - Video Anleitung: [b.tree - Tutorial - PWA iOS - Deutsch](https://youtu.be/JMR0t6za7Ys)
   - Text Anleitung: [marlem-software.de/marlemblog/2022/02/04/](https://www.marlem-software.de/marlemblog/2022/02/04/progressive-web-apps-installieren-in-den-betriebssystemen-windows-android-ios-ubuntu-und-macos/#Progressive_Web-App_Installation_im_Betriebssystem_IOS)
+
+#### Store Links
+
+- [Android PlayStore](https://play.google.com/store/apps/details?id=com.bnative)
+- [iOS AppStore](https://apps.apple.com/us/app/btree-app-professional-beekeeping-software/id1115267587)
 
 ### Aufgabe ist in der Tabelle nicht sichtbar
 
