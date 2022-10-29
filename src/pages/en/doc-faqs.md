@@ -7,7 +7,7 @@ lang: "en"
 
 ### I cannot find the app in the Apple iOS AppStore or Google PlayStore
 
-The b.tree beekeeping application is a pure web solution and can be installed as PWA ([wikipedia.org/wiki/Progressive_Web_App](https://en.wikipedia.org/wiki/Progressive_Web_App)). We do not plan any native applications in the near future. The best way to use the app is to download the PWA onto your device (Firefox does not support this function currently).
+The b.tree beekeeping application is a pure web solution and can be installed as PWA ([wikipedia.org/wiki/Progressive_Web_App](https://en.wikipedia.org/wiki/Progressive_Web_App)). The best way to use the app is to download the PWA onto your device (Firefox does not support this function currently). In addition we are present on the Google PlayStore and iOS App Store but it is more or less the same as the PWA. You have to test yourself which one works better for you.
 
 #### Installation PWA
 
@@ -17,6 +17,11 @@ The b.tree beekeeping application is a pure web solution and can be installed as
 - Apple iOS
   - YouTube Video: [b.tree - Tutorial - PWA iOS - Deutsch](https://youtu.be/_O5TJDFNtC0)
   - Text description: [pcmag.com/how-to/how-to-use-progressive-web-apps](https://www.pcmag.com/how-to/how-to-use-progressive-web-apps)
+
+#### Mobile store links
+
+- [Android PlayStore](https://play.google.com/store/apps/details?id=com.bnative)
+- [iOS AppStore](https://apps.apple.com/us/app/btree-app-professional-beekeeping-software/id1115267587)
 
 ### Task is not visible in table
 
