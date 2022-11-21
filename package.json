@@ -16,7 +16,7 @@
     "sharp": "^0.31.1"
   },
   "devDependencies": {
-    "@astrojs/image": "^0.10.0",
+    "@astrojs/image": "^0.11.6",
     "@astrojs/mdx": "^0.11.1",
     "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^2.0.1",
