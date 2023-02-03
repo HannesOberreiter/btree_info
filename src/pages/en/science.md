@@ -18,3 +18,11 @@ lang: "en"
 - [ORCID - 0000-0003-1019-1245](https://orcid.org/0000-0003-1019-1245)
 - [Google Scholar - bs_92jEAAAAJ&hl](https://scholar.google.com/citations?user=bs_92jEAAAAJ&hl)
 - [Researchgate - Hannes-Oberreiter](https://www.researchgate.net/profile/Hannes-Oberreiter)
+
+### Online Talks and Presentations
+
+- 2022-10-22, Kosten und Effektivität von Varroa Bekämpfungsmethoden und die Motivation dahinter in Österreich, [2. EUROBEE, DE](https://berufsimker.de/)
+- 2021-06-15, [Advanced R Book Club: R6](https://youtu.be/NXmlqK2LxWw)
+- 2021-06-08, [Advanced R Book Club: OOP & S3](https://youtu.be/NeHtEGab1Og)
+- 2021-07-13, [Advanced R Book Club: Expressions](https://youtu.be/Jc_R4yFsYeE)
+- 2021-08-31, [Advanced R Book Club: Rewriting R code in C++](https://youtu.be/nske4iqsgh0)
