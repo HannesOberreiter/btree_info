@@ -9,9 +9,6 @@ import compress from "astro-compress";
 import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
-import partytown from "@astrojs/partytown";
-
-// https://astro.build/config
 export default defineConfig({
   // Important!
   // Only official '@astrojs/*' integrations are currently supported by Astro.
