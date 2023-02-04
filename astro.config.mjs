@@ -26,7 +26,9 @@ export default defineConfig({
       // Useful if you need to define and/or import your own custom `base.css`.
       config: { applyBaseStyles: false },
     }),
-    mdx(),
+    mdx({
+      remarkPlugins: [emoji],
+    }),
     image({
       serviceEntryPoint: "@astrojs/image/sharp",
     }),
@@ -48,14 +50,14 @@ export default defineConfig({
       html: false,
     }),
   ],
-  site: `https://www.btree.at`,
+  site: `https://www.btree.at/`,
   markdown: {
     remarkPlugins: [
       // Add a Remark plugin that you want to enable for your project.
       // If you need to provide options for the plugin, you can use an array and put the options as the second item.
       // ['remark-autolink-headings', { behavior: 'prepend'}],
       emoji,
-      remarkGFM,
+      //remarkGFM,
     ],
   },
 });
