@@ -21,7 +21,7 @@ If you deactivate cookies this may have implications on the full functionality o
 
 ### Web-Analysis (app.btree.at & www.btree.at)
 
-We use AWStats (www.btree.at) and Report Magic (www.btree.at), the software only use pseudonymised Server Logfiles as source for the statistics. In our application we use Matomo (app.btree.at) for more in depth analysis and per user basis. Each software runs on our own server and is not used by third party. Your IP address will be used only in parts (the last 8 Bits will be deleted) to determine your rough location.
+We use AWStats and Report Magic, the software only use pseudonymised Server Logfiles as source for the statistics. Additionally we use Matomo (app.btree.at) for more in depth analysis and per user basis inside the app. Each software runs on our own server and is not used by third party. Your IP address will be used only in parts (the last 8 Bits will be deleted) to determine your rough location.
 
 Following Data will be used: Browser type and Browserversion (if from user transferred!), operation system, date and time of connection, amount of visits, time of visits on homepage, previous visited pages (if from user transferred!), pseudonymised IP.
 

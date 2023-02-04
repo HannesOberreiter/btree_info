@@ -8,87 +8,87 @@ import LinkApp from "./LinkApp.vue";
 ---
 
 <header class="sticky top-0 z-50 border-amber-800 border-solid border-b-2">
-	<nav class="nav-wrapper" title="Top Navigation">
-		<div class="menu-toggle">
-			<SidebarToggle client:idle />
-		</div>
-		<div class="hidden logo sm:flex">
-			<a href="/">
-				<IconBtree class="w-10 h-10" />
-				<h1>{CONFIG.SITE.title ?? "b.tree"}</h1>
-			</a>
-		</div>
-		<div style="flex-grow: 1;"></div>
-		<LinkApp class="flex text-xl" client:load  />
-		<!--<a href="https://app.btree.at" class="text-xl">🐝</a>-->
-		<SelectLanguage client:load />
-		<div style="margin: 1rem 0; text-align: center;">
-			<ButtonThemeToggle client:load />
-		</div>
-	</nav>
+  <nav class="nav-wrapper" title="Top Navigation">
+    <div class="menu-toggle">
+      <SidebarToggle client:idle />
+    </div>
+    <div class="hidden logo sm:flex">
+      <a href="/">
+        <IconBtree class="w-10 h-10" />
+        <h1>{CONFIG.SITE.title ?? "b.tree"}</h1>
+      </a>
+    </div>
+    <div style="flex-grow: 1;"></div>
+    <LinkApp class="flex text-xl" client:load />
+    <!--<a href="https://app.btree.at" class="text-xl">🐝</a>-->
+    <SelectLanguage client:load />
+    <div style="margin: 1rem 0; text-align: center;">
+      <ButtonThemeToggle client:load />
+    </div>
+  </nav>
 </header>
 
 <style>
-	header {
-		height: var(--theme-navbar-height);
-		width: 100%;
-		background-color: var(--theme-navbar-bg);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		overflow: hidden;
-	}
+  header {
+    height: var(--theme-navbar-height);
+    width: 100%;
+    background-color: var(--theme-navbar-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
 
-	.logo a {
-		display: flex;
-		padding: 0.5em 0.25em;
-		margin: -0.5em -0.25em;
-		text-decoration: none;
-		font-weight: bold;
-	}
+  .logo a {
+    display: flex;
+    padding: 0.5em 0.25em;
+    margin: -0.5em -0.25em;
+    text-decoration: none;
+    font-weight: bold;
+  }
 
-	.logo a {
-		transition: color 100ms ease-out;
-		color: var(--theme-text);
-	}
+  .logo a {
+    transition: color 100ms ease-out;
+    color: var(--theme-text);
+  }
 
-	.logo a:hover,
-	.logo a:focus {
-		color: var(--theme-text-accent);
-	}
+  .logo a:hover,
+  .logo a:focus {
+    color: var(--theme-text-accent);
+  }
 
-	.logo h1 {
-		display: none;
-		font: inherit;
-		color: inherit;
-		margin: 0;
-	}
+  .logo h1 {
+    display: none;
+    font: inherit;
+    color: inherit;
+    margin: 0;
+  }
 
-	.nav-wrapper {
-		display: flex;
-		align-items: center;
-		justify-content: flex-end;
-		gap: 0em;
-		width: 100%;
-		max-width: 82em;
-		padding: 0 0.1rem;
-	}
+  .nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0em;
+    width: 100%;
+    max-width: 82em;
+    padding: 0 0.1rem;
+  }
 
-	@media (min-width: 50em) {
-		header {
-			position: static;
-			padding: 2rem 0rem;
-		}
-		.logo {
-			width: auto;
-			margin: 0;
-			z-index: 0;
-		}
-		.logo h1 {
-			display: initial;
-		}
-		.menu-toggle {
-			display: none;
-		}
-	}
+  @media (min-width: 50em) {
+    header {
+      position: static;
+      padding: 2rem 0rem;
+    }
+    .logo {
+      width: auto;
+      margin: 0;
+      z-index: 0;
+    }
+    .logo h1 {
+      display: initial;
+    }
+    .menu-toggle {
+      display: none;
+    }
+  }
 </style>

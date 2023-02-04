@@ -1,49 +1,70 @@
 <head>
-<link rel="canonical" href="https://www.btree.at/">
-<!-- OpenGraph Tags -->
-<meta property="og:title" content="b.tree Imkerei Software 🐝 b.tree">
-<meta property="og:image" content="https://www.btree.at/og-facebook.png">
-<meta property="og:image:alt" content="b.tree Professional Beekeeping Database serving since 2014.">
-<meta name="description" property="og:description" content="Informationen über b.tree Software und Webapplikation für Imkereien">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:site_name" content="b.tree">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.btree.at/de/introduction">
-<meta property="og:locale" content="de_DE">
-<meta property="og:locale:alternate" content="en_EN">
-<meta property="og:locale:alternate" content="de_DE">
+  <link rel="canonical" href="https://www.btree.at/" />
+  <!-- OpenGraph Tags -->
+  <meta property="og:title" content="b.tree Imkerei Software 🐝 b.tree" />
+  <meta property="og:image" content="https://www.btree.at/og-facebook.png" />
+  <meta
+    property="og:image:alt"
+    content="b.tree Professional Beekeeping Database serving since 2014."
+  />
+  <meta
+    name="description"
+    property="og:description"
+    content="Informationen über b.tree Software und Webapplikation für Imkereien"
+  />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="b.tree" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.btree.at/de/introduction" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:locale:alternate" content="en_EN" />
+  <meta property="og:locale:alternate" content="de_DE" />
 
-<!-- Twitter Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="btree_hannes">
-<meta name="twitter:title" content="b.tree Imkerei Software 🐝 b.tree">
-<meta name="twitter:description" content="Informationen über b.tree Software und Webapplikation für Imkereien">
-<meta name="twitter:image" content="https://www.btree.at/og-twitter.png">
-<meta name="twitter:image:alt" content="b.tree Professional Beekeeping Database serving since 2014.">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
+  <!-- Twitter Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="btree_hannes" />
+  <meta name="twitter:title" content="b.tree Imkerei Software 🐝 b.tree" />
+  <meta
+    name="twitter:description"
+    content="Informationen über b.tree Software und Webapplikation für Imkereien"
+  />
+  <meta name="twitter:image" content="https://www.btree.at/og-twitter.png" />
+  <meta
+    name="twitter:image:alt"
+    content="b.tree Professional Beekeeping Database serving since 2014."
+  />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
 
-<link rel="icon" type="image/png" sizes="128x128" href="/favicon-128x128.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="icon" type="image/ico" href="/favicon.ico">
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="128x128"
+    href="/favicon-128x128.png"
+  />
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="icon" type="image/ico" href="/favicon.ico" />
 
-<link rel="sitemap" href="/sitemap-index.xml">
+  <link rel="sitemap" href="/sitemap-index.xml" />
 </head>
 
-
 <script is:inline>
-const KNOWN_LANGUAGES = ['de', 'en'];
-let newLangWithRegion = (window.navigator.userLanguage || window.navigator.language || 'en-US').substr(0, 5);
-let newLang = newLangWithRegion.substr(0, 2);
-if (KNOWN_LANGUAGES.includes(newLangWithRegion)) {
-	window.location.pathname = '/' + newLangWithRegion + '/introduction';
-} else if (KNOWN_LANGUAGES.includes(newLang)) {
-	window.location.pathname = '/' + newLang + '/introduction';
-} else {
-	window.location.pathname = '/en/introduction';
-}
+  const KNOWN_LANGUAGES = ["de", "en"];
+  let newLangWithRegion = (
+    window.navigator.userLanguage ||
+    window.navigator.language ||
+    "en-US"
+  ).substr(0, 5);
+  let newLang = newLangWithRegion.substr(0, 2);
+  if (KNOWN_LANGUAGES.includes(newLangWithRegion)) {
+    window.location.pathname = "/" + newLangWithRegion + "/introduction";
+  } else if (KNOWN_LANGUAGES.includes(newLang)) {
+    window.location.pathname = "/" + newLang + "/introduction";
+  } else {
+    window.location.pathname = "/en/introduction";
+  }
 </script>

@@ -1,7 +1,7 @@
 ---
 import "../styles/theme.css";
 import "../styles/index.css";
-import HeadSEO from "./HeadSEO.astro"
+import HeadSEO from "./HeadSEO.astro";
 
 const { frontmatter = {} } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -33,5 +33,29 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     root.classList.add("dark");
   } else {
     root.classList.remove("dark");
+  }
+</script>
+
+<!-- Matomo -->
+<script type="text/partytown">
+  if (window.location.hostname === "localhost") {
+    console.log("Dev mode, analytics is not loaded");
+  } else {
+    var _paq = (window._paq = window._paq || []);
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["disableCookies"]);
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+    (function () {
+      var u = "https://analytics.btree.at/";
+      _paq.push(["setTrackerUrl", u + "matomo.php"]);
+      _paq.push(["setSiteId", "5"]);
+      var d = document,
+        g = d.createElement("script"),
+        s = d.getElementsByTagName("script")[0];
+      g.async = true;
+      g.src = u + "matomo.js";
+      s.parentNode.insertBefore(g, s);
+    })();
   }
 </script>

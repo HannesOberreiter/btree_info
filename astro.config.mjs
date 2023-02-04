@@ -6,9 +6,10 @@ import image from "@astrojs/image";
 import emoji from "remark-emoji";
 import robotsTxt from "astro-robots-txt";
 import compress from "astro-compress";
-import remarkGFM from "remark-gfm";
-
 import sitemap from "@astrojs/sitemap";
+
+// https://astro.build/config
+import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
 export default defineConfig({
@@ -24,7 +25,9 @@ export default defineConfig({
     tailwind({
       // Example: Disable injecting a basic `base.css` import on every page.
       // Useful if you need to define and/or import your own custom `base.css`.
-      config: { applyBaseStyles: false },
+      config: {
+        applyBaseStyles: false,
+      },
     }),
     mdx({
       remarkPlugins: [emoji],
@@ -49,6 +52,7 @@ export default defineConfig({
       svg: false,
       html: false,
     }),
+    partytown(),
   ],
   site: `https://www.btree.at/`,
   markdown: {
