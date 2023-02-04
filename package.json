@@ -10,7 +10,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/partytown": "^1.0.3",
     "@vueuse/core": "^9.3.0",
     "remark-emoji": "^3.0.2"
   },
