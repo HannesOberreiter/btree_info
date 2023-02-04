@@ -52,7 +52,6 @@ export default defineConfig({
       svg: false,
       html: false,
     }),
-    partytown(),
   ],
   site: `https://www.btree.at/`,
   markdown: {
