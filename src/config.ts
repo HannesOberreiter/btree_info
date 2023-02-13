@@ -22,7 +22,7 @@ export const SIDEBAR = {
   en: [
     { text: "", header: true },
     { text: "Beekeeping Application", header: true },
-    { text: "Login", link: "https://app.btree.at" },
+    { text: "🐝 Login", link: "https://app.btree.at" },
     { text: "Introduction", link: "en/introduction" },
     { text: "Price", link: "en/price" },
     { text: "FAQs", link: "en/doc-faqs" },
@@ -30,6 +30,7 @@ export const SIDEBAR = {
     { text: "API", link: "en/doc-api" },
     { text: "Other", link: "en/doc-other" },
     { text: "Updates", link: "en/updates" },
+    { text: "🡕 Status", link: "https://status.btree.at/" },
     { text: "External Links", link: "en/links" },
 
     { text: "Hannes Oberreiter", header: true },
@@ -45,7 +46,7 @@ export const SIDEBAR = {
   de: [
     { text: "", header: true },
     { text: "Imkerei Software", header: true },
-    { text: "Login", link: "https://app.btree.at" },
+    { text: "🐝 Login", link: "https://app.btree.at" },
     { text: "Einführung", link: "de/introduction" },
     { text: "Preis", link: "de/price" },
     { text: "FAQs", link: "de/doc-faqs" },
@@ -53,6 +54,7 @@ export const SIDEBAR = {
     { text: "API", link: "de/doc-api" },
     { text: "Sonstiges", link: "de/doc-other" },
     { text: "Updates (en)", link: "de/updates" },
+    { text: "🡕 Status", link: "https://status.btree.at/" },
     { text: "Externe Links", link: "de/links" },
 
     { text: "Hannes Oberreiter", header: true },
