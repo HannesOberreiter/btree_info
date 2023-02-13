@@ -1,5 +1,5 @@
 <template>
-  <a :href="url" @click.prevent="onClick(url)">🐝 {{ text }}</a>
+  <a :href="url" @click.prevent="onClick(url)">{{ text }}</a>
 </template>
 
 <script lang="ts" setup>
