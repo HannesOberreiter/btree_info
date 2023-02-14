@@ -18,7 +18,7 @@ defineProps({
 <script lang="ts">
 function onClick(url: string) {
   if (confirm(`Redirect to ${url}`)) {
-    window.location.replace(url);
+    window.location.href = url;
   }
 }
 </script>

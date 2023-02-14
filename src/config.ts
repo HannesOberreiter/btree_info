@@ -30,7 +30,6 @@ export const SIDEBAR = {
     { text: "API", link: "en/doc-api" },
     { text: "Other", link: "en/doc-other" },
     { text: "Updates", link: "en/updates" },
-    { text: "🡕 Status", link: "https://status.btree.at/" },
     { text: "External Links", link: "en/links" },
 
     { text: "Hannes Oberreiter", header: true },
@@ -54,7 +53,6 @@ export const SIDEBAR = {
     { text: "API", link: "de/doc-api" },
     { text: "Sonstiges", link: "de/doc-other" },
     { text: "Updates (en)", link: "de/updates" },
-    { text: "🡕 Status", link: "https://status.btree.at/" },
     { text: "Externe Links", link: "de/links" },
 
     { text: "Hannes Oberreiter", header: true },
