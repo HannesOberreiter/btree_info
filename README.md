@@ -2,9 +2,13 @@
 
 ![CI](https://github.com/HannesOberreiter/btree_info/workflows/CI/badge.svg?branch=master)
 
-Info and Landing Page for b.tree Application and personal information about Hannes Oberreiter.
+Info and landing page for b.tree application and personal information about Hannes Oberreiter.
 
 Made with @vue, @astro and @tailwindcss.
+
+## License
+
+[GNU AFFERO GENERAL PUBLIC LICENSE](LICENSE)
 
 ## Commands Cheatsheet
 
