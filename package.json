@@ -14,14 +14,14 @@
     "remark-emoji": "^3.0.2"
   },
   "devDependencies": {
-    "@astrojs/image": "^0.15.0",
-    "@astrojs/mdx": "^0.16.0",
+    "@astrojs/image": "^0.16.0",
+    "@astrojs/mdx": "^0.18.0",
     "@astrojs/sitemap": "^1.0.1",
     "@astrojs/tailwind": "^3.0.1",
     "@astrojs/vue": "^2.0.1",
     "astro": "^2.0.6",
     "astro-compress": "^1.0.8",
-    "astro-robots-txt": "^0.3.9",
+    "astro-robots-txt": "^0.4.0",
     "vue": "^3.2.39"
   }
 }
