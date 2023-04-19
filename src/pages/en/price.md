@@ -21,6 +21,7 @@ lang: "en"
     <li>✅ 100 Apiaries!</li>
     <li>✅ API access for iCal and hive scales (10)</li>
     <li>✅ Responsive statistics</li>
+    <li>✅ Access to WizBee your personal beekeeping knowledge AI, powered by ChatGPT</li>
     <li>✅ Automatic fetching data for temperature field on checkup</li>
     <li>✅ Apiary map with optional weather overlay</li>
 </ul>
