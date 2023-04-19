@@ -21,6 +21,7 @@ lang: "de"
     <li>✅ 100 Stände!</li>
     <li>✅ API Zugriff für iCal und Stockwaagen (10)</li>
     <li>✅ Responsive Statistiken</li>
+    <li>✅ Zugang zu WizBee deiner persönlichen Imkerei AI Wissensdatenbank, powered by ChatGPT</li>
     <li>✅ Temperaturfeld wird automatisch mit Standdaten befüllt</li>
     <li>✅ Standkarte mit optionaler Wetteranzeige</li>
 </ul>
