@@ -10,7 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@vueuse/core": "^9.3.0",
+    "@vueuse/core": "^10.1.2",
     "remark-emoji": "^3.0.2"
   },
   "devDependencies": {
