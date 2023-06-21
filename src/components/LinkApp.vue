@@ -1,5 +1,10 @@
 <template>
-  <a :href="url" @click.prevent="onClick(url)">{{ text }}</a>
+  <a
+    :href="url"
+    @click.prevent="onClick(url)"
+    aria-label="Link to beekeeping app"
+    >{{ text }}</a
+  >
 </template>
 
 <script lang="ts" setup>
