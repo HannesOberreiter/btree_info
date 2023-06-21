@@ -14,7 +14,12 @@
           clipRule="evenodd"
         />
       </svg>
-      <input type="radio" name="theme-toggle" @click="isDark = 'light'" />
+      <input
+        type="radio"
+        name="theme-toggle"
+        @click="isDark = 'light'"
+        aria-label="Toggle light theme"
+      />
     </label>
     <label :class="darkMode === 'dark' ? 'checked' : ''">
       <svg
@@ -28,7 +33,12 @@
           d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
         />
       </svg>
-      <input type="radio" name="theme-toggle" @click="isDark = 'dark'" />
+      <input
+        type="radio"
+        name="theme-toggle"
+        @click="isDark = 'dark'"
+        aria-label="Toggle dark theme"
+      />
     </label>
     <label :class="darkMode === 'auto' ? 'checked' : ''">
       <svg
@@ -44,7 +54,12 @@
         />
       </svg>
 
-      <input type="radio" name="theme-toggle" @click="isDark = 'auto'" />
+      <input
+        type="radio"
+        name="theme-toggle"
+        @click="isDark = 'auto'"
+        aria-label="Use system theme"
+      />
     </label>
   </div>
 </template>
