@@ -21,7 +21,7 @@ Wenn Sie dies nicht wünschen, so können Sie Ihren Browser so einrichten, dass 
 
 Bei der Deaktivierung von Cookies kann die Funktionalität unserer Website eingeschränkt sein.
 
-### Web-Analyse (app.btree.at & www.btree.at)
+### Web-Analyse (app.btree.at & <www.btree.at>)
 
 Wir verwenden AWStats und Report Magic, bei den Statistikprogrammen werden die Logfiles ausgewertet. Ein Personenbezug ist nicht herstellbar. Zusätzlich verwenden wir Matomo (app.btree.at) für eine genauere Auswertung und auch per User Basis in der App. Die Statistiken werden mit bereits anonymisierten Daten erstellt. Die Analyse Programme laufen auf unserem eigenen Server.
 Zusätzlich wird Ihre IP-Adresse erfasst, aber umgehend, durch Löschung der letzten 8 Bit pseudonymisiert. Dadurch ist nur mehr eine grobe Lokalisierung möglich.
@@ -33,13 +33,17 @@ Unser Anliegen im Sinne der DSGVO (berechtigtes Interesse) ist die Verbesserung 
 
 Die Nutzerdaten werden für die Dauer von 3 Jahren aufbewahrt.
 
-### Hosting & Log Files (app.btree.at & www.btree.at)
+### Hosting & Log Files (app.btree.at & <www.btree.at>)
 
 Wir, bzw. unser Hostinganbieter (Hetzner Online GmbH Deutschland, tablegray gmbh Österreich), erhebt auf Grundlage unserer berechtigten Interessen im Sinne des Art. 6 Abs. 1 lit. f. DSGVO Daten über jeden Zugriff auf den Server, auf dem sich dieser Dienst befindet (sogenannte Serverlogfiles).
 
 Gespeicherte Daten: Url, Datum, Uhrzeit, Datenmenge, Browsertyp und Version, Referrer, IP-Adresse, Provider, Betriebssystem vom Nutzer
 
 Logfile-Informationen werden aus Sicherheitsgründen und statistischer Erhebung für die Dauer von maximal 2 Jahren gespeichert und danach gelöscht.
+
+#### Content Delivery Network
+
+Beim Besuch unserer Websites werden personenbezogene Daten verarbeitet. Dabei verarbeitete Datenkategorien: technische Verbindungsdaten des Serverzugriffs (IP-Adresse, Datum, Uhrzeit, abgefragte Seite, Browser-Informationen). Zweck der Verarbeitung:Auslieferung und Bereitstellung der Website. Die Rechtsgrundlage für die Verarbeitung:ein berechtigtes Interesse, das die Rechte und Freiheiten der betroffenen Personen überwiegt (Art. 6 (1) f DSGVO). Berechtigte Interessen in diesem Zusammenhang:starkes wirtschaftliches Interesse an einem sicheren und funktionierenden Betrieb der technischen Systeme. Eine Übermittlung von Daten erfolgt: an den Auftragsverarbeiter Bunny CDN, Cesta Komandanta, Staneta 4a, 1215 Medvode, Slowenien (<https://bunnycdn.com/>). Dauer der Verarbeitung: ist variabel und endet mit dem Wegfall des Verarbeitungszwecks.
 
 ### Datenbank Sicherungen (app.btree.at)
 
@@ -70,7 +74,7 @@ Eine Datenübermittlung an Dritte erfolgt nicht. Die gespeicherten Daten können
 
 Im Rahmen der Inanspruchnahme unserer Anmeldefunktionen sowie der Nutzung des Forums in der Applikation, speichern wird die IP-Adresse und den Zeitpunkt der jeweiligen Nutzerhandlung. Die Speicherung erfolgt auf Grundlage unserer berechtigten Interessen, als auch der Nutzer an Schutz vor Missbrauch und sonstiger unbefugter Nutzung. Eine Weitergabe dieser Daten an Dritte erfolgt grundsätzlich nicht, außer sie ist zur Verfolgung unserer Ansprüche erforderlich oder es besteht hierzu besteht eine gesetzliche Verpflichtung gem. Art. 6 Abs. 1 lit. c DSGVO.
 
-### Externe Einbindung von Diensten (app.btree.at & www.btree.at)
+### Externe Einbindung von Diensten (app.btree.at & <www.btree.at>)
 
 Die Imkerei Applikation benutzt auf Grundlage unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f. DSGVO) Inhalts- oder Serviceangebote von Drittanbietern ein, um deren Inhalte und Services, wie z.B. Videos, Wetterdienst einzubinden.
 
@@ -78,8 +82,8 @@ Die Imkerei Applikation benutzt auf Grundlage unserer berechtigten Interessen (A
   - Meteoblue Wetterdienst (Meteoblue AG, Schweiz, <https://www.meteoblue.com/>)(IP-Adresse und aktuellen Standort – wenn freigegeben)
   - Openstreet Map (Opensource Projekt, <https://www.openstreetmap.org/>) (IP-Adresse und aktuellen Standort – wenn freigegeben)
   - Dropbox (Dropbox Inc., https:/www.dropbox.com) (Speicher von Dateien, Optional)
-- www.btree.at
-  - iNaturalist (California Academy of Sciences, San Francisco <https://www.inaturalist.org/> (API um aktuelle Observations anzuzeigen)
+- <www.btree.at>
+  - iNaturalist (California Academy of Sciences, San Francisco <https://www.inaturalist.org/>) (API um aktuelle Observations anzuzeigen)
 
 ### Auftragsverarbeitung
 
@@ -88,7 +92,8 @@ Mit folgenden Firmen besteht eine Vereinbarung über eine Auftragsverarbeitung:
 
 - foxyoffice – DESEO IT Services Leibnitz GmbH, Österreich (Buchhaltung)
 - tablegray – tablegray gmbh, St. Stefan ob Stainz, Österreich (Hosting)
-- Amazon Web Service (Backup)
+- aws - Amazon Web Service (Backup)
+- Bunny CDN - Cesta Komandanta, Staneta 4a, 1215 Medvode, Slowenien (CDN)
 
 ### Ihre Rechte
 

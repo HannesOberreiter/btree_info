@@ -42,3 +42,10 @@ jobs:
           delete: "true"
           only_newer: "false"
           ignore_time: "false"
+
+      - name: Purge BunnyCDN
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: "https://api.bunny.net/pullzone/${{secrets.ZONE_ID}}/purgeCache"
+          method: "POST"
+          customHeaders: '{ "AccessKey": "${{ secrets.BUNNY_KEY }}"}'
