@@ -19,7 +19,7 @@ If you do not agree with this, you can change your browser settings to being not
 
 If you deactivate cookies this may have implications on the full functionality of our website.
 
-### Web-Analysis (app.btree.at & www.btree.at)
+### Web-Analysis (app.btree.at & <www.btree.at>)
 
 We use AWStats and Report Magic, the software only use pseudonymised Server Logfiles as source for the statistics. Additionally we use Matomo (app.btree.at) for more in depth analysis and per user basis inside the app. Each software runs on our own server and is not used by third party. Your IP address will be used only in parts (the last 8 Bits will be deleted) to determine your rough location.
 
@@ -31,13 +31,17 @@ Our concern in the sense of the GDPR (legitimate interests) is the improvement o
 
 The anonymous user data will be stored for the duration of three years.
 
-### Hosting & Log Files (app.btree.at & www.btree.at)
+### Hosting & Log Files (app.btree.at & <www.btree.at>)
 
 We, or our hosting provider (Hetzner Online GmbH Deutschland, tablegray gmbh Österreich), will automatically collect and store data on access to this website in so-called server log files in the sense of art. 6 Section 1 lit. f. GDPR.
 
 These are: URL, Time and date of request to server, Data size, Browser type and version, Referrer, IP-address, Provider, Operating system of the user
 
 Log file-data will be stored for the duration of two years for safety reasons and statistical evaluation and deleted after this period of time.
+
+#### Content Delivery Network
+
+Personal data is processed when you visit our websites. Categories of data processed: technical connection data of the server access (IP address, date, time, requested page, browser information). Purpose of processing:Delivery and provision of the website. Legal basis for processing:legitimate interest which overrides the rights and freedoms of data subjects (Art. 6 (1) f DSGVO). Legitimate interests in this context:strong economic interest in the secure and functioning operation of the technical systems. A transfer of data takes place: to the processor Bunny CDN, Cesta Komandanta, Staneta 4a, 1215 Medvode, Slovenia (<https://bunnycdn.com/>). Duration of processing: is variable and ends when the purpose of processing ceases.
 
 ### Database Backups (app.btree.at)
 
@@ -68,7 +72,7 @@ There is no data transfer to third parties. The stored data can be viewed at any
 
 As part of login and use of the forum of the application, the IP address and the time of the respective user action will be saved. It is based on our legitimate interests, as well as the user’s protection against misuse and other unauthorized use. A transfer of these data to third parties does not take place, unless it is necessary for the prosecution of our claims or there is legal obligation in accordance with art. 6 sec. 1 lit. c GDPR.
 
-### External Services (app.btree.at & www.btree.at)
+### External Services (app.btree.at & <www.btree.at>)
 
 The Website und Beekeeping Application uses, on basis of our legitimate interests to provide better service for our users, contents or services offered by third-party providers are used (e.g. videos, weather service fonts).
 
@@ -76,8 +80,8 @@ The Website und Beekeeping Application uses, on basis of our legitimate interest
   - Meteoblue Weatherservice (Meteoblue AG, Schweiz, <https://www.meteoblue.com/)(IP-address> and current location if user gives rights)
   - Openstreet Map (Opensource Project, <https://www.openstreetmap.org/>) (IP-address and current location if user gives rights)
   - Dropbox (Dropbox Inc., <https://www.dropbox.com>) (Saving files, optional)
-- www.btree.at
-  - iNaturalist (California Academy of Sciences, San Francisco <https://www.inaturalist.org/> (API to get recent observations)
+- <www.btree.at>
+  - iNaturalist (California Academy of Sciences, San Francisco <https://www.inaturalist.org/>) (API to get recent observations)
 
 ### Data Processing Agreement
 
@@ -85,7 +89,8 @@ Agreement on data processing according to art. 28 GDPR, with following companies
 
 - foxyoffice – DESEO IT Services Leibnitz GmbH, Österreich (Accounting)
 - tablegray – tablegray gmbh, St. Stefan ob Stainz, Österreich (Hosting, Backup)
-- Amazon Web Service (Backup)
+- aws - Amazon Web Service (Backup)
+- Bunny CDN - Cesta Komandanta, Staneta 4a, 1215 Medvode, Slowenien (CDN)
 
 ### Your rights
 
