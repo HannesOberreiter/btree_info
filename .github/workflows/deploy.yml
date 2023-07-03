@@ -7,6 +7,9 @@ on:
   push:
     branches: [master]
 
+env:
+  ZONE_ID: 1492677
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -42,3 +45,10 @@ jobs:
           delete: "true"
           only_newer: "false"
           ignore_time: "false"
+
+      - name: Purge BunnyCDN
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: "https://api.bunny.net/pullzone/${{env.ZONE_ID}}/purgeCache"
+          method: "POST"
+          customHeaders: '{ "AccessKey": "${{ secrets.BUNNY_KEY }}"}'
