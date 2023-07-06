@@ -11,7 +11,7 @@
         :text="loadingText"
       ></LoadingSpinner>
       <div v-else class="grid md:grid-cols-2 grid-cols-1">
-        <div v-for="item in items" :key="item.id" class="m-5 flex">
+        <div v-for="item in items" :key="item.id" class="m-1 flex">
           <a :href="item.uri">
             <img
               :src="item.photos[0].url"
@@ -25,6 +25,8 @@
               <i>{{ item.taxon.name }}</i> </a
             >,
             <small>
+              <br />
+              <b>{{ item.taxon?.preferred_common_name }}</b>
               <br />
               {{ item.observed_on }}
             </small>
@@ -48,7 +50,7 @@ onMounted(() => load());
 
 async function load() {
   fetch(
-    "https://api.inaturalist.org/v1/observations?user_id=787970&locale=en_GB&per_page=4&order=desc&order_by=created_at&only_id=false"
+    "https://api.inaturalist.org/v2/observations?user_id=787970&locale=de&per_page=6&order=desc&order_by=created_at&fields=(id:!t,uri:!t,taxon:(name:!t,preferred_common_name:!t),observed_on:!t,photos:(url:!t))"
   )
     .then((result) => result.json())
     .then((data) => (items.value = data.results))
