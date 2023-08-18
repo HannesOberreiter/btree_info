@@ -37,9 +37,10 @@ export default defineConfig({
       host: true,
     }),
     compress({
-      img: false,
-      svg: false,
-      html: false,
+      SVG: false,
+      CSS: false,
+      JS: false,
+      HTML: false,
     }),
   ],
   site: `https://www.btree.at/`,
