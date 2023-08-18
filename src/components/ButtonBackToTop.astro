@@ -2,7 +2,7 @@
   type="button"
   data-mdb-ripple="true"
   data-mdb-ripple-color="light"
-  class="inline-block hidden p-3 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out bottom-5 right-5 fixed"
+  class="hidden p-3 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out bottom-5 right-5 fixed z-50"
   id="btn-back-to-top"
 >
   <svg
@@ -22,24 +22,28 @@
 </button>
 
 <script is:inline>
-  const mybutton = document.getElementById("btn-back-to-top");
-  window.onscroll = function () {
-    scrollFunction();
-  };
+  document.addEventListener("astro:load", () => {
+    const scrollTopButton = document.getElementById("btn-back-to-top");
+    window.onscroll = function () {
+      scrollFunction();
+    };
+    scrollTopButton.addEventListener("click", backToTop);
 
-  function scrollFunction() {
-    if (
-      document.body.scrollTop > 20 ||
-      document.documentElement.scrollTop > 20
-    ) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
+    function scrollFunction() {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        scrollTopButton.classList.add("inline-block");
+        scrollTopButton.classList.remove("hidden");
+      } else {
+        scrollTopButton.classList.add("hidden");
+        scrollTopButton.classList.remove("inline-block");
+      }
     }
-  }
-  function backToTop() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-  mybutton.addEventListener("click", backToTop);
+    function backToTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  });
 </script>

@@ -2,6 +2,7 @@
 import "../styles/theme.css";
 import "../styles/index.css";
 import HeadSEO from "./HeadSEO.astro";
+import { ViewTransitions } from "astro:transitions";
 
 const { frontmatter = {} } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -17,6 +18,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 <link rel="icon" type="image/ico" href="/favicon.ico" />
+
+<ViewTransitions />
 
 <link rel="sitemap" href="/sitemap-index.xml" />
 <HeadSEO {frontmatter} canonicalURL={canonicalURL} />
@@ -38,24 +41,26 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 <!-- Matomo -->
 <script>
-  if (window.location.hostname === "localhost") {
-    console.log("Dev mode, analytics is not loaded");
-  } else {
-    var _paq = (window._paq = window._paq || []);
-    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-    _paq.push(["disableCookies"]);
-    _paq.push(["trackPageView"]);
-    _paq.push(["enableLinkTracking"]);
-    (function () {
-      var u = "https://analytics.btree.at/";
-      _paq.push(["setTrackerUrl", u + "matomo.php"]);
-      _paq.push(["setSiteId", "5"]);
-      var d = document,
-        g = d.createElement("script"),
-        s = d.getElementsByTagName("script")[0];
-      g.async = true;
-      g.src = u + "matomo.js";
-      s.parentNode.insertBefore(g, s);
-    })();
-  }
+  document.addEventListener("astro:load", () => {
+    if (window.location.hostname === "localhost") {
+      console.log("Dev mode, analytics is not loaded");
+    } else {
+      var _paq = ((window as any)._paq = (window as any)._paq || []);
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["disableCookies"]);
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+      (function () {
+        var u = "https://analytics.btree.at/";
+        _paq.push(["setTrackerUrl", u + "matomo.php"]);
+        _paq.push(["setSiteId", "5"]);
+        var d = document,
+          g = d.createElement("script"),
+          s = d.getElementsByTagName("script")[0];
+        g.async = true;
+        g.src = u + "matomo.js";
+        s.parentNode.insertBefore(g, s);
+      })();
+    }
+  });
 </script>
