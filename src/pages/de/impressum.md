@@ -9,7 +9,7 @@ lang: "de"
 
 - Inhaber: Hannes Oberreiter, Reisstraße 17, 8741 Weißkirchen in der Steiermark, AUSTRIA
 - UID: ATU68752511
-- E-Mailadresse: office:e-mail: btree.at
+- E-Mailadresse: office📧 btree.at
 
 Inhaltlich verantwortlich: Hannes Oberreiter, Adresse wie oben.
 
