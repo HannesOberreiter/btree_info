@@ -3,7 +3,6 @@ import vue from "@astrojs/vue";
 import tailwind from "@astrojs/tailwind";
 import mdx from "@astrojs/mdx";
 import image from "@astrojs/image";
-import emoji from "remark-emoji";
 import robotsTxt from "astro-robots-txt";
 import compress from "astro-compress";
 import sitemap from "@astrojs/sitemap";
@@ -18,9 +17,7 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
-    mdx({
-      remarkPlugins: [emoji],
-    }),
+    mdx(),
     image({
       serviceEntryPoint: "@astrojs/image/sharp",
     }),
@@ -49,7 +46,6 @@ export default defineConfig({
       // Add a Remark plugin that you want to enable for your project.
       // If you need to provide options for the plugin, you can use an array and put the options as the second item.
       // ['remark-autolink-headings', { behavior: 'prepend'}],
-      emoji,
       //remarkGFM,
     ],
   },
