@@ -5,17 +5,17 @@ layout: "../../layouts/MainLayout.astro"
 lang: "de"
 ---
 
-import { Picture } from "@astrojs/image/components";
+import { Image } from "astro:assets";
+import hannes from "../../images/hannes_bees.jpg";
+import bees from "../../images/bees.jpg";
 
 Kleine Imkerei, bio zertifizert seit 2014, im Murtal auf über 1.000m Seehöhe. Unser Ziel ist eine nachhaltige Landwirtschaft für Mensch, Insekt und Natur.
 
 <section class="hero container max-w-screen-lg mx-auto flex">
-  <Picture
-    src="/images/hannes_bees.jpg"
+  <Image
+    src={hannes}
     class="mx-auto"
-    aspectRatio="3:2"
-    widths={[200, 400, 600]}
-    sizes="(max-width: 600px) 100vw, 600px"
+    width={500}
     alt="Foto von Hannes mit seinen Bienenvölkern"
   />
 </section>
@@ -28,12 +28,10 @@ Kleine Imkerei, bio zertifizert seit 2014, im Murtal auf über 1.000m Seehöhe. 
 - Bienenwachs
 
 <section class="hero container max-w-screen-lg mx-auto flex">
-  <Picture
-    src="/images/bees.jpg"
+  <Image
+    src={bees}
     class="mx-auto"
-    aspectRatio="2:1"
-    widths={[200, 400, 600]}
-    sizes="(max-width: 600px) 100vw, 600px"
+    width={500}
     alt="Hongbienen laufen auf Waben"
   />
 </section>

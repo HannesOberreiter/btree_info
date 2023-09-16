@@ -2,25 +2,16 @@ import { defineConfig } from "astro/config";
 import vue from "@astrojs/vue";
 import tailwind from "@astrojs/tailwind";
 import mdx from "@astrojs/mdx";
-import image from "@astrojs/image";
-import robotsTxt from "astro-robots-txt";
-import compress from "astro-compress";
 import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  experimental: {
-    viewTransitions: true,
-  },
   integrations: [
     vue(),
     tailwind({
       applyBaseStyles: false,
     }),
     mdx(),
-    image({
-      serviceEntryPoint: "@astrojs/image/sharp",
-    }),
     sitemap({
       i18n: {
         defaultLocale: "en",
@@ -29,15 +20,6 @@ export default defineConfig({
           de: "de-DE",
         },
       },
-    }),
-    robotsTxt({
-      host: true,
-    }),
-    compress({
-      SVG: false,
-      CSS: false,
-      JS: false,
-      HTML: false,
     }),
   ],
   site: `https://www.btree.at/`,

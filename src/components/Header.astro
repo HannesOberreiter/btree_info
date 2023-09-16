@@ -13,7 +13,7 @@ import LinkApp from "./LinkApp.vue";
       <SidebarToggle client:idle />
     </div>
     <div class="hidden logo sm:flex">
-      <a href="/">
+      <a href={Astro.site} data-astro-reload>
         <IconBtree class="w-10 h-10" />
         <h1>{CONFIG.SITE.title ?? "b.tree"}</h1>
       </a>
