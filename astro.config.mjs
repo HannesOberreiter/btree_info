@@ -2,7 +2,6 @@ import { defineConfig } from "astro/config";
 import vue from "@astrojs/vue";
 import tailwind from "@astrojs/tailwind";
 import mdx from "@astrojs/mdx";
-import robotsTxt from "astro-robots-txt";
 import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
@@ -21,9 +20,6 @@ export default defineConfig({
           de: "de-DE",
         },
       },
-    }),
-    robotsTxt({
-      host: true,
     }),
   ],
   site: `https://www.btree.at/`,
