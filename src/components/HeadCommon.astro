@@ -26,17 +26,17 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 <!-- This is intentionally inlined to avoid FOUC -->
 <script is:inline>
-  const root = document.documentElement;
-  const theme = localStorage.getItem("local-color-scheme");
-  if (
-    theme === "dark" ||
-    ((!theme || theme === "auto") &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches)
-  ) {
-    root.classList.add("dark");
-  } else {
-    root.classList.remove("dark");
-  }
+const root = document.documentElement;
+const theme = localStorage.getItem("local-color-scheme");
+if (
+  theme === "dark" ||
+  ((!theme || theme === "auto") &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches)
+) {
+  root.classList.add("dark");
+} else {
+  root.classList.remove("dark");
+}
 </script>
 
 <!-- Matomo -->
