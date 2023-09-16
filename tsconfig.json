@@ -15,7 +15,7 @@
     "jsx": "preserve",
     "types": [
       "vite/client", // if using vite
-      "@astrojs/image/client"
+      "astro/client"
     ]
   }
 }

@@ -5,7 +5,8 @@ layout: "../../layouts/MainLayout.astro"
 lang: "en"
 ---
 
-import { Picture } from "@astrojs/image/components";
+import { Image } from "astro:assets";
+import hannes from "../../images/hannes.jpg";
 
 - 📫 hoberreiter_at_gmail.com
 - 🏡 Styria, Austria
@@ -67,12 +68,5 @@ Let's connect and explore how our shared interests in biology, technology, and s
 [^3]: Metabarcoding & Arctic Marine Molecular-Ecology Course
 
 <section class="hero container max-w-screen-lg mx-auto flex">
-  <Picture
-    src="/images/hannes.jpg"
-    aspectRatio="1:1"
-    class="mx-auto"
-    widths={[200, 300, 400]}
-    sizes="(max-width: 400px) 100vw, 400px"
-    alt="Hannes Oberreiter"
-  />
+  <Image src={hannes} class="mx-auto" width={300} alt="Hannes Oberreiter" />
 </section>

@@ -5,17 +5,17 @@ layout: "../../layouts/MainLayout.astro"
 lang: "en"
 ---
 
-import { Picture } from "@astrojs/image/components";
+import { Image } from "astro:assets";
+import hannes from "../../images/hannes_bees.jpg";
+import bees from "../../images/bees.jpg";
 
 Small beekeeping operation, organic certified since 2014. Located in Murtal, Styria at 1.000m above sea level. Our goal is a suistainable agriculture for human, insect and nature.
 
 <section class="hero container max-w-screen-lg mx-auto flex">
-  <Picture
-    src="/images/hannes_bees.jpg"
+  <Image
+    src={hannes}
     class="mx-auto"
-    aspectRatio="3:2"
-    widths={[200, 400, 600]}
-    sizes="(max-width: 600px) 100vw, 600px"
+    width={400}
     alt="Image of Hannes with his colonies, holding a frame with bees"
   />
 </section>
@@ -28,12 +28,10 @@ Small beekeeping operation, organic certified since 2014. Located in Murtal, Sty
 - Beeswaxs
 
 <section class="hero container max-w-screen-lg mx-auto flex">
-  <Picture
-    src="/images/bees.jpg"
+  <Image
+    src={bees}
     class="mx-auto"
-    aspectRatio="2:1"
-    widths={[200, 400, 600]}
-    sizes="(max-width: 600px) 100vw, 600px"
+    width={400}
     alt="Honeybees on top of frames"
   />
 </section>

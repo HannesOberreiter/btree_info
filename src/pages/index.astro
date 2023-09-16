@@ -53,18 +53,18 @@
 </head>
 
 <script is:inline>
-  const KNOWN_LANGUAGES = ["de", "en"];
-  let newLangWithRegion = (
-    window.navigator.userLanguage ||
-    window.navigator.language ||
-    "en-US"
-  ).substr(0, 5);
-  let newLang = newLangWithRegion.substr(0, 2);
-  if (KNOWN_LANGUAGES.includes(newLangWithRegion)) {
-    window.location.pathname = "/" + newLangWithRegion + "/introduction";
-  } else if (KNOWN_LANGUAGES.includes(newLang)) {
-    window.location.pathname = "/" + newLang + "/introduction";
-  } else {
-    window.location.pathname = "/en/introduction";
-  }
+const KNOWN_LANGUAGES = ["de", "en"];
+let newLangWithRegion = (
+  window.navigator.userLanguage ||
+  window.navigator.language ||
+  "en-US"
+).substr(0, 5);
+let newLang = newLangWithRegion.substr(0, 2);
+if (KNOWN_LANGUAGES.includes(newLangWithRegion)) {
+  window.location.pathname = "/" + newLangWithRegion + "/introduction";
+} else if (KNOWN_LANGUAGES.includes(newLang)) {
+  window.location.pathname = "/" + newLang + "/introduction";
+} else {
+  window.location.pathname = "/en/introduction";
+}
 </script>
