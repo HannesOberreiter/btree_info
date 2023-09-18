@@ -14,7 +14,7 @@ lang: "en"
     <li>❌ No statistics</li>
 </ul>
 
-### Premium - 50,00€ per year
+### Premium - 55,00€ per year
 
 <ul style="list-style: none">
     <li>✅ 1.000 Hives!</li>
@@ -35,6 +35,12 @@ My goal is to support beekeepers in their beekeeping with a simple but efficient
 All kind of feedback are more than welcome!
 
 _Hannes Oberreiter_, Pastime farmer and beekeeper, spare time programmer, hobby biologist
+
+### Price history and upcoming changes
+
+- 2014: 24 € / Year
+- 2016: 50 € / Year + 108%
+- 2024: 55 € / Year + 10%
 
 <hr/>
 

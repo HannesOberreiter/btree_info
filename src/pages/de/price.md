@@ -14,7 +14,7 @@ lang: "de"
     <li>❌ Keine Statistiken</li>
 </ul>
 
-### Premium - 50,00€ pro Jahr
+### Premium - 55,00€ pro Jahr
 
 <ul style="list-style: none">
     <li>✅ 1.000 Stöcke!</li>
@@ -35,6 +35,12 @@ Mein Ziel: Die Applikation soll jeden einzelnen von euch bestmöglich bei euren 
 Mit besten Grüßen
 
 _Hannes Oberreiter_, Zeitvertreib Landwirt , Freizeit Programmierer, Hobby Biologe
+
+### Unser Preisverlauf und bevorstehende Änderungen
+
+- 2014: 24 € / Jahr
+- 2016: 50 € / Jahr + 108%
+- 2024: 55 € / Jahr + 10%
 
 <hr/>
 
