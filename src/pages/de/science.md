@@ -7,6 +7,7 @@ lang: "de"
 
 ### Veröffentlichungen
 
+- **Oberreiter**, H.; Dünser A.; Lahnsteiner F. Utilizing YOLOv5 to Automate Counting of Erythrocyte Cells in Fish Species Raised at Fishfarm Kreuzstein at the Federal Agency for Water Management (BAW, IGF), Conference: Aquaculture Europe 2023, Poster, (2023)
 - Brodschneider, R.; **Oberreiter**, H.; Morawetz, L.; Köglberger, H.; Steinrigl, A.; Etter, K.; Träger, S.; Griesbacher, A.; Moosbeckhofer, R.; Seitz, K.; Rümenapf, T.; Lamp, B. Zukunft Biene 2 – Grundlagenforschungsprojekt zur Förderung des Bienenschutzes und der Bienengesundheit (2021)
 - Kunz, G.; **Oberreiter**, H.; et al. iNaturalist: City Nature Challenge 2021: Graz und Graz-Umgebung (2021). Mitteilungen des Naturwissenschaftlichen Vereins für Steiermark 151: 101-142.
 - Stefanec, M.; **Oberreiter**, H.; Becher, M. A.; Haase, G.; & Schmickl, T. Effects of Sinusoidal Vibrations on the Motion Response of Honeybees (2021). Frontiers in Physics, 9, 318.
