@@ -82,7 +82,7 @@ Die Imkerei Applikation benutzt auf Grundlage unserer berechtigten Interessen (A
   - Meteoblue Wetterdienst (Meteoblue AG, Schweiz, <https://www.meteoblue.com/>)(IP-Adresse und aktuellen Standort – wenn freigegeben)
   - Openstreet Map (Opensource Projekt, <https://www.openstreetmap.org/>) (IP-Adresse und aktuellen Standort – wenn freigegeben)
   - Dropbox (Dropbox Inc., https:/www.dropbox.com) (Speicher von Dateien, Optional)
-- <www.btree.at/>
+- btree.at
   - iNaturalist (California Academy of Sciences, San Francisco <https://www.inaturalist.org/>) (API um aktuelle Observations anzuzeigen)
 
 ### Auftragsverarbeitung

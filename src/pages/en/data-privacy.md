@@ -80,7 +80,7 @@ The Website und Beekeeping Application uses, on basis of our legitimate interest
   - Meteoblue Weatherservice (Meteoblue AG, Schweiz, <https://www.meteoblue.com/>) (IP-address and current location if user gives rights)
   - Openstreet Map (Opensource Project, <https://www.openstreetmap.org/>) (IP-address and current location if user gives rights)
   - Dropbox (Dropbox Inc., <https://www.dropbox.com/>) (Saving files, optional)
-- <www.btree.at>
+- btree.at
   - iNaturalist (California Academy of Sciences, San Francisco <https://www.inaturalist.org/>) (API to get recent observations)
 
 ### Data Processing Agreement
