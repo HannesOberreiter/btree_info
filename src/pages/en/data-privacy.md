@@ -72,14 +72,14 @@ There is no data transfer to third parties. The stored data can be viewed at any
 
 As part of login and use of the forum of the application, the IP address and the time of the respective user action will be saved. It is based on our legitimate interests, as well as the user’s protection against misuse and other unauthorized use. A transfer of these data to third parties does not take place, unless it is necessary for the prosecution of our claims or there is legal obligation in accordance with art. 6 sec. 1 lit. c GDPR.
 
-### External Services (app.btree.at & <www.btree.at>)
+### External Services (app.btree.at & btree.at)
 
 The Website und Beekeeping Application uses, on basis of our legitimate interests to provide better service for our users, contents or services offered by third-party providers are used (e.g. videos, weather service fonts).
 
 - app.btree.at
-  - Meteoblue Weatherservice (Meteoblue AG, Schweiz, <https://www.meteoblue.com/)(IP-address> and current location if user gives rights)
+  - Meteoblue Weatherservice (Meteoblue AG, Schweiz, <https://www.meteoblue.com/>) (IP-address and current location if user gives rights)
   - Openstreet Map (Opensource Project, <https://www.openstreetmap.org/>) (IP-address and current location if user gives rights)
-  - Dropbox (Dropbox Inc., <https://www.dropbox.com>) (Saving files, optional)
+  - Dropbox (Dropbox Inc., <https://www.dropbox.com/>) (Saving files, optional)
 - <www.btree.at>
   - iNaturalist (California Academy of Sciences, San Francisco <https://www.inaturalist.org/>) (API to get recent observations)
 
