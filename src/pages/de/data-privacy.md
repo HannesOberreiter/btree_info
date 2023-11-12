@@ -33,7 +33,7 @@ Unser Anliegen im Sinne der DSGVO (berechtigtes Interesse) ist die Verbesserung 
 
 Die Nutzerdaten werden für die Dauer von 3 Jahren aufbewahrt.
 
-### Hosting & Log Files (app.btree.at & <www.btree.at>)
+### Hosting & Log Files (app.btree.at & btree.at)
 
 Wir, bzw. unser Hostinganbieter (Hetzner Online GmbH Deutschland, tablegray gmbh Österreich), erhebt auf Grundlage unserer berechtigten Interessen im Sinne des Art. 6 Abs. 1 lit. f. DSGVO Daten über jeden Zugriff auf den Server, auf dem sich dieser Dienst befindet (sogenannte Serverlogfiles).
 
@@ -74,7 +74,7 @@ Eine Datenübermittlung an Dritte erfolgt nicht. Die gespeicherten Daten können
 
 Im Rahmen der Inanspruchnahme unserer Anmeldefunktionen sowie der Nutzung des Forums in der Applikation, speichern wird die IP-Adresse und den Zeitpunkt der jeweiligen Nutzerhandlung. Die Speicherung erfolgt auf Grundlage unserer berechtigten Interessen, als auch der Nutzer an Schutz vor Missbrauch und sonstiger unbefugter Nutzung. Eine Weitergabe dieser Daten an Dritte erfolgt grundsätzlich nicht, außer sie ist zur Verfolgung unserer Ansprüche erforderlich oder es besteht hierzu besteht eine gesetzliche Verpflichtung gem. Art. 6 Abs. 1 lit. c DSGVO.
 
-### Externe Einbindung von Diensten (app.btree.at & <www.btree.at>)
+### Externe Einbindung von Diensten (app.btree.at & btree.at)
 
 Die Imkerei Applikation benutzt auf Grundlage unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f. DSGVO) Inhalts- oder Serviceangebote von Drittanbietern ein, um deren Inhalte und Services, wie z.B. Videos, Wetterdienst einzubinden.
 
@@ -82,7 +82,7 @@ Die Imkerei Applikation benutzt auf Grundlage unserer berechtigten Interessen (A
   - Meteoblue Wetterdienst (Meteoblue AG, Schweiz, <https://www.meteoblue.com/>)(IP-Adresse und aktuellen Standort – wenn freigegeben)
   - Openstreet Map (Opensource Projekt, <https://www.openstreetmap.org/>) (IP-Adresse und aktuellen Standort – wenn freigegeben)
   - Dropbox (Dropbox Inc., https:/www.dropbox.com) (Speicher von Dateien, Optional)
-- <www.btree.at>
+- btree.at
   - iNaturalist (California Academy of Sciences, San Francisco <https://www.inaturalist.org/>) (API um aktuelle Observations anzuzeigen)
 
 ### Auftragsverarbeitung
