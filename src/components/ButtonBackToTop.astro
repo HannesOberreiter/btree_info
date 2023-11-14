@@ -22,7 +22,7 @@
 </button>
 
 <script is:inline>
-  document.addEventListener("astro:load", () => {
+  document.addEventListener('astro:page-load', () => {
     const scrollTopButton = document.getElementById("btn-back-to-top");
     window.onscroll = function () {
       scrollFunction();
