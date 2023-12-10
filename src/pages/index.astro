@@ -151,20 +151,3 @@
 
   <link rel="sitemap" href="/sitemap-index.xml" />
 </head>
-
-<script is:inline>
-  const KNOWN_LANGUAGES = ["de", "en"];
-  let lang = (
-    window.navigator.userLanguage ||
-    window.navigator.language ||
-    "en-US"
-  ).substring(0, 5);
-  if(lang.length > 2) {
-    lang = lang.substring(0, 2);
-  }
-  if (KNOWN_LANGUAGES.includes(lang)) {
-    window.location.pathname = "/" + lang + "/introduction";
-  } else {
-    window.location.pathname = "/en/introduction";
-  }
-</script>

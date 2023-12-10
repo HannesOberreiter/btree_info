@@ -15,13 +15,22 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
-import { getLanguageFromURL, KNOWN_LANGUAGES } from "../languages";
+import { ref, toRefs, watch } from "vue";
+import { KNOWN_LANGUAGES } from "../languages";
 
-const language = ref("de");
 
-onMounted(() => {
-  language.value = getLanguageFromURL(window.location.pathname);
+const props = defineProps({
+  locale: {
+    type: String,
+    default: "en",
+  },
+})
+
+const {locale} = toRefs(props)
+const language = ref(locale.value);
+
+watch(locale, (newLocale) => {
+  language.value = newLocale
 });
 
 function changeLanguage(lang: string) {

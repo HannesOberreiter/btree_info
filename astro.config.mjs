@@ -23,6 +23,16 @@ export default defineConfig({
     }),
   ],
   site: `https://www.btree.at/`,
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "de"],
+    routing: {
+      prefixDefaultLocale: true
+    },
+    fallback: {
+      de: "en"
+    }
+  },
   markdown: {
     remarkPlugins: [
       // Add a Remark plugin that you want to enable for your project.

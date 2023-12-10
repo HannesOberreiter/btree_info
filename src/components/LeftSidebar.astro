@@ -6,6 +6,7 @@ import LinkApp from "./LinkApp.vue";
 const currentPage = Astro.url.pathname;
 const currentPageMatch = currentPage.slice(1);
 const langCode = getLanguageFromURL(currentPage);
+
 // SIDEBAR is a flat array. Group it by sections to properly render.
 const sidebarSections = SIDEBAR[langCode].reduce((col, item, i) => {
   // If the first item is not a section header, create a new container section.
