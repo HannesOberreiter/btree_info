@@ -2,7 +2,6 @@
 import "../styles/theme.css";
 import "../styles/index.css";
 import HeadSEO from "./HeadSEO.astro";
-import { ViewTransitions } from "astro:transitions";
 
 const { frontmatter = {} } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -123,8 +122,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   media="(device-width: 1366px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)"
   href="/icons/apple-launch-2732x2048.png"
 />
-
-<ViewTransitions />
 
 <link rel="sitemap" href="/sitemap-index.xml" />
 <HeadSEO {frontmatter} canonicalURL={canonicalURL} />
