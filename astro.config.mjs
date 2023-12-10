@@ -28,9 +28,6 @@ export default defineConfig({
     locales: ["en", "de"],
     routing: {
       prefixDefaultLocale: true
-    },
-    fallback: {
-      de: "en"
     }
   },
   markdown: {
