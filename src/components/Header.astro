@@ -5,6 +5,10 @@ import SelectLanguage from "./SelectLanguage.vue";
 import ButtonThemeToggle from "./ButtonThemeToggle.vue";
 import IconBtree from "./icon/Btree.vue";
 import LinkApp from "./LinkApp.vue";
+import { getAbsoluteLocaleUrl } from "astro:i18n";
+
+const curLoc = Astro.currentLocale;
+const rootUrl = getAbsoluteLocaleUrl(curLoc, "");
 ---
 
 <header class="sticky top-0 z-50 border-amber-800 border-solid border-b-2">
@@ -13,7 +17,7 @@ import LinkApp from "./LinkApp.vue";
       <SidebarToggle client:idle />
     </div>
     <div class="hidden logo sm:flex">
-      <a href={Astro.site} data-astro-reload>
+      <a href={rootUrl} data-astro-reload>
         <IconBtree class="w-10 h-10" />
         <h1>{CONFIG.SITE.title ?? "b.tree"}</h1>
       </a>
@@ -21,7 +25,7 @@ import LinkApp from "./LinkApp.vue";
     <div style="flex-grow: 1;"></div>
     <LinkApp class="flex text-xl" client:load />
     <!--<a href="https://app.btree.at" class="text-xl">🐝</a>-->
-    <SelectLanguage client:load />
+    <SelectLanguage client:load locale={curLoc} />
     <div style="margin: 1rem 0; text-align: center;">
       <ButtonThemeToggle client:load />
     </div>

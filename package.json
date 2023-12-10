@@ -10,14 +10,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@vueuse/core": "^10.1.2"
+    "@vueuse/core": "^10.7.0"
   },
   "devDependencies": {
-    "@astrojs/mdx": "^1.1.0",
+    "@astrojs/mdx": "^2.0.0",
     "@astrojs/sitemap": "^3.0.0",
-    "@astrojs/tailwind": "^5.0.0",
-    "@astrojs/vue": "^3.0.0",
-    "astro": "^3.1.0",
-    "vue": "^3.2.39"
+    "@astrojs/tailwind": "^5.0.3",
+    "@astrojs/vue": "^4.0.2",
+    "astro": "^4.0.3",
+    "vue": "^3.3.11"
   }
 }
