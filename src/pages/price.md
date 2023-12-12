@@ -1,7 +1,7 @@
 ---
 title: "Costs & Price"
 description: 'Premium Membership costs for the Applikation.'
-layout: '../../layouts/MainLayout.astro'
+layout: '../layouts/MainLayout.astro'
 lang: "en"
 ---
 

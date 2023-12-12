@@ -1,7 +1,7 @@
 ---
 title: First Steps
 description: "Documentation and Help for Beekeeping Software and Application"
-layout: "../../layouts/IndexLayout.astro"
+layout: "../layouts/IndexLayout.astro"
 lang: "en"
 ---
 

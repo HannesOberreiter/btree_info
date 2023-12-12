@@ -1,7 +1,7 @@
 ---
 title: "Beekeeping link collection"
 description: "List of helpful links and good resources for beekeeper"
-layout: "../../layouts/MainLayout.astro"
+layout: "../layouts/MainLayout.astro"
 lang: "en"
 ---
 

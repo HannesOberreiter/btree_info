@@ -3,8 +3,9 @@
     :href="url"
     @click.prevent="onClick(url)"
     aria-label="Link to beekeeping app"
-    >{{ text }}</a
-  >
+    >
+    {{ text }}
+  </a>
 </template>
 
 <script lang="ts" setup>
@@ -15,7 +16,7 @@ defineProps({
   },
   text: {
     Type: String,
-    default: "",
+    default: "🐝",
   },
 });
 </script>

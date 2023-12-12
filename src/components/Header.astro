@@ -11,23 +11,27 @@ const curLoc = Astro.currentLocale;
 const rootUrl = getAbsoluteLocaleUrl(curLoc, "");
 ---
 
-<header class="sticky top-0 z-50 border-amber-800 border-solid border-b-2">
-  <nav class="nav-wrapper" title="Top Navigation">
-    <div class="menu-toggle">
-      <SidebarToggle client:idle />
-    </div>
-    <div class="hidden logo sm:flex">
-      <a href={rootUrl} data-astro-reload>
-        <IconBtree class="w-10 h-10" />
-        <h1>{CONFIG.SITE.title ?? "b.tree"}</h1>
-      </a>
-    </div>
-    <div style="flex-grow: 1;"></div>
-    <LinkApp class="flex text-xl" client:load />
-    <!--<a href="https://app.btree.at" class="text-xl">🐝</a>-->
-    <SelectLanguage client:load locale={curLoc} />
-    <div style="margin: 1rem 0; text-align: center;">
-      <ButtonThemeToggle client:load />
+<header class="sticky top-0 z-50 border-amber-800 border-solid border-b-2 pl-1 pr-1">
+  <nav class="" title="Top Navigation">
+    <div class="flex justify-between ">
+      <div class="menu-toggle">
+        <SidebarToggle client:load="vue" />
+      </div>
+      <div class="hidden logo sm:block">
+        <a href={rootUrl} data-astro-reload>
+          <IconBtree class="w-10 h-10" />
+          <h1>{CONFIG.SITE.title ?? "b.tree"}</h1>
+        </a>
+      </div>
+      <div>
+        <div class="flex justify-between gap-x-4">
+          <SelectLanguage client:load="vue" locale={curLoc} />
+          <ButtonThemeToggle client:load="vue" />
+          <div>
+            <LinkApp client:load="vue" />
+          </div>
+        </div>
+      </div>
     </div>
   </nav>
 </header>
@@ -37,9 +41,6 @@ const rootUrl = getAbsoluteLocaleUrl(curLoc, "");
     height: var(--theme-navbar-height);
     width: 100%;
     background-color: var(--theme-navbar-bg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     overflow: hidden;
   }
 
@@ -71,7 +72,6 @@ const rootUrl = getAbsoluteLocaleUrl(curLoc, "");
   .nav-wrapper {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
     gap: 0em;
     width: 100%;
     max-width: 82em;
@@ -81,7 +81,6 @@ const rootUrl = getAbsoluteLocaleUrl(curLoc, "");
   @media (min-width: 50em) {
     header {
       position: static;
-      padding: 2rem 0rem;
     }
     .logo {
       width: auto;
