@@ -4,7 +4,10 @@ import { SIDEBAR } from "../config";
 import LinkApp from "./LinkApp.vue";
 
 const currentPage = Astro.url.pathname;
-const currentPageMatch = currentPage.slice(1);
+let currentPageMatch = currentPage.slice(1);
+if (currentPageMatch === "" || currentPageMatch === "de/") {
+  currentPageMatch += "introduction/";
+}
 const langCode = getLanguageFromURL(currentPage);
 
 // SIDEBAR is a flat array. Group it by sections to properly render.
@@ -36,7 +39,7 @@ const sidebarSections = SIDEBAR[langCode].reduce((col, item, i) => {
               {section.children.map((child) => (
                 <li class="nav-link">
                   {child.link.substring(0, 5) === "https" ? (
-                    <LinkApp text={child.text} url={child.link} client:idle />
+                    <LinkApp text={child.text} url={child.link} client:load="vue" />
                   ) : (
                     <a
                       href={`/${child.link}`}
@@ -58,12 +61,12 @@ const sidebarSections = SIDEBAR[langCode].reduce((col, item, i) => {
 </nav>
 
 <script is:inline>
-window.addEventListener("DOMContentLoaded", (_event) => {
-  var target = document.querySelector('[aria-current="page"]');
-  if (target && target.offsetTop > window.innerHeight - 100) {
-    document.querySelector(".nav-groups").scrollTop = target.offsetTop;
-  }
-});
+  window.addEventListener("DOMContentLoaded", (_event) => {
+    var target = document.querySelector('[aria-current="page"]');
+    if (target && target.offsetTop > window.innerHeight - 100) {
+      document.querySelector(".nav-groups").scrollTop = target.offsetTop;
+    }
+  });
 </script>
 
 <style>
@@ -81,10 +84,6 @@ window.addEventListener("DOMContentLoaded", (_event) => {
 
   .nav-groups > li + li {
     margin-top: 2rem;
-  }
-
-  .nav-groups > :first-child {
-    padding-top: var(--doc-padding);
   }
 
   .nav-groups > :last-child {

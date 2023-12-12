@@ -1,7 +1,7 @@
 ---
 title: Other
 description: 'Dokumentation und Hilfe zur Imkerei Software'
-layout: "../../layouts/IndexLayout.astro"
+layout: "../layouts/IndexLayout.astro"
 lang: "en"
 ---
 

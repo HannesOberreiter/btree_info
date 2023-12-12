@@ -78,6 +78,10 @@
   RewriteCond %{HTTP_HOST} !^www\.btree\.at$  [NC]
   RewriteRule ^(.*)$ https://www.btree.at/$1 [R=301,nc,L]
 
+  # Redirect /en to /
+  RewriteCond %{HTTP_HOST} ^www\.btree\.at$  [NC]
+  RewriteRule ^en/(.*)$ https://www.btree.at/$1 [R=301,nc,L]
+
   # Force HTTPS
   RewriteCond %{HTTPS} !on
   RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]

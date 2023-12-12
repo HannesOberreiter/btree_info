@@ -1,7 +1,7 @@
 ---
 title: Privacy Notice (Data privacy statement)
 description: 'b.tree Data privacy statement'
-layout: ../../layouts/IndexLayout.astro
+layout: ../layouts/IndexLayout.astro
 lang: "en"
 ---
 
