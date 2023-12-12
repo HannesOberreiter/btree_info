@@ -12,8 +12,8 @@ const rootUrl = getAbsoluteLocaleUrl(curLoc, "");
 ---
 
 <header class="sticky top-0 z-50 border-amber-800 border-solid border-b-2 pl-1 pr-1">
-  <nav class="" title="Top Navigation">
-    <div class="flex justify-between ">
+  <nav title="Top Navigation">
+    <div class="flex justify-between lg:pl-4 lg:pr-4">
       <div class="menu-toggle">
         <SidebarToggle client:load="vue" />
       </div>
@@ -81,6 +81,7 @@ const rootUrl = getAbsoluteLocaleUrl(curLoc, "");
   @media (min-width: 50em) {
     header {
       position: static;
+      padding: 0rem 3rem;
     }
     .logo {
       width: auto;
