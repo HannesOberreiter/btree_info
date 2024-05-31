@@ -13,7 +13,7 @@
     "@vueuse/core": "^10.7.0"
   },
   "devDependencies": {
-    "@astrojs/mdx": "^2.0.0",
+    "@astrojs/mdx": "^3.0.1",
     "@astrojs/sitemap": "^3.0.0",
     "@astrojs/tailwind": "^5.0.3",
     "@astrojs/vue": "^4.0.2",
