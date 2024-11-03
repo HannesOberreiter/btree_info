@@ -7,6 +7,7 @@ lang: "en"
 
 ### Publications
 
+- - Fabricius Kristiansen, L., Morawetz, L., Chlebo, R., Gray, A., Mazur, E., Dahle, B., **Oberreiter**, H., … Brodschneider, R. (2024). COLOSS B-RAP Expert Evaluation of Beekeeping Advice from ChatGPT, Part 2. Bee World, 1–3. <https://doi.org/10.1080/0005772X.2024.2418224>
 - **Oberreiter**, H.; Dünser, A. (2024) „HannesOberreiter/gbif-extinct: v1.3.1“. Zenodo. doi: 10.5281/zenodo.12599948.
 - **Oberreiter**, H.; Dünser, A.; Lahnsteiner, F. Utilizing YOLOv5 to Automate Counting of Erythrocyte Cells in Fish Species Raised at Fishfarm Kreuzstein at the Federal Agency for Water Management (BAW, IGF), Conference: Aquaculture Europe 2023, Poster, (2023)
 - Brodschneider, R.; **Oberreiter**, H.; Morawetz, L.; Köglberger, H.; Steinrigl, A.; Etter, K.; Träger, S.; Griesbacher, A.; Moosbeckhofer, R.; Seitz, K.; Rümenapf, T.; Lamp, B. Zukunft Biene 2 – Grundlagenforschungsprojekt zur Förderung des Bienenschutzes und der Bienengesundheit (2021)
