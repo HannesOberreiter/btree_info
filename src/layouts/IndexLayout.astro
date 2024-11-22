@@ -1,20 +1,20 @@
 ---
-import HeadCommon from "../components/HeadCommon.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.vue";
-import LeftSideBar from "../components/LeftSidebar.astro";
-import RightSideBar from "../components/RightSidebar.astro";
-import PageContent from "../components/PageContent.astro";
-import ButtonBackToTop from "../components/ButtonBackToTop.astro";
+import ButtonBackToTop from '../components/ButtonBackToTop.astro';
+import Footer from '../components/Footer.vue';
+import HeadCommon from '../components/HeadCommon.astro';
+import Header from '../components/Header.astro';
+import LeftSideBar from '../components/LeftSidebar.astro';
+import PageContent from '../components/PageContent.astro';
+import RightSideBar from '../components/RightSidebar.astro';
 
-import * as CONFIG from "../config";
+import * as CONFIG from '../config';
 
 const { frontmatter = {}, headings } = Astro.props;
 ---
 
 <html
-  dir={frontmatter.dir ?? "ltr"}
-  lang={frontmatter.lang ?? "en-us"}
+  dir={frontmatter.dir ?? 'ltr'}
+  lang={frontmatter.lang ?? 'en-us'}
   class="initial"
 >
   <head>

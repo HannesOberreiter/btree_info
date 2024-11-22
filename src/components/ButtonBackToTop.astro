@@ -22,28 +22,29 @@
 </button>
 
 <script is:inline>
-  document.addEventListener('astro:page-load', () => {
-    const scrollTopButton = document.getElementById("btn-back-to-top");
-    window.onscroll = function () {
-      scrollFunction();
-    };
-    scrollTopButton.addEventListener("click", backToTop);
+ document.addEventListener('astro:page-load', () => {
+   const scrollTopButton = document.getElementById('btn-back-to-top');
+   window.onscroll = function () {
+     scrollFunction();
+   };
+   scrollTopButton.addEventListener('click', backToTop);
 
-    function scrollFunction() {
-      if (
-        document.body.scrollTop > 20 ||
-        document.documentElement.scrollTop > 20
-      ) {
-        scrollTopButton.classList.add("inline-block");
-        scrollTopButton.classList.remove("hidden");
-      } else {
-        scrollTopButton.classList.add("hidden");
-        scrollTopButton.classList.remove("inline-block");
-      }
-    }
-    function backToTop() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-  });
+   function scrollFunction() {
+     if (
+       document.body.scrollTop > 20
+       || document.documentElement.scrollTop > 20
+     ) {
+       scrollTopButton.classList.add('inline-block');
+       scrollTopButton.classList.remove('hidden');
+       return;
+     }
+
+     scrollTopButton.classList.add('hidden');
+     scrollTopButton.classList.remove('inline-block');
+   }
+   function backToTop() {
+     document.body.scrollTop = 0;
+     document.documentElement.scrollTop = 0;
+   }
+ });
 </script>

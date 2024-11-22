@@ -1,12 +1,12 @@
 ---
-import { getLanguageFromURL } from "../languages";
-import { SIDEBAR } from "../config";
-import LinkApp from "./LinkApp.vue";
+import { SIDEBAR } from '../config';
+import { getLanguageFromURL } from '../languages';
+import LinkApp from './LinkApp.vue';
 
 const currentPage = Astro.url.pathname;
 let currentPageMatch = currentPage.slice(1);
-if (currentPageMatch === "" || currentPageMatch === "de/") {
-  currentPageMatch += "introduction/";
+if (currentPageMatch === '' || currentPageMatch === 'de/') {
+  currentPageMatch += 'introduction/';
 }
 const langCode = getLanguageFromURL(currentPage);
 
@@ -15,13 +15,14 @@ const sidebarSections = SIDEBAR[langCode].reduce((col, item, i) => {
   // If the first item is not a section header, create a new container section.
   if (i === 0) {
     if (!item.header) {
-      const pseudoSection = { text: "" };
+      const pseudoSection = { text: '' };
       col.push({ ...pseudoSection, children: [] });
     }
   }
   if (item.header) {
     col.push({ ...item, children: [] });
-  } else {
+  }
+ else {
     col[col.length - 1].children.push(item);
   }
   return col;
@@ -31,20 +32,22 @@ const sidebarSections = SIDEBAR[langCode].reduce((col, item, i) => {
 <nav aria-labelledby="grid-left">
   <ul class="nav-groups">
     {
-      sidebarSections.map((section) => (
+      sidebarSections.map(section => (
         <li>
           <div class="nav-group">
             <h2 class="nav-group-title">{section.text}</h2>
             <ul>
-              {section.children.map((child) => (
+              {section.children.map(child => (
                 <li class="nav-link">
-                  {child.link.substring(0, 5) === "https" ? (
+                  {child.link.substring(0, 5) === 'https'
+? (
                     <LinkApp text={child.text} url={child.link} client:load="vue" />
-                  ) : (
+                  )
+: (
                     <a
                       href={`/${child.link}`}
                       aria-current={`${
-                        currentPageMatch === child.link ? "page" : "false"
+                        currentPageMatch === child.link ? 'page' : 'false'
                       }`}
                     >
                       {child.text}
@@ -61,10 +64,10 @@ const sidebarSections = SIDEBAR[langCode].reduce((col, item, i) => {
 </nav>
 
 <script is:inline>
-  window.addEventListener("DOMContentLoaded", (_event) => {
-    var target = document.querySelector('[aria-current="page"]');
+  window.addEventListener('DOMContentLoaded', (_event) => {
+    const target = document.querySelector('[aria-current="page"]');
     if (target && target.offsetTop > window.innerHeight - 100) {
-      document.querySelector(".nav-groups").scrollTop = target.offsetTop;
+      document.querySelector('.nav-groups').scrollTop = target.offsetTop;
     }
   });
 </script>

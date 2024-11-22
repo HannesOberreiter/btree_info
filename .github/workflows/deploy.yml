@@ -24,7 +24,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: "npm"
+          cache: npm
 
       - name: Install
         run: npm install
@@ -42,13 +42,13 @@ jobs:
           ftp_password: ${{ secrets.FTP_PASSWORD }}
           local_source_dir: dist
           dist_target_dir: .
-          delete: "true"
-          only_newer: "false"
-          ignore_time: "false"
+          delete: 'true'
+          only_newer: 'false'
+          ignore_time: 'false'
 
       - name: Purge BunnyCDN
         uses: fjogeleit/http-request-action@v1
         with:
-          url: "https://api.bunny.net/pullzone/${{env.ZONE_ID}}/purgeCache"
-          method: "POST"
+          url: 'https://api.bunny.net/pullzone/${{env.ZONE_ID}}/purgeCache'
+          method: POST
           customHeaders: '{ "AccessKey": "${{ secrets.BUNNY_KEY }}"}'
