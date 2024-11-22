@@ -1,15 +1,3 @@
-<template>
-  <div
-    class="text-center"
-    :style="`min-height: ${height}px;max-height: ${height}px;`"
-  >
-    <span>
-      <b>{{ text }}</b>
-    </span>
-    <div class="loader"></div>
-  </div>
-</template>
-
 <script setup lang="ts">
 defineProps({
   height: {
@@ -18,10 +6,22 @@ defineProps({
   },
   text: {
     type: String,
-    default: "Loading ...",
+    default: 'Loading ...',
   },
 });
 </script>
+
+<template>
+  <div
+    class="text-center"
+    :style="`min-height: ${height}px;max-height: ${height}px;`"
+  >
+    <span>
+      <b>{{ text }}</b>
+    </span>
+    <div class="loader" />
+  </div>
+</template>
 
 <style scoped>
 .loader {

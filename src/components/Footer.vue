@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import IconsSocial from './IconsSocial.vue';
+</script>
+
 <template>
   <footer class="h-20 w-full border-t">
     <div
@@ -12,10 +16,6 @@
     </div>
   </footer>
 </template>
-
-<script setup lang="ts">
-import IconsSocial from "./IconsSocial.vue";
-</script>
 
 <style scoped>
 footer {

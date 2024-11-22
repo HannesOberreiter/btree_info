@@ -1,9 +1,10 @@
 ---
-import { SITE, OPEN_GRAPH } from "../config";
+import { OPEN_GRAPH, SITE } from '../config';
+
 export interface Props {
-  frontmatter: any;
-  site?: any;
-  canonicalURL: URL | string;
+  frontmatter: any
+  site?: any
+  canonicalURL: URL | string
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);

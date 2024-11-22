@@ -1,22 +1,12 @@
-<template>
-  <a
-    :href="url"
-    @click.prevent="onClick(url)"
-    aria-label="Link to beekeeping app"
-    >
-    {{ text }}
-  </a>
-</template>
-
 <script lang="ts" setup>
 defineProps({
   url: {
     type: String,
-    default: "https://app.btree.at",
+    default: 'https://app.btree.at',
   },
   text: {
     Type: String,
-    default: "🐝",
+    default: '🐝',
   },
 });
 </script>
@@ -28,3 +18,13 @@ function onClick(url: string) {
   }
 }
 </script>
+
+<template>
+  <a
+    :href="url"
+    aria-label="Link to beekeeping app"
+    @click.prevent="onClick(url)"
+  >
+    {{ text }}
+  </a>
+</template>

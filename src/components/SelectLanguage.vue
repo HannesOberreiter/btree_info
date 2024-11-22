@@ -1,42 +1,44 @@
-<template>
-  <select v-model="language" className="language-select" class="language-select" :options="KNOWN_LANGUAGES"
-    @change="changeLanguage(language)">
-    <option v-for="(item, index) in KNOWN_LANGUAGES" :value="item">
-      {{ index }}
-    </option>
-  </select>
-</template>
-
 <script setup lang="ts">
-import { ref, toRefs, watch } from "vue";
-import { KNOWN_LANGUAGES } from "../languages";
+import { ref, toRefs, watch } from 'vue';
+import { KNOWN_LANGUAGES } from '../languages';
 
 const props = defineProps({
   locale: {
     type: String,
-    default: "en",
+    default: 'en',
   },
-})
+});
 
-const { locale } = toRefs(props)
+const { locale } = toRefs(props);
 const language = ref(locale.value);
 
 watch(locale, (newLocale) => {
-  language.value = newLocale
+  language.value = newLocale;
 });
 
-function changeLanguage (lang: string) {
-  const [_leadingSlash, oldLang, ...rest] =
-    window.location.pathname.split("/");
+function changeLanguage(lang: string) {
+  const [_leadingSlash, oldLang, ...rest]
+    = window.location.pathname.split('/');
   if (lang === 'en') {
-    const slug = rest.join("/");
+    const slug = rest.join('/');
     window.location.pathname = `/${slug}`;
     return;
   }
-  const slug = [oldLang, ...rest].join("/");
+  const slug = [oldLang, ...rest].join('/');
   window.location.pathname = `/${lang}/${slug}`;
 }
 </script>
+
+<template>
+  <select
+    v-model="language" className="language-select" class="language-select" :options="KNOWN_LANGUAGES"
+    @change="changeLanguage(language)"
+  >
+    <option v-for="(item, index) in KNOWN_LANGUAGES" :key="index" :value="item">
+      {{ index }}
+    </option>
+  </select>
+</template>
 
 <style scoped>
 .language-select {

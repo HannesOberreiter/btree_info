@@ -1,7 +1,7 @@
 ---
-import "../styles/theme.css";
-import "../styles/index.css";
-import HeadSEO from "./HeadSEO.astro";
+import HeadSEO from './HeadSEO.astro';
+import '../styles/theme.css';
+import '../styles/index.css';
 
 const { frontmatter = {} } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -128,41 +128,43 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 <!-- This is intentionally inlined to avoid FOUC -->
 <script is:inline>
-  const root = document.documentElement;
-  const theme = localStorage.getItem("local-color-scheme");
-  if (
-    theme === "dark" ||
-    ((!theme || theme === "auto") &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches)
-  ) {
-    root.classList.add("dark");
-  } else {
-    root.classList.remove("dark");
-  }
+ const root = document.documentElement;
+ const theme = localStorage.getItem('local-color-scheme');
+ if (
+   theme === 'dark'
+   || ((!theme || theme === 'auto')
+     && window.matchMedia('(prefers-color-scheme: dark)').matches)
+ ) {
+   root.classList.add('dark');
+ }
+ else {
+   root.classList.remove('dark');
+ }
 </script>
 
 <!-- Matomo -->
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    if (window.location.hostname === "localhost") {
-      console.log("Dev mode, analytics is not loaded");
-    } else {
-      var _paq = ((window as any)._paq = (window as any)._paq || []);
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(["disableCookies"]);
-      _paq.push(["trackPageView"]);
-      _paq.push(["enableLinkTracking"]);
-      (function () {
-        var u = "https://analytics.btree.at/";
-        _paq.push(["setTrackerUrl", u + "matomo.php"]);
-        _paq.push(["setSiteId", "5"]);
-        var d = document,
-          g = d.createElement("script"),
-          s = d.getElementsByTagName("script")[0];
-        g.async = true;
-        g.src = u + "matomo.js";
-        s.parentNode.insertBefore(g, s);
-      })();
-    }
-  });
+ document.addEventListener('DOMContentLoaded', () => {
+   if (window.location.hostname === 'localhost') {
+     console.log('Dev mode, analytics is not loaded');
+     return;
+   }
+
+   const _paq = ((window as any)._paq = (window as any)._paq || []);
+   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+   _paq.push(['disableCookies']);
+   _paq.push(['trackPageView']);
+   _paq.push(['enableLinkTracking']);
+   (function () {
+     const u = 'https://analytics.btree.at/';
+     _paq.push(['setTrackerUrl', `${u}matomo.php`]);
+     _paq.push(['setSiteId', '5']);
+     const d = document;
+     const g = d.createElement('script');
+     const s = d.getElementsByTagName('script')[0];
+     g.async = true;
+     g.src = `${u}matomo.js`;
+     s.parentNode.insertBefore(g, s);
+   })();
+ });
 </script>

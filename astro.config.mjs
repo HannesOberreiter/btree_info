@@ -1,8 +1,8 @@
-import { defineConfig } from "astro/config";
-import vue from "@astrojs/vue";
-import tailwind from "@astrojs/tailwind";
-import mdx from "@astrojs/mdx";
-import sitemap from "@astrojs/sitemap";
+import mdx from '@astrojs/mdx';
+import sitemap from '@astrojs/sitemap';
+import tailwind from '@astrojs/tailwind';
+import vue from '@astrojs/vue';
+import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
@@ -14,23 +14,23 @@ export default defineConfig({
     mdx(),
     sitemap({
       i18n: {
-        defaultLocale: "en",
+        defaultLocale: 'en',
         locales: {
-          en: "en-US",
-          de: "de-DE",
+          en: 'en-US',
+          de: 'de-DE',
         },
       },
     }),
   ],
   site: `https://www.btree.at/`,
   i18n: {
-    defaultLocale: "en",
-    locales: ["en", "de"],
+    defaultLocale: 'en',
+    locales: ['en', 'de'],
     routing: {
-      prefixDefaultLocale: false
+      prefixDefaultLocale: false,
     },
     fallback: {
-      "de": "en"
+      de: 'en',
     },
   },
   markdown: {
@@ -38,7 +38,7 @@ export default defineConfig({
       // Add a Remark plugin that you want to enable for your project.
       // If you need to provide options for the plugin, you can use an array and put the options as the second item.
       // ['remark-autolink-headings', { behavior: 'prepend'}],
-      //remarkGFM,
+      // remarkGFM,
     ],
   },
 });
