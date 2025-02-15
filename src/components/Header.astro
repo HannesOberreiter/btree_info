@@ -1,8 +1,8 @@
 ---
 import { getAbsoluteLocaleUrl } from 'astro:i18n';
+import IconBtree from '../assets/Btree.svg?raw';
 import * as CONFIG from '../config';
-import ButtonThemeToggle from './ButtonThemeToggle.vue';
-import IconBtree from './icon/Btree.vue';
+import ButtonThemeToggle from './ButtonThemeToggle.astro';
 import LinkApp from './LinkApp.astro';
 import SelectLanguage from './SelectLanguage.astro';
 import SidebarToggle from './SidebarToggle.astro';
@@ -19,14 +19,16 @@ const rootUrl = getAbsoluteLocaleUrl(curLoc, '');
       </div>
       <div class="hidden logo sm:block">
         <a href={rootUrl} data-astro-reload>
-          <IconBtree class="w-10 h-10" />
+          <div class="w-10 h-10">
+            <Fragment set:html={IconBtree} alt="b.tree" />
+          </div>
           <h1>{CONFIG.SITE.title ?? 'b.tree'}</h1>
         </a>
       </div>
       <div>
         <div class="flex justify-between gap-x-4">
           <SelectLanguage />
-          <ButtonThemeToggle client:only="vue" />
+          <ButtonThemeToggle />
           <div>
             <LinkApp />
           </div>

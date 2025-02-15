@@ -1,16 +1,13 @@
 ---
-import TableOfContents from './TableOfContents.vue';
+import TableOfContents from './TableOfContents.astro';
 
-const { frontmatter, headings } = Astro.props;
-const title = frontmatter.title;
+const { headings } = Astro.props;
 ---
 
 <nav class="sidebar-nav" aria-labelledby="grid-right">
   <div class="sidebar-nav-inner">
     <TableOfContents
-      title={title}
       headings={headings}
-      client:media="(min-width: 50em)"
     />
     <!--<div style="margin: 2rem 0; text-align: center;">
      <ButtonThemeToggle client:visible />

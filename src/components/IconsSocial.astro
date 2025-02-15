@@ -1,52 +1,48 @@
 ---
-import { Image } from 'astro:assets';
-import GitHub from '../assets/Github.svg';
-import LinkedIn from '../assets/LinkedIn.svg';
-import YouTube from '../assets/YouTube.svg';
+import GitHub from '../assets/Github.svg?raw';
+import LinkedIn from '../assets/LinkedIn.svg?raw';
+import YouTube from '../assets/YouTube.svg?raw';
 
 interface Props {
   socialclass: string
 }
 
 const { socialclass } = Astro.props;
+
+const socialLinks = [
+  {
+    href: 'https://www.linkedin.com/in/hannes-oberreiter-214a30265/',
+    title: 'LinkedIn',
+    name: 'LinkedIn',
+    icon: LinkedIn,
+  },
+  {
+    href: 'https://github.com/HannesOberreiter',
+    title: 'Github',
+    name: 'Github',
+    icon: GitHub,
+  },
+  {
+    href: 'https://www.youtube.com/c/HannesOberreiter',
+    title: 'YouTube',
+    name: 'YouTube',
+    icon: YouTube,
+  },
+];
 ---
 
-<ul class={socialclass} style="list-style: none">
-  <li class="mr-4">
+<div class={`${socialclass} flex flex-row gap-1`} style="list-style: none">
+  {socialLinks.map(link => (
+    <div class="hover:text-green-500 cursor-pointer">
       <a
-        href="https://www.linkedin.com/in/hannes-oberreiter-214a30265/"
+        href={link.href}
         target="_blank"
         rel="noopener noreferrer"
-        title="LinkedIn"
-        name="LinkedIn"
-        class="block hover:text-green-500 mr-2"
+        title={link.title}
+        name={link.name}
       >
-        <Image src={LinkedIn} alt="LinkedIn" class="w-6 h-6" />
+        <Fragment set:html={link.icon} alt={link.title} class="w-6 h-6" />
       </a>
-    </li>
-    <li class="mr-4">
-      <a
-        href="https://github.com/HannesOberreiter"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="Github"
-        name="Github"
-        class="block hover:text-green-500 mr-4"
-      >
-        <Image src={GitHub} alt="GitHub" class="w-6 h-6" />
-      </a>
-    </li>
-
-    <li class="mr-4">
-      <a
-        href="https://www.youtube.com/c/HannesOberreiter"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="YouTube"
-        name="YoTube"
-        class="block hover:text-green-500 mr-4"
-      >
-        <Image src={YouTube} alt="YouTube" class="w-6 h-6" />
-      </a>
-  </li>
-</ul>
+    </div>
+  ))}
+</div>

@@ -15,13 +15,11 @@ const { modelValue } = useVModels(props, emit);
 </script>
 
 <template>
-  <div class="flex-1 flex items-center justify-between">
-    <div>
-      <p class="text-sm text-gray-700 dark:text-gray-100">
-        Page {{ modelValue / 5 + 1 }} from {{ Math.floor(length / 5) + 1 }}
-      </p>
-    </div>
-    <nav class="relative z-0 inline-flex rounded-md shadow-xs -space-x-px" aria-label="Pagination">
+  <div class="flex items-center justify-between">
+    <p class="text-sm text-gray-700 dark:text-gray-100">
+      Page {{ modelValue / 5 + 1 }} from {{ Math.floor(length / 5) + 1 }}
+    </p>
+    <div class="relative z-0 inline-flex rounded-md shadow-xs -space-x-px" aria-label="Pagination">
       <a
         href="#" :class="modelValue <= 0 ? 'link-disabled' : ''" class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 dark:bg-gray-700 dark:text-gray-50"
         @click.prevent="modelValue = 0"
@@ -90,7 +88,7 @@ const { modelValue } = useVModels(props, emit);
           />
         </svg>
       </a>
-    </nav>
+    </div>
   </div>
 </template>
 

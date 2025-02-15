@@ -1,7 +1,6 @@
 ---
-import { Image } from 'astro:assets';
-import IconMenu from '../assets/Menu.svg';
-import IconClose from '../assets/X.svg';
+import IconMenu from '../assets/Menu.svg?raw';
+import IconClose from '../assets/X.svg?raw';
 ---
 
 <button
@@ -10,8 +9,12 @@ import IconClose from '../assets/X.svg';
   aria-pressed="false"
   style="cursor: pointer"
 >
-  <Image src={IconClose} id="sidebarIconClose" class="w-6 h-6" alt="Close Icon" style="display:none;" />
-  <Image src={IconMenu} id="sidebarIconMenu" class="w-6 h-6" alt="Menu Open Icon" style="display:block;" />
+  <div id="sidebarIconClose" class="w-6 h-6" style="display:none;">
+    <Fragment set:html={IconClose} />
+  </div>
+  <div id="sidebarIconMenu" class="w-6 h-6" style="display:block;">
+    <Fragment set:html={IconMenu} />
+  </div>
 </button>
 
 <script>

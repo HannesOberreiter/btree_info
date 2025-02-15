@@ -5,7 +5,7 @@ layout: "../layouts/MainLayout.astro"
 lang: "en"
 ---
 
-Last update: 2023-02-14
+Last update: 2025-02-15
 
 ## Services
 
@@ -13,6 +13,11 @@ Last update: 2023-02-14
   - Current server and service status of b.tree beekeeping web application.
 - [beekeeping-news.com](https://www.beekeeping-news.com/)
   - A curated selection of worldwide feeds related around the topic of beekeeping and honeybees.
+  - Alternative: [app.btree.at/pub/beekeeping-news](https://app.btree.at/pub/beekeeping-news)
+- [app.btree.at/pub/vespa-velutina/map](https://app.btree.at/pub/vespa-velutina/map)
+  - Map of the *Vespa velutina* sightings.
+- [app.btree.at/pub/aethina-tumida/map](https://app.btree.at/pub/aethina-tumida/map)
+  - Map of the *Aethina tumida* sightings.
 
 ## International
 
