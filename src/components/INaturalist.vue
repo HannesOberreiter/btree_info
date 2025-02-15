@@ -39,7 +39,7 @@ async function load() {
             <img
               :src="item.photos[0].url"
               :alt="item.taxon.name"
-              class="rounded flex-none text-center"
+              class="rounded-sm flex-none text-center"
               style="margin: 0"
             >
           </a>
