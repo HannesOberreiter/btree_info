@@ -1,0 +1,39 @@
+---
+import { Image } from 'astro:assets';
+import IconMenu from '../assets/Menu.svg';
+import IconClose from '../assets/X.svg';
+---
+
+<button
+  id="menu-toggle"
+  type="button"
+  aria-pressed="false"
+  style="cursor: pointer"
+>
+  <Image src={IconClose} id="sidebarIconClose" class="w-6 h-6" alt="Close Icon" style="display:none;" />
+  <Image src={IconMenu} id="sidebarIconMenu" class="w-6 h-6" alt="Menu Open Icon" style="display:block;" />
+</button>
+
+<script>
+const button = document.getElementById('menu-toggle');
+const sidebarIconClose = document.getElementById('sidebarIconClose');
+const sidebarIconMenu = document.getElementById('sidebarIconMenu');
+
+let sidebarShown = false;
+button.addEventListener('click', toggleSidebar);
+
+function toggleSidebar() {
+  sidebarShown = !sidebarShown;
+  const body = document.getElementsByTagName('body')[0];
+  if (sidebarShown) {
+    body.classList.add('mobile-sidebar-toggle');
+    sidebarIconClose.style.display = 'block';
+    sidebarIconMenu.style.display = 'none';
+  }
+  else {
+    body.classList.remove('mobile-sidebar-toggle');
+    sidebarIconClose.style.display = 'none';
+    sidebarIconMenu.style.display = 'block';
+  }
+}
+</script>

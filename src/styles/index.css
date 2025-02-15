@@ -445,3 +445,7 @@ h2.heading {
 :target {
   scroll-margin: calc(var(--theme-sidebar-offset, 5rem) + 2rem) 0 2rem;
 }
+
+.icon {
+  color: inherit;
+}

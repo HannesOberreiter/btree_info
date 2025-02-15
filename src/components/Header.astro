@@ -3,9 +3,9 @@ import { getAbsoluteLocaleUrl } from 'astro:i18n';
 import * as CONFIG from '../config';
 import ButtonThemeToggle from './ButtonThemeToggle.vue';
 import IconBtree from './icon/Btree.vue';
-import LinkApp from './LinkApp.vue';
-import SelectLanguage from './SelectLanguage.vue';
-import SidebarToggle from './SidebarToggle.vue';
+import LinkApp from './LinkApp.astro';
+import SelectLanguage from './SelectLanguage.astro';
+import SidebarToggle from './SidebarToggle.astro';
 
 const curLoc = Astro.currentLocale;
 const rootUrl = getAbsoluteLocaleUrl(curLoc, '');
@@ -15,7 +15,7 @@ const rootUrl = getAbsoluteLocaleUrl(curLoc, '');
   <nav title="Top Navigation">
     <div class="flex justify-between lg:pl-4 lg:pr-4">
       <div class="menu-toggle">
-        <SidebarToggle client:load="vue" />
+        <SidebarToggle />
       </div>
       <div class="hidden logo sm:block">
         <a href={rootUrl} data-astro-reload>
@@ -25,10 +25,10 @@ const rootUrl = getAbsoluteLocaleUrl(curLoc, '');
       </div>
       <div>
         <div class="flex justify-between gap-x-4">
-          <SelectLanguage client:load="vue" locale={curLoc} />
-          <ButtonThemeToggle client:load="vue" />
+          <SelectLanguage />
+          <ButtonThemeToggle client:only="vue" />
           <div>
-            <LinkApp client:load="vue" />
+            <LinkApp />
           </div>
         </div>
       </div>

@@ -1,0 +1,53 @@
+---
+import { KNOWN_LANGUAGES } from '../config';
+
+const languages = KNOWN_LANGUAGES;
+const curLoc = Astro.currentLocale;
+---
+
+<select
+  id="language-select"
+  class="language-select"
+>
+  { Object.keys(languages).map(id => (
+    <option
+      value={languages[id]}
+      selected={languages[id] === curLoc}
+    >
+      {id}
+    </option>
+  ))}
+</select>
+
+<script>
+const select = document.getElementById('language-select') as HTMLSelectElement;
+select.addEventListener('change', () => {
+  changeLanguage();
+});
+
+function changeLanguage() {
+  const lang = select.value;
+  const [_leadingSlash, oldLang, ...rest]
+    = window.location.pathname.split('/');
+  if (lang === 'en') {
+    const slug = rest.join('/');
+    window.location.pathname = `/${slug}`;
+    return;
+  }
+  const slug = [oldLang, ...rest].join('/');
+  window.location.pathname = `/${lang}/${slug}`;
+}
+</script>
+
+
+<style>
+.language-select {
+  width: 100%;
+  flex-grow: 1;
+  line-height: inherit;
+  padding: 0.5em 3rem 0.5em 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+</style>

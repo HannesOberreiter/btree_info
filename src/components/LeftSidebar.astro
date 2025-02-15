@@ -1,7 +1,7 @@
 ---
 import { SIDEBAR } from '../config';
 import { getLanguageFromURL } from '../languages';
-import LinkApp from './LinkApp.vue';
+import LinkApp from './LinkApp.astro';
 
 const currentPage = Astro.url.pathname;
 let currentPageMatch = currentPage.slice(1);
@@ -41,7 +41,7 @@ const sidebarSections = SIDEBAR[langCode].reduce((col, item, i) => {
                 <li class="nav-link">
                   {child.link.substring(0, 5) === 'https'
 ? (
-                    <LinkApp text={child.text} url={child.link} client:load="vue" />
+                    <LinkApp text={child.text} url={child.link} />
                   )
 : (
                     <a
@@ -72,7 +72,7 @@ const sidebarSections = SIDEBAR[langCode].reduce((col, item, i) => {
   });
 </script>
 
-<style>
+<style is:global>
   nav {
     width: 100%;
     margin-right: 1rem;
