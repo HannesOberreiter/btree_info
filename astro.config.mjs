@@ -1,16 +1,14 @@
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
-import tailwind from '@astrojs/tailwind';
 import vue from '@astrojs/vue';
+import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
+
   integrations: [
     vue(),
-    tailwind({
-      applyBaseStyles: false,
-    }),
     mdx(),
     sitemap({
       i18n: {
@@ -22,7 +20,9 @@ export default defineConfig({
       },
     }),
   ],
+
   site: `https://www.btree.at/`,
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'de'],
@@ -33,6 +33,7 @@ export default defineConfig({
       de: 'en',
     },
   },
+
   markdown: {
     remarkPlugins: [
       // Add a Remark plugin that you want to enable for your project.
@@ -40,5 +41,9 @@ export default defineConfig({
       // ['remark-autolink-headings', { behavior: 'prepend'}],
       // remarkGFM,
     ],
+  },
+
+  vite: {
+    plugins: [tailwindcss()],
   },
 });

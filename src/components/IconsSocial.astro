@@ -1,0 +1,48 @@
+---
+import GitHub from '../assets/Github.svg?raw';
+import LinkedIn from '../assets/LinkedIn.svg?raw';
+import YouTube from '../assets/YouTube.svg?raw';
+
+interface Props {
+  socialclass: string
+}
+
+const { socialclass } = Astro.props;
+
+const socialLinks = [
+  {
+    href: 'https://www.linkedin.com/in/hannes-oberreiter-214a30265/',
+    title: 'LinkedIn',
+    name: 'LinkedIn',
+    icon: LinkedIn,
+  },
+  {
+    href: 'https://github.com/HannesOberreiter',
+    title: 'Github',
+    name: 'Github',
+    icon: GitHub,
+  },
+  {
+    href: 'https://www.youtube.com/c/HannesOberreiter',
+    title: 'YouTube',
+    name: 'YouTube',
+    icon: YouTube,
+  },
+];
+---
+
+<div class={`${socialclass} flex flex-row gap-1`} style="list-style: none">
+  {socialLinks.map(link => (
+    <div class="hover:text-green-500 cursor-pointer">
+      <a
+        href={link.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        title={link.title}
+        name={link.name}
+      >
+        <Fragment set:html={link.icon} alt={link.title} class="w-6 h-6" />
+      </a>
+    </div>
+  ))}
+</div>

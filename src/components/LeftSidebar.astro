@@ -1,17 +1,17 @@
 ---
 import { SIDEBAR } from '../config';
-import { getLanguageFromURL } from '../languages';
-import LinkApp from './LinkApp.vue';
+import LinkApp from './LinkApp.astro';
 
 const currentPage = Astro.url.pathname;
+const currentLocale = Astro.currentLocale;
 let currentPageMatch = currentPage.slice(1);
 if (currentPageMatch === '' || currentPageMatch === 'de/') {
   currentPageMatch += 'introduction/';
 }
-const langCode = getLanguageFromURL(currentPage);
+
 
 // SIDEBAR is a flat array. Group it by sections to properly render.
-const sidebarSections = SIDEBAR[langCode].reduce((col, item, i) => {
+const sidebarSections = SIDEBAR[currentLocale ?? 'en'].reduce((col, item, i) => {
   // If the first item is not a section header, create a new container section.
   if (i === 0) {
     if (!item.header) {
@@ -41,7 +41,7 @@ const sidebarSections = SIDEBAR[langCode].reduce((col, item, i) => {
                 <li class="nav-link">
                   {child.link.substring(0, 5) === 'https'
 ? (
-                    <LinkApp text={child.text} url={child.link} client:load="vue" />
+                    <LinkApp text={child.text} url={child.link} />
                   )
 : (
                     <a
@@ -72,7 +72,7 @@ const sidebarSections = SIDEBAR[langCode].reduce((col, item, i) => {
   });
 </script>
 
-<style>
+<style is:global>
   nav {
     width: 100%;
     margin-right: 1rem;

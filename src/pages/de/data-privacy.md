@@ -21,7 +21,7 @@ Wenn Sie dies nicht wünschen, so können Sie Ihren Browser so einrichten, dass 
 
 Bei der Deaktivierung von Cookies kann die Funktionalität unserer Website eingeschränkt sein.
 
-### Web-Analyse (app.btree.at & <www.btree.at>)
+### Web-Analyse (app.btree.at & btree.at)
 
 Wir verwenden AWStats und Report Magic, bei den Statistikprogrammen werden die Logfiles ausgewertet. Ein Personenbezug ist nicht herstellbar. Zusätzlich verwenden wir Matomo (app.btree.at) für eine genauere Auswertung und auch per User Basis in der App. Die Statistiken werden mit bereits anonymisierten Daten erstellt. Die Analyse Programme laufen auf unserem eigenen Server.
 Zusätzlich wird Ihre IP-Adresse erfasst, aber umgehend, durch Löschung der letzten 8 Bit pseudonymisiert. Dadurch ist nur mehr eine grobe Lokalisierung möglich.

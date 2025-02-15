@@ -1,0 +1,54 @@
+---
+interface Props {
+  headings: { depth: number, text: string, slug: string }[]
+}
+const { headings } = Astro.props;
+
+function renderHeadings() {
+  return headings.filter(o => o.depth > 1 && o.depth < 4).map((item, index) => {
+    return `<li key="${index}" class="depth-${item.depth} heading-link">
+      <a href="#${item.slug}">${item.text}</a>
+    </li>`;
+  });
+}
+
+---
+<!-- Tailwind js class helper -->
+<!-- <div class="text-amber-500"></div> -->
+<div class="hidden lg:block">
+  <h2 class="heading">
+    Index
+  </h2>
+  <ul>
+    <Fragment set:html={renderHeadings()}></Fragment>
+  </ul>
+</div>
+
+<script>
+const links = document.querySelectorAll<HTMLLinkElement>('.heading-link a');
+
+links.forEach((link) => {
+  setActive(link);
+});
+
+window.addEventListener('hashchange', () => {
+  links.forEach((link) => {
+    setActive(link);
+  });
+});
+
+function setActive(link: HTMLLinkElement) {
+  const activeLinkClass = 'text-amber-500';
+  link.parentElement.classList.remove(activeLinkClass);
+  if (isActive(link.getAttribute('href'))) {
+    link.parentElement.classList.add(activeLinkClass);
+  }
+}
+
+function isActive(slug: string) {
+  const hash = decodeURIComponent(window.location.hash);
+  console.log('slug', slug);
+  console.log('hash', hash);
+  return hash === slug;
+}
+</script>

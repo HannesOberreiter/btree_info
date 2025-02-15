@@ -1,0 +1,99 @@
+---
+import Moon from '../assets/Moon.svg?raw';
+import Sun from '../assets/Sun.svg?raw';
+import System from '../assets/System.svg?raw';
+
+const themeToggle = {
+  light: {
+    icon: Sun,
+    label: 'Toggle light theme',
+  },
+  dark: {
+    icon: Moon,
+    label: 'Toggle dark theme',
+  },
+  auto: {
+    icon: System,
+    label: 'Use system theme',
+  },
+};
+
+---
+<div id="theme-toggle" class="theme-toggle">
+    {Object.entries(themeToggle).map(([mode, { icon, label }]) => (
+      <label id={`${mode}-mode`} aria-label={label} class="cursor-pointer">
+        <Fragment set:html={icon} />
+        <input type="radio" name="theme-toggle" aria-label={label} />
+      </label>
+    ))}
+</div>
+
+<script>
+    function setTheme(mode) {
+      const htmlElement = document.documentElement;
+      htmlElement.classList.remove('light', 'dark', 'auto');
+      htmlElement.classList.add(mode);
+      localStorage.setItem('local-color-scheme', mode);
+      updateCheckedLabel(mode);
+    }
+
+    function updateCheckedLabel(mode) {
+      document.querySelectorAll('.theme-toggle > label').forEach((label) => {
+        label.classList.remove('checked');
+      });
+      document.getElementById(`${mode}-mode`).classList.add('checked');
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const savedMode = localStorage.getItem('local-color-scheme') || (prefersDark ? 'dark' : 'light');
+      setTheme(savedMode);
+
+      document.querySelectorAll('input[name="theme-toggle"]').forEach((input) => {
+        input.addEventListener('change', (event: any) => {
+          setTheme(event.target.parentElement.id.split('-')[0]);
+        });
+      });
+    });
+</script>
+
+<style>
+    .theme-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25em;
+      padding: 0.33em 0.67em;
+      border-radius: 99em;
+      background-color: var(--theme-code-inline-bg);
+      color: var(--theme-code-inline-text);
+    }
+
+    .theme-toggle > label:focus-within {
+      outline: 2px solid transparent;
+      box-shadow: 0 0 0 0.08em var(--theme-accent), 0 0 0 0.12em white;
+    }
+
+    .theme-toggle > label {
+      color: var(--theme-code-inline-text);
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0.5;
+    }
+
+    .theme-toggle .checked {
+      color: var(--theme-accent);
+      opacity: 1;
+    }
+
+    input[name="theme-toggle"] {
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+    }
+</style>

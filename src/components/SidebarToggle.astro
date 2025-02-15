@@ -1,0 +1,42 @@
+---
+import IconMenu from '../assets/Menu.svg?raw';
+import IconClose from '../assets/X.svg?raw';
+---
+
+<button
+  id="menu-toggle"
+  type="button"
+  aria-pressed="false"
+  style="cursor: pointer"
+>
+  <div id="sidebarIconClose" class="w-6 h-6" style="display:none;">
+    <Fragment set:html={IconClose} />
+  </div>
+  <div id="sidebarIconMenu" class="w-6 h-6" style="display:block;">
+    <Fragment set:html={IconMenu} />
+  </div>
+</button>
+
+<script>
+const button = document.getElementById('menu-toggle');
+const sidebarIconClose = document.getElementById('sidebarIconClose');
+const sidebarIconMenu = document.getElementById('sidebarIconMenu');
+
+let sidebarShown = false;
+button.addEventListener('click', toggleSidebar);
+
+function toggleSidebar() {
+  sidebarShown = !sidebarShown;
+  const body = document.getElementsByTagName('body')[0];
+  if (sidebarShown) {
+    body.classList.add('mobile-sidebar-toggle');
+    sidebarIconClose.style.display = 'block';
+    sidebarIconMenu.style.display = 'none';
+  }
+  else {
+    body.classList.remove('mobile-sidebar-toggle');
+    sidebarIconClose.style.display = 'none';
+    sidebarIconMenu.style.display = 'block';
+  }
+}
+</script>

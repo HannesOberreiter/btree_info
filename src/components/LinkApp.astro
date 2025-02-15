@@ -1,0 +1,30 @@
+---
+interface Props {
+  url?: string
+  text?: string
+}
+
+const { url = 'https://app.btree.at', text = '🐝' } = Astro.props;
+---
+<a
+  class="link-app"
+  href={url}
+  aria-label="Link to beekeeping app"
+>
+  { text }
+</a>
+
+<script>
+const links = document.querySelectorAll<HTMLLinkElement>('.link-app');
+links.forEach((linkApp) => {
+  linkApp.addEventListener('click', e => onClick(linkApp, e));
+});
+
+function onClick(target: HTMLLinkElement, event: Event) {
+  event.preventDefault();
+  const url = target.getAttribute('href');
+  if (confirm(`Redirect to ${url}`)) {
+    window.location.href = url;
+  }
+}
+</script>

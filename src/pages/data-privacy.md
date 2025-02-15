@@ -19,7 +19,7 @@ If you do not agree with this, you can change your browser settings to being not
 
 If you deactivate cookies this may have implications on the full functionality of our website.
 
-### Web-Analysis (app.btree.at & <www.btree.at>)
+### Web-Analysis (app.btree.at & btree.at)
 
 We use AWStats and Report Magic, the software only use pseudonymised Server Logfiles as source for the statistics. Additionally we use Matomo (app.btree.at) for more in depth analysis and per user basis inside the app. Each software runs on our own server and is not used by third party. Your IP address will be used only in parts (the last 8 Bits will be deleted) to determine your rough location.
 
@@ -31,7 +31,7 @@ Our concern in the sense of the GDPR (legitimate interests) is the improvement o
 
 The anonymous user data will be stored for the duration of three years.
 
-### Hosting & Log Files (app.btree.at & <www.btree.at>)
+### Hosting & Log Files (app.btree.at & btree.at)
 
 We, or our hosting provider (Hetzner Online GmbH Deutschland, tablegray gmbh Österreich), will automatically collect and store data on access to this website in so-called server log files in the sense of art. 6 Section 1 lit. f. GDPR.
 
