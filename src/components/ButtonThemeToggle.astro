@@ -29,15 +29,23 @@ const themeToggle = {
 </div>
 
 <script>
-    function setTheme(mode) {
+    function setTheme(mode: string) {
+      localStorage.setItem('local-color-scheme', mode);
+
       const htmlElement = document.documentElement;
       htmlElement.classList.remove('light', 'dark', 'auto');
-      htmlElement.classList.add(mode);
-      localStorage.setItem('local-color-scheme', mode);
+
+      let modeClass = mode;
+      if (mode === 'auto') {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        modeClass = prefersDark ? 'dark' : 'light';
+      }
+      htmlElement.classList.add(modeClass);
+
       updateCheckedLabel(mode);
     }
 
-    function updateCheckedLabel(mode) {
+    function updateCheckedLabel(mode: string) {
       document.querySelectorAll('.theme-toggle > label').forEach((label) => {
         label.classList.remove('checked');
       });
