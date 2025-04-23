@@ -43,7 +43,7 @@ async function load() {
               style="margin: 0"
             >
           </a>
-          <div class="flex-1 pt-5 ml-5 mr-5">
+          <div class="pt-1 pl-1">
             <a :href="item.uri">
               <i>{{ item.taxon.name }}</i> </a>,
             <small>
