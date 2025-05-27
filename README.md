@@ -1,6 +1,6 @@
 # b.tree Landing Page
 
-![CI](https://github.com/HannesOberreiter/btree_info/workflows/CI/badge.svg?branch=main)
+[![CI](https://github.com/HannesOberreiter/btree_info/actions/workflows/deploy.yml/badge.svg)](https://github.com/HannesOberreiter/btree_info/actions/workflows/deploy.yml)
 
 Info and landing page for b.tree application and personal information about Hannes Oberreiter.
 
