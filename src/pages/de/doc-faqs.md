@@ -21,7 +21,7 @@ Die b.tree Imkerei-Applikation ist eine reine Web-Lösung und kann als PWA ([wik
 #### Store Links
 
 - [Android PlayStore](https://play.google.com/store/apps/details?id=com.bnative)
-- [iOS AppStore](https://apps.apple.com/us/app/btree-app-professional-beekeeping-software/id1115267587)
+<!-- - [iOS AppStore](https://apps.apple.com/us/app/btree-app-professional-beekeeping-software/id1115267587) -->
 
 ### Aufgabe ist in der Tabelle nicht sichtbar
 

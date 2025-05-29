@@ -21,7 +21,7 @@ The b.tree beekeeping application is a pure web solution and can be installed as
 #### Mobile store links
 
 - [Android PlayStore](https://play.google.com/store/apps/details?id=com.bnative)
-- [iOS AppStore](https://apps.apple.com/us/app/btree-app-professional-beekeeping-software/id1115267587)
+<!-- - [iOS AppStore](https://apps.apple.com/us/app/btree-app-professional-beekeeping-software/id1115267587) -->
 
 ### Task is not visible in table
 
