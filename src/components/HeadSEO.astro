@@ -1,12 +1,14 @@
 ---
+import type { Graph } from 'schema-dts';
 import { OPEN_GRAPH, SITE } from '../config';
+import Schema from './SchemaLD.astro';
 
 export interface Props {
   frontmatter: any
   site?: any
   canonicalURL: URL | string
 }
-
+const curLoc = Astro.currentLocale;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const { frontmatter = {} } = Astro.props;
 const formattedContentTitle = frontmatter.title
@@ -15,6 +17,62 @@ const formattedContentTitle = frontmatter.title
 const imageSrc = frontmatter?.image?.src ?? OPEN_GRAPH.image.src;
 const canonicalImageSrc = new URL(imageSrc, Astro.site);
 const imageAlt = frontmatter?.image?.alt ?? OPEN_GRAPH.image.alt;
+
+/* Schema.org structured data for the page */
+const schemaEN: Graph['@graph'] = [
+    {
+        '@type': 'Organization',
+        'name': 'b.tree',
+        'description': SITE.description,
+        'url': 'https://www.btree.at/',
+        'logo': 'https://www.btree.at/logo.png',
+        'areaServed': {
+            '@type': 'Place',
+            'name': 'Worldwide',
+        },
+        'contactPoint': {
+            '@type': 'ContactPoint',
+            'contactType': 'Customer Service',
+            'availableLanguage': ['English', 'German'],
+            'url': 'https://www.btree.at/impressum/',
+        },
+    },
+];
+
+const schemaDE: Graph['@graph'] = [
+    {
+        '@type': 'Organization',
+        'name': 'b.tree',
+        'description': SITE.description,
+        'url': 'https://www.btree.at/de/',
+        'logo': 'https://www.btree.at/logo.png',
+        'areaServed': {
+            '@type': 'Place',
+            'name': 'Worldwide',
+        },
+        'contactPoint': {
+            '@type': 'ContactPoint',
+            'contactType': 'Kundendienst',
+            'availableLanguage': ['English', 'German'],
+            'url': 'https://www.btree.at/de/impressum/',
+        },
+    },
+];
+
+
+const schema: Graph = {
+    '@context': 'https://schema.org',
+    '@graph': [
+        ...(curLoc === 'de' ? schemaDE : schemaEN),
+        {
+            '@type': 'WebPage',
+            'name': formattedContentTitle,
+            'description': frontmatter.description,
+            'url': Astro.url.toString(),
+            'inLanguage': curLoc,
+        },
+    ],
+};
 ---
 
 <!-- Page Metadata -->
@@ -52,3 +110,4 @@ const imageAlt = frontmatter?.image?.alt ?? OPEN_GRAPH.image.alt;
 />
 <meta name="twitter:image" content={canonicalImageSrc} />
 <meta name="twitter:image:alt" content={imageAlt} />
+<Schema item={schema} />

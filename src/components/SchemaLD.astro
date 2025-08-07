@@ -1,0 +1,17 @@
+---
+/* @see https://technicalseo.com/tools/schema-markup-generator/ */
+/* @see https://search.google.com/test/rich-results?hl=de */
+
+import type { Graph, Thing, WithContext } from 'schema-dts';
+import { stringifyJsonLd } from '../utils';
+
+export type Props<T extends Thing> = {
+  item: Graph | WithContext<Thing> | WithContext<T>
+  space?: string | number
+};
+
+const { item, space } = Astro.props;
+
+---
+
+<script type="application/ld+json" set:html={stringifyJsonLd(item, space)} />
