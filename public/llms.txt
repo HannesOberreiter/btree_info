@@ -1,0 +1,67 @@
+# b.tree Beekeeping Software
+
+> b.tree is a comprehensive cloud-based beekeeping web application that has been serving beekeepers since 2014. The app is designed for both hobbyist and professional beekeepers to efficiently manage their apiaries and colonies.
+
+## Core Features
+
+### Hive Management
+- Quick and easy overview of apiaries and colonies
+- Track feedings, harvests, treatments, and checkups
+- Customizable beekeeping methods and editable options
+- Interactive dashboard calendar for tracking past and upcoming beekeeping events
+- Multi-user collaboration capabilities
+- Cloud-based access from any device with internet connection
+
+### Data & Statistics
+- Responsive tabular and graphic statistics
+- Compare and analyze honey harvests and bee hive performance
+- Filter by specific hives or treatment methods
+- Data-driven insights for informed decision making
+
+### Queen Rearing
+- Customizable queen rearing method builder
+- Start from any step in the rearing process
+- Calendar integration to never miss important rearing dates
+- Quick task creation through dashboard calendar
+- Recurring task scheduling
+
+### Maps & Location
+- Easy apiary addition with click or drag-and-drop
+- Interactive map interface
+
+### Technology Features
+- Progressive Web Application (PWA) for app-like experience
+- NFC tag reading support (Chrome browser on laptop/Android)
+- Speech recognition capabilities (Chrome browser on laptop/Android)
+- No offline mode - requires internet connection
+
+## Premium Features
+- Satellite images and weather overlays for apiary maps
+- CSV data export
+- Full database backup
+- API access for data integration
+- iCal calendar export to mobile devices
+- Enhanced statistics and analytics
+
+## Target Users
+- Organic beekeepers requiring accurate record-keeping
+- Beekeepers who want cloud-based hive management
+- Operations requiring multi-user collaboration
+- Beekeepers seeking data-driven insights
+- Both hobbyist and professional beekeepers
+
+## Key Benefits
+- Time savings through centralized hive tracking
+- Remote access to colonie data from anywhere
+- Data analysis capabilities for productivity optimization
+- Streamlined hive management workflow
+- No syncing required between devices
+- Real-time collaboration between multiple users
+- Languages: English, German, Italian, Frech
+
+The application is accessed through web browsers and offers a comprehensive solution for modern beekeeping management needs.
+
+## Links
+- [Login](https://app.btree.at)
+- [Register](https://app.btree.at/register)
+- [FAQs](https://www.btree.at/doc-faqs/)
