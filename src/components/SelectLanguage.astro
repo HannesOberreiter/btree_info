@@ -1,32 +1,40 @@
 ---
-import { KNOWN_LANGUAGES } from '../config';
-
-const languages = KNOWN_LANGUAGES;
 const curLoc = Astro.currentLocale;
 ---
 
-<select
-  id="language-select"
-  class="language-select"
->
-  { Object.keys(languages).map(id => (
-    <option
-      value={languages[id]}
-      selected={languages[id] === curLoc}
-    >
-      {id}
-    </option>
-  ))}
-</select>
+<div class="flex items-center gap-1">
+  <button
+    class={`bg-transparent border-none px-1 py-1 cursor-pointer text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors duration-300 ${
+      curLoc === 'en' || !curLoc ? 'text-gray-900 dark:text-gray-100 font-bold' : ''
+    }`}
+    data-lang="en"
+    title="Switch to English"
+    aria-label="Switch to English"
+  >
+    EN
+  </button>
+  <span class="text-gray-300 dark:text-gray-600 select-none">|</span>
+  <button
+    class={`bg-transparent border-none px-1 py-1 cursor-pointer text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors duration-300 ${
+      curLoc === 'de' ? 'text-gray-900 dark:text-gray-100 font-bold' : ''
+    }`}
+    data-lang="de"
+    title="Wechseln Sie zu Deutsch"
+    aria-label="Wechseln Sie zu Deutsch"
+  >
+    DE
+  </button>
+</div>
 
 <script>
-const select = document.getElementById('language-select') as HTMLSelectElement;
-select.addEventListener('change', () => {
-  changeLanguage();
+const buttons = document.querySelectorAll('[data-lang]') as NodeListOf<HTMLButtonElement>;
+buttons.forEach((button) => {
+  button.addEventListener('click', () => {
+    changeLanguage(button.dataset.lang!);
+  });
 });
 
-function changeLanguage() {
-  const lang = select.value;
+function changeLanguage(lang: string) {
   const [_leadingSlash, oldLang, ...rest]
     = window.location.pathname.split('/');
   if (lang === 'en') {
@@ -38,16 +46,3 @@ function changeLanguage() {
   window.location.pathname = `/${lang}/${slug}`;
 }
 </script>
-
-
-<style>
-.language-select {
-  width: 100%;
-  grow: 1;
-  line-height: inherit;
-  padding: 0.5em 3rem 0.5em 0.5rem;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  transition: all 0.3s ease;
-}
-</style>
