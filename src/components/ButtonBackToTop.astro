@@ -1,8 +1,6 @@
 <button
   type="button"
-  data-mdb-ripple="true"
-  data-mdb-ripple-color="light"
-  class="hidden p-3 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-hidden focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out bottom-5 right-5 fixed z-50"
+  class="hidden p-3 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-hidden focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out bottom-5 right-5 fixed z-50 cursor-pointer"
   id="btn-back-to-top"
 >
   <svg
@@ -21,12 +19,19 @@
   </svg>
 </button>
 
-<script is:inline>
- document.addEventListener('astro:page-load', () => {
+<script>
+ function initBackToTop() {
    const scrollTopButton = document.getElementById('btn-back-to-top');
+
+   if (!scrollTopButton) {
+     console.error('Back to top button not found');
+     return;
+   }
+
    window.onscroll = function () {
      scrollFunction();
    };
+
    scrollTopButton.addEventListener('click', backToTop);
 
    function scrollFunction() {
@@ -34,17 +39,21 @@
        document.body.scrollTop > 20
        || document.documentElement.scrollTop > 20
      ) {
-       scrollTopButton.classList.add('inline-block');
        scrollTopButton.classList.remove('hidden');
+       scrollTopButton.classList.add('inline-block');
        return;
      }
 
      scrollTopButton.classList.add('hidden');
      scrollTopButton.classList.remove('inline-block');
    }
+
    function backToTop() {
      document.body.scrollTop = 0;
      document.documentElement.scrollTop = 0;
    }
- });
+ }
+
+ document.addEventListener('astro:page-load', initBackToTop);
+ document.addEventListener('DOMContentLoaded', initBackToTop);
 </script>
