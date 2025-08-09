@@ -3,34 +3,35 @@ import Moon from '../assets/Moon.svg?raw';
 import Sun from '../assets/Sun.svg?raw';
 import System from '../assets/System.svg?raw';
 
-const themeToggle = {
+const themeConfig = {
   light: {
     icon: Sun,
-    label: 'Toggle light theme',
+    label: 'Switch to dark theme',
+    next: 'dark',
   },
   dark: {
     icon: Moon,
-    label: 'Toggle dark theme',
+    label: 'Switch to auto theme',
+    next: 'auto',
   },
   auto: {
     icon: System,
-    label: 'Use system theme',
+    label: 'Switch to light theme',
+    next: 'light',
   },
 };
-
 ---
-<div id="theme-toggle" class="theme-toggle">
-    {Object.entries(themeToggle).map(([mode, { icon, label }]) => (
-      <label id={`${mode}-mode`} aria-label={label} class="cursor-pointer">
-        <Fragment set:html={icon} />
-        <input type="radio" name="theme-toggle" aria-label={label} />
-      </label>
-    ))}
-</div>
 
-<script>
-    function setTheme(mode: string) {
+<button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+  <span id="theme-icon"></span>
+</button>
+
+<script define:vars={{ themeConfig }}>
+    let currentTheme = 'light';
+
+    function setTheme(mode) {
       localStorage.setItem('local-color-scheme', mode);
+      currentTheme = mode;
 
       const htmlElement = document.documentElement;
       htmlElement.classList.remove('light', 'dark', 'auto');
@@ -42,14 +43,22 @@ const themeToggle = {
       }
       htmlElement.classList.add(modeClass);
 
-      updateCheckedLabel(mode);
+      updateIcon();
     }
 
-    function updateCheckedLabel(mode: string) {
-      document.querySelectorAll('.theme-toggle > label').forEach((label) => {
-        label.classList.remove('checked');
-      });
-      document.getElementById(`${mode}-mode`).classList.add('checked');
+    function updateIcon() {
+      const iconElement = document.getElementById('theme-icon');
+      const toggleButton = document.getElementById('theme-toggle');
+
+      if (iconElement && toggleButton && themeConfig[currentTheme]) {
+        iconElement.innerHTML = themeConfig[currentTheme].icon;
+        toggleButton.setAttribute('aria-label', themeConfig[currentTheme].label);
+      }
+    }
+
+    function cycleTheme() {
+      const nextTheme = themeConfig[currentTheme].next;
+      setTheme(nextTheme);
     }
 
     document.addEventListener('DOMContentLoaded', () => {
@@ -57,51 +66,30 @@ const themeToggle = {
       const savedMode = localStorage.getItem('local-color-scheme') || (prefersDark ? 'dark' : 'light');
       setTheme(savedMode);
 
-      document.querySelectorAll('input[name="theme-toggle"]').forEach((input) => {
-        input.addEventListener('change', (event: any) => {
-          setTheme(event.target.parentElement.id.split('-')[0]);
-        });
+      const toggleButton = document.getElementById('theme-toggle');
+      if (toggleButton) {
+        toggleButton.addEventListener('click', cycleTheme);
+      }
+
+      // Listen for system theme changes when in auto mode
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+        if (currentTheme === 'auto') {
+          setTheme('auto'); // Re-apply auto theme to update the class
+        }
       });
     });
 </script>
 
 <style>
     .theme-toggle {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.25em;
-      padding: 0.33em 0.67em;
-      border-radius: 99em;
-      background-color: var(--theme-code-inline-bg);
-      color: var(--theme-code-inline-text);
+      cursor: pointer;
+      transition: background-color 0.2s ease, color 0.2s ease;
     }
 
-    .theme-toggle > label:focus-within {
-      outline: 2px solid transparent;
-      box-shadow: 0 0 0 0.08em var(--theme-accent), 0 0 0 0.12em white;
-    }
-
-    .theme-toggle > label {
-      color: var(--theme-code-inline-text);
-      position: relative;
+    #theme-icon {
       display: flex;
       align-items: center;
-      justify-content: center;
-      opacity: 0.5;
-    }
-
-    .theme-toggle .checked {
-      color: var(--theme-accent);
-      opacity: 1;
-    }
-
-    input[name="theme-toggle"] {
-      position: absolute;
-      opacity: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: -1;
+      width: 20px;
+      height: 20px;
     }
 </style>

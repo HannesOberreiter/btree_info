@@ -6,10 +6,15 @@ import Header from '../components/Header.astro';
 import LeftSideBar from '../components/LeftSidebar.astro';
 import PageContent from '../components/PageContent.astro';
 import RightSideBar from '../components/RightSidebar.astro';
+import SearchDialog from '../components/SearchDialog.astro';
 
 import * as CONFIG from '../config';
 
 const { frontmatter = {}, headings } = Astro.props;
+
+const title = frontmatter.title
+  ? `${frontmatter.title} 🐝 ${CONFIG.SITE.title}`
+  : CONFIG.SITE.title;
 ---
 
 <html
@@ -18,14 +23,8 @@ const { frontmatter = {}, headings } = Astro.props;
   class="initial"
 >
   <head>
+    <title data-pagefind-meta="title">{title}</title>
     <HeadCommon />
-    <title>
-      {
-        frontmatter.title
-          ? `${frontmatter.title} 🐝 ${CONFIG.SITE.title}`
-          : CONFIG.SITE.title
-      }
-    </title>
     <style>
       body {
         width: 100%;
@@ -127,5 +126,5 @@ const { frontmatter = {}, headings } = Astro.props;
         <RightSideBar {frontmatter} {headings} />
       </aside>
     </main>
-  </body>
+  </body><SearchDialog />
 </html>

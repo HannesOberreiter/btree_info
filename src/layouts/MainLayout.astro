@@ -5,6 +5,7 @@ import HeadCommon from '../components/HeadCommon.astro';
 import Header from '../components/Header.astro';
 import LeftSideBar from '../components/LeftSidebar.astro';
 import PageContent from '../components/PageContent.astro';
+import SearchDialog from '../components/SearchDialog.astro';
 
 import * as CONFIG from '../config';
 
@@ -17,14 +18,14 @@ const { frontmatter = {}, headings } = Astro.props;
   class="initial"
 >
   <head>
-    <HeadCommon />
-    <title>
+    <title data-pagefind-meta="title">
       {
         frontmatter.title
           ? `${frontmatter.title} 🐝 ${CONFIG.SITE.title}`
           : CONFIG.SITE.title
       }
     </title>
+    <HeadCommon />
     <style>
       body {
         width: 100%;
@@ -124,4 +125,5 @@ const { frontmatter = {}, headings } = Astro.props;
       </div>
     </main>
   </body>
+  <SearchDialog />
 </html>

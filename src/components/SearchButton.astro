@@ -1,0 +1,37 @@
+<button
+  type="button"
+  class="cursor-pointer search-button"
+  aria-label="Search"
+  aria-controls="search-dialog"
+  aria-expanded="false"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="h-6 w-6"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path
+      stroke-width="2"
+      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+    ></path>
+  </svg>
+</button>
+
+<script>
+ const searchButtons = document.getElementsByClassName('search-button');
+ const dialog = document.getElementById('search-dialog') as HTMLDialogElement;
+ if (searchButtons) {
+   for (let i = 0; i < searchButtons.length; i++) {
+     searchButtons[i].addEventListener('click', () => {
+       if (dialog) {
+         dialog.showModal();
+       }
+       else {
+         console.error('Search dialog not found');
+       }
+     });
+   }
+ }
+</script>

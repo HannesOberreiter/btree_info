@@ -1,0 +1,184 @@
+---
+import '@pagefind/modular-ui/css/ui.css';
+
+const bundlePath = `${import.meta.env.BASE_URL}pagefind/`;
+---
+
+<dialog id="search-dialog" class="p-0 backdrop:backdrop-blur-sm backdrop:bg-black/30 bg-transparent w-full max-w-screen-sm rounded-lg mt-1 left-1/2 transform -translate-x-1/2">
+    <div
+      id="pagefindUiModular"
+      data-bundle-path={bundlePath}
+      class="p-1 h-[100%] bg-white shadow-2xl not-prose"
+    >
+        <div id="pagefind-search-input"></div>
+        <div id="pagefind-summary"></div>
+        <div id="pagefind-search-results"></div>
+    </div>
+</dialog>
+
+<script>
+import { Input, Instance, ResultList, Summary } from '@pagefind/modular-ui';
+
+declare global {
+  interface Window {
+    _paq: any
+  }
+}
+
+class SearchDialog {
+  private pagefindInstance: Instance | null = null;
+  private searchString = '';
+  private dialog: HTMLDialogElement;
+  private bundlePath: string = '';
+
+  constructor() {
+    this.dialog = document.getElementById('search-dialog') as HTMLDialogElement;
+    if (!this.dialog) {
+      console.error('Search dialog not found');
+      return;
+    }
+    const bundlePathElement = document.getElementById('pagefindUiModular');
+    if (bundlePathElement) {
+      this.bundlePath = bundlePathElement.getAttribute('data-bundle-path') || '';
+    }
+    this.init();
+  }
+
+  private init(): void {
+    if (!this.dialog)
+      return;
+
+    this.dialog.addEventListener('click', (event) => {
+      if (event.target === this.dialog) {
+        this.dialog.close();
+      }
+    });
+
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (mutation.type === 'attributes' && mutation.attributeName === 'open') {
+          if (this.dialog.open) {
+            this.initPageFind();
+            /* 2025-08-07 Hannes: At least in Chrome it is only needed on first open */
+            const inputElement = document.querySelector('#pagefind-search-input input');
+            if (inputElement) {
+              (inputElement as HTMLInputElement).focus();
+            }
+            observer.disconnect();
+          }
+        }
+      });
+    });
+
+    observer.observe(this.dialog, { attributes: true });
+  }
+
+  private updateAnalytics(count: number): void {
+    if (typeof window._paq === 'undefined') {
+      console.warn('Matomo (_paq) is not defined. Analytics will not be updated.');
+      return;
+    }
+    if (this.searchString === '') {
+      console.warn('Search string is empty. Analytics will not be updated.');
+      return;
+    }
+    window._paq.push(['trackSiteSearch', this.searchString, undefined, count]);
+  }
+
+  private initPageFind(): void {
+    if (this.pagefindInstance) {
+      return;
+    }
+
+    this.pagefindInstance = new Instance({
+      bundlePath: this.bundlePath,
+    });
+
+    this.pagefindInstance.add(new Input({
+      containerElement: '#pagefind-search-input',
+      autofocus: true,
+      debounceTimeoutMs: 500,
+    }));
+
+    this.pagefindInstance.add(new ResultList({
+      containerElement: '#pagefind-search-results',
+      resultTemplate: (result: any) => {
+        const wrapper = document.createElement('li');
+        wrapper.className = 'pagefind-modular-list-result';
+
+        const inner = document.createElement('div');
+        inner.className = 'pagefind-modular-list-inner';
+        wrapper.appendChild(inner);
+
+        const title = document.createElement('p');
+        title.className = 'pagefind-modular-list-title';
+        inner.appendChild(title);
+
+        const url = result.meta?.url || result.url;
+        const link = document.createElement('a');
+        link.className = 'pagefind-modular-list-link';
+        link.textContent = result.meta?.title ?? null;
+        link.href = this.searchString ? `${url}?search=${encodeURIComponent(this.searchString)}` : url;
+        title.appendChild(link);
+
+        const excerpt = document.createElement('p');
+        excerpt.className = 'pagefind-modular-list-excerpt';
+        excerpt.innerHTML = result.excerpt;
+        inner.appendChild(excerpt);
+
+        return wrapper;
+      },
+    }));
+
+    this.pagefindInstance.add(new Summary({
+      containerElement: '#pagefind-summary',
+    }));
+
+    this.pagefindInstance.on('results', (results: any) => {
+      this.updateAnalytics(results.unfilteredResultCount);
+    });
+
+    this.pagefindInstance.on('search', (query: any) => {
+      this.searchString = query;
+    });
+  }
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => new SearchDialog());
+}
+else {
+  // eslint-disable-next-line no-new
+  new SearchDialog();
+}
+</script>
+
+<style>
+#search-dialog[open] {
+    animation: dialog-fade-in 0.2s ease-out;
+}
+
+#search-dialog::backdrop {
+    animation: backdrop-fade-in 0.2s ease-out;
+}
+
+@keyframes dialog-fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes backdrop-fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+</style>

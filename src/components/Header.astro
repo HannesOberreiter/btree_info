@@ -4,6 +4,7 @@ import IconBtree from '../assets/Btree.svg?raw';
 import * as CONFIG from '../config';
 import ButtonThemeToggle from './ButtonThemeToggle.astro';
 import LinkApp from './LinkApp.astro';
+import SearchButton from './SearchButton.astro';
 import SelectLanguage from './SelectLanguage.astro';
 import SidebarToggle from './SidebarToggle.astro';
 
@@ -26,10 +27,11 @@ const rootUrl = getAbsoluteLocaleUrl(curLoc, '');
         </a>
       </div>
       <div>
-        <div class="flex justify-between gap-x-4">
+        <div class="flex justify-between gap-x-1">
           <SelectLanguage />
+          <SearchButton />
           <ButtonThemeToggle />
-          <div>
+          <div class="pl-1">
             <LinkApp />
           </div>
         </div>
