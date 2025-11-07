@@ -144,6 +144,46 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
  }
 </script>
 
+<script is:inline>
+ function checkLanguageRedirect() {
+   const path = window.location.pathname;
+   const isGermanPage = path.startsWith('/de/');
+
+   if (isGermanPage) {
+     return;
+   }
+
+   const hasLanguagePreference = localStorage.getItem('language-preference-set');
+   if (hasLanguagePreference) {
+     return;
+   }
+
+   const browserLanguages = navigator.languages || [navigator.language];
+   const hasGermanPreference = browserLanguages.some(lang =>
+     lang.toLowerCase().startsWith('de'),
+   );
+
+   if (hasGermanPreference) {
+     localStorage.setItem('language-preference-set', 'true');
+
+     let germanPath = `/de${path}`;
+
+     if (path === '/' || path === '') {
+       germanPath = '/de/';
+     }
+
+     window.location.href = germanPath;
+   }
+ }
+
+ if (document.readyState === 'loading') {
+   document.addEventListener('DOMContentLoaded', checkLanguageRedirect);
+ }
+ else {
+   checkLanguageRedirect();
+ }
+</script>
+
 <!-- Matomo -->
 <script>
  document.addEventListener('DOMContentLoaded', () => {
